@@ -1,0 +1,37 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+
+interface Frontmatter {
+  title: string;
+  description?: string;
+  slide?: string;
+}
+
+type Post = {
+  frontmatter: Frontmatter;
+  Content: any;
+  file: string;
+};
+
+const posts = import.meta.glob<Post>("@/content/blog/*.md", { eager: true });
+
+export function getStaticPaths() {
+  const all = import.meta.glob<Post>("@/content/blog/*.md", { eager: true });
+  return Object.entries(all).map(([path, post]) => {
+    const slug = path.split("/").pop()!.replace(/\.md$/, "");
+    return { params: { slug }, props: { post } };
+  });
+}
+
+const { post } = Astro.props as { post: Post };
+const { Content, frontmatter } = post;
+---
+
+<BaseLayout title={`${frontmatter.title} · QuranEasy`} description={frontmatter.description}>
+  <article class="prose mx-auto max-w-3xl px-4 py-8">
+    <p class="mb-6">
+      <a href="/" class="text-sm text-muted-foreground hover:text-foreground">← Home</a>
+    </p>
+    <Content />
+  </article>
+</BaseLayout>

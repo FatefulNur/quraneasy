@@ -1,0 +1,18 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { loadModules } from "@/lib/content/loadModules";
+import SlideViewer from "@/components/SlideViewer";
+
+export function getStaticPaths() {
+  return loadModules().map((m) => ({
+    params: { module: m.id },
+    props: { module: m },
+  }));
+}
+
+const { module } = Astro.props;
+---
+
+<BaseLayout title={`${module.title.en ?? module.id} · QuranEasy`}>
+  <SlideViewer module={module} client:load />
+</BaseLayout>
