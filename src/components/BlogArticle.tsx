@@ -78,6 +78,7 @@ function BlogArticleInner({ post, moduleMap }: Props) {
             viewBox="0 0 16 16"
             fill="none"
             aria-hidden="true"
+            className={isRtl ? "rotate-180" : ""}
           >
             <path
               d="M10 12L6 8l4-4"
@@ -87,7 +88,7 @@ function BlogArticleInner({ post, moduleMap }: Props) {
               strokeLinejoin="round"
             />
           </svg>
-          Articles
+          {t("navBlog")}
         </a>
       </div>
 
@@ -212,6 +213,7 @@ function BlogArticleInner({ post, moduleMap }: Props) {
               viewBox="0 0 16 16"
               fill="none"
               aria-hidden="true"
+              className={isRtl ? "rotate-180" : ""}
             >
               <path
                 d="M10 12L6 8l4-4"
@@ -221,7 +223,7 @@ function BlogArticleInner({ post, moduleMap }: Props) {
                 strokeLinejoin="round"
               />
             </svg>
-            Back to Articles
+            {t("navBlog")}
           </a>
         </div>
       </div>
