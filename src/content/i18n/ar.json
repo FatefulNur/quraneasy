@@ -42,9 +42,9 @@
   "wordModule": "وحدة",
   "wordModules": "وحدات",
   "chooseHeadline": "اختر من أين تبدأ.",
-  "chooseSub": "اضغط على أي بطاقة لدخول القارئ. كل وحدة مقسّمة إلى شرائح؛ ولا يمكنك التقدم إلا بعد إتمام الخطوة الحالية.",
+  "chooseSub": "اضغط على أي بطاقة لدخول القارئ. كل وحدة مقسّمة إلى موضوعات؛ ضع علامة اكتمال على كل موضوع بعد دراسته.",
 
-  "cardModuleSlides": "وحدة · {n} شرائح",
+  "cardModuleSlides": "وحدة · {n} موضوعات",
   "cardTapHint": "ابدأ · اضغط في أي مكان على البطاقة",
 
   "approachEyebrow": "كيف تعمل",
@@ -55,10 +55,10 @@
   "stepTwoTitle": "أمثلة قرآنية ثنائية اللغة",
   "stepTwoBody": "عند الحاجة، تستشهد الشريحة بالقرآن نفسه — النص العربي مع ترجمته بلغتك المختارة.",
   "stepThreeTitle": "تعمّق إن شئت",
-  "stepThreeBody": "تريد أكثر من ملخّص المبتدئ؟ بعض الشرائح تُحيلك إلى مقال أطول يمكنك قراءته متى شئت.",
+  "stepThreeBody": "تريد أكثر من ملخّص المبتدئ؟ بعض الموضوعات تُحيلك إلى مقال أطول يمكنك قراءته متى شئت.",
 
   "footerYear": "١٤٤٧ هـ",
-  "footerNote": "ثابت · بدون تتبّع · بدون حساب",
+  "footerNote": "ثابت · بدون كوكيز · بدون حساب",
 
   "backToLibrary": "العودة إلى المكتبة",
   "pressArrowHint": "اضغط ← للمتابعة",
@@ -66,5 +66,16 @@
   "stepSingular": "خطوة",
   "stepPlural": "خطوات",
   "quranicEvidence": "أدلّة قرآنية",
-  "wordQuran": "القرآن"
+  "wordQuran": "القرآن",
+
+  "topicLabel": "الموضوع",
+  "markComplete": "لقد تدرّبت على هذا",
+  "recommendedPath": "المسار الموصى به",
+  "moduleProgress": "{done} / {total} مكتمل",
+  "freeRoam": "تصفّح حر — افتح أي وحدة",
+  "cardSubmodules": "{n} موضوعات",
+  "recommendedBadge": "الخطوة {n}",
+  "statsModules": "وحدات",
+  "wordSubmodule": "موضوع",
+  "wordSubmodules": "موضوعات"
 }

@@ -42,9 +42,9 @@
   "wordModule": "module",
   "wordModules": "modules",
   "chooseHeadline": "Choose where to begin.",
-  "chooseSub": "Tap any card to enter the reader. Each module is broken into slides; you can only advance once you've checked off the current step.",
+  "chooseSub": "Tap any card to enter the reader. Each module is broken into topics; mark each complete as you go.",
 
-  "cardModuleSlides": "Module · {n} slides",
+  "cardModuleSlides": "Module · {n} topics",
   "cardTapHint": "Begin · Tap anywhere on this card",
 
   "approachEyebrow": "How it works",
@@ -55,10 +55,10 @@
   "stepTwoTitle": "Bilingual ayah examples",
   "stepTwoBody": "Where relevant, the slide cites the Qur'an itself — Arabic original, with translation in your chosen language.",
   "stepThreeTitle": "Go deeper, optionally",
-  "stepThreeBody": "Want more than a beginner sketch? Some slides link to a longer blog article you can read whenever you like.",
+  "stepThreeBody": "Want more than a beginner sketch? Some topics link to a longer blog article you can read whenever you like.",
 
   "footerYear": "MMXXVI",
-  "footerNote": "Built static · No tracking · No account needed",
+  "footerNote": "Built static · No cookies · No account needed",
 
   "backToLibrary": "Back to library",
   "pressArrowHint": "Press → to advance",
@@ -68,5 +68,16 @@
   "quranicEvidence": "Quranic evidence",
   "wordQuran": "Qur'an",
   "pressArrowHintLTR": "Press → to advance",
-  "pressArrowHintRTL": "اضغط ← للمتابعة"
+  "pressArrowHintRTL": "اضغط ← للمتابعة",
+
+  "topicLabel": "Topic",
+  "markComplete": "I've practiced this",
+  "recommendedPath": "Recommended path",
+  "moduleProgress": "{done} / {total} complete",
+  "freeRoam": "Free roam — open any module",
+  "cardSubmodules": "{n} topics",
+  "recommendedBadge": "Step {n}",
+  "statsModules": "Modules",
+  "wordSubmodule": "topic",
+  "wordSubmodules": "topics"
 }
