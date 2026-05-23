@@ -41,6 +41,19 @@ export interface Submodule {
   blogSlug?: string;
 }
 
+export interface BlogPost {
+  id: string;
+  title: LocaleMap;
+  description: LocaleMap;
+  date: string;
+  author?: string;
+  tags?: string[];
+  category?: string;
+  modules?: string[];
+  coverImage?: string;
+  content: LocaleMap;
+}
+
 export interface Module {
   id: string;
   order: number;

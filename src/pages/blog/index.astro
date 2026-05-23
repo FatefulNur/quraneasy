@@ -1,0 +1,94 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import BlogIndexClient from "@/components/BlogIndexClient";
+import type { BlogPost } from "@/lib/content/types";
+import type { CardData } from "@/components/BlogIndexClient";
+import { wordCountFromHtml } from "@/lib/blog";
+
+// ── Legacy markdown type ──────────────────────────────────────────────────
+interface MdFrontmatter {
+  title: string;
+  description?: string;
+  date?: string;
+  category?: string;
+  coverImage?: string;
+}
+type MdPost = { frontmatter: MdFrontmatter; Content: any; file: string };
+
+// ── Load JSON (trilingual) posts ──────────────────────────────────────────
+const jsonEntries = import.meta.glob<BlogPost>("@/content/blog/*.json", {
+  eager: true,
+});
+
+// ── Load Markdown (legacy) posts ──────────────────────────────────────────
+const mdEntries = import.meta.glob<MdPost>("@/content/blog/*.md", {
+  eager: true,
+});
+const mdRaw = import.meta.glob<string>("@/content/blog/*.md", {
+  eager: true,
+  query: "?raw",
+  import: "default",
+});
+
+// ── Normalize JSON posts (keep full LocaleMap) ────────────────────────────
+const jsonCards: CardData[] = Object.entries(jsonEntries).map(
+  ([_path, post]) => {
+    const readTime = Math.max(
+      1,
+      Math.ceil(wordCountFromHtml(post.content?.en ?? "") / 200)
+    );
+    return {
+      slug: post.id,
+      title: post.title ?? { en: "" },
+      description: post.description ?? { en: "" },
+      date: post.date ?? null,
+      readTime,
+      category: post.category,
+      coverImage: post.coverImage ?? undefined,
+    };
+  }
+);
+
+// ── Normalize Markdown posts (wrap string title in LocaleMap) ─────────────
+const mdCards: CardData[] = Object.entries(mdEntries).map(([path, post]) => {
+  const slug = path.split("/").pop()!.replace(/\.md$/, "");
+  const rawContent = mdRaw[path] ?? "";
+  const body = rawContent.replace(/---[\s\S]*?---/, "").trim();
+  const words = body.split(/\s+/).filter(Boolean).length;
+  const readTime = Math.max(1, Math.ceil(words / 200));
+  return {
+    slug,
+    title: { en: post.frontmatter.title ?? "" },
+    description: { en: post.frontmatter.description ?? "" },
+    date: post.frontmatter.date ?? null,
+    readTime,
+    category: post.frontmatter.category,
+    coverImage: post.frontmatter.coverImage,
+  };
+});
+
+// ── Merge + deduplicate by slug (JSON wins over MD for same slug) ─────────
+const seenSlugs = new Set<string>();
+const allCards: CardData[] = [];
+for (const card of [...jsonCards, ...mdCards]) {
+  if (!seenSlugs.has(card.slug)) {
+    seenSlugs.add(card.slug);
+    allCards.push(card);
+  }
+}
+
+// Sort: dated posts newest-first, undated at end
+allCards.sort((a, b) => {
+  if (a.date && b.date) return b.date.localeCompare(a.date);
+  if (a.date) return -1;
+  if (b.date) return 1;
+  return 0;
+});
+---
+
+<BaseLayout
+  title="Articles · QuranEasy"
+  description="Deeper dives into Tajweed, Purity, and the etiquette of Qur'an recitation."
+>
+  <BlogIndexClient client:load cards={allCards} />
+</BaseLayout>
