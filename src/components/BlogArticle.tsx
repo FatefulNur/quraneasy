@@ -170,7 +170,7 @@ function BlogArticleInner({ post, moduleMap }: Props) {
                       viewBox="0 0 14 14"
                       fill="none"
                       aria-hidden="true"
-                      className="text-muted-foreground transition-colors group-hover:text-primary"
+                      className={`text-muted-foreground transition-colors group-hover:text-primary${isRtl ? " rotate-180" : ""}`}
                     >
                       <path
                         d="M3 7h8M8 4l3 3-3 3"
