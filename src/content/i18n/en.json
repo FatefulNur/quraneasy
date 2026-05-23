@@ -49,6 +49,7 @@
 
   "cardModuleSlides": "Module · {n} topics",
   "cardTapHint": "Begin · Tap anywhere on this card",
+  "moduleCompleteHint": "All topics completed",
 
   "approachEyebrow": "How it works",
   "approachTitlePre": "Small steps.",
