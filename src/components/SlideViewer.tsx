@@ -6,44 +6,143 @@ import {
   useState,
 } from "react";
 import { ArrowLeft, ArrowRight, BookOpen, X } from "lucide-react";
-import SubmoduleChecklist from "@/components/SubmoduleChecklist";
+import SubmoduleCompletion from "@/components/SubmoduleCompletion";
 import AyahList from "@/components/AyahList";
+import LetterTile from "@/components/LetterTile";
+import WordCard from "@/components/WordCard";
 import LanguageSwitcher from "@/components/i18n/LanguageSwitcher";
 import {
   LocaleProvider,
   useLocale,
 } from "@/components/i18n/LocaleProvider";
-import type { Module, Slide } from "@/lib/content/types";
+import type { Module, Submodule } from "@/lib/content/types";
 import {
+  initProgress,
   getProgress,
   progressKey,
   setSubmoduleDone,
   type ProgressMap,
 } from "@/lib/progress";
 
-function slideComplete(
+function submoduleComplete(
   moduleId: string,
-  slide: Slide,
+  sm: Submodule,
   progress: ProgressMap,
 ): boolean {
-  return slide.submodules.every(
-    (sm) => progress[progressKey(moduleId, slide.id, sm.id)],
-  );
-}
-
-function earliestIncomplete(
-  moduleId: string,
-  slides: Slide[],
-  progress: ProgressMap,
-): number {
-  for (let i = 0; i < slides.length; i++) {
-    if (!slideComplete(moduleId, slides[i], progress)) return i;
-  }
-  return slides.length - 1;
+  return !!progress[progressKey(moduleId, sm.id)];
 }
 
 function pad2(n: number) {
   return n.toString().padStart(2, "0");
+}
+
+function SubmoduleBody({ moduleId, sm, isCurrent, progress, onToggle }: {
+  moduleId: string;
+  sm: Submodule;
+  isCurrent: boolean;
+  progress: ProgressMap;
+  onToggle: (submoduleId: string, done: boolean) => void;
+}) {
+  const { pick, t } = useLocale();
+  const checked = submoduleComplete(moduleId, sm, progress);
+
+  return (
+    <div className="mx-auto max-w-3xl px-5 py-10 sm:px-8 sm:py-16">
+      {/* Definition */}
+      {sm.definition && (
+        <p className="mt-6 text-[17px] leading-relaxed text-muted-foreground">
+          {pick(sm.definition)}
+        </p>
+      )}
+
+      {/* Subtopics */}
+      {sm.subtopics && sm.subtopics.length > 0 && (
+        <div className="mt-8 space-y-8">
+          {sm.subtopics.map((st) => (
+            <div key={st.id}>
+              <h3 className="mb-3 font-serif text-lg font-medium text-foreground">
+                {pick(st.title)}
+              </h3>
+              {st.letterExamples && st.letterExamples.length > 0 && (
+                <div className="flex flex-wrap gap-2">
+                  {st.letterExamples.map((le, i) => (
+                    <LetterTile key={i} example={le} />
+                  ))}
+                </div>
+              )}
+              {st.wordExamples && st.wordExamples.length > 0 && (
+                <div className="mt-3 flex flex-wrap gap-3">
+                  {st.wordExamples.map((we, i) => (
+                    <WordCard key={i} example={we} />
+                  ))}
+                </div>
+              )}
+              {st.ayahExamples && st.ayahExamples.length > 0 && (
+                <div className="mt-3">
+                  <AyahList ayahs={st.ayahExamples} />
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
+
+      {/* Top-level letter examples */}
+      {sm.letterExamples && sm.letterExamples.length > 0 && (
+        <div className="mt-8 flex flex-wrap gap-2">
+          {sm.letterExamples.map((le, i) => (
+            <LetterTile key={i} example={le} />
+          ))}
+        </div>
+      )}
+
+      {/* Top-level word examples */}
+      {sm.wordExamples && sm.wordExamples.length > 0 && (
+        <div className="mt-6 flex flex-wrap gap-3">
+          {sm.wordExamples.map((we, i) => (
+            <WordCard key={i} example={we} />
+          ))}
+        </div>
+      )}
+
+      {/* Ayah examples */}
+      {sm.ayahExamples && sm.ayahExamples.length > 0 && (
+        <div className="mt-10">
+          <AyahList ayahs={sm.ayahExamples} />
+        </div>
+      )}
+
+      {/* Completion checkbox */}
+      <div className={`mt-10 ${isCurrent ? "" : "pointer-events-none opacity-60"}`}>
+        <SubmoduleCompletion
+          moduleId={moduleId}
+          submodule={sm}
+          progress={progress}
+          onToggle={onToggle}
+          checkLabel={pick(sm.checkItem) || t("markComplete")}
+          checked={checked}
+        />
+      </div>
+
+      {/* Blog link */}
+      {sm.blogSlug && (
+        <div className="mt-10 border-t border-border pt-6">
+          <a
+            href={`/blog/${sm.blogSlug}`}
+            className="group inline-flex items-center gap-3 text-sm font-medium text-primary"
+          >
+            <BookOpen className="size-4" aria-hidden="true" />
+            <span className="underline decoration-primary/30 underline-offset-[6px] transition-colors group-hover:decoration-primary">
+              {t("readMore")}
+            </span>
+            <span className="transition-transform group-hover:translate-x-1">→</span>
+          </a>
+        </div>
+      )}
+
+      <div className="h-12" />
+    </div>
+  );
 }
 
 function Viewer({ module }: { module: Module }) {
@@ -53,40 +152,19 @@ function Viewer({ module }: { module: Module }) {
   const [index, setIndex] = useState(0);
   const headingRef = useRef<HTMLHeadingElement | null>(null);
   const trackViewportRef = useRef<HTMLElement | null>(null);
-  const total = module.slides.length;
+  const total = module.submodules.length;
 
   useEffect(() => {
-    const p = getProgress();
-    setProgress(p);
+    initProgress().then(() => {
+      setProgress(getProgress());
+      setIndex(0);
+      setHydrated(true);
+    });
+  }, [module.id]);
 
-    let desiredId: string | null = null;
-    if (typeof window !== "undefined") {
-      const url = new URL(window.location.href);
-      desiredId = url.searchParams.get("slide");
-      if (!desiredId && url.hash.startsWith("#slide=")) {
-        desiredId = url.hash.slice("#slide=".length);
-      }
-    }
-    let target = 0;
-    if (desiredId) {
-      const desiredIdx = module.slides.findIndex((s) => s.id === desiredId);
-      if (desiredIdx >= 0) target = desiredIdx;
-    } else {
-      target = earliestIncomplete(module.id, module.slides, p);
-    }
-    const earliest = earliestIncomplete(module.id, module.slides, p);
-    if (target > earliest) target = earliest;
-    setIndex(target);
-    setHydrated(true);
-  }, [module.id, module.slides]);
-
-  const slide = module.slides[index];
+  const submodule = module.submodules[index];
   const isFirst = index === 0;
   const isLast = index === total - 1;
-  const canGoNext = useMemo(
-    () => slideComplete(module.id, slide, progress) && !isLast,
-    [module.id, slide, progress, isLast],
-  );
 
   const goPrev = useCallback(() => {
     if (isFirst) return;
@@ -94,25 +172,18 @@ function Viewer({ module }: { module: Module }) {
   }, [isFirst]);
 
   const goNext = useCallback(() => {
-    if (!canGoNext) return;
+    if (isLast) return;
     setIndex((i) => Math.min(total - 1, i + 1));
-  }, [canGoNext, total]);
+  }, [isLast, total]);
 
   useEffect(() => {
     if (!hydrated) return;
-    // preventScroll: browser would otherwise nudge ancestor scrollLeft to bring
-    // the (mid-transition, off-screen) heading into view, displacing the track.
     headingRef.current?.focus({ preventScroll: true });
     if (trackViewportRef.current) {
       trackViewportRef.current.scrollLeft = 0;
       trackViewportRef.current.scrollTop = 0;
     }
-    if (typeof window !== "undefined") {
-      const url = new URL(window.location.href);
-      url.searchParams.set("slide", slide.id);
-      window.history.replaceState({}, "", url.toString());
-    }
-  }, [index, slide.id, hydrated]);
+  }, [index, hydrated]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -123,46 +194,34 @@ function Viewer({ module }: { module: Module }) {
       }
       const forward = dir === "rtl" ? "ArrowLeft" : "ArrowRight";
       const back = dir === "rtl" ? "ArrowRight" : "ArrowLeft";
-      if (e.key === forward) {
-        if (canGoNext) {
-          e.preventDefault();
-          goNext();
-        }
-      } else if (e.key === back) {
-        if (!isFirst) {
-          e.preventDefault();
-          goPrev();
-        }
+      if (e.key === forward && !isLast) {
+        e.preventDefault();
+        goNext();
+      } else if (e.key === back && !isFirst) {
+        e.preventDefault();
+        goPrev();
       } else if (e.key === "Escape") {
         if (typeof window !== "undefined") window.location.href = "/";
       }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [canGoNext, isFirst, goNext, goPrev, dir]);
+  }, [isFirst, isLast, goNext, goPrev, dir]);
 
   const onToggle = (submoduleId: string, done: boolean) => {
-    const next = setSubmoduleDone(module.id, slide.id, submoduleId, done);
+    const next = setSubmoduleDone(module.id, submoduleId, done);
     setProgress({ ...next });
   };
 
-  const slideOf = t("slideOf")
+  const doneSubs = useMemo(
+    () => module.submodules.filter((sm) => progress[progressKey(module.id, sm.id)]).length,
+    [module, progress],
+  );
+  const overallPct = (doneSubs / Math.max(1, total)) * 100;
+
+  const slideOfStr = t("slideOf")
     .replace("{current}", pad2(index + 1))
     .replace("{total}", pad2(total));
-
-  const totalSubs = module.slides.reduce(
-    (n, s) => n + s.submodules.length,
-    0,
-  );
-  const doneSubs = module.slides.reduce(
-    (n, s) =>
-      n +
-      s.submodules.filter(
-        (sm) => progress[progressKey(module.id, s.id, sm.id)],
-      ).length,
-    0,
-  );
-  const overallPct = (doneSubs / Math.max(1, totalSubs)) * 100;
 
   const step = 100 / total;
   const trackTransform =
@@ -176,7 +235,6 @@ function Viewer({ module }: { module: Module }) {
       lang={locale}
       className="fixed inset-0 z-50 flex flex-col bg-background"
     >
-      {/* Decorative top wash */}
       <div
         aria-hidden="true"
         className="pointer-events-none absolute inset-x-0 top-0 -z-0 h-64 bg-gradient-to-b from-primary/[0.06] via-transparent to-transparent"
@@ -199,7 +257,7 @@ function Viewer({ module }: { module: Module }) {
 
         <div className="hidden items-center gap-6 sm:flex">
           <p className="font-serif text-xs uppercase tracking-[0.3em] text-muted-foreground">
-            <span className="text-foreground">{slideOf}</span>
+            <span className="text-foreground">{slideOfStr}</span>
           </p>
         </div>
 
@@ -214,31 +272,25 @@ function Viewer({ module }: { module: Module }) {
         />
       </div>
 
-      {/* Chapter strip */}
+      {/* Submodule strip */}
       <div className="relative z-10 flex items-center gap-3 overflow-x-auto border-b border-border/60 bg-background/50 px-5 py-3 backdrop-blur sm:px-8">
-        {module.slides.map((s, i) => {
-          const complete = slideComplete(module.id, s, progress);
-          const reachable = i <= earliestIncomplete(module.id, module.slides, progress);
+        {module.submodules.map((sm, i) => {
+          const complete = submoduleComplete(module.id, sm, progress);
           const isCurrent = i === index;
           return (
             <button
-              key={s.id}
+              key={sm.id}
               type="button"
-              disabled={!reachable}
-              onClick={() => reachable && setIndex(i)}
+              onClick={() => setIndex(i)}
               className={`group flex shrink-0 items-center gap-2 rounded-full border px-3 py-1.5 text-xs transition-all ${
                 isCurrent
                   ? "border-primary bg-primary text-primary-foreground"
-                  : reachable
-                    ? "border-border bg-card/60 text-foreground/80 hover:border-primary/40 hover:text-foreground"
-                    : "cursor-not-allowed border-border/50 text-muted-foreground/50"
+                  : "border-border bg-card/60 text-foreground/80 hover:border-primary/40 hover:text-foreground"
               }`}
               aria-current={isCurrent ? "step" : undefined}
             >
-              <span className="font-serif tracking-[0.15em]">
-                {pad2(i + 1)}
-              </span>
-              <span className="max-w-[10rem] truncate">{pick(s.title)}</span>
+              <span className="font-serif tracking-[0.15em]">{pad2(i + 1)}</span>
+              <span className="max-w-[10rem] truncate">{pick(sm.title)}</span>
               {complete && !isCurrent && (
                 <span className="size-1.5 rounded-full bg-[var(--gold)]" />
               )}
@@ -247,7 +299,7 @@ function Viewer({ module }: { module: Module }) {
         })}
       </div>
 
-      {/* SLIDE TRACK — horizontal sliding viewport */}
+      {/* SUBMODULE TRACK */}
       <main
         ref={trackViewportRef}
         className="relative flex-1 overflow-hidden overscroll-contain"
@@ -263,15 +315,15 @@ function Viewer({ module }: { module: Module }) {
           }}
           aria-live="polite"
         >
-          {module.slides.map((s, i) => (
+          {module.submodules.map((sm, i) => (
             <section
-              key={s.id}
+              key={sm.id}
               aria-hidden={i !== index}
               className="h-full shrink-0 overflow-y-auto"
               style={{ width: `${100 / total}%` }}
             >
-              <div className="mx-auto max-w-3xl px-5 py-10 sm:px-8 sm:py-16">
-                {/* Eyebrow */}
+              {/* Eyebrow + title */}
+              <div className="mx-auto max-w-3xl px-5 pt-10 sm:px-8 sm:pt-16">
                 <div className="mb-6 flex items-center gap-3">
                   <span className="font-serif text-sm tracking-[0.25em] text-[var(--gold)]">
                     {pad2(i + 1)}
@@ -282,69 +334,39 @@ function Viewer({ module }: { module: Module }) {
                   </span>
                 </div>
 
-                {/* Title */}
                 <h2
                   ref={i === index ? headingRef : undefined}
                   tabIndex={-1}
                   className="font-serif text-4xl font-medium leading-[1.05] tracking-tight text-foreground text-balance outline-none sm:text-6xl"
                 >
-                  {pick(s.title)}
+                  {pick(sm.title)}
                 </h2>
 
-                {/* Decorative rule */}
-                <div className="mt-8 flex items-center gap-4">
+                <div className="mt-6 flex items-center gap-4">
                   <span className="h-px w-12 bg-primary" />
                   <span className="font-serif text-xs italic tracking-wider text-muted-foreground">
-                    {s.submodules.length}{" "}
-                    {s.submodules.length === 1 ? t("stepSingular") : t("stepPlural")}
+                    {t("topicLabel")}
                   </span>
                   <span className="h-px flex-1 bg-border" />
                 </div>
-
-                {/* Checklist (only interactive for current slide) */}
-                <div className={`mt-8 ${i === index ? "" : "pointer-events-none opacity-60"}`}>
-                  <SubmoduleChecklist
-                    moduleId={module.id}
-                    slide={s}
-                    progress={progress}
-                    onToggle={onToggle}
-                  />
-                </div>
-
-                {s.ayahExamples && s.ayahExamples.length > 0 && (
-                  <div className="mt-12">
-                    <AyahList ayahs={s.ayahExamples} />
-                  </div>
-                )}
-
-                {s.blogSlug && (
-                  <div className="mt-12 border-t border-border pt-6">
-                    <a
-                      href={`/blog/${s.blogSlug}`}
-                      className="group inline-flex items-center gap-3 text-sm font-medium text-primary"
-                    >
-                      <BookOpen className="size-4" aria-hidden="true" />
-                      <span className="underline decoration-primary/30 underline-offset-[6px] transition-colors group-hover:decoration-primary">
-                        {t("readMore")}
-                      </span>
-                      <span className="transition-transform group-hover:translate-x-1">
-                        →
-                      </span>
-                    </a>
-                  </div>
-                )}
-
-                <div className="h-12" />
               </div>
+
+              <SubmoduleBody
+                moduleId={module.id}
+                sm={sm}
+                isCurrent={i === index}
+                progress={progress}
+                onToggle={onToggle}
+              />
             </section>
           ))}
         </div>
       </main>
 
-      {/* FOOTER nav */}
+      {/* FOOTER nav — free roam, no gating */}
       <nav
         className="relative z-10 flex items-center justify-between gap-3 border-t border-border/70 bg-background/85 px-5 py-4 backdrop-blur sm:px-8"
-        aria-label="Slide navigation"
+        aria-label="Submodule navigation"
       >
         <button
           type="button"
@@ -363,16 +385,15 @@ function Viewer({ module }: { module: Module }) {
 
         <div className="hidden flex-col items-center sm:flex">
           <p className="font-serif text-[11px] uppercase tracking-[0.3em] text-muted-foreground">
-            {!canGoNext && !isLast ? t("completeAllFirst") : t("pressArrowHint")}
+            {t("freeRoam")}
           </p>
         </div>
 
         <button
           type="button"
           onClick={goNext}
-          disabled={!canGoNext}
-          aria-disabled={!canGoNext}
-          title={canGoNext ? undefined : t("completeAllFirst")}
+          disabled={isLast}
+          aria-disabled={isLast}
           className="group relative inline-flex min-h-11 items-center gap-3 overflow-hidden rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground shadow-[0_10px_30px_-10px_oklch(0.42_0.115_162_/_0.7)] transition-all hover:-translate-y-0.5 hover:shadow-[0_18px_40px_-12px_oklch(0.42_0.115_162_/_0.7)] disabled:cursor-not-allowed disabled:bg-muted disabled:text-muted-foreground disabled:shadow-none disabled:hover:translate-y-0 sm:px-6"
         >
           <span>{isLast ? t("finished") : t("next")}</span>

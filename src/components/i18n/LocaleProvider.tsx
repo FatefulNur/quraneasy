@@ -1,5 +1,6 @@
 import {
   createContext,
+  startTransition,
   useCallback,
   useContext,
   useEffect,
@@ -45,8 +46,8 @@ export function LocaleProvider({
   }, [locale]);
 
   const setLocale = useCallback((l: Locale) => {
-    setLocaleState(l);
     storeLocale(l);
+    startTransition(() => setLocaleState(l));
   }, []);
 
   const value = useMemo<Ctx>(

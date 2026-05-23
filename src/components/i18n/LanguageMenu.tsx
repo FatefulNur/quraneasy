@@ -15,8 +15,9 @@ import type { Locale } from "@/lib/content/types";
 export default function LanguageMenu() {
   const { locale, setLocale, t } = useLocale();
   const onReset = () => {
-    clearProgress();
-    if (typeof window !== "undefined") window.location.reload();
+    clearProgress().then(() => {
+      if (typeof window !== "undefined") window.location.reload();
+    });
   };
   const items: { key: Locale; label: string; short: string }[] = [
     { key: "en", label: t("languageEnglish"), short: "EN" },
