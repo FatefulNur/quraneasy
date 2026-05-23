@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
+@plugin "@tailwindcss/typography";
 @import "@fontsource-variable/geist";
 @import "@fontsource-variable/fraunces";
 @import "@fontsource-variable/noto-sans-bengali";
@@ -158,6 +159,22 @@
   }
   ::selection {
     background: oklch(0.42 0.115 162 / 0.18);
+    color: var(--ink);
+  }
+}
+
+@layer components {
+  /* Arabic blockquotes in blog prose */
+  .prose blockquote:has(.font-arabic),
+  .prose blockquote[lang="ar"],
+  .prose blockquote[dir="rtl"] {
+    direction: rtl;
+    font-family: var(--font-arabic);
+    font-size: 1.2em;
+    border-left: none;
+    border-right: 3px solid var(--primary);
+    padding-left: 0;
+    padding-right: 1rem;
     color: var(--ink);
   }
 }
