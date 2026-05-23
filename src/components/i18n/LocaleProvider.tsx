@@ -22,6 +22,15 @@ interface Ctx {
 
 const LocaleContext = createContext<Ctx | null>(null);
 
+function readInitialLocale(fallback: Locale): Locale {
+  if (typeof window === "undefined") return fallback;
+  try {
+    const attr = document.documentElement.dataset.locale;
+    if (attr === "en" || attr === "bn" || attr === "ar") return attr;
+  } catch { }
+  return getStoredLocale();
+}
+
 export function LocaleProvider({
   children,
   initialLocale = "en",
@@ -29,13 +38,14 @@ export function LocaleProvider({
   children: ReactNode;
   initialLocale?: Locale;
 }) {
-  const [locale, setLocaleState] = useState<Locale>(initialLocale);
+  const [locale, setLocaleState] = useState<Locale>(() =>
+    readInitialLocale(initialLocale)
+  );
 
+  // Remove the hide style injected by the inline blocking script
   useEffect(() => {
-    const stored = getStoredLocale();
-    if (stored !== locale) setLocaleState(stored);
-    // run once on mount
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    const el = document.getElementById("qe-locale-hide");
+    if (el) el.remove();
   }, []);
 
   useEffect(() => {
@@ -62,7 +72,9 @@ export function LocaleProvider({
   );
 
   return (
-    <LocaleContext.Provider value={value}>{children}</LocaleContext.Provider>
+    <LocaleContext.Provider value={value}>
+      <div className="locale-island">{children}</div>
+    </LocaleContext.Provider>
   );
 }
 
