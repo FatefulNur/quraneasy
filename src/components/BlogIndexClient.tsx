@@ -67,7 +67,7 @@ function BlogIndexInner({ cards }: Props) {
           href="/"
           className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
         >
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true" className={dir === "rtl" ? "rotate-180" : ""}>
             <path d="M10 12L6 8l4-4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
           {t("appName")}
