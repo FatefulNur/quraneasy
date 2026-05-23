@@ -109,3 +109,122 @@ Greenfield — no migration. Deployment is Astro static build → Cloudflare (wr
 - Should the blog be in scope for MVP launch, or stub-only? (Working assumption: stub + 1 sample article.)
 - Final ayah translation source per language (license-clear): English (Saheeh International?), Bangla (Mujibur Rahman?). Decide before authoring full content.
 - Do we want a global "Reset progress" affordance in MVP? (Working assumption: yes, small button in language switcher menu.)
+
+---
+
+## Expansion Decisions (curriculum buildout)
+
+### D8: Schema reshape — submodule as content unit
+
+Old shape (deprecated): `module → slides[] → submodules[] (= checkboxes)`
+
+New shape:
+
+```json
+{
+  "id": "module-3-arabic-reading",
+  "order": 3,
+  "recommendedOrder": 3,
+  "title":   { "en": "...", "bn": "...", "ar": "..." },
+  "summary": { "en": "...", "bn": "...", "ar": "..." },
+  "submodules": [
+    {
+      "id": "harakat-fatha",
+      "title":      { "en": "Fatha", "bn": "ফাতহা", "ar": "الفتحة" },
+      "definition": { "en": "...", "bn": "...", "ar": "..." },
+      "subtopics": [
+        {
+          "id": "fatha-on-ba",
+          "title": { "en": "Fatha on ب", "bn": "...", "ar": "..." },
+          "letterExamples": [
+            { "arabic": "بَ", "translit": "ba" }
+          ]
+        }
+      ],
+      "letterExamples": [
+        { "arabic": "بَ", "translit": "ba" },
+        { "arabic": "تَ", "translit": "ta" }
+      ],
+      "wordExamples": [
+        {
+          "arabic": "قَالَ",
+          "translit": "qāla",
+          "meaning": { "en": "he said", "bn": "সে বলল", "ar": "" }
+        }
+      ],
+      "ayahExamples": [
+        {
+          "reference": "73:4",
+          "arabic": "وَرَتِّلِ ٱلْقُرْءَانَ تَرْتِيلًا",
+          "translation": { "en": "...", "bn": "..." }
+        }
+      ],
+      "checkItem": { "en": "I practiced these examples", "bn": "...", "ar": "..." },
+      "blogSlug": "fatha-deeper"
+    }
+  ]
+}
+```
+
+Field semantics:
+
+- `definition` — required locale map; the one-sentence beginner explanation.
+- `subtopics[]` — optional; used when a submodule has named sub-sections (e.g. "Lower throat / Middle throat / Upper throat" under Throat). Each subtopic carries its own `title` plus any of `letterExamples` / `wordExamples` / `ayahExamples`. Subtopics do NOT introduce their own `checkItem` — completion stays at the submodule level.
+- `letterExamples[]` — bare-token examples (single letter or letter-with-harakat). `arabic` required; `translit` optional. No `meaning` field.
+- `wordExamples[]` — full-word examples. `arabic` required; `translit` optional; `meaning` optional locale map.
+- `ayahExamples[]` — unchanged from MVP shape (`reference` + `arabic` + `translation` locale map excluding `ar`).
+- `checkItem` — locale map for the single "mark complete" checkbox label. Defaults to UI string `markComplete` if omitted.
+- `blogSlug` — optional, unchanged.
+
+**Why**: matches the mental model in `QURAN_EASY.md` (Module → Submodule → Definition + Examples). Letter / word / ayah examples have genuinely different shapes and renderings, so splitting them is cleaner than overloading a single `examples[]`.
+
+**Migration**: existing `tilawat-rules.json` is renamed `module-2-preparation.json`; each old "slide" becomes a "submodule"; each old per-slide submodule (checkbox sentence) collapses into the new submodule's `definition` (joined as a paragraph) or is dropped if redundant. A single `checkItem` per new submodule replaces the old multi-checkbox list.
+
+### D9: Free-roam progression with recommended-order highlight
+
+- Within a module: Prev/Next traverse submodules freely. The `checkItem` is the only completion signal; navigation is never blocked by an unchecked item.
+- Across modules: no unlock gate. All 14 modules are openable from the landing page at any time.
+- Module ordering: each module declares `recommendedOrder` (1–14, matches `QURAN_EASY.md` Module 14 list). The landing renders modules sorted by `recommendedOrder` with a numbered badge and a connecting visual cue ("Recommended path"). A free-roam toggle (or just a secondary sort) lets users re-order alphabetically.
+
+**Why**: beginners need structure; returning learners need flexibility. Free-roam respects experienced users; visible recommended order guides beginners.
+
+**Trade-off**: removes the "you can't skip" guarantee from MVP. Acceptable — `QURAN_EASY.md` Module 14 already publishes the suggested order, so guidance is editorial, not enforced.
+
+### D10: Per-module and overall progress
+
+- Module progress = `checkedSubmodules / totalSubmodules`.
+- Persisted under existing key `qe:progress` but the keying scheme generalizes to `${moduleId}:${submoduleId}` (the old triplet's third component drops because there is now only one check per submodule).
+- **Migration**: an `MVP_PROGRESS_RESET` flag in `src/lib/progress.ts` causes a one-time `localStorage` purge on first load after the expansion ships. We accept losing MVP users' progress because the schema is incompatible and the user base is effectively zero pre-launch.
+- Landing card shows progress badge + bar; "complete" state earns a checkmark.
+
+### D11: Audio explicitly deferred to v2
+
+Makharij (Module 4), Ghunna (Module 9), Qalqalah (Module 11), Madd (Module 10) are inherently auditory. We acknowledge the gap rather than paper over it: each affected submodule's `definition` includes a one-line "best learned with a teacher / audio reference" hint in all three locales. No audio player, no waveform, no recording capture in this update.
+
+### D12: Authoring tooling — Claude skills
+
+Three skills live in `.claude/skills/` (project-local, checked into the repo):
+
+- `tajweed-author` — guides authoring a new module: prompts for definition, letter/word/ayah examples, subtopics; enforces the schema; checks Arabic harakat are present where the example calls for them.
+- `trilingual-translator` — produces consistent en/bn/ar translations for a given content payload, holding terminology (e.g. always "tajweed", "makharij", "ghunna" as proper nouns; consistent Bangla spellings like "তাজবীদ", "মাখারিজ").
+- `curriculum-validator` — validates a module JSON against the new schema, reports missing locales / malformed example shapes / unreferenced `blogSlug`s.
+
+**Why**: 14 modules × ~5 submodules × 3 locales × multiple example fields = hundreds of locale strings. Skills keep ongoing additions schema-compliant without re-reading the spec each time.
+
+**Out of scope**: a runtime validator on the loader. The loader keeps its existing soft-validation (skip-with-warning). Strict validation is an authoring-time concern.
+
+### D13: IndexedDB as the persistence layer (replaces localStorage for progress)
+
+- Progress (`qe:progress`) moves to **IndexedDB** — database `quraneasy`, object store `progress` (key: `${moduleId}:${submoduleId}`, value: `boolean`).
+- Locale preference (`qe:locale`) stays in **localStorage** — it must be read synchronously during hydration before React mounts.
+- A thin async wrapper `src/lib/db.ts` handles IDB open/upgrade/CRUD; `src/lib/progress.ts` exposes an **in-memory cache** seeded by an async `initProgress()` call, so all downstream callers stay synchronous after init.
+- One-time migration on `initProgress()`: if old localStorage `qe:progress` key exists, import its entries into IDB, then remove the localStorage key.
+- IDB is not available in SSR (Astro build); all IDB calls are guarded by `typeof indexedDB !== "undefined"`. Fallback for rare browsers without IDB: no-op (progress not saved, no crash).
+
+**Why over localStorage:**
+- Async — writes never block the main thread.
+- Storage quota: IDB gets ≥ 50 MB vs localStorage's ~5 MB (room for future audio caches, offline data).
+- Structured: can add `updatedAt` timestamp per entry without schema churn.
+- Future-proof: Service Worker / offline sync can read the same IDB.
+
+**Trade-off:** Init is now async — components must await `initProgress()` before rendering progress-dependent UI. Handled via `useEffect` with a loading flag; UI renders immediately with empty progress then fills in.

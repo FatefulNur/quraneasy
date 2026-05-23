@@ -38,11 +38,15 @@ The Next control SHALL be disabled until every submodule on the current slide is
 - **THEN** the viewer redirects to the earliest incomplete slide instead of honoring the deep link
 
 ### Requirement: Submodule completion is persistent
-The viewer SHALL persist submodule completion to `localStorage` under the key `qe:progress` and restore it on subsequent visits.
+The viewer SHALL persist submodule completion to **IndexedDB** (database `quraneasy`, store `progress`, key `${moduleId}:${submoduleId}`) and restore it on subsequent visits. Progress is loaded asynchronously on mount via `initProgress()`; the viewer renders immediately and updates once loaded.
 
 #### Scenario: Progress restored after reload
-- **WHEN** the user completes submodules on slide 2, reloads the page, and reopens the module
-- **THEN** the previously checked submodules remain checked and the user can resume from slide 2
+- **WHEN** the user completes submodules, reloads the page, and reopens the module
+- **THEN** the previously checked submodules remain checked
+
+#### Scenario: Migration from localStorage
+- **WHEN** a returning user has progress stored in the old `localStorage["qe:progress"]` key
+- **THEN** on first `initProgress()` call, entries are imported into IDB and the localStorage key is removed
 
 ### Requirement: Ayah examples shown sparingly
 The viewer MUST initially display at most two ayah examples per slide. Remaining examples MUST be hidden behind a "Load more" control.
