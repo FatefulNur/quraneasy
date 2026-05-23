@@ -1,0 +1,265 @@
+{
+  "id": "module-3-arabic-reading",
+  "order": 3,
+  "recommendedOrder": 3,
+  "title": {
+    "en": "Arabic Reading Foundations",
+    "bn": "আরবি পড়ার ভিত্তি",
+    "ar": "أساسيات القراءة العربية"
+  },
+  "summary": {
+    "en": "Master the vowel marks (harakat), silent letters, double letters, and double vowels that form the foundation of Arabic reading.",
+    "bn": "স্বরচিহ্ন (হারাকাত), নিরব অক্ষর, দ্বিগুণ অক্ষর এবং দ্বিগুণ স্বর যা আরবি পড়ার ভিত্তি তৈরি করে তা আয়ত্ত করুন।",
+    "ar": "أتقن علامات الحركات والحروف الساكنة والحروف المشددة والتنوين التي تشكل أساس القراءة العربية."
+  },
+  "submodules": [
+    {
+      "id": "harakat",
+      "title": {
+        "en": "Harakat (Vowels)",
+        "bn": "হারাকাত (স্বরচিহ্ন)",
+        "ar": "الحركات"
+      },
+      "definition": {
+        "en": "Harakat are small marks placed above or below letters that create vowel sounds — they are essential for correct pronunciation.",
+        "bn": "হারাকাত হল ছোট চিহ্ন যা অক্ষরের উপরে বা নিচে রাখা হয় যা স্বরের শব্দ তৈরি করে — সঠিক উচ্চারণের জন্য এগুলি অপরিহার্য।",
+        "ar": "الحركات علامات صغيرة توضع فوق أو تحت الحروف لتخلق أصوات العلات — وهي ضرورية للنطق الصحيح."
+      },
+      "subtopics": [
+        {
+          "id": "fatha",
+          "title": {
+            "en": "Fatha",
+            "bn": "ফাতহা",
+            "ar": "الفتحة"
+          },
+          "letterExamples": [
+            {"arabic": "بَ", "translit": "ba"},
+            {"arabic": "تَ", "translit": "ta"},
+            {"arabic": "كَ", "translit": "ka"},
+            {"arabic": "قَ", "translit": "qa"},
+            {"arabic": "عَ", "translit": "'a"}
+          ]
+        },
+        {
+          "id": "kasra",
+          "title": {
+            "en": "Kasra",
+            "bn": "কাসরাহ",
+            "ar": "الكسرة"
+          },
+          "letterExamples": [
+            {"arabic": "بِ", "translit": "bi"},
+            {"arabic": "تِ", "translit": "ti"},
+            {"arabic": "نِ", "translit": "ni"},
+            {"arabic": "فِ", "translit": "fi"},
+            {"arabic": "مِ", "translit": "mi"}
+          ]
+        },
+        {
+          "id": "damma",
+          "title": {
+            "en": "Damma",
+            "bn": "দাম্মাহ",
+            "ar": "الضمة"
+          },
+          "letterExamples": [
+            {"arabic": "بُ", "translit": "bu"},
+            {"arabic": "تُ", "translit": "tu"},
+            {"arabic": "قُ", "translit": "qu"},
+            {"arabic": "مُ", "translit": "mu"},
+            {"arabic": "رُ", "translit": "ru"}
+          ]
+        }
+      ],
+      "checkItem": {
+        "en": "I can identify and pronounce all three harakat: fatha, kasra, and damma.",
+        "bn": "আমি তিনটি হারাকাত চিনতে এবং উচ্চারণ করতে পারি: ফাতহা, কাসরাহ এবং দাম্মাহ।",
+        "ar": "أستطيع تحديد ونطق الحركات الثلاث: الفتحة والكسرة والضمة."
+      }
+    },
+    {
+      "id": "sukoon",
+      "title": {
+        "en": "Sukoon (Silent Letter)",
+        "bn": "সুকুন (নিরব অক্ষর)",
+        "ar": "السكون"
+      },
+      "definition": {
+        "en": "Sukoon is a mark that means a letter has no vowel sound — it is pronounced with no vowel.",
+        "bn": "সুকুন হল একটি চিহ্ন যা মানে একটি অক্ষরের কোনো স্বরের শব্দ নেই — এটি কোনো স্বর ছাড়াই উচ্চারণ করা হয়।",
+        "ar": "السكون علامة تعني أن الحرف لا صوت حركة له — ينطق بدون حركة."
+      },
+      "letterExamples": [
+        {"arabic": "بْ", "translit": "b"},
+        {"arabic": "مْ", "translit": "m"},
+        {"arabic": "قْ", "translit": "q"},
+        {"arabic": "لْ", "translit": "l"},
+        {"arabic": "نْ", "translit": "n"}
+      ],
+      "checkItem": {
+        "en": "I understand that sukoon means a letter is silent with no vowel.",
+        "bn": "আমি বুঝি যে সুকুন মানে একটি অক্ষর স্বর ছাড়াই নিরব।",
+        "ar": "أفهم أن السكون يعني أن الحرف بدون حركة."
+      }
+    },
+    {
+      "id": "shaddah",
+      "title": {
+        "en": "Shaddah (Double Letter)",
+        "bn": "শাদ্দাহ (দ্বিগুণ অক্ষর)",
+        "ar": "الشدة"
+      },
+      "definition": {
+        "en": "Shaddah is a mark that doubles a letter, making it stronger and longer — you pronounce it as two identical letters in one.",
+        "bn": "শাদ্দাহ হল একটি চিহ্ন যা একটি অক্ষর দ্বিগুণ করে, এটিকে আরও শক্তিশালী এবং দীর্ঘ করে তোলে — আপনি এটি একটিতে দুটি অভিন্ন অক্ষর হিসাবে উচ্চারণ করেন।",
+        "ar": "الشدة علامة تضاعف الحرف فتجعله أقوى وأطول — تنطقه كحرفين متطابقين في واحد."
+      },
+      "wordExamples": [
+        {
+          "arabic": "إِنَّ",
+          "translit": "inna",
+          "meaning": {
+            "en": "Indeed",
+            "bn": "নিশ্চয়"
+          }
+        },
+        {
+          "arabic": "ثُمَّ",
+          "translit": "thumma",
+          "meaning": {
+            "en": "Then",
+            "bn": "তারপর"
+          }
+        },
+        {
+          "arabic": "رَبَّ",
+          "translit": "rabb",
+          "meaning": {
+            "en": "Lord",
+            "bn": "প্রভু"
+          }
+        },
+        {
+          "arabic": "أَمَّا",
+          "translit": "amma",
+          "meaning": {
+            "en": "As for",
+            "bn": "যা সম্পর্কে"
+          }
+        },
+        {
+          "arabic": "النَّاس",
+          "translit": "an-nas",
+          "meaning": {
+            "en": "The people",
+            "bn": "মানুষ"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I recognize shaddah and know it doubles the sound of a letter.",
+        "bn": "আমি শাদ্দাহ চিনি এবং জানি এটি একটি অক্ষরের শব্দ দ্বিগুণ করে।",
+        "ar": "أعرّف الشدة وأعرف أنها تضاعف صوت الحرف."
+      }
+    },
+    {
+      "id": "tanween",
+      "title": {
+        "en": "Tanween (Double Vowels)",
+        "bn": "তানবীন (দ্বিগুণ স্বর)",
+        "ar": "التنوين"
+      },
+      "definition": {
+        "en": "Tanween is double vowels on the final letter of a word, creating an 'n' sound — there are three types based on which vowel is doubled.",
+        "bn": "তানবীন হল একটি শব্দের চূড়ান্ত অক্ষরে দ্বিগুণ স্বর, যা একটি 'ন' শব্দ তৈরি করে — কোন স্বর দ্বিগুণ করা হয় তার উপর ভিত্তি করে তিনটি ধরন রয়েছে।",
+        "ar": "التنوين علامات حركات مزدوجة على آخر الكلمة تخلق صوت النون — وله ثلاثة أنواع حسب الحركة المضاعفة."
+      },
+      "subtopics": [
+        {
+          "id": "fathatan",
+          "title": {
+            "en": "Fathatan",
+            "bn": "ফাতহাতান",
+            "ar": "الفتحتان"
+          },
+          "wordExamples": [
+            {
+              "arabic": "كِتَابًا",
+              "translit": "kitaban",
+              "meaning": {
+                "en": "A book",
+                "bn": "একটি বই"
+              }
+            },
+            {
+              "arabic": "عَلِيمًا",
+              "translit": "'aliman",
+              "meaning": {
+                "en": "Most Knowing",
+                "bn": "সর্বজ্ঞানী"
+              }
+            }
+          ]
+        },
+        {
+          "id": "kasratan",
+          "title": {
+            "en": "Kasratan",
+            "bn": "কাসরাতান",
+            "ar": "الكسرتان"
+          },
+          "wordExamples": [
+            {
+              "arabic": "عَلِيمٍ",
+              "translit": "'alimin",
+              "meaning": {
+                "en": "Knowing",
+                "bn": "জ্ঞানী"
+              }
+            },
+            {
+              "arabic": "غَفُورٍ",
+              "translit": "ghafurin",
+              "meaning": {
+                "en": "Forgiving",
+                "bn": "ক্ষমাশীল"
+              }
+            }
+          ]
+        },
+        {
+          "id": "dammatan",
+          "title": {
+            "en": "Dammatan",
+            "bn": "দাম্মাতান",
+            "ar": "الضمتان"
+          },
+          "wordExamples": [
+            {
+              "arabic": "عَلِيمٌ",
+              "translit": "'alimun",
+              "meaning": {
+                "en": "Knowing",
+                "bn": "জ্ঞানী"
+              }
+            },
+            {
+              "arabic": "حَكِيمٌ",
+              "translit": "hakimun",
+              "meaning": {
+                "en": "Wise",
+                "bn": "প্রজ্ঞাবান"
+              }
+            }
+          ]
+        }
+      ],
+      "checkItem": {
+        "en": "I can identify all three types of tanween and their 'n' sound.",
+        "bn": "আমি তানবীনের তিনটি ধরন এবং তাদের 'ন' শব্দ চিনতে পারি।",
+        "ar": "أستطيع تحديد أنواع التنوين الثلاثة وصوت النون فيها."
+      }
+    }
+  ]
+}

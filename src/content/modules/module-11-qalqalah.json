@@ -1,0 +1,122 @@
+{
+  "id": "module-11-qalqalah",
+  "order": 11,
+  "recommendedOrder": 11,
+  "title": {
+    "en": "Qalqalah (Bouncing Sound)",
+    "bn": "ক্বলক্বলাহ (বাউন্সিং শব্দ)",
+    "ar": "القلقلة"
+  },
+  "summary": {
+    "en": "Learn the unique bouncing sound created when the five qalqalah letters are pronounced with sukoon.",
+    "bn": "যখন পাঁচটি ক্বলক্বলাহ অক্ষর সুকুন দিয়ে উচ্চারণ করা হয় তখন তৈরি হওয়া অনন্য বাউন্সিং শব্দ শিখুন।",
+    "ar": "تعلم الصوت الفريد للقلقلة الذي ينشأ عندما تنطق حروف القلقلة الخمسة بسكون."
+  },
+  "submodules": [
+    {
+      "id": "qalqalah-letters",
+      "title": {
+        "en": "Qalqalah Letters",
+        "bn": "ক্বলক্বলাহ অক্ষর",
+        "ar": "حروف القلقلة"
+      },
+      "definition": {
+        "en": "Five letters create the qalqalah effect when they have sukoon: qaf, ta, ba, jeem, and dal. The sound bounces or echoes slightly.",
+        "bn": "পাঁচটি অক্ষর সুকুন থাকলে ক্বলক্বলাহ প্রভাব তৈরি করে: ক্বাফ, তা, বা, জীম এবং দাল। শব্দ সামান্য বাউন্স বা প্রতিধ্বনিত হয়।",
+        "ar": "خمسة حروف تخلق تأثير القلقلة عندما تكون ساكنة: القاف والتاء والباء والجيم والدال. يرتد الصوت أو ينعكس قليلًا."
+      },
+      "letterExamples": [
+        {"arabic": "ق", "translit": "q"},
+        {"arabic": "ط", "translit": "t"},
+        {"arabic": "ب", "translit": "b"},
+        {"arabic": "ج", "translit": "j"},
+        {"arabic": "د", "translit": "d"}
+      ],
+      "checkItem": {
+        "en": "I know the five qalqalah letters: qaf, ta, ba, jeem, dal.",
+        "bn": "আমি পাঁচটি ক্বলক্বলাহ অক্ষর জানি: ক্বাফ, তা, বা, জীম, দাল।",
+        "ar": "أعرف حروف القلقلة الخمسة: القاف والتاء والباء والجيم والدال."
+      }
+    },
+    {
+      "id": "small-qalqalah",
+      "title": {
+        "en": "Small Qalqalah",
+        "bn": "ছোট ক্বলক্বলাহ",
+        "ar": "القلقلة الصغرى"
+      },
+      "definition": {
+        "en": "When a qalqalah letter with sukoon appears in the middle of a word, it creates a small bouncing effect.",
+        "bn": "যখন একটি সুকুন সহ ক্বলক্বলাহ অক্ষর একটি শব্দের মাঝখানে প্রদর্শিত হয়, এটি একটি ছোট বাউন্সিং প্রভাব তৈরি করে।",
+        "ar": "عندما يظهر حرف قلقلة بسكون في وسط الكلمة، يخلق تأثير قلقلة صغيرة."
+      },
+      "wordExamples": [
+        {
+          "arabic": "يَجْعَلْ",
+          "translit": "yaj'al",
+          "meaning": {
+            "en": "He makes",
+            "bn": "সে তৈরি করে"
+          }
+        },
+        {
+          "arabic": "يَلِدْ",
+          "translit": "yalid",
+          "meaning": {
+            "en": "He gives birth",
+            "bn": "সে জন্ম দেয়"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I understand that qalqalah in the middle of a word is small.",
+        "bn": "আমি বুঝি যে একটি শব্দের মাঝখানে ক্বলক্বলাহ ছোট।",
+        "ar": "أفهم أن القلقلة في وسط الكلمة صغيرة."
+      }
+    },
+    {
+      "id": "big-qalqalah",
+      "title": {
+        "en": "Big Qalqalah",
+        "bn": "বড় ক্বলক্বলাহ",
+        "ar": "القلقلة الكبرى"
+      },
+      "definition": {
+        "en": "When a qalqalah letter with sukoon appears at the end of a word (especially during a pause), the bouncing effect is more pronounced.",
+        "bn": "যখন একটি সুকুন সহ ক্বলক্বলাহ অক্ষর একটি শব্দের শেষে প্রদর্শিত হয় (বিশেষত থামার সময়), বাউন্সিং প্রভাব আরও স্পষ্ট।",
+        "ar": "عندما يظهر حرف قلقلة بسكون في نهاية الكلمة (خاصة عند التوقف)، يكون تأثير القلقلة أكثر وضوحًا."
+      },
+      "wordExamples": [
+        {
+          "arabic": "أَحَدْ",
+          "translit": "ahad",
+          "meaning": {
+            "en": "One",
+            "bn": "এক"
+          }
+        },
+        {
+          "arabic": "الْفَلَقْ",
+          "translit": "al-falaq",
+          "meaning": {
+            "en": "The Daybreak",
+            "bn": "ভোর"
+          }
+        },
+        {
+          "arabic": "تَبَّ",
+          "translit": "tabba",
+          "meaning": {
+            "en": "Ruined",
+            "bn": "ধ্বংস হয়েছে"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I know that qalqalah at the end of a word is bigger and more noticeable.",
+        "bn": "আমি জানি যে একটি শব্দের শেষে ক্বলক্বলাহ বড় এবং আরও লক্ষণীয়।",
+        "ar": "أعرف أن القلقلة في نهاية الكلمة أكبر وأكثر وضوحًا."
+      }
+    }
+  ]
+}

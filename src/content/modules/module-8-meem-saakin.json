@@ -1,0 +1,125 @@
+{
+  "id": "module-8-meem-saakin",
+  "order": 8,
+  "recommendedOrder": 8,
+  "title": {
+    "en": "Meem Saakin Rules",
+    "bn": "মীম সাকিনের নিয়ম",
+    "ar": "أحكام الميم الساكنة"
+  },
+  "summary": {
+    "en": "Learn the three rules for pronouncing a silent meem (م) when followed by different letters: idgham shafawi, ikhfa shafawi, and izhar shafawi.",
+    "bn": "যখন বিভিন্ন অক্ষর অনুসরণ করে তখন নিরব মীম (م) উচ্চারণের তিনটি নিয়ম শিখুন: ইদগাম শাফাউই, ইখফা শাফাউই এবং ইযহার শাফাউই।",
+    "ar": "تعلم الأحكام الثلاثة لنطق الميم الساكنة عند اتباعها بحروف مختلفة: الإدغام الشفوي والإخفاء الشفوي والإظهار الشفوي."
+  },
+  "submodules": [
+    {
+      "id": "idgham-shafawi",
+      "title": {
+        "en": "Idgham Shafawi (Lip Merging)",
+        "bn": "ইদগাম শাফাউই (ঠোঁট মিশ্রণ)",
+        "ar": "الإدغام الشفوي"
+      },
+      "definition": {
+        "en": "When silent meem is followed by ba, merge the meem into the ba with a ghunna.",
+        "bn": "যখন নিরব মীম বা দ্বারা অনুসরণ করা হয়, তখন মীমকে গুন্নাহ সহ বায়ে মিশ্রিত করুন।",
+        "ar": "عندما تتبع الميم الساكنة الباء، أدغم الميم في الباء مع الغنة."
+      },
+      "wordExamples": [
+        {
+          "arabic": "لَهُمْ مَغْفِرَة",
+          "translit": "lahum maghfirah",
+          "meaning": {
+            "en": "For them forgiveness",
+            "bn": "তাদের জন্য ক্ষমা"
+          }
+        },
+        {
+          "arabic": "عَلَيْهِمْ مِنْ",
+          "translit": "'alayhim min",
+          "meaning": {
+            "en": "Upon them from",
+            "bn": "তাদের উপর থেকে"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I know that silent meem before ba merges with ghunna.",
+        "bn": "আমি জানি যে বার আগে নিরব মীম গুন্নাহ দিয়ে মিশে যায়।",
+        "ar": "أعرف أن الميم الساكنة قبل الباء تدغم مع الغنة."
+      }
+    },
+    {
+      "id": "ikhfa-shafawi",
+      "title": {
+        "en": "Ikhfa Shafawi (Lip Hiding)",
+        "bn": "ইখফা শাফাউই (ঠোঁট লুকানো)",
+        "ar": "الإخفاء الشفوي"
+      },
+      "definition": {
+        "en": "When silent meem is followed by fa, hide the meem with a light ghunna.",
+        "bn": "যখন নিরব মীম ফা দ্বারা অনুসরণ করা হয়, তখন মীমকে হালকা গুন্নাহ দিয়ে লুকান।",
+        "ar": "عندما تتبع الميم الساكنة الفاء، أخفِ الميم بغنة خفيفة."
+      },
+      "wordExamples": [
+        {
+          "arabic": "تَرْمِيهِمْ بِحِجَارَةٍ",
+          "translit": "tarmihim bihjiarah",
+          "meaning": {
+            "en": "You strike them with stones",
+            "bn": "আপনি তাদের পাথর দিয়ে আঘাত করেন"
+          }
+        },
+        {
+          "arabic": "هُمْ بِهِ",
+          "translit": "hum bih",
+          "meaning": {
+            "en": "They with it",
+            "bn": "তারা এর সাথে"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I know that silent meem before fa is hidden with ghunna.",
+        "bn": "আমি জানি যে ফার আগে নিরব মীম গুন্নাহ দিয়ে লুকানো থাকে।",
+        "ar": "أعرف أن الميم الساكنة قبل الفاء تُخفى بالغنة."
+      }
+    },
+    {
+      "id": "izhar-shafawi",
+      "title": {
+        "en": "Izhar Shafawi (Lip Clarity)",
+        "bn": "ইযহার শাফাউই (ঠোঁট স্পষ্টতা)",
+        "ar": "الإظهار الشفوي"
+      },
+      "definition": {
+        "en": "When silent meem is followed by any letter except ba and fa, pronounce it clearly with no hiding.",
+        "bn": "যখন নিরব মীম বা এবং ফা ছাড়া অন্য কোনো অক্ষর দ্বারা অনুসরণ করা হয়, তখন এটি স্পষ্টভাবে উচ্চারণ করুন কোনো লুকানো ছাড়াই।",
+        "ar": "عندما تتبع الميم الساكنة أي حرف ما عدا الباء والفاء، انطقها بوضوح دون إخفاء."
+      },
+      "wordExamples": [
+        {
+          "arabic": "أَنْعَمْتَ",
+          "translit": "an'amta",
+          "meaning": {
+            "en": "You granted",
+            "bn": "তুমি প্রদান করেছ"
+          }
+        },
+        {
+          "arabic": "عَلَيْهِمْ صِرَاطَ",
+          "translit": "'alayhim sirat",
+          "meaning": {
+            "en": "Upon them the path",
+            "bn": "তাদের উপর পথ"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I understand that silent meem before other letters is pronounced clearly.",
+        "bn": "আমি বুঝি যে অন্যান্য অক্ষরের আগে নিরব মীম স্পষ্টভাবে উচ্চারণ করা হয়।",
+        "ar": "أفهم أن الميم الساكنة قبل الحروف الأخرى تنطق بإظهار واضح."
+      }
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "id": "module-7-noon-saakin",
+  "order": 7,
+  "recommendedOrder": 7,
+  "title": {
+    "en": "Noon Saakin and Tanween Rules",
+    "bn": "নুন সাকিন এবং তানবীনের নিয়ম",
+    "ar": "أحكام النون الساكنة والتنوين"
+  },
+  "summary": {
+    "en": "Learn the four rules for pronouncing a silent noon (ن) or tanween when followed by different letters: izhar, idgham, ikhfa, and iqlab.",
+    "bn": "যখন বিভিন্ন অক্ষর অনুসরণ করে তখন নিরব নুন (ن) বা তানবীন উচ্চারণের চারটি নিয়ম শিখুন: ইযহার, ইদগাম, ইখফা এবং ইক্বলাব।",
+    "ar": "تعلم الأحكام الأربعة لنطق النون الساكنة أو التنوين عند اتباعه بحروف مختلفة: الإظهار والإدغام والإخفاء والإقلاب."
+  },
+  "submodules": [
+    {
+      "id": "izhar",
+      "title": {
+        "en": "Izhar (Clear Pronunciation)",
+        "bn": "ইযহার (স্পষ্ট উচ্চারণ)",
+        "ar": "الإظهار"
+      },
+      "definition": {
+        "en": "When noon or tanween is followed by one of six throat letters, pronounce the noon clearly with no hiding or merging.",
+        "bn": "যখন নুন বা তানবীন ছয়টি গলার অক্ষরের একটি দ্বারা অনুসরণ করা হয়, তখন নুন স্পষ্টভাবে উচ্চারণ করুন কোনো লুকানো বা মিশ্রণ ছাড়াই।",
+        "ar": "عندما تتبع النون أو التنوين أحد ستة حروف الحلق، انطق النون بوضوح دون إخفاء أو إدغام."
+      },
+      "letterExamples": [
+        {"arabic": "ء", "translit": "'"},
+        {"arabic": "ه", "translit": "h"},
+        {"arabic": "ع", "translit": "'"},
+        {"arabic": "ح", "translit": "h"},
+        {"arabic": "غ", "translit": "gh"},
+        {"arabic": "خ", "translit": "kh"}
+      ],
+      "wordExamples": [
+        {
+          "arabic": "مِنْ هَادٍ",
+          "translit": "min hadin",
+          "meaning": {
+            "en": "From a guide",
+            "bn": "একজন পথপ্রদর্শক থেকে"
+          }
+        },
+        {
+          "arabic": "مِنْ عِلْمٍ",
+          "translit": "min 'ilmin",
+          "meaning": {
+            "en": "From knowledge",
+            "bn": "জ্ঞান থেকে"
+          }
+        },
+        {
+          "arabic": "مِنْ خَوْفٍ",
+          "translit": "min khawf",
+          "meaning": {
+            "en": "From fear",
+            "bn": "ভয় থেকে"
+          }
+        },
+        {
+          "arabic": "هُدًى عَظِيم",
+          "translit": "hudan 'azim",
+          "meaning": {
+            "en": "Mighty guidance",
+            "bn": "মহান পথপ্রদর্শনা"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I know that noon/tanween before throat letters is pronounced clearly.",
+        "bn": "আমি জানি যে গলার অক্ষরের আগে নুন/তানবীন স্পষ্টভাবে উচ্চারণ করা হয়।",
+        "ar": "أعرف أن النون والتنوين قبل حروف الحلق تنطق بإظهار واضح."
+      }
+    },
+    {
+      "id": "idgham",
+      "title": {
+        "en": "Idgham (Merging)",
+        "bn": "ইদগাম (মিশ্রণ)",
+        "ar": "الإدغام"
+      },
+      "definition": {
+        "en": "When noon or tanween is followed by one of six letters (ya, ra, meem, lam, waw, noon), merge the noon into the following letter with a ghunna.",
+        "bn": "যখন নুন বা তানবীন ছয়টি অক্ষর (ইয়া, রা, মীম, লাম, ওয়াও, নুন) দ্বারা অনুসরণ করা হয়, তখন নুনকে গুন্নাহ সহ নিম্নলিখিত অক্ষরে মিশ্রিত করুন।",
+        "ar": "عندما تتبع النون أو التنوين أحد ستة حروف (الياء والراء والميم واللام والواو والنون)، أدغم النون في الحرف التالي مع الغنة."
+      },
+      "letterExamples": [
+        {"arabic": "ي", "translit": "y"},
+        {"arabic": "ر", "translit": "r"},
+        {"arabic": "م", "translit": "m"},
+        {"arabic": "ل", "translit": "l"},
+        {"arabic": "و", "translit": "w"},
+        {"arabic": "ن", "translit": "n"}
+      ],
+      "wordExamples": [
+        {
+          "arabic": "مَنْ يَقُولُ",
+          "translit": "man yaqul",
+          "meaning": {
+            "en": "Who says",
+            "bn": "যে বলে"
+          }
+        },
+        {
+          "arabic": "مِنْ وَالٍ",
+          "translit": "min walin",
+          "meaning": {
+            "en": "From a guardian",
+            "bn": "একজন অভিভাবক থেকে"
+          }
+        },
+        {
+          "arabic": "مِنْ رَبِّهِمْ",
+          "translit": "min rabbihim",
+          "meaning": {
+            "en": "From their Lord",
+            "bn": "তাদের প্রভু থেকে"
+          }
+        },
+        {
+          "arabic": "هُدًى لِلْمُتَّقِينَ",
+          "translit": "hudan lil-muttaqin",
+          "meaning": {
+            "en": "Guidance for the righteous",
+            "bn": "সৎকর্মপরায়ণদের জন্য পথপ্রদর্শনা"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I understand that noon/tanween merges into ya, ra, meem, lam, waw, or noon.",
+        "bn": "আমি বুঝি যে নুন/তানবীন ইয়া, রা, মীম, লাম, ওয়াও বা নুনে মিশে যায়।",
+        "ar": "أفهم أن النون والتنوين تدغم في الياء والراء والميم واللام والواو والنون."
+      }
+    },
+    {
+      "id": "ikhfa",
+      "title": {
+        "en": "Ikhfa (Hidden Pronunciation)",
+        "bn": "ইখফা (লুকানো উচ্চারণ)",
+        "ar": "الإخفاء"
+      },
+      "definition": {
+        "en": "When noon or tanween is followed by 15 letters (not throat or idgham letters), hide the noon in the letter that follows with a subtle ghunna.",
+        "bn": "যখন নুন বা তানবীন ১৫টি অক্ষর (গলা বা ইদগাম অক্ষর নয়) দ্বারা অনুসরণ করা হয়, তখন নুনকে সূক্ষ্ম গুন্নাহ সহ নিম্নলিখিত অক্ষরে লুকিয়ে রাখুন।",
+        "ar": "عندما تتبع النون أو التنوين 15 حرفًا (ليست حروف حلق أو إدغام)، أخفِ النون في الحرف التالي بغنة لطيفة."
+      },
+      "wordExamples": [
+        {
+          "arabic": "مِنْ قَبْلِ",
+          "translit": "min qabli",
+          "meaning": {
+            "en": "From before",
+            "bn": "আগে থেকে"
+          }
+        },
+        {
+          "arabic": "مِنْ تَحْتِ",
+          "translit": "min tahti",
+          "meaning": {
+            "en": "From below",
+            "bn": "নিচ থেকে"
+          }
+        },
+        {
+          "arabic": "أَنْصَار",
+          "translit": "ansar",
+          "meaning": {
+            "en": "Helpers",
+            "bn": "সহায়ক"
+          }
+        },
+        {
+          "arabic": "أَنْذِرْهُمْ",
+          "translit": "andhirhum",
+          "meaning": {
+            "en": "Warn them",
+            "bn": "তাদের সতর্ক করুন"
+          }
+        },
+        {
+          "arabic": "عَذَابٌ أَلِيم",
+          "translit": "'adhab alim",
+          "meaning": {
+            "en": "Painful punishment",
+            "bn": "যন্ত্রণাদায়ক শাস্তি"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I know that ikhfa hides the noon with a subtle nasal sound.",
+        "bn": "আমি জানি যে ইখফা নুনকে সূক্ষ্ম নাসিক শব্দ দিয়ে লুকায়।",
+        "ar": "أعرف أن الإخفاء يخفي النون بصوت أنفي لطيف."
+      }
+    },
+    {
+      "id": "iqlab",
+      "title": {
+        "en": "Iqlab (Conversion)",
+        "bn": "ইক্বলাব (রূপান্তর)",
+        "ar": "الإقلاب"
+      },
+      "definition": {
+        "en": "When noon or tanween is followed by ba (ب), change the noon into meem with a ghunna.",
+        "bn": "যখন নুন বা তানবীন বা (ب) দ্বারা অনুসরণ করা হয়, তখন নুনকে গুন্নাহ সহ মীমে পরিবর্তন করুন।",
+        "ar": "عندما تتبع النون أو التنوين الباء، حول النون إلى ميم مع الغنة."
+      },
+      "wordExamples": [
+        {
+          "arabic": "مِنْ بَعْدِ",
+          "translit": "min ba'di",
+          "meaning": {
+            "en": "From after",
+            "bn": "পরে থেকে"
+          }
+        },
+        {
+          "arabic": "سَمِيعٌ بَصِيرٌ",
+          "translit": "sami' basir",
+          "meaning": {
+            "en": "All-Hearing, All-Seeing",
+            "bn": "সর্বশ্রোতা, সর্বদ্রষ্টা"
+          }
+        },
+        {
+          "arabic": "أَنْبِئْهُمْ",
+          "translit": "anbi'hum",
+          "meaning": {
+            "en": "Inform them",
+            "bn": "তাদের জানান"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I understand that noon/tanween before ba converts to meem.",
+        "bn": "আমি বুঝি যে বার আগে নুন/তানবীন মীমে রূপান্তরিত হয়।",
+        "ar": "أفهم أن النون والتنوين قبل الباء تقلب إلى ميم."
+      }
+    }
+  ]
+}

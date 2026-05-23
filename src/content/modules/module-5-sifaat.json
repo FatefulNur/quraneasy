@@ -1,0 +1,138 @@
+{
+  "id": "module-5-sifaat",
+  "order": 5,
+  "recommendedOrder": 5,
+  "title": {
+    "en": "Sifaat (Letter Characteristics)",
+    "bn": "সিফাত (অক্ষর বৈশিষ্ট্য)",
+    "ar": "الصفات"
+  },
+  "summary": {
+    "en": "Learn the unique qualities of Arabic letters — which ones are heavy and require a deeper tone, and which are light and clear.",
+    "bn": "আরবি অক্ষরগুলির অনন্য বৈশিষ্ট্যগুলি শিখুন — কোনগুলি ভারী এবং গভীর টোন প্রয়োজন, এবং কোনগুলি হালকা এবং স্পষ্ট।",
+    "ar": "تعلم الخصائص الفريدة للحروف العربية — أيها ثقيل ويتطلب نبرة أعمق، وأيها خفيف وواضح."
+  },
+  "submodules": [
+    {
+      "id": "tafkheem",
+      "title": {
+        "en": "Tafkheem (Heavy Letters)",
+        "bn": "তাফখীম (ভারী অক্ষর)",
+        "ar": "التفخيم"
+      },
+      "definition": {
+        "en": "Heavy letters are pronounced with a thickened, deepened tone from the throat — they require weight and gravity in your voice. Seven letters are naturally heavy.",
+        "bn": "ভারী অক্ষরগুলি গলা থেকে একটি ঘন, গভীর টোনে উচ্চারণ করা হয় — তাদের আপনার কণ্ঠে ওজন এবং গুরুত্ব প্রয়োজন। সাতটি অক্ষর স্বাভাবিকভাবে ভারী।",
+        "ar": "الحروف الثقيلة تنطق بنبرة مُغلّظة وعميقة من الحلق — تتطلب وزنًا وجسامة في صوتك. سبعة حروف ثقيلة بطبيعتها."
+      },
+      "letterExamples": [
+        {"arabic": "خ", "translit": "kh"},
+        {"arabic": "ص", "translit": "s"},
+        {"arabic": "ض", "translit": "d"},
+        {"arabic": "ط", "translit": "t"},
+        {"arabic": "ظ", "translit": "z"},
+        {"arabic": "غ", "translit": "gh"},
+        {"arabic": "ق", "translit": "q"}
+      ],
+      "wordExamples": [
+        {
+          "arabic": "صَدَقَ",
+          "translit": "sadaqa",
+          "meaning": {
+            "en": "He spoke truth",
+            "bn": "তিনি সত্য কথা বলেছেন"
+          }
+        },
+        {
+          "arabic": "قَالَ",
+          "translit": "qal",
+          "meaning": {
+            "en": "He said",
+            "bn": "তিনি বলেছেন"
+          }
+        },
+        {
+          "arabic": "طَائِر",
+          "translit": "ta'ir",
+          "meaning": {
+            "en": "Bird",
+            "bn": "পাখি"
+          }
+        },
+        {
+          "arabic": "غَفُور",
+          "translit": "ghafur",
+          "meaning": {
+            "en": "Forgiving",
+            "bn": "ক্ষমাশীল"
+          }
+        },
+        {
+          "arabic": "خَلَقَ",
+          "translit": "khalaqa",
+          "meaning": {
+            "en": "He created",
+            "bn": "তিনি সৃষ্টি করেছেন"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I can identify the seven heavy letters and pronounce them with proper thickness.",
+        "bn": "আমি সাতটি ভারী অক্ষর চিনতে পারি এবং সঠিক ঘনত্ব সহ উচ্চারণ করতে পারি।",
+        "ar": "أستطيع تحديد الحروف الثقيلة السبعة ونطقها بالتغليظ الصحيح."
+      }
+    },
+    {
+      "id": "tarqeeq",
+      "title": {
+        "en": "Tarqeeq (Light Letters)",
+        "bn": "তারক্বীক (হালকা অক্ষর)",
+        "ar": "الترقيق"
+      },
+      "definition": {
+        "en": "Light letters are pronounced with a thin, bright tone — the opposite of heavy letters. Most Arabic letters are naturally light.",
+        "bn": "হালকা অক্ষরগুলি একটি পাতলা, উজ্জ্বল টোনে উচ্চারণ করা হয় — ভারী অক্ষরগুলির বিপরীত। বেশিরভাগ আরবি অক্ষর স্বাভাবিকভাবে হালকা।",
+        "ar": "الحروف الخفيفة تنطق بنبرة رقيقة وزاهية — عكس الحروف الثقيلة. معظم الحروف العربية خفيفة بطبيعتها."
+      },
+      "wordExamples": [
+        {
+          "arabic": "بَاب",
+          "translit": "bab",
+          "meaning": {
+            "en": "Door",
+            "bn": "দরজা"
+          }
+        },
+        {
+          "arabic": "نُور",
+          "translit": "nur",
+          "meaning": {
+            "en": "Light",
+            "bn": "আলো"
+          }
+        },
+        {
+          "arabic": "مَال",
+          "translit": "mal",
+          "meaning": {
+            "en": "Wealth",
+            "bn": "সম্পদ"
+          }
+        },
+        {
+          "arabic": "رَحِيم",
+          "translit": "raheem",
+          "meaning": {
+            "en": "Merciful",
+            "bn": "দয়ালু"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I understand that most letters are light and should be pronounced with clarity.",
+        "bn": "আমি বুঝি যে বেশিরভাগ অক্ষর হালকা এবং স্পষ্টতার সাথে উচ্চারণ করা উচিত।",
+        "ar": "أفهم أن معظم الحروف خفيفة وتنطق بوضوح."
+      }
+    }
+  ]
+}

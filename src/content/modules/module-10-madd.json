@@ -1,0 +1,322 @@
+{
+  "id": "module-10-madd",
+  "order": 10,
+  "recommendedOrder": 10,
+  "title": {
+    "en": "Madd (Lengthening Rules)",
+    "bn": "মাদ্দ (দীর্ঘায়ন নিয়ম)",
+    "ar": "المد"
+  },
+  "summary": {
+    "en": "Learn the rules for lengthening vowels in Arabic — there are seven types of madd, each with specific conditions and durations.",
+    "bn": "আরবিতে স্বর দীর্ঘায়নের নিয়মগুলি শিখুন — সাতটি ধরনের মাদ্দ রয়েছে, প্রতিটির নির্দিষ্ট শর্ত এবং সময়কাল রয়েছে।",
+    "ar": "تعلم قواعس إطالة الحركات في العربية — هناك سبعة أنواع من المد، لكل منها شروط وفترات محددة."
+  },
+  "submodules": [
+    {
+      "id": "madd-asli",
+      "title": {
+        "en": "Madd Asli (Natural Lengthening)",
+        "bn": "মাদ্দ আসলী (প্রাকৃতিক দীর্ঘায়ন)",
+        "ar": "المد الطبيعي"
+      },
+      "definition": {
+        "en": "The three letters alif, waw, and ya are naturally long — they extend naturally without any additional condition.",
+        "bn": "তিনটি অক্ষর আলিফ, ওয়াও এবং ইয়া স্বাভাবিকভাবে দীর্ঘ — তারা কোনো অতিরিক্ত শর্ত ছাড়াই স্বাভাবিকভাবে প্রসারিত হয়।",
+        "ar": "الحروف الثلاثة الألف والواو والياء طويلة بطبيعتها — تمتد بشكل طبيعي دون أي شرط إضافي."
+      },
+      "letterExamples": [
+        {"arabic": "ا", "translit": "a"},
+        {"arabic": "و", "translit": "w"},
+        {"arabic": "ي", "translit": "y"}
+      ],
+      "wordExamples": [
+        {
+          "arabic": "قَالَ",
+          "translit": "qal",
+          "meaning": {
+            "en": "He said",
+            "bn": "তিনি বলেছেন"
+          }
+        },
+        {
+          "arabic": "قِيلَ",
+          "translit": "qil",
+          "meaning": {
+            "en": "It was said",
+            "bn": "এটি বলা হয়েছিল"
+          }
+        },
+        {
+          "arabic": "يَقُولُ",
+          "translit": "yaqul",
+          "meaning": {
+            "en": "He says",
+            "bn": "সে বলে"
+          }
+        },
+        {
+          "arabic": "فِيهِ",
+          "translit": "fihi",
+          "meaning": {
+            "en": "In it",
+            "bn": "এর মধ্যে"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I know that alif, waw, and ya are naturally long letters.",
+        "bn": "আমি জানি যে আলিফ, ওয়াও এবং ইয়া স্বাভাবিকভাবে দীর্ঘ অক্ষর।",
+        "ar": "أعرف أن الألف والواو والياء حروف طويلة بطبيعتها."
+      }
+    },
+    {
+      "id": "madd-badal",
+      "title": {
+        "en": "Madd Badal (Substituted Lengthening)",
+        "bn": "মাদ্দ বাদল (বিকল্প দীর্ঘায়ন)",
+        "ar": "المد البدل"
+      },
+      "definition": {
+        "en": "When a hamza is followed by a long vowel letter, the hamza is replaced by a lengthening of that vowel.",
+        "bn": "যখন একটি হামজা একটি দীর্ঘ স্বর অক্ষর দ্বারা অনুসরণ করা হয়, হামজা সেই স্বরের দীর্ঘায়ন দ্বারা প্রতিস্থাপিত হয়।",
+        "ar": "عندما يتبع الهمزة حرف علة طويل، تُستبدل الهمزة بإطالة تلك الحركة."
+      },
+      "wordExamples": [
+        {
+          "arabic": "آمَنُوا",
+          "translit": "amanu",
+          "meaning": {
+            "en": "They believed",
+            "bn": "তারা বিশ্বাস করেছিল"
+          }
+        },
+        {
+          "arabic": "إِيمَان",
+          "translit": "iman",
+          "meaning": {
+            "en": "Faith",
+            "bn": "বিশ্বাস"
+          }
+        },
+        {
+          "arabic": "أُوتُوا",
+          "translit": "uta",
+          "meaning": {
+            "en": "They were given",
+            "bn": "তাদের দেওয়া হয়েছিল"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I understand madd badal replaces hamza with a vowel lengthening.",
+        "bn": "আমি বুঝি যে মাদ্দ বাদল হামজাকে স্বর দীর্ঘায়ন দিয়ে প্রতিস্থাপিত করে।",
+        "ar": "أفهم أن مد البدل يستبدل الهمزة بإطالة الحركة."
+      }
+    },
+    {
+      "id": "madd-muttasil",
+      "title": {
+        "en": "Madd Muttasil (Connected Lengthening)",
+        "bn": "মাদ্দ মুত্তাসিল (সংযুক্ত দীর্ঘায়ন)",
+        "ar": "المد المتصل"
+      },
+      "definition": {
+        "en": "When a long vowel is immediately followed by a hamza in the same word, extend the vowel longer than normal.",
+        "bn": "যখন একটি দীর্ঘ স্বরের অবিলম্বে একই শব্দে হামজা অনুসরণ করে, স্বরটি সাধারণের চেয়ে বেশি প্রসারিত করুন।",
+        "ar": "عندما يتبع علة طويلة همزة مباشرة في نفس الكلمة، أطل الحركة أطول من المعتاد."
+      },
+      "wordExamples": [
+        {
+          "arabic": "جَاءَ",
+          "translit": "ja",
+          "meaning": {
+            "en": "He came",
+            "bn": "তিনি এসেছেন"
+          }
+        },
+        {
+          "arabic": "السَّمَاءِ",
+          "translit": "as-sama",
+          "meaning": {
+            "en": "The sky",
+            "bn": "আকাশ"
+          }
+        },
+        {
+          "arabic": "سُوءٌ",
+          "translit": "su'",
+          "meaning": {
+            "en": "Evil",
+            "bn": "মন্দ"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I know that madd muttasil extends a vowel before hamza.",
+        "bn": "আমি জানি যে মাদ্দ মুত্তাসিল হামজার আগে একটি স্বর প্রসারিত করে।",
+        "ar": "أعرف أن مد المتصل يطيل الحركة قبل الهمزة."
+      }
+    },
+    {
+      "id": "madd-munfasil",
+      "title": {
+        "en": "Madd Munfasil (Separated Lengthening)",
+        "bn": "মাদ্দ মুনফাসিল (পৃথক দীর্ঘায়ন)",
+        "ar": "المد المنفصل"
+      },
+      "definition": {
+        "en": "When a long vowel at the end of a word is followed by a hamza at the start of the next word, slightly extend the first vowel.",
+        "bn": "যখন একটি শব্দের শেষে একটি দীর্ঘ স্বর পরবর্তী শব্দের শুরুতে হামজা দ্বারা অনুসরণ করা হয়, প্রথম স্বরটি সামান্য প্রসারিত করুন।",
+        "ar": "عندما تتبع علة طويلة في نهاية كلمة همزة في بدء الكلمة التالية، أطل الحركة الأولى قليلًا."
+      },
+      "wordExamples": [
+        {
+          "arabic": "فِي أَنْفُسِكُمْ",
+          "translit": "fi anfusikum",
+          "meaning": {
+            "en": "In yourselves",
+            "bn": "তোমাদের নিজেদের মধ্যে"
+          }
+        },
+        {
+          "arabic": "إِنَّا أَعْطَيْنَاكَ",
+          "translit": "inna a'tainaka",
+          "meaning": {
+            "en": "Indeed We have given you",
+            "bn": "নিশ্চয় আমরা আপনাকে দিয়েছি"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I understand madd munfasil is a vowel at word end followed by hamza.",
+        "bn": "আমি বুঝি যে মাদ্দ মুনফাসিল হল শব্দ শেষে একটি স্বর যার পরে হামজা আসে।",
+        "ar": "أفهم أن مد المنفصل علة في آخر الكلمة يتبعها همزة."
+      }
+    },
+    {
+      "id": "madd-lazim",
+      "title": {
+        "en": "Madd Lazim (Necessary Lengthening)",
+        "bn": "মাদ্দ লাজিম (অপরিহার্য দীর্ঘায়ন)",
+        "ar": "المد اللازم"
+      },
+      "definition": {
+        "en": "When a long vowel is followed by a doubled letter in the same word, the lengthening is obligatory and extended.",
+        "bn": "যখন একটি দীর্ঘ স্বর একই শব্দে একটি দ্বিগুণ অক্ষর দ্বারা অনুসরণ করা হয়, দীর্ঘায়ন বাধ্যতামূলক এবং প্রসারিত।",
+        "ar": "عندما تتبع علة طويلة حرف مضاعف في نفس الكلمة، تكون الإطالة إلزامية وممتدة."
+      },
+      "wordExamples": [
+        {
+          "arabic": "الضَّالِّينَ",
+          "translit": "ad-dallin",
+          "meaning": {
+            "en": "Those who are astray",
+            "bn": "যারা বিপথগামী"
+          }
+        },
+        {
+          "arabic": "الْحَاقَّةُ",
+          "translit": "al-haqqa",
+          "meaning": {
+            "en": "The Inevitable",
+            "bn": "অবশ্যম্ভাবী"
+          }
+        },
+        {
+          "arabic": "الصَّاخَّةُ",
+          "translit": "as-sakha",
+          "meaning": {
+            "en": "The Deafening Blast",
+            "bn": "বধিরকারী ফাঁস"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I understand that madd lazim extends a vowel before a doubled letter.",
+        "bn": "আমি বুঝি যে মাদ্দ লাজিম একটি দ্বিগুণ অক্ষরের আগে একটি স্বর প্রসারিত করে।",
+        "ar": "أفهم أن مد اللازم يطيل الحركة قبل حرف مضاعف."
+      }
+    },
+    {
+      "id": "madd-arid-lis-sukoon",
+      "title": {
+        "en": "Madd Arid Lis-Sukoon (Incidental Lengthening)",
+        "bn": "মাদ্দ আরিদ লিস সুকুন (আকস্মিক দীর্ঘায়ন)",
+        "ar": "المد العارض للسكون"
+      },
+      "definition": {
+        "en": "When a long vowel is followed by a sukoon (silent letter) due to a pause or stop in recitation, the lengthening is extended.",
+        "bn": "যখন একটি দীর্ঘ স্বর তিলাওয়াতে বিরতি বা থামার কারণে একটি সুকুন (নিরব অক্ষর) দ্বারা অনুসরণ করা হয়, দীর্ঘায়ন প্রসারিত হয়।",
+        "ar": "عندما تتبع علة طويلة سكون بسبب وقف أو توقف في التلاوة، تمتد الإطالة."
+      },
+      "wordExamples": [
+        {
+          "arabic": "الْعَالَمِينْ",
+          "translit": "al-'alamin",
+          "meaning": {
+            "en": "The worlds",
+            "bn": "বিশ্বসমূহ"
+          }
+        },
+        {
+          "arabic": "الرَّحِيمْ",
+          "translit": "ar-rahim",
+          "meaning": {
+            "en": "The Merciful",
+            "bn": "দয়ালু"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I know that madd arid extends vowels before silent stops.",
+        "bn": "আমি জানি যে মাদ্দ আরিদ নিরব থামার আগে স্বর প্রসারিত করে।",
+        "ar": "أعرف أن مد العارض يطيل الحركات قبل السكون."
+      }
+    },
+    {
+      "id": "madd-leen",
+      "title": {
+        "en": "Madd Leen (Soft Lengthening)",
+        "bn": "মাদ্দ লিন (নরম দীর্ঘায়ন)",
+        "ar": "المد اللين"
+      },
+      "definition": {
+        "en": "When ya or waw with a fatha comes before a hamza or sukoon, these soft vowels extend naturally.",
+        "bn": "যখন ফাতা সহ ইয়া বা ওয়াও হামজা বা সুকুনের আগে আসে, এই নরম স্বরগুলি স্বাভাবিকভাবে প্রসারিত হয়।",
+        "ar": "عندما تأتي الياء أو الواو بفتحة قبل همزة أو سكون، تمتد هذه الحركات الرقيقة بشكل طبيعي."
+      },
+      "wordExamples": [
+        {
+          "arabic": "خَوْفْ",
+          "translit": "khawf",
+          "meaning": {
+            "en": "Fear",
+            "bn": "ভয়"
+          }
+        },
+        {
+          "arabic": "بَيْتْ",
+          "translit": "bayt",
+          "meaning": {
+            "en": "House",
+            "bn": "ঘর"
+          }
+        },
+        {
+          "arabic": "شَيْءْ",
+          "translit": "shay'",
+          "meaning": {
+            "en": "Thing",
+            "bn": "জিনিস"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I understand that madd leen is the soft lengthening of ya and waw.",
+        "bn": "আমি বুঝি যে মাদ্দ লিন ইয়া এবং ওয়াওর নরম দীর্ঘায়ন।",
+        "ar": "أفهم أن مد اللين هو الإطالة الرقيقة للياء والواو."
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "module-1-introduction",
+  "order": 1,
+  "recommendedOrder": 1,
+  "title": {
+    "en": "Introduction to Tajweed",
+    "bn": "তাজবীদের পরিচয়",
+    "ar": "مقدمة في التجويد"
+  },
+  "summary": {
+    "en": "Learn what tajweed is and why it matters for Quranic recitation.",
+    "bn": "তাজবীদ কী এবং কোরআন তিলাওয়াতের জন্য কেন গুরুত্বপূর্ণ তা শিখুন।",
+    "ar": "تعرّف على التجويد وأهميته في تلاوة القرآن."
+  },
+  "submodules": [
+    {
+      "id": "what-is-tajweed",
+      "title": {
+        "en": "What is Tajweed?",
+        "bn": "তাজবীদ কী?",
+        "ar": "ما هو التجويد؟"
+      },
+      "definition": {
+        "en": "Tajweed means giving every letter its proper rights during recitation — correct pronunciation, characteristics, and proper lengthening.",
+        "bn": "তাজবীদ মানে তিলাওয়াতের সময় প্রতিটি অক্ষরকে তার যথাযথ হক প্রদান করা — সঠিক উচ্চারণ, বৈশিষ্ট্য এবং সঠিক দীর্ঘায়ন।",
+        "ar": "التجويد إعطاء كل حرف حقه من الحروف أثناء التلاوة — النطق الصحيح والصفات والمد الصحيح."
+      },
+      "wordExamples": [
+        {
+          "arabic": "قَلْبُ",
+          "translit": "qalb",
+          "meaning": {
+            "en": "Heart",
+            "bn": "হৃদয়"
+          }
+        },
+        {
+          "arabic": "كَلْبُ",
+          "translit": "kalb",
+          "meaning": {
+            "en": "Dog",
+            "bn": "কুকুর"
+          }
+        },
+        {
+          "arabic": "عِلْمٌ",
+          "translit": "'ilm",
+          "meaning": {
+            "en": "Knowledge",
+            "bn": "জ্ঞান"
+          }
+        },
+        {
+          "arabic": "نُورٌ",
+          "translit": "noor",
+          "meaning": {
+            "en": "Light",
+            "bn": "আলো"
+          }
+        },
+        {
+          "arabic": "رَحْمَةٌ",
+          "translit": "rahmah",
+          "meaning": {
+            "en": "Mercy",
+            "bn": "দয়া"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I understand that tajweed is about giving each letter its proper sound.",
+        "bn": "আমি বুঝি যে তাজবীদ মানে প্রতিটি অক্ষরকে তার সঠিক শব্দ দেওয়া।",
+        "ar": "أفهم أن التجويد هو إعطاء كل حرف نطقه الصحيح."
+      }
+    },
+    {
+      "id": "why-tajweed-important",
+      "title": {
+        "en": "Why Tajweed Matters",
+        "bn": "তাজবীদ কেন গুরুত্বপূর্ণ",
+        "ar": "لماذا التجويد مهم"
+      },
+      "definition": {
+        "en": "Learning tajweed preserves the correct meaning of Quranic words, beautifies your recitation, and honors the Quran as it was revealed.",
+        "bn": "তাজবীদ শিখলে কোরআনের শব্দের সঠিক অর্থ সংরক্ষিত হয়, আপনার তিলাওয়াত সুন্দর হয় এবং কোরআনের প্রতি সম্মান প্রদর্শিত হয়।",
+        "ar": "تعلم التجويد يحفظ معاني كلمات القرآن ويجمل تلاوتك ويكرّم القرآن كما نزل."
+      },
+      "checkItem": {
+        "en": "I know that correct pronunciation preserves meaning and honors the Quran.",
+        "bn": "আমি জানি যে সঠিক উচ্চারণ অর্থ সংরক্ষণ করে এবং কোরআনকে সম্মান করে।",
+        "ar": "أعرف أن النطق الصحيح يحفظ المعنى ويكرّم القرآن."
+      }
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "id": "module-2-preparation",
+  "order": 2,
+  "recommendedOrder": 2,
+  "title": {
+    "en": "Preparation Before Recitation",
+    "bn": "তিলাওয়াতের আগে প্রস্তুতি",
+    "ar": "الإعداد قبل التلاوة"
+  },
+  "summary": {
+    "en": "What every beginner needs to know before reciting the Qur'an — purity, intention, posture, and the basics of tajweed.",
+    "bn": "কোরআন তেলাওয়াত শুরুর আগে একজন নবীন শিক্ষার্থীর যা জানা প্রয়োজন — পবিত্রতা, নিয়ত, ভঙ্গি এবং তাজবীদের মূল বিষয়।",
+    "ar": "ما يحتاج المبتدئ معرفته قبل تلاوة القرآن — الطهارة والنية والهيئة وأساسيات التجويد."
+  },
+  "submodules": [
+    {
+      "id": "purity",
+      "title": {
+        "en": "Purity (Tahara)",
+        "bn": "পবিত্রতা (তাহারাত)",
+        "ar": "الطهارة"
+      },
+      "definition": {
+        "en": "Perform wudu before touching the mushaf and reciting whenever possible; choose a clean place to sit.",
+        "bn": "মুসহাফ স্পর্শ করার এবং সম্ভব হলে তিলাওয়াতের আগে ওযু করুন; তিলাওয়াতের জন্য পরিষ্কার জায়গা বেছে নিন।",
+        "ar": "توضأ قبل مس المصحف والتلاوة متى أمكن؛ اختر مكانًا طاهرًا للجلوس والتلاوة."
+      },
+      "wordExamples": [
+        {
+          "arabic": "وُضُوء",
+          "translit": "wudu",
+          "meaning": {
+            "en": "Ritual purification",
+            "bn": "আচার সংক্রান্ত পবিত্রতা"
+          }
+        },
+        {
+          "arabic": "مُصْحَف",
+          "translit": "mushaf",
+          "meaning": {
+            "en": "Quranic text",
+            "bn": "কোরানের গ্রন্থ"
+          }
+        },
+        {
+          "arabic": "طَاهِر",
+          "translit": "tahir",
+          "meaning": {
+            "en": "Pure",
+            "bn": "পবিত্র"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I will perform wudu and choose a clean place before reciting.",
+        "bn": "আমি তিলাওয়াত করার আগে ওযু করব এবং পরিষ্কার জায়গা বেছে নেব।",
+        "ar": "سأتوضأ وأختار مكانًا طاهرًا قبل التلاوة."
+      },
+      "blogSlug": "purity-before-recitation"
+    },
+    {
+      "id": "intention",
+      "title": {
+        "en": "Intention (Niyyah)",
+        "bn": "নিয়ত",
+        "ar": "النية"
+      },
+      "definition": {
+        "en": "Make a sincere intention to recite for the sake of Allah alone, not for show; set your heart on understanding what you recite.",
+        "bn": "একমাত্র আল্লাহর সন্তুষ্টির জন্য সৎ নিয়তে তিলাওয়াত করুন, লোক দেখানোর জন্য নয়; যা পড়ছেন তা বোঝার জন্য মনস্থির করুন।",
+        "ar": "اعقد النية المخلصة للتلاوة لوجه الله وحده لا للرياء؛ اجعل قلبك حاضرًا لفهم ما تتلوه."
+      },
+      "checkItem": {
+        "en": "I recite with sincere intention for Allah's pleasure and understanding.",
+        "bn": "আমি আল্লাহর সন্তুষ্টি ও বোঝাপড়ার জন্য সৎ নিয়তে তিলাওয়াত করি।",
+        "ar": "أتلو بنية مخلصة لرضا الله والفهم."
+      }
+    },
+    {
+      "id": "qiblah-posture",
+      "title": {
+        "en": "Facing Qiblah and Posture",
+        "bn": "কেবলা ও বসার ভঙ্গি",
+        "ar": "استقبال القبلة والهيئة"
+      },
+      "definition": {
+        "en": "Face the qiblah whenever you can; sit upright respectfully, never slouched or lying down; hold the mushaf respectfully above waist level.",
+        "bn": "সহজে সম্ভব হলে কেবলামুখী হয়ে বসুন; শ্রদ্ধার সাথে সোজা হয়ে বসুন, কখনো হেলান দিয়ে বা শুয়ে নয়; মুসহাফ কোমরের উপরে শ্রদ্ধার সাথে ধরুন।",
+        "ar": "استقبل القبلة متى تيسّر؛ اجلس معتدلًا بأدب غير متّكئ أو مضطجع؛ أمسك المصحف بأدب فوق مستوى الخصر."
+      },
+      "checkItem": {
+        "en": "I sit respectfully, facing qiblah when possible, and hold the mushaf with care.",
+        "bn": "আমি শ্রদ্ধার সাথে বসি, সম্ভব হলে কেবলামুখী হই, এবং মুসহাফ যত্ন সহকারে ধরি।",
+        "ar": "أجلس باحترام مستقبلًا القبلة حين أمكن وأمسك المصحف بعناية."
+      }
+    },
+    {
+      "id": "taawwudh-basmalah",
+      "title": {
+        "en": "Ta'awwudh and Basmalah",
+        "bn": "তা'আউয ও বিসমিল্লাহ",
+        "ar": "التعوذ والبسملة"
+      },
+      "definition": {
+        "en": "Begin recitation with Ta'awwudh: A'udhu billahi min ash-shaytani-r-rajim. Then say Bismi-Llahi-r-rahmani-r-rahim at the start of every surah except Surah At-Tawbah.",
+        "bn": "তেলাওয়াত শুরু করুন তা'আউয দিয়ে: আউযু বিল্লাহি মিনাশ শায়তানির রাজীম। তারপর সূরা তাওবাহ ছাড়া প্রতিটি সূরার শুরুতে বিসমিল্লাহ পড়ুন।",
+        "ar": "ابدأ التلاوة بالتعوذ: أعوذ بالله من الشيطان الرجيم. ثم سمِّ الله في أول كل سورة عدا سورة التوبة."
+      },
+      "ayahExamples": [
+        {
+          "reference": "16:98",
+          "arabic": "فَإِذَا قَرَأْتَ ٱلْقُرْءَانَ فَٱسْتَعِذْ بِٱللَّهِ مِنَ ٱلشَّيْطَـٰنِ ٱلرَّجِيمِ",
+          "translation": {
+            "en": "So when you recite the Qur'an, seek refuge with Allah from Satan, the expelled.",
+            "bn": "অতএব যখন তুমি কুরআন পড়, তখন বিতাড়িত শয়তান হতে আল্লাহর আশ্রয় চাও।"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I say Ta'awwudh before and Basmalah at the start of every surah.",
+        "bn": "আমি তা'আউয বলি এবং প্রতিটি সূরার শুরুতে বিসমিল্লাহ বলি।",
+        "ar": "أقول التعوذ والبسملة في بداية كل سورة."
+      }
+    },
+    {
+      "id": "tajweed-basics",
+      "title": {
+        "en": "Tajweed Basics",
+        "bn": "তাজবীদের মূল",
+        "ar": "أساسيات التجويد"
+      },
+      "definition": {
+        "en": "Learn the makharij — where each letter comes from in your mouth; learn the sifaat — the qualities that make each letter unique. Practice with a qualified teacher from the start.",
+        "bn": "মাখারিজ শিখুন — প্রতিটি অক্ষর মুখের কোথায় থেকে আসে; সিফাত শিখুন — প্রতিটি অক্ষরকে অনন্য করে তোলে এমন বৈশিষ্ট্য। শুরু থেকেই একজন যোগ্য শিক্ষকের সাথে অনুশীলন করুন।",
+        "ar": "تعلّم مخارج الحروف — من أين تأتي كل حرف في فمك؛ تعلّم صفات الحروف — الخصائص التي تجعل كل حرف فريدًا. تدرب مع شيخ متقن من البداية."
+      },
+      "wordExamples": [
+        {
+          "arabic": "مَخْرَج",
+          "translit": "makhraj",
+          "meaning": {
+            "en": "Point of articulation",
+            "bn": "উচ্চারণ স্থল"
+          }
+        },
+        {
+          "arabic": "صِفَة",
+          "translit": "sifah",
+          "meaning": {
+            "en": "Characteristic",
+            "bn": "বৈশিষ্ট্য"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I know that I need to learn makharij, sifaat, and find a good teacher.",
+        "bn": "আমি জানি যে আমাকে মাখারিজ, সিফাত শিখতে হবে এবং একজন ভাল শিক্ষক খুঁজে পেতে হবে।",
+        "ar": "أعرف أنني بحاجة لتعلم مخارج وصفات وأجد معلمًا جيدًا."
+      }
+    },
+    {
+      "id": "tartil",
+      "title": {
+        "en": "Tartil (Measured Recitation)",
+        "bn": "তারতীল (ধীরস্থির তেলাওয়াত)",
+        "ar": "الترتيل"
+      },
+      "definition": {
+        "en": "Recite slowly and clearly — clarity always trumps speed. Observe the marks of pause (waqf) and continuation (wasl). Pause to ponder the meanings as you recite.",
+        "bn": "ধীরে এবং স্পষ্টভাবে পড়ুন — স্পষ্টতা সবসময় গতির চেয়ে গুরুত্বপূর্ণ। ওয়াকফ ও ওসলের চিহ্ন মেনে পড়ুন। পড়ার সময় থেমে অর্থ নিয়ে চিন্তা করুন।",
+        "ar": "اقرأ بتأنٍّ وبيان — الوضوح دائمًا أهم من السرعة. راعِ علامات الوقف والوصل. تدبّر المعاني أثناء التلاوة."
+      },
+      "ayahExamples": [
+        {
+          "reference": "73:4",
+          "arabic": "وَرَتِّلِ ٱلْقُرْءَانَ تَرْتِيلًا",
+          "translation": {
+            "en": "And recite the Qur'an with measured recitation.",
+            "bn": "এবং কুরআন তেলাওয়াত করো ধীরস্থিরভাবে।"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I recite slowly and clearly, and I think about the meanings.",
+        "bn": "আমি ধীরে স্পষ্টভাবে পড়ি এবং অর্থ নিয়ে চিন্তা করি।",
+        "ar": "أتلو بتأنٍّ وبيان وأتدبر المعاني."
+      }
+    }
+  ]
+}

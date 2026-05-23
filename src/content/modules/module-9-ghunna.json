@@ -1,0 +1,77 @@
+{
+  "id": "module-9-ghunna",
+  "order": 9,
+  "recommendedOrder": 9,
+  "title": {
+    "en": "Ghunna (Nasal Resonance)",
+    "bn": "গুন্নাহ (নাসিক অনুরণন)",
+    "ar": "الغنة"
+  },
+  "summary": {
+    "en": "Learn about the ghunna — the nasal sound that adds depth and resonance to words with doubled noon, meem, and during certain merging rules.",
+    "bn": "গুন্নাহ সম্পর্কে শিখুন — নাসিক শব্দ যা দ্বিগুণ নুন, মীম এবং নির্দিষ্ট মিশ্রণ নিয়মের সময় শব্দে গভীরতা এবং অনুরণন যোগ করে।",
+    "ar": "تعلم عن الغنة — الصوت الأنفي الذي يضيف عمقًا وصدى للكلمات التي تحتوي على نون وميم مضاعفة وأثناء قواعس الإدغام."
+  },
+  "submodules": [
+    {
+      "id": "ghunna-definition",
+      "title": {
+        "en": "What is Ghunna?",
+        "bn": "গুন্নাহ কী?",
+        "ar": "ما هي الغنة؟"
+      },
+      "definition": {
+        "en": "Ghunna is a nasal sound produced through the nose — it appears whenever noon (ن) or meem (م) is doubled, or during idgham of noon or meem into other letters.",
+        "bn": "গুন্নাহ নাক দিয়ে উত্পাদিত একটি নাসিক শব্দ — যখনই নুন (ن) বা মীম (م) দ্বিগুণ হয় বা নুন বা মীমের ইদগাম অন্য অক্ষরে ঘটে তখন এটি প্রদর্শিত হয়।",
+        "ar": "الغنة صوت أنفي ينتج عن طريق الأنف — تظهر كلما تضاعفت النون أو الميم، أو عند إدغام النون أو الميم في حروف أخرى."
+      },
+      "wordExamples": [
+        {
+          "arabic": "إِنَّ",
+          "translit": "inna",
+          "meaning": {
+            "en": "Indeed",
+            "bn": "নিশ্চয়"
+          }
+        },
+        {
+          "arabic": "أَمَّا",
+          "translit": "amma",
+          "meaning": {
+            "en": "As for",
+            "bn": "যা সম্পর্কে"
+          }
+        },
+        {
+          "arabic": "ثُمَّ",
+          "translit": "thumma",
+          "meaning": {
+            "en": "Then",
+            "bn": "তারপর"
+          }
+        },
+        {
+          "arabic": "النَّاسِ",
+          "translit": "an-nas",
+          "meaning": {
+            "en": "The people",
+            "bn": "মানুষ"
+          }
+        },
+        {
+          "arabic": "مِنْهُمْ",
+          "translit": "minhum",
+          "meaning": {
+            "en": "From them",
+            "bn": "তাদের থেকে"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I understand that ghunna is a nasal sound from doubled or merging noon and meem.",
+        "bn": "আমি বুঝি যে গুন্নাহ হল দ্বিগুণ বা মিশ্রিত নুন এবং মীম থেকে নাসিক শব্দ।",
+        "ar": "أفهم أن الغنة صوت أنفي من النون والميم المضاعفة أو المدغمة."
+      }
+    }
+  ]
+}

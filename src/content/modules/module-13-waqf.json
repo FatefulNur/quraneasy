@@ -1,0 +1,122 @@
+{
+  "id": "module-13-waqf",
+  "order": 13,
+  "recommendedOrder": 13,
+  "title": {
+    "en": "Waqf (Stopping and Pausing Rules)",
+    "bn": "ওয়াকফ (থামা এবং বিরতি নিয়ম)",
+    "ar": "الوقف"
+  },
+  "summary": {
+    "en": "Learn the five stopping marks used in Quranic text to guide proper pauses and continuation during recitation.",
+    "bn": "তিলাওয়াতের সময় সঠিক বিরতি এবং ধারাবাহিকতা নির্দেশনা দিতে কোরানিক পাঠে ব্যবহৃত পাঁচটি থামার চিহ্ন শিখুন।",
+    "ar": "تعلم خمسة علامات وقف المستخدمة في النص القرآني لتوجيه الوقفات والوصل الصحيحة أثناء التلاوة."
+  },
+  "submodules": [
+    {
+      "id": "mandatory-stop",
+      "title": {
+        "en": "Mandatory Stop",
+        "bn": "বাধ্যতামূলক থামা",
+        "ar": "الوقف الواجب"
+      },
+      "definition": {
+        "en": "The meem symbol (م) marks a mandatory stop where you must pause. Never continue without stopping.",
+        "bn": "মীম চিহ্ন (م) একটি বাধ্যতামূলক থামা চিহ্নিত করে যেখানে আপনি অবশ্যই থেমে যাবেন। কখনো থামা ছাড়াই এগিয়ে যাবেন না।",
+        "ar": "رمز الميم (م) يشير إلى وقف واجب حيث يجب أن تتوقف. لا تستمر أبدًا بدون التوقف."
+      },
+      "letterExamples": [
+        {"arabic": "م", "translit": "m"}
+      ],
+      "checkItem": {
+        "en": "I know that meem (م) means a mandatory stop.",
+        "bn": "আমি জানি যে মীম (م) বাধ্যতামূলক থামা মানে।",
+        "ar": "أعرف أن مية (م) تعني وقف واجب."
+      }
+    },
+    {
+      "id": "better-not-to-stop",
+      "title": {
+        "en": "Better Not to Stop",
+        "bn": "থেমে না থাকাই ভাল",
+        "ar": "الوقف المحرم"
+      },
+      "definition": {
+        "en": "The lam symbol (لا) indicates you should avoid stopping at this point. Continue reading unless absolutely necessary.",
+        "bn": "লাম চিহ্ন (لا) নির্দেশ করে যে আপনি এই পয়েন্টে থেমে যাওয়া এড়িয়ে চলুন। যদি না সম্পূর্ণভাবে প্রয়োজন হয় তবে পড়তে থাকুন।",
+        "ar": "رمز اللام (لا) يشير إلى أنه يجب تجنب الوقف عند هذه النقطة. استمر في القراءة إلا إذا لزم الأمر."
+      },
+      "letterExamples": [
+        {"arabic": "لا", "translit": "la"}
+      ],
+      "checkItem": {
+        "en": "I understand that lam (لا) means avoid stopping.",
+        "bn": "আমি বুঝি যে লাম (لا) থেমে যাওয়া এড়ান মানে।",
+        "ar": "أفهم أن اللام (لا) تعني تجنب الوقف."
+      }
+    },
+    {
+      "id": "optional-stop",
+      "title": {
+        "en": "Optional Stop",
+        "bn": "ঐচ্ছিক থামা",
+        "ar": "الوقف الجائز"
+      },
+      "definition": {
+        "en": "The jeem symbol (ج) shows a place where you may stop or continue. The choice is yours based on breath and comfort.",
+        "bn": "জীম চিহ্ন (ج) এমন স্থান দেখায় যেখানে আপনি থামতে বা চলতে পারেন। শ্বাস এবং আরামের উপর ভিত্তি করে পছন্দ আপনার।",
+        "ar": "رمز الجيم (ج) يوضح مكانًا يمكنك أن توقف أو تستمر فيه. الاختيار يعتمد على نفسك وراحتك."
+      },
+      "letterExamples": [
+        {"arabic": "ج", "translit": "j"}
+      ],
+      "checkItem": {
+        "en": "I know that jeem (ج) offers an optional pause.",
+        "bn": "আমি জানি যে জীম (ج) একটি ঐচ্ছিক বিরতি প্রদান করে।",
+        "ar": "أعرف أن الجيم (ج) توفر وقفة اختيارية."
+      }
+    },
+    {
+      "id": "better-to-stop",
+      "title": {
+        "en": "Better to Stop",
+        "bn": "থেমে যাওয়াই ভাল",
+        "ar": "الوقف الممنوع"
+      },
+      "definition": {
+        "en": "The ta symbol (ط) suggests stopping at this point is better than continuing. It's not mandatory but recommended.",
+        "bn": "তা চিহ্ন (ط) পরামর্শ দেয় যে এই পয়েন্টে থেমে যাওয়া চলার চেয়ে ভাল। এটি বাধ্যতামূলক নয় কিন্তু সুপারিশকৃত।",
+        "ar": "رمز الطاء (ط) يقترح أن التوقف عند هذه النقطة أفضل من المتابعة. ليس إلزاميًا لكنه موصى به."
+      },
+      "letterExamples": [
+        {"arabic": "ط", "translit": "t"}
+      ],
+      "checkItem": {
+        "en": "I understand that ta (ط) suggests stopping is better.",
+        "bn": "আমি বুঝি যে তা (ط) থেমে যাওয়া ভাল সুপারিশ করে।",
+        "ar": "أفهم أن الطاء (ط) تقترح أن التوقف أفضل."
+      }
+    },
+    {
+      "id": "pause-allowed",
+      "title": {
+        "en": "Pause Allowed",
+        "bn": "বিরতি অনুমোদিত",
+        "ar": "الوقف الحسن"
+      },
+      "definition": {
+        "en": "The sad symbol (ص) marks a good place to pause. It is not necessary but is a pleasant stopping point.",
+        "bn": "সাদ চিহ্ন (ص) একটি ভাল বিরতি স্থান চিহ্নিত করে। এটি প্রয়োজনীয় নয় কিন্তু একটি আনন্দদায়ক থামার পয়েন্ট।",
+        "ar": "رمز الصاد (ص) يشير إلى مكان جيد للتوقف. ليس ضروريًا لكنه نقطة توقف لطيفة."
+      },
+      "letterExamples": [
+        {"arabic": "ص", "translit": "s"}
+      ],
+      "checkItem": {
+        "en": "I know that sad (ص) marks a good pausing spot.",
+        "bn": "আমি জানি যে সাদ (ص) একটি ভাল বিরতি স্থান চিহ্নিত করে।",
+        "ar": "أعرف أن الصاد (ص) تشير إلى موقع توقف جيد."
+      }
+    }
+  ]
+}

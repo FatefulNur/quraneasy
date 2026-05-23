@@ -1,0 +1,161 @@
+{
+  "id": "module-6-allah-raa",
+  "order": 6,
+  "recommendedOrder": 6,
+  "title": {
+    "en": "Special Rules: Lam in Allah and Raa",
+    "bn": "বিশেষ নিয়ম: আল্লাহ কথায় লাম এবং রা",
+    "ar": "القواعد الخاصة: لام الجلالة والراء"
+  },
+  "summary": {
+    "en": "Learn the rules for pronouncing the lam (ل) in the word Allah and how raa (ر) changes based on the vowels around it.",
+    "bn": "আল্লাহ শব্দে লাম (ل) উচ্চারণের নিয়ম এবং কীভাবে রা (ر) চারপাশের স্বর দ্বারা পরিবর্তিত হয় তা শিখুন।",
+    "ar": "تعلم قواعس نطق لام الجلالة وكيف تتغير الراء بناءً على الحركات المحيطة بها."
+  },
+  "submodules": [
+    {
+      "id": "lam-in-allah",
+      "title": {
+        "en": "Lam in Allah",
+        "bn": "আল্লাহ কথায় লাম",
+        "ar": "لام الجلالة"
+      },
+      "definition": {
+        "en": "The lam in Allah becomes heavy after a kasra or damma, and light after a fatha.",
+        "bn": "আল্লাহ কথায় লাম কাসরা বা দাম্মার পরে ভারী হয় এবং ফাতার পরে হালকা হয়।",
+        "ar": "لام الجلالة تكون ثقيلة بعد الكسرة والضمة، وخفيفة بعد الفتحة."
+      },
+      "subtopics": [
+        {
+          "id": "lam-heavy",
+          "title": {
+            "en": "Heavy Lam",
+            "bn": "ভারী লাম",
+            "ar": "لام ثقيلة"
+          },
+          "wordExamples": [
+            {
+              "arabic": "قَالَ اللَّهُ",
+              "translit": "qala Allah",
+              "meaning": {
+                "en": "Allah said",
+                "bn": "আল্লাহ বলেছেন"
+              }
+            },
+            {
+              "arabic": "نَصْرُ اللَّهِ",
+              "translit": "nasr Allah",
+              "meaning": {
+                "en": "Allah's help",
+                "bn": "আল্লাহর সাহায্য"
+              }
+            }
+          ]
+        },
+        {
+          "id": "lam-light",
+          "title": {
+            "en": "Light Lam",
+            "bn": "হালকা লাম",
+            "ar": "لام خفيفة"
+          },
+          "wordExamples": [
+            {
+              "arabic": "بِسْمِ اللَّهِ",
+              "translit": "bismillah",
+              "meaning": {
+                "en": "In the name of Allah",
+                "bn": "আল্লাহর নামে"
+              }
+            },
+            {
+              "arabic": "فِي اللَّهِ",
+              "translit": "fi Allah",
+              "meaning": {
+                "en": "In Allah",
+                "bn": "আল্লাহতে"
+              }
+            }
+          ]
+        }
+      ],
+      "checkItem": {
+        "en": "I know when lam in Allah is heavy and when it is light.",
+        "bn": "আমি জানি কখন আল্লাহ কথায় লাম ভারী এবং কখন হালকা।",
+        "ar": "أعرف متى تكون لام الجلالة ثقيلة وخفيفة."
+      }
+    },
+    {
+      "id": "rules-of-raa",
+      "title": {
+        "en": "Rules of Raa",
+        "bn": "রার নিয়ম",
+        "ar": "قواعد الراء"
+      },
+      "definition": {
+        "en": "Raa is heavy when preceded by a damma or kasra that followed a heavy letter, and light in most other cases.",
+        "bn": "রা ভারী হয় যখন দাম্মা বা কাসরা দ্বারা পূর্বে আসে যা একটি ভারী অক্ষর অনুসরণ করে, এবং বেশিরভাগ অন্যান্য ক্ষেত্রে হালকা।",
+        "ar": "الراء ثقيلة عندما تسبقها ضمة أو كسرة أتت بعد حرف ثقيل، وخفيفة في معظم الحالات الأخرى."
+      },
+      "subtopics": [
+        {
+          "id": "raa-heavy",
+          "title": {
+            "en": "Heavy Raa",
+            "bn": "ভারী রা",
+            "ar": "راء ثقيلة"
+          },
+          "wordExamples": [
+            {
+              "arabic": "رَحْمَة",
+              "translit": "rahmah",
+              "meaning": {
+                "en": "Mercy",
+                "bn": "দয়া"
+              }
+            },
+            {
+              "arabic": "رُسُل",
+              "translit": "rusul",
+              "meaning": {
+                "en": "Messengers",
+                "bn": "দূত"
+              }
+            }
+          ]
+        },
+        {
+          "id": "raa-light",
+          "title": {
+            "en": "Light Raa",
+            "bn": "হালকা রা",
+            "ar": "راء خفيفة"
+          },
+          "wordExamples": [
+            {
+              "arabic": "فِرْعَوْن",
+              "translit": "firawn",
+              "meaning": {
+                "en": "Pharaoh",
+                "bn": "ফিরাউন"
+              }
+            },
+            {
+              "arabic": "مِرْيَة",
+              "translit": "miryah",
+              "meaning": {
+                "en": "Doubt",
+                "bn": "সন্দেহ"
+              }
+            }
+          ]
+        }
+      ],
+      "checkItem": {
+        "en": "I can identify when raa should be pronounced heavy or light.",
+        "bn": "আমি চিনতে পারি কখন রা ভারী বা হালকাভাবে উচ্চারণ করা উচিত।",
+        "ar": "أستطيع تحديد متى تنطق الراء ثقيلة أو خفيفة."
+      }
+    }
+  ]
+}

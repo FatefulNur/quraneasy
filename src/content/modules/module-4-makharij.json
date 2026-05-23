@@ -1,0 +1,363 @@
+{
+  "id": "module-4-makharij",
+  "order": 4,
+  "recommendedOrder": 4,
+  "title": {
+    "en": "Makharij (Points of Articulation)",
+    "bn": "মাখারিজ (উচ্চারণ স্থল)",
+    "ar": "المخارج"
+  },
+  "summary": {
+    "en": "Learn where each Arabic letter is pronounced — from the oral cavity, throat, tongue, lips, and nasal passage.",
+    "bn": "আরবি প্রতিটি অক্ষর কোথায় উচ্চারণ করা হয় তা শিখুন — মুখগহ্বর, কণ্ঠনালি, জিহ্বা, ঠোঁট এবং নাক থেকে।",
+    "ar": "تعلم من أين ينطق كل حرف عربي — من الجوف والحلق واللسان والشفتين والأنف."
+  },
+  "submodules": [
+    {
+      "id": "jawf",
+      "title": {
+        "en": "Jawf (Oral Cavity)",
+        "bn": "জাওফ (মুখগহ্বর)",
+        "ar": "الجوف"
+      },
+      "definition": {
+        "en": "The jawf is the entire mouth and throat cavity; three letters come from this point: alif, waw, and ya.",
+        "bn": "জাওফ হল সম্পূর্ণ মুখ এবং গলার গহ্বর; তিনটি অক্ষর এই স্থান থেকে আসে: আলিফ, ওয়াও এবং ইয়া।",
+        "ar": "الجوف هو تجويف الفم والحلق بأكمله؛ ثلاثة حروف تخرج من هذا المخرج: الألف والواو والياء."
+      },
+      "letterExamples": [
+        {"arabic": "ا", "translit": "a"},
+        {"arabic": "و", "translit": "w"},
+        {"arabic": "ي", "translit": "y"}
+      ],
+      "wordExamples": [
+        {
+          "arabic": "قَالَ",
+          "translit": "qal",
+          "meaning": {
+            "en": "He said",
+            "bn": "সে বলল"
+          }
+        },
+        {
+          "arabic": "يَقُولُ",
+          "translit": "yaqul",
+          "meaning": {
+            "en": "He says",
+            "bn": "সে বলে"
+          }
+        },
+        {
+          "arabic": "قِيلَ",
+          "translit": "qil",
+          "meaning": {
+            "en": "It was said",
+            "bn": "এটি বলা হয়েছিল"
+          }
+        },
+        {
+          "arabic": "نُوحِي",
+          "translit": "nuhi",
+          "meaning": {
+            "en": "We reveal",
+            "bn": "আমরা প্রকাশ করি"
+          }
+        },
+        {
+          "arabic": "فِيهِ",
+          "translit": "fihi",
+          "meaning": {
+            "en": "In it",
+            "bn": "এর মধ্যে"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I know that alif, waw, and ya come from the jawf.",
+        "bn": "আমি জানি যে আলিফ, ওয়াও এবং ইয়া জাওফ থেকে আসে।",
+        "ar": "أعرف أن الألف والواو والياء تخرج من الجوف."
+      }
+    },
+    {
+      "id": "throat",
+      "title": {
+        "en": "Halq (Throat)",
+        "bn": "হালক (কণ্ঠনালি)",
+        "ar": "الحلق"
+      },
+      "definition": {
+        "en": "The throat has three regions for different letters: lower throat, middle throat, and upper throat.",
+        "bn": "কণ্ঠনালির তিনটি অঞ্চল রয়েছে বিভিন্ন অক্ষরের জন্য: নিম্ন কণ্ঠনালি, মধ্য কণ্ঠনালি এবং উপরের কণ্ঠনালি।",
+        "ar": "الحلق له ثلاث مناطق لحروف مختلفة: أسفل الحلق ووسطه وأعلاه."
+      },
+      "subtopics": [
+        {
+          "id": "lower-throat",
+          "title": {
+            "en": "Lower Throat",
+            "bn": "নিম্ন কণ্ঠনালি",
+            "ar": "أسفل الحلق"
+          },
+          "letterExamples": [
+            {"arabic": "ء", "translit": "'"},
+            {"arabic": "ه", "translit": "h"}
+          ],
+          "wordExamples": [
+            {
+              "arabic": "أَحَد",
+              "translit": "ahad",
+              "meaning": {
+                "en": "One",
+                "bn": "এক"
+              }
+            },
+            {
+              "arabic": "هُدَى",
+              "translit": "huda",
+              "meaning": {
+                "en": "Guidance",
+                "bn": "নির্দেশনা"
+              }
+            }
+          ]
+        },
+        {
+          "id": "middle-throat",
+          "title": {
+            "en": "Middle Throat",
+            "bn": "মধ্য কণ্ঠনালি",
+            "ar": "وسط الحلق"
+          },
+          "letterExamples": [
+            {"arabic": "ع", "translit": "'"},
+            {"arabic": "ح", "translit": "h"}
+          ],
+          "wordExamples": [
+            {
+              "arabic": "عِلْم",
+              "translit": "'ilm",
+              "meaning": {
+                "en": "Knowledge",
+                "bn": "জ্ঞান"
+              }
+            },
+            {
+              "arabic": "حَمْد",
+              "translit": "hamd",
+              "meaning": {
+                "en": "Praise",
+                "bn": "প্রশংসা"
+              }
+            }
+          ]
+        },
+        {
+          "id": "upper-throat",
+          "title": {
+            "en": "Upper Throat",
+            "bn": "উপরের কণ্ঠনালি",
+            "ar": "أعلى الحلق"
+          },
+          "letterExamples": [
+            {"arabic": "غ", "translit": "gh"},
+            {"arabic": "خ", "translit": "kh"}
+          ],
+          "wordExamples": [
+            {
+              "arabic": "غَفُور",
+              "translit": "ghafur",
+              "meaning": {
+                "en": "Forgiving",
+                "bn": "ক্ষমাশীল"
+              }
+            },
+            {
+              "arabic": "خَيْر",
+              "translit": "khair",
+              "meaning": {
+                "en": "Good",
+                "bn": "ভালো"
+              }
+            }
+          ]
+        }
+      ],
+      "checkItem": {
+        "en": "I understand the three throat regions and which letters come from each.",
+        "bn": "আমি তিনটি কণ্ঠনালি অঞ্চল বুঝি এবং কোন অক্ষরগুলি প্রতিটি থেকে আসে।",
+        "ar": "أفهم مناطق الحلق الثلاث وأي الحروف تخرج من كل منطقة."
+      }
+    },
+    {
+      "id": "tongue",
+      "title": {
+        "en": "Tongue",
+        "bn": "জিহ্বা",
+        "ar": "اللسان"
+      },
+      "definition": {
+        "en": "Many Arabic letters are produced from different parts of the tongue — this is the largest articulation point.",
+        "bn": "অনেক আরবি অক্ষর জিহ্বার বিভিন্ন অংশ থেকে উত্পাদিত হয় — এটি সবচেয়ে বড় উচ্চারণ স্থল।",
+        "ar": "العديد من الحروف العربية تنطق من أجزاء مختلفة من اللسان — وهو أكبر مخرج."
+      },
+      "letterExamples": [
+        {"arabic": "ق", "translit": "q"},
+        {"arabic": "ك", "translit": "k"},
+        {"arabic": "ل", "translit": "l"},
+        {"arabic": "ن", "translit": "n"},
+        {"arabic": "ر", "translit": "r"},
+        {"arabic": "ش", "translit": "sh"},
+        {"arabic": "ض", "translit": "d"}
+      ],
+      "wordExamples": [
+        {
+          "arabic": "قُلْ",
+          "translit": "qul",
+          "meaning": {
+            "en": "Say",
+            "bn": "বলুন"
+          }
+        },
+        {
+          "arabic": "كَلْب",
+          "translit": "kalb",
+          "meaning": {
+            "en": "Dog",
+            "bn": "কুকুর"
+          }
+        },
+        {
+          "arabic": "نُور",
+          "translit": "nur",
+          "meaning": {
+            "en": "Light",
+            "bn": "আলো"
+          }
+        },
+        {
+          "arabic": "رَب",
+          "translit": "rabb",
+          "meaning": {
+            "en": "Lord",
+            "bn": "প্রভু"
+          }
+        },
+        {
+          "arabic": "شَمْس",
+          "translit": "shams",
+          "meaning": {
+            "en": "Sun",
+            "bn": "সূর্য"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I recognize tongue letters and understand they come from different tongue positions.",
+        "bn": "আমি জিহ্বার অক্ষরগুলি চিনি এবং বুঝি যে সেগুলি বিভিন্ন জিহ্বা অবস্থান থেকে আসে।",
+        "ar": "أتعرف على حروف اللسان وأفهم أنها تخرج من مواضع لسانية مختلفة."
+      }
+    },
+    {
+      "id": "lips",
+      "title": {
+        "en": "Lips (Shafatayn)",
+        "bn": "ঠোঁট (শাফাতাইন)",
+        "ar": "الشفتان"
+      },
+      "definition": {
+        "en": "Some letters are pronounced using the lips — these include ba, meem, waw, and fa.",
+        "bn": "কিছু অক্ষর ঠোঁট ব্যবহার করে উচ্চারণ করা হয় — এর মধ্যে রয়েছে বা, মীম, ওয়াও এবং ফা।",
+        "ar": "بعض الحروف تنطق باستخدام الشفتين — وتشمل الباء والميم والواو والفاء."
+      },
+      "letterExamples": [
+        {"arabic": "ب", "translit": "b"},
+        {"arabic": "م", "translit": "m"},
+        {"arabic": "و", "translit": "w"},
+        {"arabic": "ف", "translit": "f"}
+      ],
+      "wordExamples": [
+        {
+          "arabic": "بَاب",
+          "translit": "bab",
+          "meaning": {
+            "en": "Door",
+            "bn": "দরজা"
+          }
+        },
+        {
+          "arabic": "مُحَمَّد",
+          "translit": "Muhammad",
+          "meaning": {
+            "en": "Muhammad",
+            "bn": "মুহাম্মদ"
+          }
+        },
+        {
+          "arabic": "وَعَدَ",
+          "translit": "wa'ada",
+          "meaning": {
+            "en": "He promised",
+            "bn": "তিনি প্রতিশ্রুতি দিয়েছেন"
+          }
+        },
+        {
+          "arabic": "فَم",
+          "translit": "fam",
+          "meaning": {
+            "en": "Mouth",
+            "bn": "মুখ"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I know that lip letters are ba, meem, waw, and fa.",
+        "bn": "আমি জানি যে ঠোঁটের অক্ষরগুলি বা, মীম, ওয়াও এবং ফা।",
+        "ar": "أعرف أن حروف الشفتين هي الباء والميم والواو والفاء."
+      }
+    },
+    {
+      "id": "nasal",
+      "title": {
+        "en": "Nasal Passage (Khaisoom)",
+        "bn": "নাক (খায়সুম)",
+        "ar": "الخيشوم"
+      },
+      "definition": {
+        "en": "The nasal passage is used for the ghunna sound — a nasal resonance produced through the nose when noon and meem are doubled or when followed by certain letters.",
+        "bn": "নাক গুন্নাহ শব্দের জন্য ব্যবহৃত হয় — একটি নাসিক অনুরণন যা নুন এবং মীম দ্বিগুণ হওয়ার সময় বা নির্দিষ্ট অক্ষরের অনুসরণ করার সময় নাক দিয়ে উত্পাদিত হয়।",
+        "ar": "الخيشوم يُستخدم لصوت الغنة — وهو صدى أنفي ينتج عندما يتضاعف النون والميم أو عند اتباعهما لحروف معينة."
+      },
+      "wordExamples": [
+        {
+          "arabic": "إِنَّ",
+          "translit": "inna",
+          "meaning": {
+            "en": "Indeed",
+            "bn": "নিশ্চয়"
+          }
+        },
+        {
+          "arabic": "ثُمَّ",
+          "translit": "thumma",
+          "meaning": {
+            "en": "Then",
+            "bn": "তারপর"
+          }
+        },
+        {
+          "arabic": "أَمَّا",
+          "translit": "amma",
+          "meaning": {
+            "en": "As for",
+            "bn": "যা সম্পর্কে"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I understand the nasal passage creates the ghunna sound.",
+        "bn": "আমি বুঝি যে নাক গুন্নাহ শব্দ তৈরি করে।",
+        "ar": "أفهم أن الخيشوم يخلق صوت الغنة."
+      }
+    }
+  ]
+}
