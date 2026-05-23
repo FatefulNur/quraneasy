@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { LocaleProvider, useLocale } from "@/components/i18n/LocaleProvider";
-import LanguageMenu from "@/components/i18n/LanguageMenu";
+import SiteNavBar from "@/components/SiteNavBar";
 import ModuleCard from "@/components/ModuleCard";
 import { initProgress, getProgress, progressKey } from "@/lib/progress";
 import type { Module } from "@/lib/content/types";
@@ -9,32 +9,6 @@ function pad2(n: number) {
   return n.toString().padStart(2, "0");
 }
 
-function useScrollHeader() {
-  const [visible, setVisible] = useState(false);
-  const [atTop, setAtTop] = useState(true);
-
-  useEffect(() => {
-    let last = window.scrollY;
-
-    const onScroll = () => {
-      const y = window.scrollY;
-      setAtTop(y < 10);
-      if (y < 80) {
-        setVisible(false);
-      } else if (y < last) {
-        setVisible(true);  // scrolling up
-      } else if (y > last + 4) {
-        setVisible(false); // scrolling down
-      }
-      last = y;
-    };
-
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
-
-  return { visible, atTop };
-}
 
 function useDoneMap(modules: Module[]): Record<string, number> {
   const [doneMap, setDoneMap] = useState<Record<string, number>>({});
@@ -64,7 +38,6 @@ function Inner({ modules }: { modules: Module[] }) {
     [modules],
   );
   const doneMap = useDoneMap(sorted);
-  const { visible, atTop } = useScrollHeader();
 
   useEffect(() => { setMounted(true); }, []);
 
@@ -99,55 +72,11 @@ function Inner({ modules }: { modules: Module[] }) {
         </svg>
       </div>
 
+      <SiteNavBar />
+
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
-        {/* Inline top nav — always visible at page top, fades when sticky kicks in */}
-        <div
-          className={`flex items-center justify-between gap-4 pt-6 transition-opacity duration-300 sm:pt-8 ${visible ? "opacity-0 pointer-events-none" : "opacity-100"}`}
-        >
-          <a href="/" className="group inline-flex items-center gap-2.5" aria-label={t("appName")}>
-            <span className="flex size-9 items-center justify-center rounded-full border border-primary/30 bg-primary/5 font-serif text-base font-semibold text-primary transition-transform duration-500 group-hover:rotate-12" aria-hidden="true">
-              Q
-            </span>
-            <span className="font-serif text-lg tracking-tight text-foreground">{t("appName")}</span>
-          </a>
-          <nav className="hidden items-center gap-8 text-sm text-muted-foreground sm:flex">
-            <a href="#course" className="hover:text-foreground">{t("navCourse")}</a>
-            <a href="#approach" className="hover:text-foreground">{t("navApproach")}</a>
-            <a href="/blog/purity-before-recitation" className="hover:text-foreground">{t("navBlog")}</a>
-          </nav>
-          <LanguageMenu />
-        </div>
-
-        {/* Sticky nav — slides in on scroll-up, hides on scroll-down */}
-        <header
-          className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ease-out
-            ${visible
-              ? "translate-y-0 opacity-100"
-              : "-translate-y-full opacity-0 pointer-events-none"}
-            ${!atTop
-              ? "border-b border-border/60 bg-background/85 shadow-[0_1px_20px_-8px_oklch(0_0_0_/_0.15)] backdrop-blur-md"
-              : "bg-transparent"}`}
-        >
-          <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-4 sm:px-8">
-            <a href="/" className="group inline-flex items-center gap-2.5" aria-label={t("appName")}>
-              <span className="flex size-9 items-center justify-center rounded-full border border-primary/30 bg-primary/5 font-serif text-base font-semibold text-primary transition-transform duration-500 group-hover:rotate-12" aria-hidden="true">
-                Q
-              </span>
-              <span className="font-serif text-lg tracking-tight text-foreground">{t("appName")}</span>
-            </a>
-
-            <nav className="hidden items-center gap-8 text-sm text-muted-foreground sm:flex">
-              <a href="#course" className="hover:text-foreground">{t("navCourse")}</a>
-              <a href="#approach" className="hover:text-foreground">{t("navApproach")}</a>
-              <a href="/blog/purity-before-recitation" className="hover:text-foreground">{t("navBlog")}</a>
-            </nav>
-
-            <LanguageMenu />
-          </div>
-        </header>
-
         {/* HERO */}
-        <section className="relative grid gap-10 pb-16 pt-16 sm:pt-24 lg:grid-cols-12 lg:gap-14 lg:pb-24 lg:pt-32">
+        <section className="relative grid gap-10 pb-16 pt-24 sm:pt-32 lg:grid-cols-12 lg:gap-14 lg:pb-24 lg:pt-36">
           <div className="lg:col-span-8">
             <div className="anim-rise mb-7 inline-flex items-center gap-3 rounded-full border border-border bg-card/60 px-3.5 py-1.5 text-[11px] uppercase tracking-[0.22em] text-muted-foreground backdrop-blur" style={{ animationDelay: "40ms" }}>
               <span className="size-1.5 rounded-full bg-[var(--gold)]" />
@@ -297,7 +226,7 @@ function Inner({ modules }: { modules: Module[] }) {
 
         <footer className="flex flex-col items-start justify-between gap-6 border-t border-border py-10 text-xs text-muted-foreground sm:flex-row sm:items-center">
           <div className="flex items-center gap-2">
-            <span className="flex size-7 items-center justify-center rounded-full border border-primary/30 font-serif text-xs text-primary">Q</span>
+            <img src="/logo.png" alt="" className="size-7 object-contain" aria-hidden="true" />
             <span className="font-serif">{t("appName")} · {t("footerYear")}</span>
           </div>
           <div className="flex items-center gap-6">
