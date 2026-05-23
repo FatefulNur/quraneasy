@@ -176,7 +176,7 @@ Field semantics:
 - `checkItem` — locale map for the single "mark complete" checkbox label. Defaults to UI string `markComplete` if omitted.
 - `blogSlug` — optional, unchanged.
 
-**Why**: matches the mental model in `QURAN_EASY.md` (Module → Submodule → Definition + Examples). Letter / word / ayah examples have genuinely different shapes and renderings, so splitting them is cleaner than overloading a single `examples[]`.
+**Why**: matches the mental model in the curriculum (Module → Submodule → Definition + Examples). Letter / word / ayah examples have genuinely different shapes and renderings, so splitting them is cleaner than overloading a single `examples[]`.
 
 **Migration**: existing `tilawat-rules.json` is renamed `module-2-preparation.json`; each old "slide" becomes a "submodule"; each old per-slide submodule (checkbox sentence) collapses into the new submodule's `definition` (joined as a paragraph) or is dropped if redundant. A single `checkItem` per new submodule replaces the old multi-checkbox list.
 
@@ -184,11 +184,11 @@ Field semantics:
 
 - Within a module: Prev/Next traverse submodules freely. The `checkItem` is the only completion signal; navigation is never blocked by an unchecked item.
 - Across modules: no unlock gate. All 14 modules are openable from the landing page at any time.
-- Module ordering: each module declares `recommendedOrder` (1–14, matches `QURAN_EASY.md` Module 14 list). The landing renders modules sorted by `recommendedOrder` with a numbered badge and a connecting visual cue ("Recommended path"). A free-roam toggle (or just a secondary sort) lets users re-order alphabetically.
+- Module ordering: each module declares `recommendedOrder` (1–14, matches the curriculum Module 14 list). The landing renders modules sorted by `recommendedOrder` with a numbered badge and a connecting visual cue ("Recommended path"). A free-roam toggle (or just a secondary sort) lets users re-order alphabetically.
 
 **Why**: beginners need structure; returning learners need flexibility. Free-roam respects experienced users; visible recommended order guides beginners.
 
-**Trade-off**: removes the "you can't skip" guarantee from MVP. Acceptable — `QURAN_EASY.md` Module 14 already publishes the suggested order, so guidance is editorial, not enforced.
+**Trade-off**: removes the "you can't skip" guarantee from MVP. Acceptable — the curriculum Module 14 already publishes the suggested order, so guidance is editorial, not enforced.
 
 ### D10: Per-module and overall progress
 

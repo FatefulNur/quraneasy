@@ -90,7 +90,7 @@
 
 ## 12. Authoring skills (create first — used by content tasks)
 
-- [x] 12.1 Create `tajweed-author` skill via skills-creator (.claude/skills/tajweed-author/). Skill drives a guided flow: prompt for module id + recommendedOrder, then for each submodule prompt for `definition` (en/bn/ar), `subtopics`, `letterExamples`, `wordExamples`, `ayahExamples`, `checkItem`, optional `blogSlug`. Skill emits valid JSON per the new schema. Skill MUST reference `QURAN_EASY.md` as the canonical source.
+- [x] 12.1 Create `tajweed-author` skill via skills-creator (.claude/skills/tajweed-author/). Skill drives a guided flow: prompt for module id + recommendedOrder, then for each submodule prompt for `definition` (en/bn/ar), `subtopics`, `letterExamples`, `wordExamples`, `ayahExamples`, `checkItem`, optional `blogSlug`. Skill emits valid JSON per the new schema. Skill MUST reference the curriculum as the canonical source.
 - [x] 12.2 Create `trilingual-translator` skill (.claude/skills/trilingual-translator/). Skill takes a payload (object with locale maps where some locales are filled) and returns the same payload with missing locales translated, keeping a glossary file (`glossary.md`) for stable terminology: tajweed → তাজবীদ / التجويد, makharij → মাখারিজ / المخارج, etc.
 - [x] 12.3 Create `curriculum-validator` skill (.claude/skills/curriculum-validator/). Skill walks `src/content/modules/*.json`, validates schema (required fields, locale-map completeness for en/bn/ar, example shape per type, blogSlug references existing blog), and reports pass/fail with file:line where possible.
 
@@ -107,7 +107,7 @@ Use the `tajweed-author` skill per module; invoke `trilingual-translator` to fil
 
 - [x] 14.1 Migrate existing `tilawat-rules.json` → `src/content/modules/module-2-preparation.json` under the new schema. Preserve all six original topics as submodules (purity, intention, qiblah-posture, taawwudh-basmalah, tajweed-basics, tartil). Convert each old slide's submodule sentences into a single `definition` paragraph + one `checkItem`. Preserve existing ayah examples (16:98 on ta'awwudh, 73:4 on tartil).
 - [x] 14.2 Author `module-1-introduction.json` covering "What is Tajweed?" and "Why Tajweed is Important", with word examples قَلْبُ / كَلْبُ / عِلْمٌ / نُورٌ / رَحْمَةٌ.
-- [x] 14.3 Author `module-3-arabic-reading.json` with submodules `harakat` (subtopics fatha/kasra/damma), `sukoon`, `shaddah`, `tanween` (subtopics fathatan/kasratan/dammatan); letter and word examples per `QURAN_EASY.md` §3.
+- [x] 14.3 Author `module-3-arabic-reading.json` with submodules `harakat` (subtopics fatha/kasra/damma), `sukoon`, `shaddah`, `tanween` (subtopics fathatan/kasratan/dammatan); letter and word examples per the curriculum §3.
 - [x] 14.4 Author `module-4-makharij.json` with submodules `jawf`, `throat` (subtopics lower/middle/upper), `tongue`, `lips`, `nasal`; letter sets + word examples per §4.
 - [x] 14.5 Author `module-5-sifaat.json` with submodules `tafkheem` (heavy) and `tarqeeq` (light); letter sets + word examples per §5.
 - [x] 14.6 Author `module-6-allah-raa.json` with submodules `lam-in-allah` (subtopics heavy/light) and `rules-of-raa` (subtopics heavy/light); word examples per §6.
