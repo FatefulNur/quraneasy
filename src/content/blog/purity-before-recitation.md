@@ -1,6 +1,11 @@
 ---
 title: Purity Before Reciting the Qur'an
 description: Why beginners are taught to make wudu, sit in a clean place, and clean their mouth before reciting the Qur'an.
+date: "2026-05-22"
+author: "QuranEasy Team"
+tags: ["wudu", "purity", "tilawat"]
+category: "Tilawat"
+modules: ["module-2-preparation"]
 slide: purity
 ---
 

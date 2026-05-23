@@ -8,8 +8,6 @@ import {
 export type ProgressMap = Record<string, boolean>;
 
 const PROGRESS_STORE = "progress";
-const LS_LEGACY_KEY = "qe:progress";   // v1/v2 localStorage key — migrated then removed
-const LS_SCHEMA_KEY = "qe:progress:schema";
 
 let _cache: ProgressMap = {};
 let _initialized = false;
@@ -24,29 +22,6 @@ export async function initProgress(): Promise<void> {
   _initialized = true;
 
   try {
-    // Migrate any existing localStorage data → IDB then remove
-    if (typeof localStorage !== "undefined") {
-      const raw = localStorage.getItem(LS_LEGACY_KEY);
-      if (raw) {
-        try {
-          const parsed = JSON.parse(raw) as Record<string, unknown>;
-          if (parsed && typeof parsed === "object") {
-            // Write all entries to IDB
-            await Promise.all(
-              Object.entries(parsed)
-                .filter(([, v]) => v === true)
-                .map(([k]) => dbSet(PROGRESS_STORE, k, true)),
-            );
-          }
-        } catch {
-          // ignore malformed data
-        }
-        localStorage.removeItem(LS_LEGACY_KEY);
-        localStorage.removeItem(LS_SCHEMA_KEY);
-      }
-    }
-
-    // Load all IDB entries into cache
     _cache = await dbGetAllProgress();
   } catch {
     _cache = {};

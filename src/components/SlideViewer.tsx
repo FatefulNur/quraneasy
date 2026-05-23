@@ -391,16 +391,14 @@ function Viewer({ module }: { module: Module }) {
 
         <button
           type="button"
-          onClick={goNext}
-          disabled={isLast}
-          aria-disabled={isLast}
-          className="group relative inline-flex min-h-11 items-center gap-3 overflow-hidden rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground shadow-[0_10px_30px_-10px_oklch(0.42_0.115_162_/_0.7)] transition-all hover:-translate-y-0.5 hover:shadow-[0_18px_40px_-12px_oklch(0.42_0.115_162_/_0.7)] disabled:cursor-not-allowed disabled:bg-muted disabled:text-muted-foreground disabled:shadow-none disabled:hover:translate-y-0 sm:px-6"
+          onClick={isLast ? () => { window.location.href = "/"; } : goNext}
+          className="group relative inline-flex min-h-11 items-center gap-3 overflow-hidden rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground shadow-[0_10px_30px_-10px_oklch(0.42_0.115_162_/_0.7)] transition-all hover:-translate-y-0.5 hover:shadow-[0_18px_40px_-12px_oklch(0.42_0.115_162_/_0.7)] sm:px-6"
         >
           <span>{isLast ? t("finished") : t("next")}</span>
           {dir === "rtl" ? (
-            <ArrowLeft className="size-4 transition-transform group-enabled:group-hover:-translate-x-0.5" aria-hidden="true" />
+            <ArrowLeft className="size-4 transition-transform group-hover:-translate-x-0.5" aria-hidden="true" />
           ) : (
-            <ArrowRight className="size-4 transition-transform group-enabled:group-hover:translate-x-0.5" aria-hidden="true" />
+            <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
           )}
         </button>
       </nav>
