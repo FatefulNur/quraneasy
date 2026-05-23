@@ -85,13 +85,14 @@ function Inner({ modules }: { modules: Module[] }) {
 
             <h1 className="anim-rise font-serif text-[clamp(2.5rem,8vw,5.5rem)] font-medium leading-[0.98] tracking-[-0.02em] text-balance text-foreground" style={{ animationDelay: "120ms" }}>
               {t("heroHeadlinePre")}{" "}
-              <span className="relative inline-block">
+              <span className="relative inline-block whitespace-nowrap">
                 <span className="italic text-primary">{t("heroHeadlineAccent")}</span>
                 <svg aria-hidden="true" className="absolute -bottom-2 left-0 w-full text-[var(--gold)]" viewBox="0 0 200 12" fill="none">
                   <path d="M2 8 Q 50 1, 100 6 T 198 4" stroke="currentColor" strokeWidth={2} strokeLinecap="round" fill="none" />
                 </svg>
+                {t("heroHeadlinePost").startsWith(",") ? "," : ""}
               </span>
-              {t("heroHeadlinePost")}
+              {t("heroHeadlinePost").startsWith(",") ? t("heroHeadlinePost").slice(1) : t("heroHeadlinePost")}
             </h1>
 
             <p className="anim-rise mt-7 max-w-xl text-[17px] leading-relaxed text-muted-foreground sm:text-lg" style={{ animationDelay: "220ms" }}>
