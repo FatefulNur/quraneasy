@@ -34,11 +34,26 @@
             "ar": "الفتحة"
           },
           "letterExamples": [
-            {"arabic": "بَ", "translit": "ba"},
-            {"arabic": "تَ", "translit": "ta"},
-            {"arabic": "كَ", "translit": "ka"},
-            {"arabic": "قَ", "translit": "qa"},
-            {"arabic": "عَ", "translit": "'a"}
+            {
+              "arabic": "بَ",
+              "translit": "ba"
+            },
+            {
+              "arabic": "تَ",
+              "translit": "ta"
+            },
+            {
+              "arabic": "كَ",
+              "translit": "ka"
+            },
+            {
+              "arabic": "قَ",
+              "translit": "qa"
+            },
+            {
+              "arabic": "عَ",
+              "translit": "'a"
+            }
           ]
         },
         {
@@ -49,11 +64,26 @@
             "ar": "الكسرة"
           },
           "letterExamples": [
-            {"arabic": "بِ", "translit": "bi"},
-            {"arabic": "تِ", "translit": "ti"},
-            {"arabic": "نِ", "translit": "ni"},
-            {"arabic": "فِ", "translit": "fi"},
-            {"arabic": "مِ", "translit": "mi"}
+            {
+              "arabic": "بِ",
+              "translit": "bi"
+            },
+            {
+              "arabic": "تِ",
+              "translit": "ti"
+            },
+            {
+              "arabic": "نِ",
+              "translit": "ni"
+            },
+            {
+              "arabic": "فِ",
+              "translit": "fi"
+            },
+            {
+              "arabic": "مِ",
+              "translit": "mi"
+            }
           ]
         },
         {
@@ -64,18 +94,33 @@
             "ar": "الضمة"
           },
           "letterExamples": [
-            {"arabic": "بُ", "translit": "bu"},
-            {"arabic": "تُ", "translit": "tu"},
-            {"arabic": "قُ", "translit": "qu"},
-            {"arabic": "مُ", "translit": "mu"},
-            {"arabic": "رُ", "translit": "ru"}
+            {
+              "arabic": "بُ",
+              "translit": "bu"
+            },
+            {
+              "arabic": "تُ",
+              "translit": "tu"
+            },
+            {
+              "arabic": "قُ",
+              "translit": "qu"
+            },
+            {
+              "arabic": "مُ",
+              "translit": "mu"
+            },
+            {
+              "arabic": "رُ",
+              "translit": "ru"
+            }
           ]
         }
       ],
       "checkItem": {
         "en": "I can identify and pronounce all three harakat: fatha, kasra, and damma.",
         "bn": "আমি তিনটি হারাকাত চিনতে এবং উচ্চারণ করতে পারি: ফাতহা, কাসরাহ এবং দাম্মাহ।",
-        "ar": "أستطيع تحديد ونطق الحركات الثلاث: الفتحة والكسرة والضمة."
+        "ar": "تعرَّفتَ على الحركات الثلاث ونطقتَ الفتحة والكسرة والضمة."
       }
     },
     {
@@ -91,16 +136,31 @@
         "ar": "السكون علامة تعني أن الحرف لا صوت حركة له — ينطق بدون حركة."
       },
       "letterExamples": [
-        {"arabic": "بْ", "translit": "b"},
-        {"arabic": "مْ", "translit": "m"},
-        {"arabic": "قْ", "translit": "q"},
-        {"arabic": "لْ", "translit": "l"},
-        {"arabic": "نْ", "translit": "n"}
+        {
+          "arabic": "بْ",
+          "translit": "b"
+        },
+        {
+          "arabic": "مْ",
+          "translit": "m"
+        },
+        {
+          "arabic": "قْ",
+          "translit": "q"
+        },
+        {
+          "arabic": "لْ",
+          "translit": "l"
+        },
+        {
+          "arabic": "نْ",
+          "translit": "n"
+        }
       ],
       "checkItem": {
         "en": "I understand that sukoon means a letter is silent with no vowel.",
         "bn": "আমি বুঝি যে সুকুন মানে একটি অক্ষর স্বর ছাড়াই নিরব।",
-        "ar": "أفهم أن السكون يعني أن الحرف بدون حركة."
+        "ar": "تعلَّمتَ أن السكون يعني أن الحرف بلا حركة."
       }
     },
     {
@@ -160,7 +220,7 @@
       "checkItem": {
         "en": "I recognize shaddah and know it doubles the sound of a letter.",
         "bn": "আমি শাদ্দাহ চিনি এবং জানি এটি একটি অক্ষরের শব্দ দ্বিগুণ করে।",
-        "ar": "أعرّف الشدة وأعرف أنها تضاعف صوت الحرف."
+        "ar": "تعرَّفتَ على الشدة وأنها تضاعف صوت الحرف."
       }
     },
     {
@@ -258,7 +318,7 @@
       "checkItem": {
         "en": "I can identify all three types of tanween and their 'n' sound.",
         "bn": "আমি তানবীনের তিনটি ধরন এবং তাদের 'ন' শব্দ চিনতে পারি।",
-        "ar": "أستطيع تحديد أنواع التنوين الثلاثة وصوت النون فيها."
+        "ar": "تعرَّفتَ على أنواع التنوين الثلاثة وصوت النون في كلٍّ منها."
       }
     }
   ]

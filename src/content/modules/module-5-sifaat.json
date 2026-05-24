@@ -26,13 +26,34 @@
         "ar": "الحروف الثقيلة تنطق بنبرة مُغلّظة وعميقة من الحلق — تتطلب وزنًا وجسامة في صوتك. سبعة حروف ثقيلة بطبيعتها."
       },
       "letterExamples": [
-        {"arabic": "خ", "translit": "kh"},
-        {"arabic": "ص", "translit": "s"},
-        {"arabic": "ض", "translit": "d"},
-        {"arabic": "ط", "translit": "t"},
-        {"arabic": "ظ", "translit": "z"},
-        {"arabic": "غ", "translit": "gh"},
-        {"arabic": "ق", "translit": "q"}
+        {
+          "arabic": "خ",
+          "translit": "kh"
+        },
+        {
+          "arabic": "ص",
+          "translit": "s"
+        },
+        {
+          "arabic": "ض",
+          "translit": "d"
+        },
+        {
+          "arabic": "ط",
+          "translit": "t"
+        },
+        {
+          "arabic": "ظ",
+          "translit": "z"
+        },
+        {
+          "arabic": "غ",
+          "translit": "gh"
+        },
+        {
+          "arabic": "ق",
+          "translit": "q"
+        }
       ],
       "wordExamples": [
         {
@@ -79,7 +100,7 @@
       "checkItem": {
         "en": "I can identify the seven heavy letters and pronounce them with proper thickness.",
         "bn": "আমি সাতটি ভারী অক্ষর চিনতে পারি এবং সঠিক ঘনত্ব সহ উচ্চারণ করতে পারি।",
-        "ar": "أستطيع تحديد الحروف الثقيلة السبعة ونطقها بالتغليظ الصحيح."
+        "ar": "أتقنتَ تحديد الحروف الثقيلة السبعة ونطقها بالتغليظ الصحيح."
       }
     },
     {
@@ -131,7 +152,7 @@
       "checkItem": {
         "en": "I understand that most letters are light and should be pronounced with clarity.",
         "bn": "আমি বুঝি যে বেশিরভাগ অক্ষর হালকা এবং স্পষ্টতার সাথে উচ্চারণ করা উচিত।",
-        "ar": "أفهم أن معظم الحروف خفيفة وتنطق بوضوح."
+        "ar": "تعلَّمتَ أن معظم الحروف خفيفة وتُنطق بوضوح وإشراق."
       }
     }
   ]

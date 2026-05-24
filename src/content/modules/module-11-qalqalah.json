@@ -26,16 +26,31 @@
         "ar": "خمسة حروف تخلق تأثير القلقلة عندما تكون ساكنة: القاف والتاء والباء والجيم والدال. يرتد الصوت أو ينعكس قليلًا."
       },
       "letterExamples": [
-        {"arabic": "ق", "translit": "q"},
-        {"arabic": "ط", "translit": "t"},
-        {"arabic": "ب", "translit": "b"},
-        {"arabic": "ج", "translit": "j"},
-        {"arabic": "د", "translit": "d"}
+        {
+          "arabic": "ق",
+          "translit": "q"
+        },
+        {
+          "arabic": "ط",
+          "translit": "t"
+        },
+        {
+          "arabic": "ب",
+          "translit": "b"
+        },
+        {
+          "arabic": "ج",
+          "translit": "j"
+        },
+        {
+          "arabic": "د",
+          "translit": "d"
+        }
       ],
       "checkItem": {
         "en": "I know the five qalqalah letters: qaf, ta, ba, jeem, dal.",
         "bn": "আমি পাঁচটি ক্বলক্বলাহ অক্ষর জানি: ক্বাফ, তা, বা, জীম, দাল।",
-        "ar": "أعرف حروف القلقلة الخمسة: القاف والتاء والباء والجيم والدال."
+        "ar": "أتقنتَ حروف القلقلة الخمسة: القاف والطاء والباء والجيم والدال."
       }
     },
     {
@@ -71,7 +86,7 @@
       "checkItem": {
         "en": "I understand that qalqalah in the middle of a word is small.",
         "bn": "আমি বুঝি যে একটি শব্দের মাঝখানে ক্বলক্বলাহ ছোট।",
-        "ar": "أفهم أن القلقلة في وسط الكلمة صغيرة."
+        "ar": "تعلَّمتَ أن القلقلة في وسط الكلمة صغرى."
       }
     },
     {
@@ -115,7 +130,7 @@
       "checkItem": {
         "en": "I know that qalqalah at the end of a word is bigger and more noticeable.",
         "bn": "আমি জানি যে একটি শব্দের শেষে ক্বলক্বলাহ বড় এবং আরও লক্ষণীয়।",
-        "ar": "أعرف أن القلقلة في نهاية الكلمة أكبر وأكثر وضوحًا."
+        "ar": "أتقنتَ أن القلقلة في نهاية الكلمة كبرى وأكثر وضوحًا."
       }
     }
   ]

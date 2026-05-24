@@ -26,12 +26,30 @@
         "ar": "عندما تتبع النون أو التنوين أحد ستة حروف الحلق، انطق النون بوضوح دون إخفاء أو إدغام."
       },
       "letterExamples": [
-        {"arabic": "ء", "translit": "'"},
-        {"arabic": "ه", "translit": "h"},
-        {"arabic": "ع", "translit": "'"},
-        {"arabic": "ح", "translit": "h"},
-        {"arabic": "غ", "translit": "gh"},
-        {"arabic": "خ", "translit": "kh"}
+        {
+          "arabic": "ء",
+          "translit": "'"
+        },
+        {
+          "arabic": "ه",
+          "translit": "h"
+        },
+        {
+          "arabic": "ع",
+          "translit": "'"
+        },
+        {
+          "arabic": "ح",
+          "translit": "h"
+        },
+        {
+          "arabic": "غ",
+          "translit": "gh"
+        },
+        {
+          "arabic": "خ",
+          "translit": "kh"
+        }
       ],
       "wordExamples": [
         {
@@ -70,7 +88,7 @@
       "checkItem": {
         "en": "I know that noon/tanween before throat letters is pronounced clearly.",
         "bn": "আমি জানি যে গলার অক্ষরের আগে নুন/তানবীন স্পষ্টভাবে উচ্চারণ করা হয়।",
-        "ar": "أعرف أن النون والتنوين قبل حروف الحلق تنطق بإظهار واضح."
+        "ar": "تعلَّمتَ أن النون والتنوين قبل حروف الحلق تُنطق بإظهار واضح."
       }
     },
     {
@@ -86,12 +104,30 @@
         "ar": "عندما تتبع النون أو التنوين أحد ستة حروف (الياء والراء والميم واللام والواو والنون)، أدغم النون في الحرف التالي مع الغنة."
       },
       "letterExamples": [
-        {"arabic": "ي", "translit": "y"},
-        {"arabic": "ر", "translit": "r"},
-        {"arabic": "م", "translit": "m"},
-        {"arabic": "ل", "translit": "l"},
-        {"arabic": "و", "translit": "w"},
-        {"arabic": "ن", "translit": "n"}
+        {
+          "arabic": "ي",
+          "translit": "y"
+        },
+        {
+          "arabic": "ر",
+          "translit": "r"
+        },
+        {
+          "arabic": "م",
+          "translit": "m"
+        },
+        {
+          "arabic": "ل",
+          "translit": "l"
+        },
+        {
+          "arabic": "و",
+          "translit": "w"
+        },
+        {
+          "arabic": "ن",
+          "translit": "n"
+        }
       ],
       "wordExamples": [
         {
@@ -130,7 +166,7 @@
       "checkItem": {
         "en": "I understand that noon/tanween merges into ya, ra, meem, lam, waw, or noon.",
         "bn": "আমি বুঝি যে নুন/তানবীন ইয়া, রা, মীম, লাম, ওয়াও বা নুনে মিশে যায়।",
-        "ar": "أفهم أن النون والتنوين تدغم في الياء والراء والميم واللام والواو والنون."
+        "ar": "أتقنتَ أن النون والتنوين تُدغم في الياء والراء والميم واللام والواو والنون."
       }
     },
     {
@@ -190,7 +226,7 @@
       "checkItem": {
         "en": "I know that ikhfa hides the noon with a subtle nasal sound.",
         "bn": "আমি জানি যে ইখফা নুনকে সূক্ষ্ম নাসিক শব্দ দিয়ে লুকায়।",
-        "ar": "أعرف أن الإخفاء يخفي النون بصوت أنفي لطيف."
+        "ar": "تعلَّمتَ أن الإخفاء يُخفي النون بصوت أنفي لطيف."
       }
     },
     {
@@ -234,7 +270,7 @@
       "checkItem": {
         "en": "I understand that noon/tanween before ba converts to meem.",
         "bn": "আমি বুঝি যে বার আগে নুন/তানবীন মীমে রূপান্তরিত হয়।",
-        "ar": "أفهم أن النون والتنوين قبل الباء تقلب إلى ميم."
+        "ar": "تعلَّمتَ أن النون والتنوين قبل الباء تُقلب إلى ميم."
       }
     }
   ]
