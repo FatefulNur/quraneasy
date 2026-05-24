@@ -32,35 +32,21 @@ function useDoneMap(modules: Module[]): Record<string, number> {
 
 function Inner({ modules }: { modules: Module[] }) {
   const { t, locale, dir } = useLocale();
-  const [mounted, setMounted] = useState(false);
   const sorted = useMemo(
     () => [...modules].sort((a, b) => a.recommendedOrder - b.recommendedOrder),
     [modules],
   );
   const doneMap = useDoneMap(sorted);
 
-  useEffect(() => { setMounted(true); }, []);
-
   useEffect(() => {
-    if (!mounted) return;
     const hash = window.location.hash;
     if (!hash) return;
     const id = setTimeout(() => {
       document.querySelector(hash)?.scrollIntoView({ behavior: "smooth" });
     }, 50);
     return () => clearTimeout(id);
-  }, [mounted]);
+  }, []);
 
-  if (!mounted) {
-    return (
-      <div className="flex min-h-dvh items-center justify-center bg-background">
-        <div className="flex flex-col items-center gap-4">
-          <span className="size-10 animate-spin rounded-full border-2 border-border border-t-primary" />
-          <span className="font-serif text-sm tracking-widest text-muted-foreground">Loading…</span>
-        </div>
-      </div>
-    );
-  }
   const totalSubmodules = sorted.reduce((n, m) => n + m.submodules.length, 0);
   const moduleNoun = sorted.length === 1 ? t("wordModule") : t("wordModules");
   const modulesLabel = t("modulesCountLabel")
