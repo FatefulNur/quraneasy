@@ -20,15 +20,12 @@
   "language": "ভাষা",
   "slideOf": "স্লাইড {current} / {total}",
   "reference": "রেফারেন্স",
-
   "navCourse": "কোর্স",
   "navApproach": "পদ্ধতি",
   "navBlog": "ব্লগ",
   "relatedModules": "সম্পর্কিত মডিউল",
-
   "blogHeading": "প্রবন্ধসমূহ",
   "blogSubtitle": "তাজওয়িদ, পবিত্রতা এবং কুরআন তিলাওয়াতের আদব নিয়ে গভীর আলোচনা।",
-
   "heroEyebrow": "নবীনদের জন্য নির্দেশিকা · المبتدئ",
   "heroHeadlinePre": "কোরআন তেলাওয়াত করুন",
   "heroHeadlineAccent": "ধীরে",
@@ -36,28 +33,23 @@
   "heroSubtitle": "তেলাওয়াতের নিয়মাবলী নিয়ে একটি সংক্ষিপ্ত, মোবাইল-ফার্স্ট কোর্স — সম্পূর্ণ নবীনদের জন্য লেখা, ইংরেজি, বাংলা ও العربية ভাষায়।",
   "ctaBegin": "কোর্স শুরু করুন",
   "ctaSample": "একটি নমুনা প্রবন্ধ পড়ুন →",
-
   "statsSlides": "স্লাইড",
   "statsLanguages": "ভাষা",
   "statsCost": "মূল্য",
   "statsCostValue": "বিনামূল্যে",
-
   "sampleAyahLabel": "সূরা আন-নাহল ১৬:৯৮",
   "sampleAyahTranslation": "অতএব যখন তুমি কুরআন পড়, তখন বিতাড়িত শয়তান হতে আল্লাহর আশ্রয় চাও।",
   "sampleAyahFooter": "নমুনা · তা‘আউয",
   "sampleVolume": "খণ্ড ১",
-
   "sectionCourse": "কোর্স",
   "modulesCountLabel": "{n} {noun} · নিজস্ব গতিতে",
   "wordModule": "মডিউল",
   "wordModules": "মডিউল",
   "chooseHeadline": "কোথা থেকে শুরু করবেন বেছে নিন।",
   "chooseSub": "যেকোনো কার্ড স্পর্শ করে রিডারে প্রবেশ করুন। প্রতিটি মডিউল বিষয়ে বিভক্ত; প্রতিটি সম্পন্ন হিসেবে চিহ্নিত করুন।",
-
   "cardModuleSlides": "মডিউল · {n} বিষয়",
   "cardTapHint": "শুরু করুন · কার্ডের যেকোনো জায়গায় ট্যাপ করুন",
   "moduleCompleteHint": "সব বিষয় সম্পন্ন",
-
   "approachEyebrow": "কীভাবে কাজ করে",
   "approachTitlePre": "ছোট ছোট ধাপ।",
   "approachTitleAccent": "কঠোর অগ্রগতি।",
@@ -67,10 +59,8 @@
   "stepTwoBody": "প্রয়োজনে স্লাইড কুরআন থেকেই উদ্ধৃতি দেয় — মূল আরবি, সাথে আপনার পছন্দের ভাষায় অনুবাদ।",
   "stepThreeTitle": "আরও গভীরে যান, ঐচ্ছিক",
   "stepThreeBody": "নবীনদের জন্য রেখাচিত্রের চেয়ে বেশি চান? কিছু বিষয়ে দীর্ঘতর প্রবন্ধের লিঙ্ক রয়েছে, যা আপনি যেকোনো সময় পড়তে পারেন।",
-
   "footerYear": "১৪৪৭ হিজরি",
   "footerNote": "সম্পূর্ণ স্ট্যাটিক · কোনো কুকি নেই · অ্যাকাউন্ট লাগে না",
-
   "backToLibrary": "লাইব্রেরিতে ফিরে যান",
   "pressArrowHint": "এগিয়ে যেতে → চাপুন",
   "finished": "সম্পন্ন",
@@ -78,7 +68,6 @@
   "stepPlural": "ধাপ",
   "quranicEvidence": "কুরআনের প্রমাণ",
   "wordQuran": "কুরআন",
-
   "topicLabel": "বিষয়",
   "markComplete": "আমি এটি অনুশীলন করেছি",
   "recommendedPath": "প্রস্তাবিত পথ",
@@ -88,5 +77,6 @@
   "recommendedBadge": "ধাপ {n}",
   "statsModules": "মডিউল",
   "wordSubmodule": "বিষয়",
-  "wordSubmodules": "বিষয়"
+  "wordSubmodules": "বিষয়",
+  "nextModule": "পরবর্তী মডিউল"
 }

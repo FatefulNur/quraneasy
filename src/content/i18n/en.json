@@ -20,15 +20,12 @@
   "language": "Language",
   "slideOf": "Slide {current} of {total}",
   "reference": "Reference",
-
   "navCourse": "Course",
   "navApproach": "Approach",
   "navBlog": "Blog",
   "relatedModules": "Related modules",
-
   "blogHeading": "Articles",
   "blogSubtitle": "Deeper dives into Tajweed, purity, and the etiquette of Qur'an recitation.",
-
   "heroEyebrow": "A beginner's guide · المبتدئ",
   "heroHeadlinePre": "Recite the Qur'an",
   "heroHeadlineAccent": "slowly",
@@ -36,28 +33,23 @@
   "heroSubtitle": "A short, mobile-first course on the rules of Tilawat — written for absolute beginners and rendered in English, বাংলা, and العربية.",
   "ctaBegin": "Begin the course",
   "ctaSample": "Read a sample article →",
-
   "statsSlides": "Slides",
   "statsLanguages": "Languages",
   "statsCost": "Cost",
   "statsCostValue": "Free",
-
   "sampleAyahLabel": "An-Naḥl 16:98",
   "sampleAyahTranslation": "So when you recite the Qur'an, seek refuge with Allah from Satan, the expelled.",
   "sampleAyahFooter": "Sample · Ta'awwudh",
   "sampleVolume": "Vol. I",
-
   "sectionCourse": "The course",
   "modulesCountLabel": "{n} {noun} · self-paced",
   "wordModule": "module",
   "wordModules": "modules",
   "chooseHeadline": "Choose where to begin.",
   "chooseSub": "Tap any card to enter the reader. Each module is broken into topics; mark each complete as you go.",
-
   "cardModuleSlides": "Module · {n} topics",
   "cardTapHint": "Begin · Tap anywhere on this card",
   "moduleCompleteHint": "All topics completed",
-
   "approachEyebrow": "How it works",
   "approachTitlePre": "Small steps.",
   "approachTitleAccent": "Strict gating.",
@@ -67,10 +59,8 @@
   "stepTwoBody": "Where relevant, the slide cites the Qur'an itself — Arabic original, with translation in your chosen language.",
   "stepThreeTitle": "Go deeper, optionally",
   "stepThreeBody": "Want more than a beginner sketch? Some topics link to a longer blog article you can read whenever you like.",
-
   "footerYear": "MMXXVI",
   "footerNote": "Built static · No cookies · No account needed",
-
   "backToLibrary": "Back to library",
   "pressArrowHint": "Press → to advance",
   "finished": "Finished",
@@ -80,7 +70,6 @@
   "wordQuran": "Qur'an",
   "pressArrowHintLTR": "Press → to advance",
   "pressArrowHintRTL": "اضغط ← للمتابعة",
-
   "topicLabel": "Topic",
   "markComplete": "I've practiced this",
   "recommendedPath": "Recommended path",
@@ -90,5 +79,6 @@
   "recommendedBadge": "Step {n}",
   "statsModules": "Modules",
   "wordSubmodule": "topic",
-  "wordSubmodules": "topics"
+  "wordSubmodules": "topics",
+  "nextModule": "Next Module"
 }

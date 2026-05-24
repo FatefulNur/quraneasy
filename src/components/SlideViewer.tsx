@@ -5,7 +5,7 @@ import {
   useRef,
   useState,
 } from "react";
-import { ArrowLeft, ArrowRight, BookOpen, X } from "lucide-react";
+import { ArrowLeft, ArrowRight, BookOpen, ChevronRight, X } from "lucide-react";
 import SubmoduleCompletion from "@/components/SubmoduleCompletion";
 import AyahList from "@/components/AyahList";
 import LetterTile from "@/components/LetterTile";
@@ -15,7 +15,7 @@ import {
   LocaleProvider,
   useLocale,
 } from "@/components/i18n/LocaleProvider";
-import type { Module, Submodule } from "@/lib/content/types";
+import type { LocaleMap, Module, Submodule } from "@/lib/content/types";
 import {
   initProgress,
   getProgress,
@@ -160,7 +160,10 @@ function SubmoduleBody({ moduleId, sm, isCurrent, progress, onToggle }: {
   );
 }
 
-function Viewer({ module }: { module: Module }) {
+function Viewer({ module, nextModule }: {
+  module: Module;
+  nextModule: { id: string; title: LocaleMap } | null;
+}) {
   const { t, pick, dir, locale } = useLocale();
   const [progress, setProgress] = useState<ProgressMap>({});
   const [hydrated, setHydrated] = useState(false);
@@ -373,6 +376,26 @@ function Viewer({ module }: { module: Module }) {
                 progress={progress}
                 onToggle={onToggle}
               />
+
+              {/* Next-module link on last slide */}
+              {i === total - 1 && nextModule && (
+                <div className="mx-auto max-w-3xl px-5 pb-16 sm:px-8">
+                  <a
+                    href={`/learn/${nextModule.id}`}
+                    className="group flex items-center justify-between gap-4 rounded-2xl border border-primary/30 bg-primary/5 px-6 py-5 transition-all hover:border-primary/60 hover:bg-primary/10"
+                  >
+                    <div className="flex flex-col gap-1">
+                      <span className="text-xs font-medium uppercase tracking-[0.2em] text-primary">
+                        {t("nextModule")}
+                      </span>
+                      <span className="font-serif text-lg font-medium text-foreground">
+                        {pick(nextModule.title)}
+                      </span>
+                    </div>
+                    <ChevronRight className="size-5 shrink-0 text-primary transition-transform group-hover:translate-x-1" aria-hidden="true" />
+                  </a>
+                </div>
+              )}
             </section>
           ))}
         </div>
@@ -414,10 +437,16 @@ function Viewer({ module }: { module: Module }) {
   );
 }
 
-export default function SlideViewer({ module }: { module: Module }) {
+export default function SlideViewer({
+  module,
+  nextModule,
+}: {
+  module: Module;
+  nextModule: { id: string; title: LocaleMap } | null;
+}) {
   return (
     <LocaleProvider>
-      <Viewer module={module} />
+      <Viewer module={module} nextModule={nextModule} />
     </LocaleProvider>
   );
 }
