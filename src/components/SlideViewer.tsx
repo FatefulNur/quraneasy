@@ -378,20 +378,20 @@ function Viewer({ module }: { module: Module }) {
         </div>
       </main>
 
-      {/* Floating side nav — desktop only (hidden when no gutter space) */}
+      {/* Floating side nav */}
       {!isFirst && (
         <button
           type="button"
           onClick={goPrev}
           aria-label={t("prev")}
-          className="absolute left-3 top-1/2 z-20 hidden -translate-y-1/2 items-center gap-2 rounded-full border border-border bg-card/80 px-4 py-2.5 text-sm text-foreground/80 shadow-sm backdrop-blur transition-all hover:border-primary/40 hover:text-foreground xl:flex"
+          className="absolute left-2 top-1/2 z-20 flex -translate-y-1/2 items-center gap-2 rounded-full border border-border bg-card/80 px-3 py-2.5 text-sm text-foreground/80 shadow-sm backdrop-blur transition-all hover:border-primary/40 hover:text-foreground sm:left-3 sm:px-4"
         >
           {dir === "rtl" ? (
             <ArrowRight className="size-4" aria-hidden="true" />
           ) : (
             <ArrowLeft className="size-4" aria-hidden="true" />
           )}
-          <span>{t("prev")}</span>
+          <span className="hidden xl:inline">{t("prev")}</span>
         </button>
       )}
       {!isLast && (
@@ -399,9 +399,9 @@ function Viewer({ module }: { module: Module }) {
           type="button"
           onClick={goNext}
           aria-label={t("next")}
-          className="absolute right-3 top-1/2 z-20 hidden -translate-y-1/2 items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground shadow-[0_10px_30px_-10px_oklch(0.42_0.115_162_/_0.7)] transition-all hover:-translate-y-[calc(50%+2px)] hover:shadow-[0_18px_40px_-12px_oklch(0.42_0.115_162_/_0.7)] xl:flex"
+          className="absolute right-2 top-1/2 z-20 flex -translate-y-1/2 items-center gap-2 rounded-full bg-primary px-3 py-2.5 text-sm font-medium text-primary-foreground shadow-[0_10px_30px_-10px_oklch(0.42_0.115_162_/_0.7)] transition-all hover:brightness-110 sm:right-3 sm:px-5"
         >
-          <span>{t("next")}</span>
+          <span className="hidden xl:inline">{t("next")}</span>
           {dir === "rtl" ? (
             <ArrowLeft className="size-4" aria-hidden="true" />
           ) : (
@@ -410,45 +410,6 @@ function Viewer({ module }: { module: Module }) {
         </button>
       )}
 
-      {/* FOOTER nav — free roam, no gating */}
-      <nav
-        className="relative z-10 flex items-center justify-between gap-3 border-t border-border/70 bg-background/85 px-5 py-4 backdrop-blur sm:px-8"
-        aria-label="Submodule navigation"
-      >
-        <button
-          type="button"
-          onClick={goPrev}
-          disabled={isFirst}
-          aria-disabled={isFirst}
-          className="group inline-flex min-h-11 items-center gap-3 rounded-full border border-border bg-card/70 px-4 py-2.5 text-sm text-foreground/80 transition-all hover:border-primary/40 hover:text-foreground disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:border-border disabled:hover:text-foreground/80 sm:px-5"
-        >
-          {dir === "rtl" ? (
-            <ArrowRight className="size-4 transition-transform group-enabled:group-hover:-translate-x-0.5" aria-hidden="true" />
-          ) : (
-            <ArrowLeft className="size-4 transition-transform group-enabled:group-hover:-translate-x-0.5" aria-hidden="true" />
-          )}
-          <span>{t("prev")}</span>
-        </button>
-
-        <div className="hidden flex-col items-center sm:flex">
-          <p className="font-serif text-[11px] uppercase tracking-[0.3em] text-muted-foreground">
-            {t("freeRoam")}
-          </p>
-        </div>
-
-        <button
-          type="button"
-          onClick={isLast ? () => { window.location.href = "/"; } : goNext}
-          className="group relative inline-flex min-h-11 items-center gap-3 overflow-hidden rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground shadow-[0_10px_30px_-10px_oklch(0.42_0.115_162_/_0.7)] transition-all hover:-translate-y-0.5 hover:shadow-[0_18px_40px_-12px_oklch(0.42_0.115_162_/_0.7)] sm:px-6"
-        >
-          <span>{isLast ? t("finished") : t("next")}</span>
-          {dir === "rtl" ? (
-            <ArrowLeft className="size-4 transition-transform group-hover:-translate-x-0.5" aria-hidden="true" />
-          ) : (
-            <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
-          )}
-        </button>
-      </nav>
     </div>
   );
 }
