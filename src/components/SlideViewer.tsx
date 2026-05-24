@@ -392,7 +392,10 @@ function Viewer({ module, nextModule }: {
                         {pick(nextModule.title)}
                       </span>
                     </div>
-                    <ChevronRight className="size-5 shrink-0 text-primary transition-transform group-hover:translate-x-1" aria-hidden="true" />
+                    {dir === "rtl"
+                      ? <ArrowLeft className="size-5 shrink-0 text-primary transition-transform group-hover:-translate-x-1" aria-hidden="true" />
+                      : <ChevronRight className="size-5 shrink-0 text-primary transition-transform group-hover:translate-x-1" aria-hidden="true" />
+                    }
                   </a>
                 </div>
               )}
