@@ -92,7 +92,3 @@ export function useLocale(): Ctx {
   }
   return ctx;
 }
-
-export function useT() {
-  return useLocale().t;
-}

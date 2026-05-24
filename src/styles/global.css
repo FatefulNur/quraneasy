@@ -16,19 +16,6 @@
     --font-sans: 'Geist Variable', 'Noto Sans Bengali Variable', system-ui, sans-serif;
     --font-bangla: 'Noto Sans Bengali Variable', 'Geist Variable', system-ui, sans-serif;
     --font-arabic: 'Amiri', 'Scheherazade New', 'Geeza Pro', serif;
-    --color-sidebar-ring: var(--sidebar-ring);
-    --color-sidebar-border: var(--sidebar-border);
-    --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-    --color-sidebar-accent: var(--sidebar-accent);
-    --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-    --color-sidebar-primary: var(--sidebar-primary);
-    --color-sidebar-foreground: var(--sidebar-foreground);
-    --color-sidebar: var(--sidebar);
-    --color-chart-5: var(--chart-5);
-    --color-chart-4: var(--chart-4);
-    --color-chart-3: var(--chart-3);
-    --color-chart-2: var(--chart-2);
-    --color-chart-1: var(--chart-1);
     --color-ring: var(--ring);
     --color-input: var(--input);
     --color-border: var(--border);
@@ -83,20 +70,7 @@
     --border: oklch(0.89 0.018 85);
     --input: oklch(0.92 0.015 85);
     --ring: oklch(0.42 0.115 162);
-    --chart-1: oklch(0.42 0.115 162);
-    --chart-2: oklch(0.72 0.135 70);
-    --chart-3: oklch(0.55 0.1 162);
-    --chart-4: oklch(0.32 0.08 160);
-    --chart-5: oklch(0.85 0.04 85);
     --radius: 0.625rem;
-    --sidebar: oklch(0.97 0.012 85);
-    --sidebar-foreground: oklch(0.18 0.02 160);
-    --sidebar-primary: oklch(0.42 0.115 162);
-    --sidebar-primary-foreground: oklch(0.985 0.012 85);
-    --sidebar-accent: oklch(0.93 0.045 85);
-    --sidebar-accent-foreground: oklch(0.32 0.08 160);
-    --sidebar-border: oklch(0.89 0.018 85);
-    --sidebar-ring: oklch(0.42 0.115 162);
 }
 
 .dark {
@@ -121,19 +95,6 @@
     --border: oklch(1 0 0 / 10%);
     --input: oklch(1 0 0 / 14%);
     --ring: oklch(0.78 0.13 158);
-    --chart-1: oklch(0.78 0.13 158);
-    --chart-2: oklch(0.78 0.135 70);
-    --chart-3: oklch(0.55 0.1 162);
-    --chart-4: oklch(0.45 0.09 160);
-    --chart-5: oklch(0.3 0.04 160);
-    --sidebar: oklch(0.18 0.014 160);
-    --sidebar-foreground: oklch(0.96 0.01 85);
-    --sidebar-primary: oklch(0.78 0.13 158);
-    --sidebar-primary-foreground: oklch(0.16 0.02 160);
-    --sidebar-accent: oklch(0.3 0.04 160);
-    --sidebar-accent-foreground: oklch(0.96 0.01 85);
-    --sidebar-border: oklch(1 0 0 / 10%);
-    --sidebar-ring: oklch(0.78 0.13 158);
 }
 
 @layer base {
@@ -232,9 +193,5 @@
   }
   .anim-rise {
     animation: slide-rise 600ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
-  }
-  @keyframes shimmer {
-    0% { background-position: 0% 50%; }
-    100% { background-position: 200% 50%; }
   }
 }
