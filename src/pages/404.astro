@@ -1,0 +1,178 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import en from "@/content/i18n/en.json";
+import bn from "@/content/i18n/bn.json";
+import ar from "@/content/i18n/ar.json";
+
+const strings = { en, bn, ar };
+---
+
+<BaseLayout title="Page Not Found · QuranEasy" description="This page does not exist.">
+  <style>
+    .rule {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      width: 100%;
+    }
+    .rule::before,
+    .rule::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(to right, transparent, oklch(0.89 0.018 85), transparent);
+    }
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      white-space: nowrap;
+      border-radius: 9999px;
+      background: oklch(0.42 0.115 162);
+      color: oklch(0.985 0.012 85);
+      font-size: 0.875rem;
+      font-weight: 500;
+      padding: 0.65rem 1.5rem;
+      text-decoration: none;
+      transition: transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 4px 20px -4px oklch(0.42 0.115 162 / 0.45);
+    }
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 30px -8px oklch(0.42 0.115 162 / 0.6);
+    }
+    .btn-ghost {
+      display: inline-flex;
+      align-items: center;
+      white-space: nowrap;
+      border-radius: 9999px;
+      border: 1px solid oklch(0.89 0.018 85);
+      color: oklch(0.32 0.07 160);
+      font-size: 0.875rem;
+      font-weight: 500;
+      padding: 0.65rem 1.5rem;
+      text-decoration: none;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .btn-ghost:hover {
+      border-color: oklch(0.42 0.115 162 / 0.35);
+      background: oklch(0.93 0.045 85);
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(16px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .rise {
+      opacity: 0;
+      animation: fadeUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+  </style>
+
+  <main class="grain relative flex min-h-dvh flex-col items-center justify-center px-6 py-24">
+
+    <!-- Ambient glows -->
+    <div aria-hidden="true" style="pointer-events:none;position:fixed;inset:0;z-index:-1;overflow:hidden">
+      <div style="position:absolute;top:-15%;left:50%;transform:translateX(-50%);width:700px;height:450px;background:radial-gradient(ellipse,oklch(0.42 0.115 162 / 0.07) 0%,transparent 70%);filter:blur(60px)"></div>
+      <div style="position:absolute;bottom:0;right:5%;width:320px;height:320px;background:radial-gradient(ellipse,oklch(0.72 0.135 70 / 0.07) 0%,transparent 70%);filter:blur(50px)"></div>
+    </div>
+
+    <div id="page-404" style="display:flex;flex-direction:column;align-items:center;text-align:center;width:100%;max-width:34rem;gap:2rem">
+
+      <!-- Eyebrow -->
+      <div class="rise" style="animation-delay:0ms">
+        <span style="display:inline-flex;align-items:center;gap:0.625rem;font-size:0.6875rem;letter-spacing:0.35em;text-transform:uppercase;color:oklch(0.72 0.135 70);font-family:var(--font-sans)">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.39 7.36H22l-6.19 4.5L18.2 21 12 16.5 5.8 21l2.39-7.14L2 9.36h7.61z"/></svg>
+          <span id="t-eyebrow">{en["404Eyebrow"]}</span>
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.39 7.36H22l-6.19 4.5L18.2 21 12 16.5 5.8 21l2.39-7.14L2 9.36h7.61z"/></svg>
+        </span>
+      </div>
+
+      <!-- 404 numeral -->
+      <div class="rise" style="animation-delay:80ms;line-height:1">
+        <span style="font-family:var(--font-serif);font-size:clamp(5.5rem,18vw,9rem);font-weight:500;color:oklch(0.42 0.115 162);letter-spacing:-0.03em;line-height:0.95">404</span>
+      </div>
+
+      <!-- Ornamental rule -->
+      <div class="rise rule" style="animation-delay:160ms">
+        <span style="font-size:0.75rem;color:oklch(0.72 0.135 70);line-height:1">✦</span>
+      </div>
+
+      <!-- Ayah — centrepiece (always Arabic, always RTL) -->
+      <div class="rise" style="animation-delay:230ms">
+        <p dir="rtl" lang="ar" style="font-family:var(--font-arabic);font-size:clamp(1.5rem,5vw,2rem);line-height:2.1;color:oklch(0.18 0.02 160);margin:0">
+          وَلَا تَقْفُ مَا لَيْسَ لَكَ بِهِ عِلْمٌ
+        </p>
+        <p id="t-ayah-translation" style="font-family:var(--font-serif);font-size:1rem;font-style:italic;color:oklch(0.48 0.018 160);margin:0.75rem 0 0">
+          {en["404AyahTranslation"]}
+        </p>
+        <p style="font-family:var(--font-sans);font-size:0.6875rem;letter-spacing:0.22em;text-transform:uppercase;color:oklch(0.62 0.018 160);margin:0.4rem 0 0">
+          Al-Isrāʾ · 17:36
+        </p>
+      </div>
+
+      <!-- Ornamental rule -->
+      <div class="rise rule" style="animation-delay:300ms">
+        <span style="font-size:0.75rem;color:oklch(0.72 0.135 70);line-height:1">✦</span>
+      </div>
+
+      <!-- Headline + body -->
+      <div class="rise" style="animation-delay:370ms">
+        <h1 id="t-headline" style="font-family:var(--font-serif);font-size:clamp(1.6rem,5vw,2.25rem);font-weight:500;color:oklch(0.18 0.02 160);letter-spacing:-0.01em;margin:0 0 0.75rem">
+          {en["404Headline"]}
+        </h1>
+        <p id="t-body" style="font-family:var(--font-sans);font-size:0.9375rem;line-height:1.75;color:oklch(0.48 0.018 160);margin:0;max-width:28rem">
+          {en["404Body"]}
+        </p>
+      </div>
+
+      <!-- Buttons -->
+      <div class="rise" style="animation-delay:440ms;display:flex;gap:0.75rem;flex-wrap:wrap;justify-content:center">
+        <a href="/" class="btn-primary">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
+          </svg>
+          <span id="t-back">{en["404BackHome"]}</span>
+        </a>
+        <a href="/#course" class="btn-ghost">
+          <span id="t-browse">{en["404BrowseModules"]}</span>
+        </a>
+      </div>
+
+      <!-- Brand -->
+      <div class="rise" style="animation-delay:510ms">
+        <span style="font-family:var(--font-serif);font-size:0.6875rem;letter-spacing:0.4em;text-transform:uppercase;color:oklch(0.72 0.018 160 / 0.4)">QuranEasy</span>
+      </div>
+
+    </div>
+  </main>
+
+  <script define:vars={{ strings }}>
+    (function () {
+      try {
+        const locale = localStorage.getItem("qe:locale") || "en";
+        const s = strings[locale] || strings.en;
+        const isRtl = locale === "ar";
+
+        const set = (id, key) => {
+          const el = document.getElementById(id);
+          if (el && s[key]) el.textContent = s[key];
+        };
+
+        set("t-eyebrow", "404Eyebrow");
+        set("t-headline", "404Headline");
+        set("t-ayah-translation", "404AyahTranslation");
+        set("t-body", "404Body");
+        set("t-back", "404BackHome");
+        set("t-browse", "404BrowseModules");
+
+        if (isRtl) {
+          const page = document.getElementById("page-404");
+          if (page) {
+            page.setAttribute("dir", "rtl");
+            page.setAttribute("lang", "ar");
+          }
+        }
+      } catch (_) {}
+    })();
+  </script>
+</BaseLayout>
