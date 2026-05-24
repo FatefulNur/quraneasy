@@ -155,7 +155,7 @@ function BlogArticleInner({ post, moduleMap }: Props) {
           <div className="mt-10">
             <div className="hairline mb-6" />
             <p className="mb-3 text-xs font-medium uppercase tracking-widest text-muted-foreground">
-              Related modules
+              {t("relatedModules")}
             </p>
             <ul className="flex flex-col gap-2">
               {linkedModules.map((m) => (
