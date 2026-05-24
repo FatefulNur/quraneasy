@@ -42,7 +42,7 @@
       "title": {
         "en": "Better Not to Stop",
         "bn": "থেমে না থাকাই ভাল",
-        "ar": "الوقف المحرم"
+        "ar": "الوقف المكروه"
       },
       "definition": {
         "en": "The lam symbol (لا) indicates you should avoid stopping at this point. Continue reading unless absolutely necessary.",
@@ -90,7 +90,7 @@
       "title": {
         "en": "Better to Stop",
         "bn": "থেমে যাওয়াই ভাল",
-        "ar": "الوقف الممنوع"
+        "ar": "الوقف المستحسن"
       },
       "definition": {
         "en": "The ta symbol (ط) suggests stopping at this point is better than continuing. It's not mandatory but recommended.",

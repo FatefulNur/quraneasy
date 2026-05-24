@@ -23,7 +23,7 @@
       "definition": {
         "en": "Tajweed means giving every letter its proper rights during recitation — correct pronunciation, characteristics, and proper lengthening.",
         "bn": "তাজবীদ মানে তিলাওয়াতের সময় প্রতিটি অক্ষরকে তার যথাযথ হক প্রদান করা — সঠিক উচ্চারণ, বৈশিষ্ট্য এবং সঠিক দীর্ঘায়ন।",
-        "ar": "التجويد إعطاء كل حرف حقه من الحروف أثناء التلاوة — النطق الصحيح والصفات والمد الصحيح."
+        "ar": "التجويد إعطاء كل حرف حقه أثناء التلاوة — النطق الصحيح والصفات والمد الصحيح."
       },
       "wordExamples": [
         {
@@ -69,7 +69,7 @@
       ],
       "checkItem": {
         "en": "I understand that tajweed is about giving each letter its proper sound.",
-        "bn": "আমি বুঝি যে তাজবীদ মানে প্রতিটি অক্ষরকে তার সঠিক শব্দ দেওয়া।",
+        "bn": "আমি বুঝি যে তাজবীদ মানে প্রতিটি অক্ষরকে তার সঠিক উচ্চারণ দেওয়া।",
         "ar": "تعلَّمتَ أن التجويد إعطاء كل حرف حقه من النطق الصحيح."
       }
     },

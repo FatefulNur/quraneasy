@@ -21,9 +21,9 @@
         "ar": "لام الجلالة"
       },
       "definition": {
-        "en": "The lam in Allah becomes heavy after a kasra or damma, and light after a fatha.",
-        "bn": "আল্লাহ কথায় লাম কাসরা বা দাম্মার পরে ভারী হয় এবং ফাতার পরে হালকা হয়।",
-        "ar": "لام الجلالة تكون ثقيلة بعد الكسرة والضمة، وخفيفة بعد الفتحة."
+        "en": "The lam in Allah becomes heavy after a fatha or damma, and light after a kasra.",
+        "bn": "আল্লাহ কথায় লাম ফাতহা বা দাম্মার পরে ভারী হয় এবং কাসরার পরে হালকা হয়।",
+        "ar": "لام الجلالة تكون ثقيلة بعد الفتحة والضمة، وخفيفة بعد الكسرة."
       },
       "subtopics": [
         {

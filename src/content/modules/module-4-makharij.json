@@ -224,7 +224,7 @@
       },
       "definition": {
         "en": "Many Arabic letters are produced from different parts of the tongue — this is the largest articulation point.",
-        "bn": "অনেক আরবি অক্ষর জিহ্বার বিভিন্ন অংশ থেকে উত্পাদিত হয় — এটি সবচেয়ে বড় উচ্চারণ স্থল।",
+        "bn": "অনেক আরবি অক্ষর জিহ্বার বিভিন্ন অংশ থেকে উচ্চারিত হয় — এটি সবচেয়ে বড় উচ্চারণ স্থল।",
         "ar": "العديد من الحروف العربية تنطق من أجزاء مختلفة من اللسان — وهو أكبر مخرج."
       },
       "letterExamples": [
@@ -409,7 +409,7 @@
           "translit": "amma",
           "meaning": {
             "en": "As for",
-            "bn": "যা সম্পর্কে"
+            "bn": "তবে"
           }
         }
       ],
