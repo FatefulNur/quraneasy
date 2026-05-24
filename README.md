@@ -1,43 +1,87 @@
-# Astro Starter Kit: Minimal
+# QuranEasy
+
+Beginner-focused Quran learning app with a full 14-module Tajweed curriculum. Trilingual (English / বাংলা / العربية), free-roam, no login required.
+
+## Stack
+
+- [Astro 6](https://astro.build) (static output) + React 19 islands
+- Tailwind v4 via `@tailwindcss/vite`
+- shadcn/ui (style `base-nova`, lucide icons)
+- Cloudflare Pages deploy (`wrangler.toml`)
+- Progress stored in IndexedDB — no backend, no auth
+
+## Commands
+
+| Command | Action |
+| :--- | :--- |
+| `npm install` | Install dependencies |
+| `npm run dev` | Dev server at `localhost:4321` |
+| `npm run build` | Static build → `dist/` |
+| `npm run preview` | Preview built site locally |
+| `npm run notify -- "<Module Name>" <module-id>` | Broadcast new module to Telegram |
+
+## Project layout
+
+```
+src/
+  pages/          Astro routes
+  components/     React + Astro components (ui/ for shadcn)
+  lib/            Utilities, content loader, i18n, progress
+  styles/         global.css (Tailwind + shadcn CSS vars)
+  content/
+    modules/      JSON files — one per Tajweed module
+    i18n/         Locale strings (en / bn / ar)
+    blog/         Markdown blog articles
+openspec/         Spec-driven change proposals and tasks
+.claude/skills/   Project-specific Claude Code skills
+```
+
+## Content
+
+Course content lives entirely in `src/content/modules/*.json`. Edit JSON to change copy — no code change needed.
+
+Each module follows this schema:
+
+```jsonc
+{
+  "id": "module-N-slug",
+  "order": N,
+  "title": { "en": "", "bn": "", "ar": "" },
+  "summary": { "en": "", "bn": "", "ar": "" },
+  "submodules": [
+    {
+      "id": "submodule-slug",
+      "title": { "en": "", "bn": "", "ar": "" },
+      "definition": { "en": "", "bn": "", "ar": "" },
+      "checkItem": { "en": "", "bn": "", "ar": "" }
+    }
+  ]
+}
+```
+
+## i18n
+
+Three supported locales: `en`, `bn`, `ar`. Arabic UI is full RTL. Every user-visible string uses a locale map `{ en, bn, ar }` — never a bare string. Locale preference stored at `localStorage["qe:locale"]`.
+
+## Progress
+
+Stored in IndexedDB (database `quraneasy`, store `progress`). Key format: `${moduleId}:${submoduleId}`. One checkbox per submodule. No cross-module or within-module gating — fully free-roam.
+
+## Deploying
+
+Targets Cloudflare Pages. Push to `main` triggers deploy via `wrangler.toml` config.
+
+## Broadcasting new modules
+
+Requires a Telegram bot token in `.env`:
+
+```
+TELEGRAM_BOT_TOKEN=your_token_here
+PUBLIC_SITE_URL=https://quraneasy.com
+```
+
+Then:
 
 ```sh
-npm create astro@latest -- --template minimal
+npm run notify -- "Module Name" module-id-slug
 ```
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
