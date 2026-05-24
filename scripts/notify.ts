@@ -31,14 +31,15 @@ if (!channel) {
 const moduleUrl = `${siteUrl}/learn/${moduleId}`;
 
 const text =
-  `🕌 New module added on QuranEasy!\n` +
-  `📖 Module: ${moduleName}\n` +
-  `👉 Start learning: ${moduleUrl}`;
+  `🕌 <b>New module on QuranEasy</b>\n\n` +
+  `📖 <b>${moduleName}</b>\n\n` +
+  `Begin learning at your own pace — open any topic in any order.\n\n` +
+  `<a href="${moduleUrl}">👉 Start learning</a>`;
 
 const res = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
   method: "POST",
   headers: { "Content-Type": "application/json" },
-  body: JSON.stringify({ chat_id: channel, text }),
+  body: JSON.stringify({ chat_id: channel, text, parse_mode: "HTML", link_preview_options: { is_disabled: false, url: moduleUrl } }),
 });
 
 if (!res.ok) {
