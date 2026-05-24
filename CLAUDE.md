@@ -40,22 +40,53 @@ openspec/
 
 ## Broadcasting new modules
 
-When a new module ships, run:
+### First-time setup
+
+1. Open Telegram → search `@BotFather` → send `/newbot` → follow prompts → copy the token.
+2. Add the bot as an **administrator** of `@quraneasyguide` (channel Settings → Administrators → Add).
+3. Put these in `.env` (never commit this file):
+   ```
+   TELEGRAM_BOT_TOKEN=your_token_here
+   PUBLIC_SITE_URL=https://quraneasy.com
+   ```
+
+### Sending a notification
+
+When a new module ships, pass the display name and the module ID (filename slug from `src/content/modules/`):
 
 ```bash
-npm run notify -- "Tajweed Basics"
+npm run notify -- "Tajweed Basics" module-1-tajweed-basics
 ```
 
-Or directly:
+This sends:
+```
+🕌 New module added on QuranEasy!
+📖 Module: Tajweed Basics
+👉 Start learning: https://quraneasy.com/learn/module-1-tajweed-basics
+```
+
+Expected output:
+```
+Announced "Tajweed Basics" to @quraneasyguide.
+```
+
+Or directly without npm:
 
 ```bash
-npx tsx --env-file=.env scripts/notify.ts "Tajweed Basics"
+npx tsx --env-file=.env scripts/notify.ts "Tajweed Basics" module-1-tajweed-basics
 ```
 
-**Requirements:**
-- `TELEGRAM_BOT_TOKEN` must be set in `.env` (gitignored). Get the token from @BotFather.
-- The bot must be added as an **administrator** of `@quraneasyguide` channel — without admin rights Telegram returns a 403 error.
-- Never pass the token as a CLI argument or commit it to source control.
+Module IDs match the JSON filenames in `src/content/modules/` (without `.json`), e.g. `module-1-tajweed-basics.json` → `module-1-tajweed-basics`.
+
+### Troubleshooting
+
+| Error | Cause | Fix |
+| --- | --- | --- |
+| `TELEGRAM_BOT_TOKEN is not set` | Missing or empty token in `.env` | Add real token to `.env` |
+| `PUBLIC_SITE_URL is not set` | Missing site URL in `.env` | Add `PUBLIC_SITE_URL=https://quraneasy.com` to `.env` |
+| `Telegram error 403` | Bot not admin in channel | Add bot as administrator in channel settings |
+| `Telegram error 404` | Invalid token | Regenerate token via `@BotFather → /revoke` |
+| `Usage: tsx scripts/notify.ts` | Missing name or module ID | Pass both: `-- "Name" module-id` |
 
 ## OpenSpec workflow
 
