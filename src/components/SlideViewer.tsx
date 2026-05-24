@@ -124,19 +124,34 @@ function SubmoduleBody({ moduleId, sm, isCurrent, progress, onToggle }: {
         />
       </div>
 
-      {/* Blog link */}
-      {sm.blogSlug && (
-        <div className="mt-10 border-t border-border pt-6">
-          <a
-            href={`/blog/${sm.blogSlug}`}
-            className="group inline-flex items-center gap-3 text-sm font-medium text-primary"
-          >
-            <BookOpen className="size-4" aria-hidden="true" />
-            <span className="underline decoration-primary/30 underline-offset-[6px] transition-colors group-hover:decoration-primary">
-              {t("readMore")}
-            </span>
-            <span className="transition-transform group-hover:translate-x-1">→</span>
-          </a>
+      {/* Blog links */}
+      {(sm.blogLinks?.length || sm.blogSlug) && (
+        <div className="mt-10 border-t border-border pt-6 flex flex-col gap-3">
+          {sm.blogLinks?.map((link) => (
+            <a
+              key={link.slug}
+              href={`/blog/${link.slug}`}
+              className="group inline-flex items-center gap-3 text-sm font-medium text-primary"
+            >
+              <BookOpen className="size-4 shrink-0" aria-hidden="true" />
+              <span className="underline decoration-primary/30 underline-offset-[6px] transition-colors group-hover:decoration-primary">
+                {pick(link.label) || t("readMore")}
+              </span>
+              <span className="transition-transform group-hover:translate-x-1">→</span>
+            </a>
+          ))}
+          {!sm.blogLinks?.length && sm.blogSlug && (
+            <a
+              href={`/blog/${sm.blogSlug}`}
+              className="group inline-flex items-center gap-3 text-sm font-medium text-primary"
+            >
+              <BookOpen className="size-4 shrink-0" aria-hidden="true" />
+              <span className="underline decoration-primary/30 underline-offset-[6px] transition-colors group-hover:decoration-primary">
+                {t("readMore")}
+              </span>
+              <span className="transition-transform group-hover:translate-x-1">→</span>
+            </a>
+          )}
         </div>
       )}
 

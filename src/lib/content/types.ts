@@ -29,6 +29,11 @@ export interface Subtopic {
   ayahExamples?: AyahExample[];
 }
 
+export interface BlogLink {
+  slug: string;
+  label: LocaleMap;
+}
+
 export interface Submodule {
   id: string;
   title: LocaleMap;
@@ -38,7 +43,8 @@ export interface Submodule {
   wordExamples?: WordExample[];
   ayahExamples?: AyahExample[];
   checkItem?: LocaleMap;
-  blogSlug?: string;
+  blogSlug?: string;       // legacy — single link, no label
+  blogLinks?: BlogLink[];  // preferred — multiple labelled links
 }
 
 export interface BlogPost {

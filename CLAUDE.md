@@ -118,7 +118,10 @@ Each file in `src/content/modules/` is a `Module`:
       "wordExamples": [],     // optional: { arabic, translit?, meaning?: { en, bn } }
       "ayahExamples": [],     // optional: { reference, arabic, translation: { en, bn } }
       "checkItem": { "en": "...", "bn": "...", "ar": "..." }, // optional, falls back to markComplete
-      "blogSlug": "slug"      // optional
+      "blogSlug": "slug",     // optional, legacy — single unlabelled link
+      "blogLinks": [          // optional, preferred — multiple labelled links
+        { "slug": "some-article", "label": { "en": "...", "bn": "...", "ar": "..." } }
+      ]
     }
   ]
 }
