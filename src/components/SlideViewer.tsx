@@ -407,7 +407,7 @@ function Viewer({ module, nextModule }: {
           type="button"
           onClick={goPrev}
           aria-label={t("prev")}
-          className="absolute left-2 top-1/2 z-20 flex -translate-y-1/2 items-center gap-2 rounded-full border border-border bg-card/80 px-3 py-2.5 text-sm text-foreground/80 shadow-sm backdrop-blur transition-all hover:border-primary/40 hover:text-foreground sm:left-3 sm:px-4"
+          className="absolute start-2 top-1/2 z-20 flex -translate-y-1/2 items-center gap-2 rounded-full border border-border bg-card/80 px-3 py-2.5 text-sm text-foreground/80 shadow-sm backdrop-blur transition-all hover:border-primary/40 hover:text-foreground sm:start-3 sm:px-4"
         >
           {dir === "rtl" ? (
             <ArrowRight className="size-4" aria-hidden="true" />
@@ -422,7 +422,7 @@ function Viewer({ module, nextModule }: {
           type="button"
           onClick={goNext}
           aria-label={t("next")}
-          className="absolute right-2 top-1/2 z-20 flex -translate-y-1/2 items-center gap-2 rounded-full bg-primary px-3 py-2.5 text-sm font-medium text-primary-foreground shadow-[0_10px_30px_-10px_oklch(0.42_0.115_162_/_0.7)] transition-all hover:brightness-110 sm:right-3 sm:px-5"
+          className="absolute end-2 top-1/2 z-20 flex -translate-y-1/2 items-center gap-2 rounded-full bg-primary px-3 py-2.5 text-sm font-medium text-primary-foreground shadow-[0_10px_30px_-10px_oklch(0.42_0.115_162_/_0.7)] transition-all hover:brightness-110 sm:end-3 sm:px-5"
         >
           <span className="hidden xl:inline">{t("next")}</span>
           {dir === "rtl" ? (
