@@ -232,7 +232,7 @@ const Content = format === "md" ? mdPost!.Content : null;
         {mdLinkedModules.length > 0 && (
           <div class="mt-10">
             <div class="hairline mb-6" />
-            <p class="mb-3 text-xs font-medium uppercase tracking-widest text-muted-foreground">
+            <p id="md-related-label" class="mb-3 text-xs font-medium uppercase tracking-widest text-muted-foreground">
               Related modules
             </p>
             <ul class="flex flex-col gap-2">
@@ -277,4 +277,14 @@ const Content = format === "md" ? mdPost!.Content : null;
       </div>
     </div>
   )}
+<script>
+  (function () {
+    try {
+      var loc = localStorage.getItem("qe:locale") || "en";
+      var labels = { en: "Related modules", bn: "সম্পর্কিত মডিউল", ar: "الوحدات ذات الصلة" };
+      var el = document.getElementById("md-related-label");
+      if (el && labels[loc]) el.textContent = labels[loc];
+    } catch (_) {}
+  })();
+</script>
 </BlogLayout>
