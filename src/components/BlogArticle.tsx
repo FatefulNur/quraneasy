@@ -67,7 +67,7 @@ function BlogArticleInner({ post, moduleMap }: Props) {
       <SiteNavBar />
 
       {/* Back nav — pt-16 offsets the fixed nav height */}
-      <div className="mx-auto max-w-3xl px-4 pt-20">
+      <div className="mx-auto max-w-4xl px-4 pt-20">
         <a
           href="/blog"
           className="inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
@@ -93,7 +93,7 @@ function BlogArticleInner({ post, moduleMap }: Props) {
       </div>
 
       {/* Hero band */}
-      <div className="grain mt-4 mx-auto max-w-3xl overflow-hidden rounded-xl px-4">
+      <div className="grain mt-4 mx-auto max-w-4xl overflow-hidden rounded-xl px-4">
         <div
           className={`relative rounded-xl px-6 py-10 sm:px-10 sm:py-14 bg-gradient-to-br ${gradient}`}
           style={{ backgroundColor: "var(--parchment)" }}
@@ -130,7 +130,7 @@ function BlogArticleInner({ post, moduleMap }: Props) {
       </div>
 
       {/* Article body */}
-      <div className="mx-auto max-w-3xl px-4 py-10">
+      <div className="mx-auto max-w-4xl px-4 py-10">
         <div
           dir={dir}
           lang={locale}
@@ -157,20 +157,20 @@ function BlogArticleInner({ post, moduleMap }: Props) {
             <p className="mb-3 text-xs font-medium uppercase tracking-widest text-muted-foreground">
               {t("relatedModules")}
             </p>
-            <ul className="flex flex-col gap-2">
+            <ul className="flex flex-wrap gap-2">
               {linkedModules.map((m) => (
                 <li key={m.id}>
                   <a
                     href={m.href}
-                    className="group inline-flex items-center gap-2 rounded-lg border border-border bg-card px-4 py-3 text-sm font-medium text-foreground transition-all hover:border-primary/40 hover:bg-primary/5 hover:text-primary"
+                    className="group inline-flex items-center gap-1.5 rounded-full border border-border bg-card px-3 py-1.5 text-xs font-medium text-foreground transition-all hover:border-primary/40 hover:bg-primary/5 hover:text-primary"
                   >
                     <svg
-                      width="14"
-                      height="14"
+                      width="12"
+                      height="12"
                       viewBox="0 0 14 14"
                       fill="none"
                       aria-hidden="true"
-                      className={`text-muted-foreground transition-colors group-hover:text-primary${isRtl ? " rotate-180" : ""}`}
+                      className={`shrink-0 text-muted-foreground transition-colors group-hover:text-primary${isRtl ? " rotate-180" : ""}`}
                     >
                       <path
                         d="M3 7h8M8 4l3 3-3 3"

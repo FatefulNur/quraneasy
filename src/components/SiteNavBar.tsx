@@ -37,7 +37,7 @@ export default function SiteNavBar() {
           : "bg-transparent",
       ].join(" ")}
     >
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-5 sm:px-8">
+      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-5 sm:px-8">
         {/* Logo */}
         <a href="/" className="transition-opacity hover:opacity-80" aria-label={t("appName")}>
           <img src="/logo.png" alt={t("appName")} className="h-12 w-12 object-contain" />

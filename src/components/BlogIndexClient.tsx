@@ -62,7 +62,7 @@ function BlogIndexInner({ cards }: Props) {
       <SiteNavBar />
 
       {/* Page header — pt-20 offsets fixed nav */}
-      <header className="mx-auto max-w-4xl px-4 pb-8 pt-20 anim-rise" dir={dir}>
+      <header className="mx-auto max-w-5xl px-4 pb-8 pt-20 anim-rise" dir={dir}>
         <a
           href="/"
           className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
@@ -110,7 +110,7 @@ function BlogIndexInner({ cards }: Props) {
       </header>
 
       {/* Post grid */}
-      <main className="mx-auto max-w-4xl px-4 pb-16">
+      <main className="mx-auto max-w-5xl px-4 pb-16">
         <div className="grid gap-6 sm:grid-cols-2">
           {visible.map((card) => (
             <a

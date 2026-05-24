@@ -41,6 +41,16 @@ function Inner({ modules }: { modules: Module[] }) {
 
   useEffect(() => { setMounted(true); }, []);
 
+  useEffect(() => {
+    if (!mounted) return;
+    const hash = window.location.hash;
+    if (!hash) return;
+    const id = setTimeout(() => {
+      document.querySelector(hash)?.scrollIntoView({ behavior: "smooth" });
+    }, 50);
+    return () => clearTimeout(id);
+  }, [mounted]);
+
   if (!mounted) {
     return (
       <div className="flex min-h-dvh items-center justify-center bg-background">
@@ -74,7 +84,7 @@ function Inner({ modules }: { modules: Module[] }) {
 
       <SiteNavBar />
 
-      <div className="mx-auto max-w-6xl px-5 sm:px-8">
+      <div className="mx-auto max-w-7xl px-5 sm:px-8">
         {/* HERO */}
         <section className="relative grid gap-10 pb-16 pt-24 sm:pt-32 lg:grid-cols-12 lg:gap-14 lg:pb-24 lg:pt-36">
           <div className="lg:col-span-8">
