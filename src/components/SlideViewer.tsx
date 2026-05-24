@@ -378,6 +378,38 @@ function Viewer({ module }: { module: Module }) {
         </div>
       </main>
 
+      {/* Floating side nav — desktop only (hidden when no gutter space) */}
+      {!isFirst && (
+        <button
+          type="button"
+          onClick={goPrev}
+          aria-label={t("prev")}
+          className="absolute left-3 top-1/2 z-20 hidden -translate-y-1/2 items-center gap-2 rounded-full border border-border bg-card/80 px-4 py-2.5 text-sm text-foreground/80 shadow-sm backdrop-blur transition-all hover:border-primary/40 hover:text-foreground xl:flex"
+        >
+          {dir === "rtl" ? (
+            <ArrowRight className="size-4" aria-hidden="true" />
+          ) : (
+            <ArrowLeft className="size-4" aria-hidden="true" />
+          )}
+          <span>{t("prev")}</span>
+        </button>
+      )}
+      {!isLast && (
+        <button
+          type="button"
+          onClick={goNext}
+          aria-label={t("next")}
+          className="absolute right-3 top-1/2 z-20 hidden -translate-y-1/2 items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground shadow-[0_10px_30px_-10px_oklch(0.42_0.115_162_/_0.7)] transition-all hover:-translate-y-[calc(50%+2px)] hover:shadow-[0_18px_40px_-12px_oklch(0.42_0.115_162_/_0.7)] xl:flex"
+        >
+          <span>{t("next")}</span>
+          {dir === "rtl" ? (
+            <ArrowLeft className="size-4" aria-hidden="true" />
+          ) : (
+            <ArrowRight className="size-4" aria-hidden="true" />
+          )}
+        </button>
+      )}
+
       {/* FOOTER nav — free roam, no gating */}
       <nav
         className="relative z-10 flex items-center justify-between gap-3 border-t border-border/70 bg-background/85 px-5 py-4 backdrop-blur sm:px-8"
