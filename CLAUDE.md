@@ -36,6 +36,26 @@ openspec/
 | `npm run dev` | dev server `localhost:4321` |
 | `npm run build` | static build → `dist/` |
 | `npm run preview` | preview built site |
+| `npm run notify -- "<Module Name>"` | broadcast new-module announcement to Telegram |
+
+## Broadcasting new modules
+
+When a new module ships, run:
+
+```bash
+npm run notify -- "Tajweed Basics"
+```
+
+Or directly:
+
+```bash
+npx tsx --env-file=.env scripts/notify.ts "Tajweed Basics"
+```
+
+**Requirements:**
+- `TELEGRAM_BOT_TOKEN` must be set in `.env` (gitignored). Get the token from @BotFather.
+- The bot must be added as an **administrator** of `@quraneasyguide` channel — without admin rights Telegram returns a 403 error.
+- Never pass the token as a CLI argument or commit it to source control.
 
 ## OpenSpec workflow
 
