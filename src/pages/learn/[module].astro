@@ -19,6 +19,6 @@ export function getStaticPaths() {
 const { module, nextModule } = Astro.props;
 ---
 
-<BaseLayout title={`${module.title.en ?? module.id} · QuranEasy`} hideTelegram>
+<BaseLayout title={`${module.title.en ?? module.id} · QuranEasy`}>
   <SlideViewer module={module} nextModule={nextModule} client:load />
 </BaseLayout>
