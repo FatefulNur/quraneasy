@@ -1,7 +1,9 @@
 const moduleName = process.argv[2];
+const moduleId = process.argv[3];
 
-if (!moduleName) {
-  process.stderr.write('Usage: tsx scripts/notify.ts "<Module Name>"\n');
+if (!moduleName || !moduleId) {
+  process.stderr.write('Usage: tsx scripts/notify.ts "<Module Name>" <module-id>\n');
+  process.stderr.write('Example: tsx scripts/notify.ts "Tajweed Basics" module-1-tajweed-basics\n');
   process.exit(1);
 }
 
@@ -12,10 +14,19 @@ if (!token) {
   process.exit(1);
 }
 
+const siteUrl = (process.env.PUBLIC_SITE_URL ?? "").replace(/\/$/, "");
+
+if (!siteUrl) {
+  process.stderr.write("Error: PUBLIC_SITE_URL is not set in environment.\n");
+  process.exit(1);
+}
+
+const moduleUrl = `${siteUrl}/learn/${moduleId}`;
+
 const text =
   `🕌 New module added on QuranEasy!\n` +
   `📖 Module: ${moduleName}\n` +
-  `👉 Start learning: https://quraneasy.com/learn`;
+  `👉 Start learning: ${moduleUrl}`;
 
 const res = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
   method: "POST",
