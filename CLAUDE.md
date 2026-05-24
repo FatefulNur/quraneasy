@@ -48,6 +48,7 @@ openspec/
    ```
    TELEGRAM_BOT_TOKEN=your_token_here
    PUBLIC_SITE_URL=https://quraneasy.com
+   TELEGRAM_CHANNEL=@quraneasyguide
    ```
 
 ### Sending a notification
@@ -84,6 +85,7 @@ Module IDs match the JSON filenames in `src/content/modules/` (without `.json`),
 | --- | --- | --- |
 | `TELEGRAM_BOT_TOKEN is not set` | Missing or empty token in `.env` | Add real token to `.env` |
 | `PUBLIC_SITE_URL is not set` | Missing site URL in `.env` | Add `PUBLIC_SITE_URL=https://quraneasy.com` to `.env` |
+| `TELEGRAM_CHANNEL is not set` | Missing channel in `.env` | Add `TELEGRAM_CHANNEL=@yourchannel` to `.env` |
 | `Telegram error 403` | Bot not admin in channel | Add bot as administrator in channel settings |
 | `Telegram error 404` | Invalid token | Regenerate token via `@BotFather → /revoke` |
 | `Usage: tsx scripts/notify.ts` | Missing name or module ID | Pass both: `-- "Name" module-id` |

@@ -78,6 +78,7 @@ Requires a Telegram bot token in `.env`:
 ```
 TELEGRAM_BOT_TOKEN=your_token_here
 PUBLIC_SITE_URL=https://quraneasy.com
+TELEGRAM_CHANNEL=@yourchannel
 ```
 
 Then:

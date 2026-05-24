@@ -21,6 +21,13 @@ if (!siteUrl) {
   process.exit(1);
 }
 
+const channel = process.env.TELEGRAM_CHANNEL;
+
+if (!channel) {
+  process.stderr.write("Error: TELEGRAM_CHANNEL is not set in environment.\n");
+  process.exit(1);
+}
+
 const moduleUrl = `${siteUrl}/learn/${moduleId}`;
 
 const text =
@@ -31,7 +38,7 @@ const text =
 const res = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
   method: "POST",
   headers: { "Content-Type": "application/json" },
-  body: JSON.stringify({ chat_id: "@quraneasyguide", text }),
+  body: JSON.stringify({ chat_id: channel, text }),
 });
 
 if (!res.ok) {
@@ -40,4 +47,4 @@ if (!res.ok) {
   process.exit(1);
 }
 
-console.log(`Announced "${moduleName}" to @quraneasyguide.`);
+console.log(`Announced "${moduleName}" to ${channel}.`);
