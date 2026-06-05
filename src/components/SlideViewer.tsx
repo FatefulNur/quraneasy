@@ -5,7 +5,7 @@ import {
   useRef,
   useState,
 } from "react";
-import { ArrowLeft, ArrowRight, BookOpen, ChevronRight, X } from "lucide-react";
+import { ArrowLeft, ArrowRight, BookOpen, ChevronRight, Send, X } from "lucide-react";
 import SubmoduleCompletion from "@/components/SubmoduleCompletion";
 import AyahList from "@/components/AyahList";
 import LetterTile from "@/components/LetterTile";
@@ -36,10 +36,11 @@ function pad2(n: number) {
   return n.toString().padStart(2, "0");
 }
 
-function SubmoduleBody({ moduleId, sm, isCurrent, progress, onToggle }: {
+function SubmoduleBody({ moduleId, sm, isCurrent, isLastInModule, progress, onToggle }: {
   moduleId: string;
   sm: Submodule;
   isCurrent: boolean;
+  isLastInModule: boolean;
   progress: ProgressMap;
   onToggle: (submoduleId: string, done: boolean) => void;
 }) {
@@ -152,6 +153,27 @@ function SubmoduleBody({ moduleId, sm, isCurrent, progress, onToggle }: {
               <span className="transition-transform group-hover:translate-x-1">→</span>
             </a>
           )}
+        </div>
+      )}
+
+      {/* Telegram CTA — last submodule only */}
+      {isLastInModule && (
+        <div className="mt-10 rounded-2xl border border-primary/20 bg-primary/5 px-6 py-6">
+          <p className="mb-1 text-xs font-medium uppercase tracking-[0.2em] text-primary">
+            {t("telegramCtaTitle")}
+          </p>
+          <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+            {t("telegramCtaBody")}
+          </p>
+          <a
+            href="https://t.me/quraneasyguide"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-all hover:brightness-110"
+          >
+            <Send className="size-4 shrink-0" aria-hidden="true" />
+            {t("telegramCtaButton")}
+          </a>
         </div>
       )}
 
@@ -373,6 +395,7 @@ function Viewer({ module, nextModule }: {
                 moduleId={module.id}
                 sm={sm}
                 isCurrent={i === index}
+                isLastInModule={i === total - 1}
                 progress={progress}
                 onToggle={onToggle}
               />
