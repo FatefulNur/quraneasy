@@ -63,7 +63,7 @@
       "definition": {
         "en": "When a qalqalah letter with sukoon appears in the middle of a word, it creates a small bouncing effect.",
         "bn": "যখন একটি সুকুন সহ ক্বলক্বলাহ অক্ষর একটি শব্দের মাঝখানে প্রদর্শিত হয়, এটি একটি ছোট বাউন্সিং প্রভাব তৈরি করে।",
-        "ar": "عندما يظهر حرف قلقلة بسكون في وسط الكلمة، يخلق تأثير قلقلة صغيرة."
+        "ar": "عندما يظهر حرف قلقلة بسكون في وسط الكلمة، يخلق تأثير القلقلة الصغرى."
       },
       "wordExamples": [
         {
@@ -75,11 +75,11 @@
           }
         },
         {
-          "arabic": "يَلِدْ",
-          "translit": "yalid",
+          "arabic": "اقْتَرَبَ",
+          "translit": "iqtaraba",
           "meaning": {
-            "en": "He gives birth",
-            "bn": "সে জন্ম দেয়"
+            "en": "Has drawn near",
+            "bn": "কাছে এসেছে"
           }
         }
       ],
@@ -90,16 +90,16 @@
       }
     },
     {
-      "id": "big-qalqalah",
+      "id": "qalqalah-kubra",
       "title": {
         "en": "Big Qalqalah",
         "bn": "বড় ক্বলক্বলাহ",
         "ar": "القلقلة الكبرى"
       },
       "definition": {
-        "en": "When a qalqalah letter with sukoon appears at the end of a word (especially during a pause), the bouncing effect is more pronounced.",
-        "bn": "যখন একটি সুকুন সহ ক্বলক্বলাহ অক্ষর একটি শব্দের শেষে প্রদর্শিত হয় (বিশেষত থামার সময়), বাউন্সিং প্রভাব আরও স্পষ্ট।",
-        "ar": "عندما يظهر حرف قلقلة بسكون في نهاية الكلمة (خاصة عند التوقف)، يكون تأثير القلقلة أكثر وضوحًا."
+        "en": "When a qalqalah letter with sukoon appears at the end of a word (especially when stopping, عند الوقف), the bouncing effect is more pronounced.",
+        "bn": "যখন একটি সুকুন সহ ক্বলক্বলাহ অক্ষর একটি শব্দের শেষে প্রদর্শিত হয় (বিশেষত থামার সময়, وقف-এ), বাউন্সিং প্রভাব আরও স্পষ্ট।",
+        "ar": "عندما يظهر حرف قلقلة بسكون في نهاية الكلمة عند الوقف، يكون تأثير القلقلة الكبرى أكثر وضوحًا وقوةً."
       },
       "wordExamples": [
         {
@@ -119,18 +119,18 @@
           }
         },
         {
-          "arabic": "تَبَّ",
-          "translit": "tabba",
+          "arabic": "الصَّمَدْ",
+          "translit": "as-samad",
           "meaning": {
-            "en": "Ruined",
-            "bn": "ধ্বংস হয়েছে"
+            "en": "The Eternal Refuge",
+            "bn": "চিরস্থায়ী আশ্রয়"
           }
         }
       ],
       "checkItem": {
-        "en": "I know that qalqalah at the end of a word is bigger and more noticeable.",
-        "bn": "আমি জানি যে একটি শব্দের শেষে ক্বলক্বলাহ বড় এবং আরও লক্ষণীয়।",
-        "ar": "أتقنتَ أن القلقلة في نهاية الكلمة كبرى وأكثر وضوحًا."
+        "en": "I know that qalqalah at the end of a word (qalqalah kubra) is bigger and more noticeable when stopping.",
+        "bn": "আমি জানি যে একটি শব্দের শেষে ক্বলক্বলাহ (ক্বলক্বলাহ কুবরা) থামার সময় বড় এবং আরও লক্ষণীয়।",
+        "ar": "أتقنتَ أن القلقلة الكبرى عند الوقف أقوى وأكثر وضوحًا من القلقلة الصغرى."
       }
     }
   ]

@@ -21,9 +21,9 @@
         "ar": "ما هو التجويد؟"
       },
       "definition": {
-        "en": "Tajweed means giving every letter its proper rights during recitation — correct pronunciation, characteristics, and proper lengthening.",
-        "bn": "তাজবীদ মানে তিলাওয়াতের সময় প্রতিটি অক্ষরকে তার যথাযথ হক প্রদান করা — সঠিক উচ্চারণ, বৈশিষ্ট্য এবং সঠিক দীর্ঘায়ন।",
-        "ar": "التجويد إعطاء كل حرف حقه أثناء التلاوة — النطق الصحيح والصفات والمد الصحيح."
+        "en": "Tajweed means giving every letter its rights and dues during recitation by pronouncing it from its correct articulation point and applying its proper characteristics and rules.",
+        "bn": "তাজবীদ মানে তিলাওয়াতের সময় প্রতিটি অক্ষরকে তার হক ও মুস্তাহাক্ব প্রদান করা — সঠিক মাখরাজ থেকে উচ্চারণ করা এবং এর যথাযথ বৈশিষ্ট্য ও নিয়ম প্রয়োগ করা।",
+        "ar": "التجويد هو إعطاء كل حرف حقه ومستحقه من المخارج والصفات والأحكام أثناء التلاوة."
       },
       "wordExamples": [
         {
@@ -70,7 +70,7 @@
       "checkItem": {
         "en": "I understand that tajweed is about giving each letter its proper sound.",
         "bn": "আমি বুঝি যে তাজবীদ মানে প্রতিটি অক্ষরকে তার সঠিক উচ্চারণ দেওয়া।",
-        "ar": "تعلَّمتَ أن التجويد إعطاء كل حرف حقه من النطق الصحيح."
+        "ar": "أفهم أن التجويد هو إعطاء كل حرف حقه ومستحقه في التلاوة."
       }
     },
     {
@@ -81,14 +81,14 @@
         "ar": "لماذا التجويد مهم"
       },
       "definition": {
-        "en": "Learning tajweed preserves the correct meaning of Quranic words, beautifies your recitation, and honors the Quran as it was revealed.",
+        "en": "Learning tajweed helps preserve the correct pronunciation and meaning of Quranic words, beautifies your recitation, and honors the Quran as it was revealed.",
         "bn": "তাজবীদ শিখলে কোরআনের শব্দের সঠিক অর্থ সংরক্ষিত হয়, আপনার তিলাওয়াত সুন্দর হয় এবং কোরআনের প্রতি সম্মান প্রদর্শিত হয়।",
         "ar": "تعلم التجويد يحفظ معاني كلمات القرآن ويجمل تلاوتك ويكرّم القرآن كما نزل."
       },
       "checkItem": {
         "en": "I know that correct pronunciation preserves meaning and honors the Quran.",
         "bn": "আমি জানি যে সঠিক উচ্চারণ অর্থ সংরক্ষণ করে এবং কোরআনকে সম্মান করে।",
-        "ar": "أدركتَ أن النطق الصحيح يحفظ المعنى ويكرّم القرآن."
+        "ar": "أدرك أن النطق الصحيح يحفظ المعنى ويكرّم القرآن."
       },
       "blogLinks": [
         {

@@ -1,0 +1,255 @@
+{
+  "id": "module-12-waqf",
+  "order": 12,
+  "recommendedOrder": 12,
+  "title": {
+    "en": "Waqf (Stopping and Pausing Rules)",
+    "bn": "ওয়াকফ (থামা এবং বিরতি নিয়ম)",
+    "ar": "الوقف"
+  },
+  "summary": {
+    "en": "Learn the stopping marks used in Quranic text to guide proper pauses and continuation during recitation.",
+    "bn": "তিলাওয়াতের সময় অর্থ ঠিক রাখার জন্য থামা ও চলার নির্দেশনাসহ কোরআনিক পাঠে ব্যবহৃত বিরতি চিহ্নগুলি শিখুন।",
+    "ar": "تعلم علامات الوقف المستخدمة في النص القرآني لتوجيه الوقفات والوصل الصحيحة أثناء التلاوة."
+  },
+  "submodules": [
+    {
+      "id": "mandatory-stop",
+      "title": {
+        "en": "Mandatory Stop",
+        "bn": "বাধ্যতামূলক থামা",
+        "ar": "الوقف الواجب"
+      },
+      "definition": {
+        "en": "The meem symbol (م) marks a place where stopping is required. Continuing without pausing here may affect the meaning of the verse.",
+        "bn": "মীম চিহ্ন (م) এমন স্থান চিহ্নিত করে যেখানে থামা আবশ্যক। এখানে না থেমে এগিয়ে গেলে আয়াতের অর্থ প্রভাবিত হতে পারে।",
+        "ar": "رمز الميم (م) يشير إلى وقف واجب؛ الاستمرار دون توقف قد يؤثر في معنى الآية."
+      },
+      "letterExamples": [
+        {
+          "arabic": "م",
+          "translit": "m"
+        }
+      ],
+      "ayahExamples": [
+        {
+          "reference": "Al-Baqarah 2:6",
+          "arabic": "إِنَّ الَّذِينَ كَفَرُوا سَوَآءٌ عَلَيْهِمْ (م) أَأَنذَرْتَهُمْ",
+          "translation": {
+            "en": "Indeed, those who disbelieve — it is all the same [م] whether you warn them",
+            "bn": "নিশ্চয়ই যারা কুফর করেছে তাদের জন্য সমান [م] তুমি তাদের সতর্ক করো বা না করো"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I know that meem (م) marks a required stop to preserve meaning.",
+        "bn": "আমি জানি যে মীম (م) অর্থ রক্ষার জন্য থামার নির্দেশ দেয়।",
+        "ar": "تعلَّمتَ أن رمز الميم (م) يعني وقفًا واجبًا للحفاظ على المعنى."
+      }
+    },
+    {
+      "id": "better-not-to-stop",
+      "title": {
+        "en": "Do Not Stop",
+        "bn": "না থামাই ভালো",
+        "ar": "الوقف الممنوع"
+      },
+      "definition": {
+        "en": "The lam-alif symbol (لا) indicates stopping here is not preferred in normal recitation, as it may break the meaning flow of the verse.",
+        "bn": "লাম-আলিফ চিহ্ন (لا) নির্দেশ করে যে এখানে থামা স্বাভাবিক তিলাওয়াতে পছন্দনীয় নয়, কারণ এতে আয়াতের অর্থের ধারাবাহিকতা ক্ষতিগ্রস্ত হতে পারে।",
+        "ar": "رمز اللام-الألف (لا) يشير إلى أن الوقف هنا لا يُفضَّل في التلاوة العادية، إذ قد يؤثر في تدفق معنى الآية."
+      },
+      "letterExamples": [
+        {
+          "arabic": "لا",
+          "translit": "la"
+        }
+      ],
+      "ayahExamples": [
+        {
+          "reference": "Al-Kahf 18:1–2",
+          "arabic": "الْحَمْدُ لِلَّهِ الَّذِي أَنزَلَ عَلَىٰ عَبْدِهِ الْكِتَابَ (لا) وَلَمْ يَجْعَل لَّهُ عِوَجًا",
+          "translation": {
+            "en": "Praise to Allah who revealed the Book to His servant [لا] and did not make it crooked",
+            "bn": "সকল প্রশংসা আল্লাহর যিনি তাঁর বান্দার উপর কিতাব নাযিল করেছেন [لا] এবং তাতে কোনো বক্রতা রাখেননি"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I understand that lam-alif (لا) means stopping here may affect the meaning.",
+        "bn": "আমি বুঝি যে লাম-আলিফ (لا) এখানে থামলে অর্থ প্রভাবিত হতে পারে।",
+        "ar": "تعلَّمتَ أن رمز (لا) يعني أن الوقف هنا لا يُفضَّل إلا عند الحاجة."
+      }
+    },
+    {
+      "id": "optional-stop",
+      "title": {
+        "en": "Optional Stop",
+        "bn": "ঐচ্ছিক থামা",
+        "ar": "الوقف الجائز"
+      },
+      "definition": {
+        "en": "The jeem symbol (ج) marks a place where stopping or continuing are both acceptable. Choose based on your breath and the flow of recitation.",
+        "bn": "জীম চিহ্ন (ج) এমন স্থান চিহ্নিত করে যেখানে থামা বা চলা দুটোই গ্রহণযোগ্য। নিজের শ্বাস ও তিলাওয়াতের প্রবাহের ভিত্তিতে বেছে নিন।",
+        "ar": "رمز الجيم (ج) يوضح مكانًا يجوز فيه الوقف أو الوصل كلاهما. اختر بحسب نفسك وسياق التلاوة."
+      },
+      "letterExamples": [
+        {
+          "arabic": "ج",
+          "translit": "j"
+        }
+      ],
+      "ayahExamples": [
+        {
+          "reference": "Al-Fatiha 1:2",
+          "arabic": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ (ج)",
+          "translation": {
+            "en": "All praise is due to Allah, Lord of all the worlds [ج]",
+            "bn": "সমস্ত প্রশংসা আল্লাহর জন্য, যিনি সকল জগতের প্রতিপালক [ج]"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I know that jeem (ج) offers a valid optional pause.",
+        "bn": "আমি জানি যে জীম (ج) একটি গ্রহণযোগ্য ঐচ্ছিক বিরতি নির্দেশ করে।",
+        "ar": "تعلَّمتَ أن رمز الجيم (ج) يوفر وقفة اختيارية مقبولة."
+      }
+    },
+    {
+      "id": "better-to-stop",
+      "title": {
+        "en": "Better to Stop",
+        "bn": "থেমে যাওয়াই ভালো",
+        "ar": "الوقف المستحسن"
+      },
+      "definition": {
+        "en": "The ta symbol (ط) indicates stopping here is recommended for preserving meaning, though continuing is not wrong.",
+        "bn": "তা চিহ্ন (ط) নির্দেশ করে যে অর্থ সংরক্ষণের জন্য এখানে থামা সুপারিশকৃত, যদিও চলতে থাকা ভুল নয়।",
+        "ar": "رمز الطاء (ط) يشير إلى أن الوقف هنا مستحسن للحفاظ على المعنى، وإن كان الوصل جائزًا."
+      },
+      "letterExamples": [
+        {
+          "arabic": "ط",
+          "translit": "t"
+        }
+      ],
+      "ayahExamples": [
+        {
+          "reference": "Al-Baqarah 2:10",
+          "arabic": "فِي قُلُوبِهِم مَّرَضٌ (ط) فَزَادَهُمُ اللَّهُ مَرَضًا",
+          "translation": {
+            "en": "In their hearts is a disease [ط] and Allah has increased their disease",
+            "bn": "তাদের অন্তরে রোগ আছে [ط] এবং আল্লাহ তাদের রোগ আরও বাড়িয়ে দিয়েছেন"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I understand that ta (ط) recommends stopping to preserve meaning.",
+        "bn": "আমি বুঝি যে তা (ط) অর্থ রক্ষার জন্য থামার সুপারিশ করে।",
+        "ar": "تعلَّمتَ أن رمز الطاء (ط) يقترح الوقف للحفاظ على المعنى."
+      }
+    },
+    {
+      "id": "pause-allowed",
+      "title": {
+        "en": "Concessionary Pause",
+        "bn": "অনুমোদিত বিরতি",
+        "ar": "الوقف المرخَّص"
+      },
+      "definition": {
+        "en": "The sad symbol (ص) marks a concessionary pause — stopping is permitted when needed, such as when breath runs short, though continuing is preferred.",
+        "bn": "সাদ চিহ্ন (ص) একটি অনুমোদিত বিরতি নির্দেশ করে — প্রয়োজনের সময় যেমন শ্বাস ফুরিয়ে গেলে থামা জায়েজ, তবে চলতে থাকাই উত্তম।",
+        "ar": "رمز الصاد (ص) يشير إلى وقف مرخَّص عند الحاجة، كضيق النفس، وإن كان الوصل أولى."
+      },
+      "letterExamples": [
+        {
+          "arabic": "ص",
+          "translit": "s"
+        }
+      ],
+      "ayahExamples": [
+        {
+          "reference": "Al-Baqarah 2:2",
+          "arabic": "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ (ص) فِيهِ هُدًى لِّلْمُتَّقِينَ",
+          "translation": {
+            "en": "This is the Book, no doubt [ص] in it — a guidance for the God-fearing",
+            "bn": "এই কিতাব, এতে কোনো সন্দেহ নেই [ص] — মুত্তাকীদের জন্য পথপ্রদর্শক"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I know that sad (ص) permits a pause when needed, though continuing is preferred.",
+        "bn": "আমি জানি যে সাদ (ص) প্রয়োজনে থামার অনুমতি দেয়, তবে চলতে থাকাই উত্তম।",
+        "ar": "تعلَّمتَ أن رمز الصاد (ص) يجيز الوقف عند الحاجة وإن كان الوصل أولى."
+      }
+    },
+    {
+      "id": "stopping-better-qly",
+      "title": {
+        "en": "Stopping is Better (Qalā)",
+        "bn": "থামাই উত্তম (ক্বলা)",
+        "ar": "الوقف أولى — قلى"
+      },
+      "definition": {
+        "en": "The symbol (قلى) indicates stopping is better at this point. Continuing is not wrong, but pausing better preserves the intended meaning.",
+        "bn": "ক্বলা চিহ্ন (قلى) নির্দেশ করে যে এই স্থানে থামাই উত্তম। চলতে থাকা ভুল নয়, তবে থামলে উদ্দেশ্যকৃত অর্থ আরও সুরক্ষিত থাকে।",
+        "ar": "رمز (قلى) يشير إلى أن الوقف هنا أولى. الوصل ليس خطأً، لكن الوقف يحفظ المعنى المقصود بشكل أفضل."
+      },
+      "letterExamples": [
+        {
+          "arabic": "قلى",
+          "translit": "qalā"
+        }
+      ],
+      "ayahExamples": [
+        {
+          "reference": "Ad-Duha 93:3",
+          "arabic": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ (قلى)",
+          "translation": {
+            "en": "Your Lord has not forsaken you, nor has He become displeased [قلى]",
+            "bn": "তোমার প্রতিপালক তোমাকে পরিত্যাগ করেননি এবং তোমার প্রতি বিরক্তও হননি [قلى]"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I know that qalā (قلى) means stopping is the better choice here.",
+        "bn": "আমি জানি যে ক্বলা (قلى) মানে এখানে থামাই উত্তম।",
+        "ar": "تعلَّمتَ أن رمز (قلى) يعني أن الوقف هنا أولى."
+      }
+    },
+    {
+      "id": "continuing-better-sly",
+      "title": {
+        "en": "Continuing is Better (Ṣilā)",
+        "bn": "চলতে থাকাই উত্তম (সিলা)",
+        "ar": "الوصل أولى — صلى"
+      },
+      "definition": {
+        "en": "The symbol (صلى) indicates continuing without stopping is better here. Stopping is permissible, but it may weaken the connection between the phrases.",
+        "bn": "সিলা চিহ্ন (صلى) নির্দেশ করে যে এখানে না থেমে চলতে থাকাই উত্তম। থামা জায়েজ, তবে এতে বাক্যাংশগুলোর মধ্যকার সংযোগ দুর্বল হতে পারে।",
+        "ar": "رمز (صلى) يشير إلى أن الوصل هنا أولى. الوقف جائز، لكنه قد يُضعف الرابط بين العبارتين."
+      },
+      "letterExamples": [
+        {
+          "arabic": "صلى",
+          "translit": "ṣilā"
+        }
+      ],
+      "ayahExamples": [
+        {
+          "reference": "Al-An'am 6:17",
+          "arabic": "وَإِن يَمْسَسْكَ اللَّهُ بِضُرٍّ (صلى) فَلَا كَاشِفَ لَهُ إِلَّا هُوَ",
+          "translation": {
+            "en": "And if Allah touches you with adversity [صلى] there is no remover of it except Him",
+            "bn": "আর আল্লাহ যদি তোমাকে কোনো কষ্ট দেন [صلى] তবে তিনি ছাড়া তা দূর করার কেউ নেই"
+          }
+        }
+      ],
+      "checkItem": {
+        "en": "I know that ṣilā (صلى) means continuing without stopping is the better choice.",
+        "bn": "আমি জানি যে সিলা (صلى) মানে এখানে না থেমে চলতে থাকাই উত্তম।",
+        "ar": "تعلَّمتَ أن رمز (صلى) يعني أن الوصل هنا أولى."
+      }
+    }
+  ]
+}

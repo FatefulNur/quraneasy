@@ -21,9 +21,9 @@
         "ar": "الجوف"
       },
       "definition": {
-        "en": "The jawf is the entire mouth and throat cavity; three letters come from this point: alif, waw, and ya.",
-        "bn": "জাওফ হল সম্পূর্ণ মুখ এবং গলার গহ্বর; তিনটি অক্ষর এই স্থান থেকে আসে: আলিফ, ওয়াও এবং ইয়া।",
-        "ar": "الجوف هو تجويف الفم والحلق بأكمله؛ ثلاثة حروف تخرج من هذا المخرج: الألف والواو والياء."
+        "en": "The jawf is the empty space inside the mouth used for elongation sounds; madd letters (alif, waw, ya) are produced from this space when conditions are met.",
+        "bn": "জাওফ হল মুখের ভেতরের শূন্যস্থান যা মদ্দের শব্দ উচ্চারণের জন্য ব্যবহৃত হয়; শর্ত পূরণ হলে মদ্দ অক্ষরসমূহ (আলিফ, ওয়াও, ইয়া) এই স্থান থেকে উচ্চারিত হয়।",
+        "ar": "الجوف هو تجويف الفم والحلق؛ ثلاثة حروف تخرج من هذا المخرج: الألف والواو والياء."
       },
       "letterExamples": [
         {
@@ -82,9 +82,9 @@
         }
       ],
       "checkItem": {
-        "en": "I know that alif, waw, and ya come from the jawf.",
-        "bn": "আমি জানি যে আলিফ, ওয়াও এবং ইয়া জাওফ থেকে আসে।",
-        "ar": "تعلَّمتَ أن الألف والواو والياء تخرج من الجوف."
+        "en": "I know that alif, waw, and ya come from the jawf as madd letters when elongation conditions are met.",
+        "bn": "আমি জানি যে আলিফ, ওয়াও এবং ইয়া মদ্দের শর্ত পূরণ হলে জাওফ থেকে মদ্দ অক্ষর হিসেবে উচ্চারিত হয়।",
+        "ar": "تعلَّمتَ أن الألف والواو والياء تخرج من الجوف حروفَ مدٍّ عند توفر شروط المد."
       }
     },
     {
@@ -110,7 +110,7 @@
           "letterExamples": [
             {
               "arabic": "ء",
-              "translit": "'"
+              "translit": "ʾ"
             },
             {
               "arabic": "ه",
@@ -146,7 +146,7 @@
           "letterExamples": [
             {
               "arabic": "ع",
-              "translit": "'"
+              "translit": "ʿ"
             },
             {
               "arabic": "ح",
@@ -223,9 +223,9 @@
         "ar": "اللسان"
       },
       "definition": {
-        "en": "Many Arabic letters are produced from different parts of the tongue — this is the largest articulation point.",
-        "bn": "অনেক আরবি অক্ষর জিহ্বার বিভিন্ন অংশ থেকে উচ্চারিত হয় — এটি সবচেয়ে বড় উচ্চারণ স্থল।",
-        "ar": "العديد من الحروف العربية تنطق من أجزاء مختلفة من اللسان — وهو أكبر مخرج."
+        "en": "Different parts of the tongue produce different groups of Arabic letters, including the root, middle, and tip of the tongue — this is the largest articulation point.",
+        "bn": "জিহ্বার বিভিন্ন অংশ বিভিন্ন গ্রুপের আরবি অক্ষর উচ্চারণ করে, যেমন জিহ্বার মূল, মধ্যভাগ এবং অগ্রভাগ — এটি সবচেয়ে বড় উচ্চারণ স্থল।",
+        "ar": "أجزاء مختلفة من اللسان تنتج مجموعات مختلفة من الحروف العربية، بما فيها أصل اللسان ووسطه وطرفه — وهو أكبر مخرج."
       },
       "letterExamples": [
         {
@@ -255,6 +255,38 @@
         {
           "arabic": "ض",
           "translit": "d"
+        },
+        {
+          "arabic": "ت",
+          "translit": "t"
+        },
+        {
+          "arabic": "ث",
+          "translit": "th"
+        },
+        {
+          "arabic": "د",
+          "translit": "d"
+        },
+        {
+          "arabic": "ط",
+          "translit": "t"
+        },
+        {
+          "arabic": "ظ",
+          "translit": "dh"
+        },
+        {
+          "arabic": "ص",
+          "translit": "s"
+        },
+        {
+          "arabic": "س",
+          "translit": "s"
+        },
+        {
+          "arabic": "ز",
+          "translit": "z"
         }
       ],
       "wordExamples": [
@@ -300,9 +332,9 @@
         }
       ],
       "checkItem": {
-        "en": "I recognize tongue letters and understand they come from different tongue positions.",
-        "bn": "আমি জিহ্বার অক্ষরগুলি চিনি এবং বুঝি যে সেগুলি বিভিন্ন জিহ্বা অবস্থান থেকে আসে।",
-        "ar": "تعرَّفتَ على حروف اللسان ومواضعها المختلفة على اللسان."
+        "en": "I recognize tongue letters and understand they come from different tongue positions — root, middle, and tip.",
+        "bn": "আমি জিহ্বার অক্ষরগুলি চিনি এবং বুঝি যে সেগুলি জিহ্বার মূল, মধ্যভাগ এবং অগ্রভাগ থেকে আসে।",
+        "ar": "تعرَّفتَ على حروف اللسان ومواضعها المختلفة: أصله ووسطه وطرفه."
       }
     },
     {
@@ -383,9 +415,9 @@
         "ar": "الخيشوم"
       },
       "definition": {
-        "en": "The nasal passage is used for the ghunna sound — a nasal resonance produced through the nose when noon and meem are doubled or when followed by certain letters.",
-        "bn": "নাক গুন্নাহ শব্দের জন্য ব্যবহৃত হয় — একটি নাসিক অনুরণন যা নুন এবং মীম দ্বিগুণ হওয়ার সময় বা নির্দিষ্ট অক্ষরের অনুসরণ করার সময় নাক দিয়ে উত্পাদিত হয়।",
-        "ar": "الخيشوم يُستخدم لصوت الغنة — وهو صدى أنفي ينتج عندما يتضاعف النون والميم أو عند اتباعهما لحروف معينة."
+        "en": "The nasal passage is used for the ghunna sound — a nasal resonance produced through the nose when applying tajweed rules such as shaddah, ikhfa, and idgham involving noon and meem.",
+        "bn": "নাক গুন্নাহ শব্দের জন্য ব্যবহৃত হয় — একটি নাসিক অনুরণন যা নুন এবং মীমের উপর শাদ্দাহ, ইখফা এবং ইদগামের মতো তাজওয়ীদ বিধি প্রয়োগের সময় নাক দিয়ে উত্পাদিত হয়।",
+        "ar": "الخيشوم يُستخدم لصوت الغنة — وهو صدى أنفي ينتج عند تطبيق أحكام النون والميم."
       },
       "wordExamples": [
         {

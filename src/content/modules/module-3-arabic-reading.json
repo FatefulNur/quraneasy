@@ -22,8 +22,8 @@
       },
       "definition": {
         "en": "Harakat are small marks placed above or below letters that create vowel sounds — they are essential for correct pronunciation.",
-        "bn": "হারাকাত হল ছোট চিহ্ন যা অক্ষরের উপরে বা নিচে রাখা হয় যা স্বরধ্বনি তৈরি করে — সঠিক উচ্চারণের জন্য এগুলি অপরিহার্য।",
-        "ar": "الحركات علامات صغيرة توضع فوق أو تحت الحروف لتخلق أصوات العلات — وهي ضرورية للنطق الصحيح."
+        "bn": "হারাকাত হল ছোট চিহ্ন যা অক্ষরের উপরে বা নিচে রাখা হয় এবং a, i, u ধ্বনি তৈরি করে — সঠিক উচ্চারণের জন্য এগুলি অপরিহার্য।",
+        "ar": "الحركات علامات صغيرة توضع فوق أو تحت الحروف لتُنتج أصوات الحركات (الفتحة والكسرة والضمة) — وهي ضرورية للنطق الصحيح."
       },
       "subtopics": [
         {
@@ -131,9 +131,9 @@
         "ar": "السكون"
       },
       "definition": {
-        "en": "Sukoon is a mark that means a letter has no vowel sound — it is pronounced with no vowel.",
+        "en": "Sukoon is a mark that removes the vowel sound so the letter is pronounced as a pure consonant with a complete stop of the vowel.",
         "bn": "সুকুন হল একটি চিহ্ন যা মানে একটি অক্ষরের কোনো স্বরধ্বনি নেই — এটি কোনো স্বর ছাড়াই উচ্চারণ করা হয়।",
-        "ar": "السكون علامة تعني أن الحرف لا صوت حركة له — ينطق بدون حركة."
+        "ar": "السكون علامة تعني أن الحرف لا صوت حركة له — ينطق الحرف بلا حركة مع إغلاق المخرج إغلاقًا تامًا."
       },
       "letterExamples": [
         {
@@ -171,8 +171,8 @@
         "ar": "الشدة"
       },
       "definition": {
-        "en": "Shaddah is a mark that doubles a letter, making it stronger and longer — you pronounce it as two identical letters in one.",
-        "bn": "শাদ্দাহ হল একটি চিহ্ন যা একটি অক্ষর দ্বিগুণ করে, এটিকে আরও শক্তিশালী এবং দীর্ঘ করে তোলে — আপনি এটি একটিতে দুটি অভিন্ন অক্ষর হিসাবে উচ্চারণ করেন।",
+        "en": "Shaddah is a mark that doubles a letter so it is pronounced as two letters: the first with sukoon and the second with a vowel.",
+        "bn": "শাদ্দাহ হল একটি চিহ্ন যা একটি অক্ষর দ্বিগুণ করে — একই অক্ষরকে দ্বিগুণ করে একটানা ও জোরালোভাবে উচ্চারণ করা হয়, প্রথমটি সুকুনসহ এবং দ্বিতীয়টি স্বরসহ।",
         "ar": "الشدة علامة تضاعف الحرف فتجعله أقوى وأطول — تنطقه كحرفين متطابقين في واحد."
       },
       "wordExamples": [
@@ -231,9 +231,9 @@
         "ar": "التنوين"
       },
       "definition": {
-        "en": "Tanween is double vowels on the final letter of a word, creating an 'n' sound — there are three types based on which vowel is doubled.",
-        "bn": "তানবীন হল একটি শব্দের চূড়ান্ত অক্ষরে দ্বিগুণ স্বর, যা একটি 'ন' শব্দ তৈরি করে — কোন স্বর দ্বিগুণ করা হয় তার উপর ভিত্তি করে তিনটি ধরন রয়েছে।",
-        "ar": "التنوين علامات حركات مزدوجة على آخر الكلمة تخلق صوت النون — وله ثلاثة أنواع حسب الحركة المضاعفة."
+        "en": "Tanween is a double vowel marking on the final letter of a word that produces a light 'n' sound and indicates indefiniteness — there are three types based on which vowel is doubled.",
+        "bn": "তানবীন হল শব্দের শেষ অক্ষরে দ্বিগুণ স্বরচিহ্ন যা হালকা 'ন' ধ্বনি তৈরি করে এবং অনির্দিষ্টতা বোঝায় — শুধুমাত্র নাম পদে ব্যবহৃত হয় এবং কোন স্বর দ্বিগুণ করা হয় তার উপর ভিত্তি করে তিনটি ধরন রয়েছে।",
+        "ar": "التنوين نون ساكنة زائدة تُلفظ في آخر الاسم لفظًا لا كتابة، وتدل على التنكير — وله ثلاثة أنواع حسب الحركة المضاعفة."
       },
       "subtopics": [
         {

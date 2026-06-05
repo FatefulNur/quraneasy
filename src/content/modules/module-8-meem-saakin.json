@@ -8,9 +8,9 @@
     "ar": "أحكام الميم الساكنة"
   },
   "summary": {
-    "en": "Learn the three rules for pronouncing a silent meem (م) when followed by different letters: idgham shafawi, ikhfa shafawi, and izhar shafawi.",
-    "bn": "যখন বিভিন্ন অক্ষর অনুসরণ করে তখন নিরব মীম (م) উচ্চারণের তিনটি নিয়ম শিখুন: ইদগাম শাফাউই, ইখফা শাফাউই এবং ইযহার শাফাউই।",
-    "ar": "تعلم الأحكام الثلاثة لنطق الميم الساكنة عند اتباعها بحروف مختلفة: الإدغام الشفوي والإخفاء الشفوي والإظهار الشفوي."
+    "en": "Learn the three rules for pronouncing Meem Saakin (مْ) when followed by different letters: idgham shafawi, ikhfa shafawi, and izhar shafawi.",
+    "bn": "যখন বিভিন্ন অক্ষর অনুসরণ করে তখন মীম সাকিন (مْ) উচ্চারণের তিনটি নিয়ম শিখুন: ইদগাম শাফাউই, ইখফা শাফাউই এবং ইযহার শাফাউই।",
+    "ar": "تعلم الأحكام الثلاثة لنطق الميم الساكنة (مْ) عند اتباعها بحروف مختلفة: الإدغام الشفوي والإخفاء الشفوي والإظهار الشفوي."
   },
   "submodules": [
     {
@@ -21,9 +21,9 @@
         "ar": "الإدغام الشفوي"
       },
       "definition": {
-        "en": "When silent meem is followed by another meem, merge them together with a ghunna.",
-        "bn": "যখন নিরব মীম আরেকটি মীম দ্বারা অনুসরণ করা হয়, তখন মীমকে গুন্নাহ সহ মিশ্রিত করুন।",
-        "ar": "عندما تتبع الميم الساكنة ميمٌ أخرى، أدغم الميم في الميم مع الغنة."
+        "en": "When Meem Saakin (مْ) is followed by another meem, fully merge the two meems together with a 2-count ghunnah. The first meem disappears completely into the second, producing a prolonged nasal sound through the lips.",
+        "bn": "যখন মীম সাকিন (مْ)-এর পরে আরেকটি মীম আসে, তখন দুটি মীমকে ২ মাত্রার গুন্নাহ সহ সম্পূর্ণভাবে মিশিয়ে দিতে হবে। প্রথম মীমটি দ্বিতীয় মীমে সম্পূর্ণ মিলে যায় এবং ঠোঁটের মাধ্যমে দীর্ঘায়িত নাসাল ধ্বনি উৎপন্ন হয়।",
+        "ar": "عندما تتبع الميم الساكنة (مْ) ميمٌ أخرى، تُدغم الميم الأولى في الثانية إدغاماً كاملاً مع غنة مقدارها حركتان، فتختفي الميم الأولى تماماً وتتولّد نغمة أنفية ممتدة من الشفتين."
       },
       "wordExamples": [
         {
@@ -44,9 +44,9 @@
         }
       ],
       "checkItem": {
-        "en": "I know that silent meem before meem merges with ghunna.",
-        "bn": "আমি জানি যে মীমের আগে নিরব মীম গুন্নাহ দিয়ে মিশে যায়।",
-        "ar": "تعلَّمتَ أن الميم الساكنة قبل الميم تُدغم مع الغنة."
+        "en": "I know that Meem Saakin (مْ) before meem merges fully into it with a 2-count ghunnah.",
+        "bn": "আমি জানি যে মীমের আগে মীম সাকিন (مْ) ২ মাত্রার গুন্নাহ সহ সম্পূর্ণভাবে মিশে যায়।",
+        "ar": "تعلَّمتَ أن الميم الساكنة (مْ) قبل الميم تُدغم فيها إدغاماً كاملاً مع غنة بمقدار حركتين."
       }
     },
     {
@@ -57,17 +57,17 @@
         "ar": "الإخفاء الشفوي"
       },
       "definition": {
-        "en": "When silent meem is followed by ba, hide the meem with a light ghunna.",
-        "bn": "যখন নিরব মীম বা দ্বারা অনুসরণ করা হয়, তখন মীমকে হালকা গুন্নাহ দিয়ে লুকান।",
-        "ar": "عندما تتبع الميم الساكنة الباء، أخفِ الميم بغنة خفيفة."
+        "en": "When Meem Saakin (مْ) is followed by ba (ب), partially conceal the meem with a light ghunnah of 2 counts. The lips maintain gentle contact without full closure, producing a soft nasal sound before transitioning to the ba.",
+        "bn": "যখন মীম সাকিন (مْ)-এর পরে বা (ب) আসে, তখন ২ মাত্রার হালকা গুন্নাহ দিয়ে মীমকে আংশিকভাবে লুকাতে হবে। ঠোঁট সম্পূর্ণ বন্ধ না করে আলতো স্পর্শে রাখতে হবে, যা বা-তে যাওয়ার আগে একটি নরম নাসাল ধ্বনি তৈরি করে।",
+        "ar": "عندما تتبع الميم الساكنة (مْ) الباءَ، أخفِ الميم إخفاءً شفوياً بغنة خفيفة مقدارها حركتان، مع إبقاء الشفتين في تلامس خفيف دون إطباق تام، فتتولّد نغمة أنفية ناعمة قبل الانتقال إلى الباء."
       },
       "wordExamples": [
         {
           "arabic": "تَرْمِيهِمْ بِحِجَارَةٍ",
-          "translit": "tarmihim bihjiarah",
+          "translit": "tarmihim bihijarah",
           "meaning": {
-            "en": "You strike them with stones",
-            "bn": "আপনি তাদের পাথর দিয়ে আঘাত করেন"
+            "en": "Pelting them with stones",
+            "bn": "তাদের উপর পাথর নিক্ষেপ করা"
           }
         },
         {
@@ -80,9 +80,9 @@
         }
       ],
       "checkItem": {
-        "en": "I know that silent meem before ba is hidden with ghunna.",
-        "bn": "আমি জানি যে বার আগে নিরব মীম গুন্নাহ দিয়ে লুকানো থাকে।",
-        "ar": "تعلَّمتَ أن الميم الساكنة قبل الباء تُخفى بالغنة."
+        "en": "I know that Meem Saakin (مْ) before ba is partially concealed with a light ghunnah and soft lip contact.",
+        "bn": "আমি জানি যে বা-এর আগে মীম সাকিন (مْ) হালকা গুন্নাহ ও আলতো ঠোঁটের স্পর্শ দিয়ে আংশিকভাবে লুকানো হয়।",
+        "ar": "تعلَّمتَ أن الميم الساكنة (مْ) قبل الباء تُخفى بغنة خفيفة مع تلامس شفوي ناعم دون إطباق تام."
       }
     },
     {
@@ -93,16 +93,16 @@
         "ar": "الإظهار الشفوي"
       },
       "definition": {
-        "en": "When silent meem is followed by any letter except meem and ba, pronounce it clearly with no hiding.",
-        "bn": "যখন নিরব মীম মীম এবং বা ছাড়া অন্য কোনো অক্ষর দ্বারা অনুসরণ করা হয়, তখন এটি স্পষ্টভাবে উচ্চারণ করুন কোনো লুকানো ছাড়াই।",
-        "ar": "عندما تتبع الميم الساكنة أي حرف ما عدا الميم والباء، انطقها بوضوح دون إخفاء."
+        "en": "When Meem Saakin (مْ) is followed by any letter except meem and ba, pronounce it clearly with full lip closure and no ghunnah. The meem must be distinct and unaffected by the following letter.",
+        "bn": "যখন মীম সাকিন (مْ)-এর পরে মীম ও বা ছাড়া অন্য যেকোনো অক্ষর আসে, তখন ঠোঁটের সম্পূর্ণ বন্ধ রেখে এবং কোনো গুন্নাহ ছাড়াই স্পষ্টভাবে উচ্চারণ করতে হবে। মীম স্বতন্ত্র ও পরবর্তী অক্ষর দ্বারা অপ্রভাবিত থাকবে।",
+        "ar": "عندما تتبع الميم الساكنة (مْ) أي حرف ما عدا الميم والباء، انطقها بوضوح تام مع إطباق الشفتين إطباقاً كاملاً ودون أي غنة، بحيث تبقى الميم واضحة ومستقلة غير متأثرة بالحرف التالي."
       },
       "wordExamples": [
         {
           "arabic": "أَنْعَمْتَ",
           "translit": "an'amta",
           "meaning": {
-            "en": "You granted",
+            "en": "You bestowed favour",
             "bn": "আপনি অনুগ্রহ করেছেন"
           }
         },
@@ -116,9 +116,9 @@
         }
       ],
       "checkItem": {
-        "en": "I understand that silent meem before other letters is pronounced clearly.",
-        "bn": "আমি বুঝি যে অন্যান্য অক্ষরের আগে নিরব মীম স্পষ্টভাবে উচ্চারণ করা হয়।",
-        "ar": "تعلَّمتَ أن الميم الساكنة قبل الحروف الأخرى تُنطق بإظهار واضح."
+        "en": "I understand that Meem Saakin (مْ) before other letters is pronounced clearly with full lip closure and no ghunnah.",
+        "bn": "আমি বুঝি যে অন্যান্য অক্ষরের আগে মীম সাকিন (مْ) ঠোঁটের সম্পূর্ণ বন্ধ ও কোনো গুন্নাহ ছাড়াই স্পষ্টভাবে উচ্চারণ করা হয়।",
+        "ar": "تعلَّمتَ أن الميم الساكنة (مْ) قبل الحروف الأخرى تُنطق بإظهار واضح مع إطباق الشفتين تاماً ودون غنة."
       }
     }
   ]

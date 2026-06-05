@@ -21,9 +21,9 @@
         "ar": "الطهارة"
       },
       "definition": {
-        "en": "Perform wudu before touching the mushaf and reciting whenever possible; choose a clean place to sit.",
-        "bn": "মুসহাফ স্পর্শ করার এবং সম্ভব হলে তিলাওয়াতের আগে ওযু করুন; তিলাওয়াতের জন্য পরিষ্কার জায়গা বেছে নিন।",
-        "ar": "توضأ قبل مس المصحف والتلاوة متى أمكن؛ اختر مكانًا طاهرًا للجلوس والتلاوة."
+        "en": "Perform wudu before touching the mushaf and, whenever possible, before recitation; choose a clean place to sit.",
+        "bn": "মুসহাফ স্পর্শ করার আগে ওযু করুন এবং সম্ভব হলে তিলাওয়াতের আগেও ওযু করুন; তিলাওয়াতের জন্য পরিষ্কার জায়গা বেছে নিন।",
+        "ar": "توضأ قبل مس المصحف، وكذلك قبل التلاوة متى أمكن؛ اختر مكانًا طاهرًا للجلوس والتلاوة."
       },
       "wordExamples": [
         {
@@ -31,7 +31,7 @@
           "translit": "wudu",
           "meaning": {
             "en": "Ritual purification",
-            "bn": "আচার সংক্রান্ত পবিত্রতা"
+            "bn": "ওযু"
           }
         },
         {
@@ -39,7 +39,7 @@
           "translit": "mushaf",
           "meaning": {
             "en": "Quranic text",
-            "bn": "কোরানের গ্রন্থ"
+            "bn": "কুরআনের লিখিত কপি"
           }
         },
         {
@@ -54,7 +54,7 @@
       "checkItem": {
         "en": "I will perform wudu and choose a clean place before reciting.",
         "bn": "আমি তিলাওয়াত করার আগে ওযু করব এবং পরিষ্কার জায়গা বেছে নেব।",
-        "ar": "تعلَّمتَ أهمية الوضوء واختيار مكان طاهر قبل التلاوة."
+        "ar": "أعرف أهمية الوضوء واختيار مكان طاهر قبل التلاوة."
       },
       "blogSlug": "purity-before-recitation"
     },
@@ -73,7 +73,7 @@
       "checkItem": {
         "en": "I recite with sincere intention for Allah's pleasure and understanding.",
         "bn": "আমি আল্লাহর সন্তুষ্টি ও অনুধাবনের জন্য সৎ নিয়তে তিলাওয়াত করি।",
-        "ar": "أتقنتَ أهمية النية المخلصة لوجه الله في التلاوة."
+        "ar": "أعي أهمية النية المخلصة لوجه الله في التلاوة."
       }
     },
     {
@@ -84,14 +84,14 @@
         "ar": "استقبال القبلة والهيئة"
       },
       "definition": {
-        "en": "Face the qiblah whenever you can; sit upright respectfully, never slouched or lying down; hold the mushaf respectfully above waist level.",
-        "bn": "সহজে সম্ভব হলে কেবলামুখী হয়ে বসুন; শ্রদ্ধার সাথে সোজা হয়ে বসুন, কখনো হেলান দিয়ে বা শুয়ে নয়; মুসহাফ কোমরের উপরে শ্রদ্ধার সাথে ধরুন।",
-        "ar": "استقبل القبلة متى تيسّر؛ اجلس معتدلًا بأدب غير متّكئ أو مضطجع؛ أمسك المصحف بأدب فوق مستوى الخصر."
+        "en": "Face the qiblah when convenient; sit respectfully and maintain proper decorum while reciting; handle the mushaf with care and respect.",
+        "bn": "সুবিধামতো কেবলামুখী হন; তিলাওয়াতের সময় শ্রদ্ধার সাথে বসুন এবং যথাযথ আদব বজায় রাখুন; মুসহাফ যত্ন ও সম্মানের সাথে ধরুন।",
+        "ar": "استقبل القبلة عند التيسّر؛ اجلس بأدب واحفظ الوقار أثناء التلاوة؛ تناول المصحف بعناية وتوقير."
       },
       "checkItem": {
-        "en": "I sit respectfully, facing qiblah when possible, and hold the mushaf with care.",
-        "bn": "আমি শ্রদ্ধার সাথে বসি, সম্ভব হলে কেবলামুখী হই, এবং মুসহাফ যত্ন সহকারে ধরি।",
-        "ar": "تعلَّمتَ آداب الجلوس واستقبال القبلة وإمساك المصحف بأدب."
+        "en": "I maintain respectful posture during recitation, face the qiblah when possible, and handle the mushaf with care.",
+        "bn": "আমি তিলাওয়াতের সময় শ্রদ্ধার সাথে বসি, সম্ভব হলে কেবলামুখী হই, এবং মুসহাফ যত্ন সহকারে ধরি।",
+        "ar": "أحافظ على الهيئة المؤدَّبة أثناء التلاوة، وأستقبل القبلة عند الإمكان، وأتناول المصحف بعناية."
       }
     },
     {
@@ -104,7 +104,7 @@
       "definition": {
         "en": "Begin recitation with Ta'awwudh: A'udhu billahi min ash-shaytani-r-rajim. Then say Bismi-Llahi-r-rahmani-r-rahim at the start of every surah except Surah At-Tawbah.",
         "bn": "তেলাওয়াত শুরু করুন তা'আউয দিয়ে: আউযু বিল্লাহি মিনাশ শায়তানির রাজীম। তারপর সূরা তাওবাহ ছাড়া প্রতিটি সূরার শুরুতে বিসমিল্লাহ পড়ুন।",
-        "ar": "ابدأ التلاوة بالتعوذ: أعوذ بالله من الشيطان الرجيم. ثم سمِّ الله في أول كل سورة عدا سورة التوبة."
+        "ar": "ابدأ التلاوة بالتعوذ: أعوذ بالله من الشيطان الرجيم. ثم اقرأ البسملة في أول كل سورة عدا سورة التوبة."
       },
       "ayahExamples": [
         {
@@ -117,22 +117,22 @@
         }
       ],
       "checkItem": {
-        "en": "I say Ta'awwudh before and Basmalah at the start of every surah.",
-        "bn": "আমি তা'আউয বলি এবং প্রতিটি সূরার শুরুতে বিসমিল্লাহ বলি।",
-        "ar": "تعلَّمتَ قول التعوذ والبسملة في بداية كل سورة."
+        "en": "I say Ta'awwudh before reciting and Basmalah at the start of every surah except Surah At-Tawbah.",
+        "bn": "আমি তিলাওয়াতের আগে তা'আউয বলি এবং সূরা তাওবাহ ছাড়া প্রতিটি সূরার শুরুতে বিসমিল্লাহ বলি।",
+        "ar": "أقرأ التعوذ قبل التلاوة والبسملة في بداية كل سورة عدا سورة التوبة."
       }
     },
     {
       "id": "tajweed-basics",
       "title": {
         "en": "Tajweed Basics",
-        "bn": "তাজবীদের মূল",
+        "bn": "তাজবীদের মৌলিক বিষয়",
         "ar": "أساسيات التجويد"
       },
       "definition": {
-        "en": "Learn the makharij — where each letter comes from in your mouth; learn the sifaat — the qualities that make each letter unique. Practice with a qualified teacher from the start.",
-        "bn": "মাখারিজ শিখুন — প্রতিটি অক্ষর মুখের কোথায় থেকে আসে; সিফাত শিখুন — প্রতিটি অক্ষরকে অনন্য করে তোলে এমন বৈশিষ্ট্য। শুরু থেকেই একজন যোগ্য শিক্ষকের সাথে অনুশীলন করুন।",
-        "ar": "تعلّم مخارج الحروف — من أين تأتي كل حرف في فمك؛ تعلّم صفات الحروف — الخصائص التي تجعل كل حرف فريدًا. تدرب مع شيخ متقن من البداية."
+        "en": "Learn the makharij — the points in the mouth and throat where each letter is produced; learn the sifaat — the phonetic qualities of each letter, such as heaviness (tafkheem), lightness (tarqeeq), or echo (qalqalah). Practice with a qualified teacher from the start.",
+        "bn": "মাখারিজ শিখুন — প্রতিটি অক্ষর মুখ ও গলার কোন স্থান থেকে উচ্চারিত হয়; সিফাত শিখুন — প্রতিটি অক্ষরের উচ্চারণগত গুণাবলি, যেমন মোটা (তাফখীম), পাতলা (তারকীক) বা কম্পন (কালকালাহ)। শুরু থেকেই একজন যোগ্য শিক্ষকের সাথে অনুশীলন করুন।",
+        "ar": "تعلّم مخارج الحروف — من أين يخرج كل حرف من الفم والحلق؛ تعلّم صفات الحروف — الخصائص الصوتية لكل حرف، كالتفخيم والترقيق والقلقلة. تدرب مع شيخ متقن من البداية."
       },
       "wordExamples": [
         {
@@ -153,9 +153,9 @@
         }
       ],
       "checkItem": {
-        "en": "I know that I need to learn makharij, sifaat, and find a good teacher.",
-        "bn": "আমি জানি যে আমাকে মাখারিজ, সিফাত শিখতে হবে এবং একজন ভাল শিক্ষক খুঁজে পেতে হবে।",
-        "ar": "أدركتَ أهمية تعلم المخارج والصفات مع معلم متقن."
+        "en": "I know that I need to learn makharij, sifaat, and find a qualified teacher.",
+        "bn": "আমি জানি যে আমাকে মাখারিজ, সিফাত শিখতে হবে এবং একজন যোগ্য শিক্ষক খুঁজে পেতে হবে।",
+        "ar": "أدرك أهمية تعلم المخارج والصفات مع معلم متقن."
       }
     },
     {
@@ -183,7 +183,7 @@
       "checkItem": {
         "en": "I recite slowly and clearly, and I think about the meanings.",
         "bn": "আমি ধীরে স্পষ্টভাবে পড়ি এবং অর্থ নিয়ে চিন্তা করি।",
-        "ar": "تعلَّمتَ التلاوة بتأنٍّ وبيان مع تدبر المعاني."
+        "ar": "أتلو بتأنٍّ وبيان وأتدبر المعاني."
       }
     }
   ]

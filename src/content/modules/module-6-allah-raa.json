@@ -21,9 +21,9 @@
         "ar": "لام الجلالة"
       },
       "definition": {
-        "en": "The lam in Allah becomes heavy after a fatha or damma, and light after a kasra.",
-        "bn": "আল্লাহ কথায় লাম ফাতহা বা দাম্মার পরে ভারী হয় এবং কাসরার পরে হালকা হয়।",
-        "ar": "لام الجلالة تكون ثقيلة بعد الفتحة والضمة، وخفيفة بعد الكسرة."
+        "en": "The lam in Allah is heavy or light based on the vowel of the letter immediately before the word Allah in connected recitation. If Allah starts the recitation, the lam is heavy.",
+        "bn": "আল্লাহ কথায় লাম সংযুক্ত তিলাওয়াতে আল্লাহ শব্দের আগের অক্ষরের হরকতের উপর নির্ভর করে ভারী বা হালকা হয়। যদি আল্লাহ দিয়ে তিলাওয়াত শুরু হয়, তাহলে লাম ভারী।",
+        "ar": "لام الجلالة تكون ثقيلة أو خفيفة بناءً على حركة الحرف الذي يسبق لفظ الجلالة في الوصل، وإن بدأ الكلام بلفظ الجلالة فاللام ثقيلة."
       },
       "subtopics": [
         {
@@ -93,9 +93,9 @@
         "ar": "قواعد الراء"
       },
       "definition": {
-        "en": "Raa is heavy when preceded by a damma or kasra that followed a heavy letter, and light in most other cases.",
-        "bn": "রা ভারী হয় যখন দাম্মা বা কাসরা দ্বারা পূর্বে আসে যা একটি ভারী অক্ষর অনুসরণ করে, এবং বেশিরভাগ অন্যান্য ক্ষেত্রে হালকা।",
-        "ar": "الراء ثقيلة عندما تسبقها ضمة أو كسرة أتت بعد حرف ثقيل، وخفيفة في معظم الحالات الأخرى."
+        "en": "Raa is pronounced heavy when it has a fatha or damma, or when it is sakin preceded by a fatha or damma. It is light when it has a kasra or is influenced by a kasra in applicable cases.",
+        "bn": "রা ভারী হয় যখন এতে ফাতহা বা দাম্মা থাকে, অথবা সাকিন অবস্থায় এর আগে ফাতহা বা দাম্মা থাকে। কাসরার ক্ষেত্রে এটি হালকা হয়।",
+        "ar": "تُفخَّم الراء إذا كانت مفتوحة أو مضمومة أو ساكنة وقبلها فتح أو ضم، وتُرقَّق إذا كانت مكسورة أو قبلها كسرة في الحالات المعتبرة."
       },
       "subtopics": [
         {

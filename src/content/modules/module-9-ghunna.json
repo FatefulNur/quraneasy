@@ -9,8 +9,8 @@
   },
   "summary": {
     "en": "Learn about the ghunna — the nasal sound that adds depth and resonance to words with doubled noon, meem, and during certain merging rules.",
-    "bn": "গুন্নাহ সম্পর্কে শিখুন — নাসিক শব্দ যা দ্বিগুণ নুন, মীম এবং নির্দিষ্ট মিশ্রণ নিয়মের সময় শব্দে গভীরতা এবং অনুরণন যোগ করে।",
-    "ar": "تعلم عن الغنة — الصوت الأنفي الذي يضيف عمقًا وصدى للكلمات التي تحتوي على نون وميم مضاعفة وأثناء قواعد الإدغام."
+    "bn": "গুন্নাহ সম্পর্কে শিখুন — নাসিক শব্দ যা দ্বিগুণ নুন, মীম এবং ইদগাম, ইখফা ও ইকলাবের সময় শব্দে গভীরতা এবং অনুরণন যোগ করে।",
+    "ar": "تعلم عن الغنة — الصوت الأنفي الذي يضيف عمقًا وصدى للكلمات التي تحتوي على نون وميم مضاعفة، وأثناء أحكام الإدغام والإخفاء والإقلاب."
   },
   "submodules": [
     {
@@ -21,56 +21,154 @@
         "ar": "ما هي الغنة؟"
       },
       "definition": {
-        "en": "Ghunna is a nasal sound produced through the nose — it appears whenever noon (ن) or meem (م) is doubled, or during idgham of noon or meem into other letters.",
-        "bn": "গুন্নাহ নাক দিয়ে উৎপন্ন একটি নাসিক শব্দ — যখনই নুন (ن) বা মীম (م) দ্বিগুণ হয় বা নুন বা মীমের ইদগাম অন্য অক্ষরে ঘটে তখন এটি প্রদর্শিত হয়।",
-        "ar": "الغنة صوت أنفي ينتج عن طريق الأنف — تظهر كلما تضاعفت النون أو الميم، أو عند إدغام النون أو الميم في حروف أخرى."
+        "en": "Ghunna is a natural nasal attribute (sifah) inherent in noon (ن) and meem (م) — always present, regardless of position. It becomes obligatory and extended in four tajweed contexts, each with a different strength level:",
+        "bn": "গুন্নাহ হল নুন (ن) এবং মীম (م)-এর একটি স্বাভাবিক নাসিক গুণ (সিফাহ) — যা প্রতিটি অবস্থাতেই বিদ্যমান থাকে। নির্দিষ্ট চারটি তাজবীদ অবস্থায় এটি আবশ্যিকভাবে প্রকাশ পায় এবং তার মাত্রা ভিন্ন ভিন্ন হয়:",
+        "ar": "الغنة صفةٌ أنفية ذاتية للنون والميم — لازمةٌ لهما في كل أحوالهما. وتظهر وجوبًا في أربعة أحكام تجويدية، وتختلف درجتها في كل حكم:"
       },
-      "wordExamples": [
+      "duration": "2 harakat",
+      "strengthLevels": {
+        "strong": "mushaddad noon/meem",
+        "medium": "idgham with ghunna / ikhfa",
+        "light": "natural ghunna in noon/meem as sifah (inherent attribute)"
+      },
+      "subtopics": [
         {
-          "arabic": "إِنَّ",
-          "translit": "inna",
-          "meaning": {
-            "en": "Indeed",
-            "bn": "নিশ্চয়"
-          }
+          "id": "ghunna-mushaddad",
+          "title": {
+            "en": "1. Strong Ghunna — Mushaddad (نّ / مّ)",
+            "bn": "১. শক্তিশালী গুন্নাহ — মুশাদ্দাদ (نّ / مّ)",
+            "ar": "١. الغنة الكاملة — المشددة (نّ / مّ)"
+          },
+          "definition": {
+            "en": "When noon or meem carries a shaddah, the nasal resonance is at its fullest — hold for 2 harakat.",
+            "bn": "নুন বা মীমে শাদ্দাহ থাকলে নাসিক অনুরণন সবচেয়ে পূর্ণ — ২ হারাকাত ধরে রাখুন।",
+            "ar": "إذا كانت النون أو الميم مشددة، كانت الغنة في أقوى حالاتها — تُمدّ مقدار حركتين."
+          },
+          "wordExamples": [
+            {
+              "arabic": "إِنَّ",
+              "translit": "inna",
+              "meaning": {
+                "en": "Indeed",
+                "bn": "নিশ্চয়"
+              }
+            },
+            {
+              "arabic": "ثُمَّ",
+              "translit": "thumma",
+              "meaning": {
+                "en": "Then",
+                "bn": "তারপর"
+              }
+            },
+            {
+              "arabic": "النَّاسِ",
+              "translit": "an-nāsi",
+              "meaning": {
+                "en": "The people",
+                "bn": "মানুষ"
+              }
+            }
+          ]
         },
         {
-          "arabic": "أَمَّا",
-          "translit": "amma",
-          "meaning": {
-            "en": "As for",
-            "bn": "তবে"
-          }
+          "id": "ghunna-idgham",
+          "title": {
+            "en": "2. Idgham with Ghunna",
+            "bn": "২. ইদগাম মা'আল গুন্নাহ",
+            "ar": "٢. الإدغام بغنة"
+          },
+          "definition": {
+            "en": "Medium ghunna. Noon-saakin or tanween merges into ي ن م و — the noon disappears into the next letter but the nasal sound continues for 2 harakat.",
+            "bn": "মধ্যম গুন্নাহ। নুন সাকিন বা তানভিন ي ن م و-এ মিলে যায় — নুন পরবর্তী অক্ষরে মিলিয়ে যায় কিন্তু নাসিক শব্দ ২ হারাকাত ধরে চলতে থাকে।",
+            "ar": "غنة متوسطة. تُدغَم النون الساكنة أو التنوين في حروف (ي ن م و) — فتختفي النون في الحرف التالي لكن الغنة تستمر مقدار حركتين."
+          },
+          "wordExamples": [
+            {
+              "arabic": "مَنْ يَقُولُ",
+              "translit": "man yaqūlu",
+              "meaning": {
+                "en": "Whoever says",
+                "bn": "যে বলে"
+              }
+            },
+            {
+              "arabic": "مِنْ مَالٍ",
+              "translit": "min mālin",
+              "meaning": {
+                "en": "From wealth",
+                "bn": "সম্পদ থেকে"
+              }
+            }
+          ]
         },
         {
-          "arabic": "ثُمَّ",
-          "translit": "thumma",
-          "meaning": {
-            "en": "Then",
-            "bn": "তারপর"
-          }
+          "id": "ghunna-ikhfa",
+          "title": {
+            "en": "3. Ikhfa — Concealing with Nasal Tone",
+            "bn": "৩. ইখফা — নাসিক সুরে লুকানো",
+            "ar": "٣. الإخفاء — الإخفاء بغنة"
+          },
+          "definition": {
+            "en": "Noon-saakin or tanween is concealed before 15 letters — the sound sits between clear and merged, nasal tone held for 2 harakat.",
+            "bn": "১৫টি অক্ষরের আগে নুন সাকিন বা তানভিন লুকানো হয় — শব্দটি স্পষ্ট ও মিশ্রিতের মাঝে থাকে, নাসিক সুর ২ হারাকাত ধরা হয়।",
+            "ar": "تُخفى النون الساكنة أو التنوين قبل خمسة عشر حرفًا — فيكون الصوت بين الإظهار والإدغام مع الغنة مقدار حركتين."
+          },
+          "wordExamples": [
+            {
+              "arabic": "مِنْ خَوْفٍ",
+              "translit": "min khawfin",
+              "meaning": {
+                "en": "From fear",
+                "bn": "ভয় থেকে"
+              }
+            },
+            {
+              "arabic": "أَنْصَارًا",
+              "translit": "anṣāran",
+              "meaning": {
+                "en": "Helpers",
+                "bn": "সাহায্যকারী"
+              }
+            }
+          ]
         },
         {
-          "arabic": "النَّاسِ",
-          "translit": "an-nas",
-          "meaning": {
-            "en": "The people",
-            "bn": "মানুষ"
-          }
-        },
-        {
-          "arabic": "مِنْهُمْ",
-          "translit": "minhum",
-          "meaning": {
-            "en": "From them",
-            "bn": "তাদের থেকে"
-          }
+          "id": "ghunna-iqlab",
+          "title": {
+            "en": "4. Iqlab — Noon Pronounced as Meem Sound with Ghunna",
+            "bn": "৪. ইকলাব — নুন গুন্নাহসহ মীম শব্দে উচ্চারিত হয়",
+            "ar": "٤. الإقلاب — قلب النون الساكنة ميماً مع الغنة"
+          },
+          "definition": {
+            "en": "Lightest obligatory ghunna. Noon-saakin or tanween before ب is pronounced as a meem sound with ghunna — lighter than idgham or ikhfa, held for 2 harakat.",
+            "bn": "সবচেয়ে হালকা বাধ্যতামূলক গুন্নাহ। ب-এর আগে নুন সাকিন বা তানভিন গুন্নাহসহ মীম শব্দে উচ্চারিত হয় — ইদগাম বা ইখফার চেয়ে হালকা, ২ হারাকাত ধরা হয়।",
+            "ar": "أخف غنة واجبة. تُقلَب النون الساكنة أو التنوين قبل الباء ميماً مع الغنة — وهي أخف من الإدغام والإخفاء، وتُمدّ مقدار حركتين."
+          },
+          "wordExamples": [
+            {
+              "arabic": "مِنْ بَعْدُ",
+              "translit": "min ba'du",
+              "meaning": {
+                "en": "After",
+                "bn": "পরে"
+              }
+            },
+            {
+              "arabic": "سَمِيعٌ بَصِيرٌ",
+              "translit": "samī'un baṣīr",
+              "meaning": {
+                "en": "All-Hearing, All-Seeing",
+                "bn": "সর্বশ্রোতা, সর্বদ্রষ্টা"
+              }
+            }
+          ]
         }
       ],
       "checkItem": {
-        "en": "I understand that ghunna is a nasal sound from doubled or merging noon and meem.",
-        "bn": "আমি বুঝি যে গুন্নাহ হল দ্বিগুণ বা মিশ্রিত নুন এবং মীম থেকে নাসিক শব্দ।",
-        "ar": "تعلَّمتَ أن الغنة صوت أنفي من النون والميم المضاعفة أو المدغمة."
+        "en": "I understand that ghunna appears in four contexts: mushaddad, idgham with ghunna, ikhfa, and iqlab — each held for 2 harakat.",
+        "bn": "আমি বুঝি যে গুন্নাহ চারটি প্রসঙ্গে দেখা যায়: মুশাদ্দাদ, ইদগাম মা'আল গুন্নাহ, ইখফা এবং ইকলাব — প্রতিটি ২ হারাকাত ধরা হয়।",
+        "ar": "تعلَّمتَ أن الغنة تظهر في أربعة مواضع: المشددة والإدغام بغنة والإخفاء والإقلاب — وكلها مقدار حركتين."
       }
     }
   ]

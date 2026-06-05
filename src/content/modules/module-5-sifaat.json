@@ -21,9 +21,9 @@
         "ar": "التفخيم"
       },
       "definition": {
-        "en": "Heavy letters are pronounced with a thickened, deepened tone from the throat — they require weight and gravity in your voice. Seven letters are naturally heavy.",
-        "bn": "ভারী অক্ষরগুলি গলা থেকে একটি ঘন, গভীর টোনে উচ্চারণ করা হয় — তাদের আপনার কণ্ঠে ওজন এবং গাম্ভীর্য প্রয়োজন। সাতটি অক্ষর স্বাভাবিকভাবে ভারী।",
-        "ar": "الحروف الثقيلة تنطق بنبرة مُغلّظة وعميقة من الحلق — تتطلب وزنًا وجسامة في صوتك. سبعة حروف ثقيلة بطبيعتها."
+        "en": "Heavy letters (ḥurūf al-istiʿlāʾ) are pronounced by elevating the back of the tongue toward the soft palate, producing a full-mouth resonance — they require fullness and depth of sound. Seven letters are naturally heavy.",
+        "bn": "ভারী অক্ষরগুলি (হুরূফুল ইসতি'লা) জিহ্বার পেছনের অংশ উঁচু করে গভীর ও ভারী স্বরে উচ্চারণ করা হয় — এগুলো শব্দে পূর্ণতা এবং গভীরতা প্রয়োজন। সাতটি অক্ষর স্বাভাবিকভাবে ভারী।",
+        "ar": "حروف الاستعلاء تُنطق بارتفاع أقصى اللسان نحو الحنك الأعلى، مما يُنتج صوتًا مُفخَّمًا مملوءًا — تتطلب امتلاءً وعمقًا في الصوت. سبعة حروف ثقيلة بطبيعتها."
       },
       "letterExamples": [
         {
@@ -74,7 +74,7 @@
         },
         {
           "arabic": "طَائِر",
-          "translit": "ta'ir",
+          "translit": "ṭāʾir",
           "meaning": {
             "en": "Bird",
             "bn": "পাখি"
@@ -111,9 +111,9 @@
         "ar": "الترقيق"
       },
       "definition": {
-        "en": "Light letters are pronounced with a thin, bright tone — the opposite of heavy letters. Most Arabic letters are naturally light.",
-        "bn": "হালকা অক্ষরগুলি একটি পাতলা, উজ্জ্বল টোনে উচ্চারণ করা হয় — ভারী অক্ষরগুলির বিপরীত। বেশিরভাগ আরবি অক্ষর স্বাভাবিকভাবে হালকা।",
-        "ar": "الحروف الخفيفة تنطق بنبرة رقيقة وزاهية — عكس الحروف الثقيلة. معظم الحروف العربية خفيفة بطبيعتها."
+        "en": "Light letters (ḥurūf al-istifāl) are pronounced with the tongue low and flat, producing a thin, clear sound with no oral rounding or fullness — the opposite of heavy letters. Most Arabic letters are naturally light.",
+        "bn": "হালকা অক্ষরগুলি (হুরূফুল ইসতিফাল) জিহ্বা নিচু ও সমতল রেখে উচ্চারণ করা হয়, ফলে পাতলা ও স্পষ্ট শব্দ তৈরি হয় — ভারী অক্ষরগুলির বিপরীত। বেশিরভাগ আরবি অক্ষর স্বাভাবিকভাবে হালকা।",
+        "ar": "حروف الاستفال تُنطق بانخفاض اللسان ومسطحًا، مما يُنتج صوتًا رقيقًا وصافيًا دون امتلاء أو تفخيم — عكس الحروف الثقيلة. معظم الحروف العربية خفيفة بطبيعتها."
       },
       "wordExamples": [
         {

@@ -8,9 +8,9 @@
     "ar": "أحكام النون الساكنة والتنوين"
   },
   "summary": {
-    "en": "Learn the four rules for pronouncing a silent noon (ن) or tanween when followed by different letters: izhar, idgham, ikhfa, and iqlab.",
-    "bn": "যখন বিভিন্ন অক্ষর অনুসরণ করে তখন নিরব নুন (ن) বা তানবীন উচ্চারণের চারটি নিয়ম শিখুন: ইযহার, ইদগাম, ইখফা এবং ইক্বলাব।",
-    "ar": "تعلم الأحكام الأربعة لنطق النون الساكنة أو التنوين عند اتباعه بحروف مختلفة: الإظهار والإدغام والإخفاء والإقلاب."
+    "en": "Learn the four rules for pronouncing noon sakinah (نْ) or tanween when followed by different letters: izhar, idgham, ikhfa, and iqlab.",
+    "bn": "নুন সাকিন (نْ) বা তানবীনের পরে বিভিন্ন অক্ষর আসলে উচ্চারণের চারটি নিয়ম শিখুন: ইযহার, ইদগাম, ইখফা এবং ইক্বলাব।",
+    "ar": "تعلَّم الأحكام الأربعة لنطق النون الساكنة والتنوين عند اتباعهما بحروف مختلفة: الإظهار والإدغام والإخفاء والإقلاب."
   },
   "submodules": [
     {
@@ -21,9 +21,9 @@
         "ar": "الإظهار"
       },
       "definition": {
-        "en": "When noon or tanween is followed by one of six throat letters, pronounce the noon clearly with no hiding or merging.",
-        "bn": "যখন নুন বা তানবীন ছয়টি গলার অক্ষরের একটি দ্বারা অনুসরণ করা হয়, তখন নুন স্পষ্টভাবে উচ্চারণ করুন কোনো লুকানো বা মিশ্রণ ছাড়াই।",
-        "ar": "عندما تتبع النون أو التنوين أحد ستة حروف الحلق، انطق النون بوضوح دون إخفاء أو إدغام."
+        "en": "When noon sakinah or tanween is followed by one of six throat letters (ء ه ع ح غ خ), pronounce the noon clearly and fully with no nasal concealment or merging.",
+        "bn": "নুন সাকিন বা তানবীনের পরে ছয়টি হলকি (গলার) অক্ষর (ء ه ع ح غ خ) এর যেকোনো একটি আসলে, নুন স্পষ্ট ও পরিষ্কারভাবে উচ্চারণ করতে হয়, কোনো লুকানো বা মিলনের প্রবণতা ছাড়াই।",
+        "ar": "عندما تتبع النون الساكنة أو التنوين أحد حروف الحلق الستة (ء ه ع ح غ خ)، تُنطق النون ظاهرةً واضحةً دون غنة أو إدغام."
       },
       "letterExamples": [
         {
@@ -86,9 +86,9 @@
         }
       ],
       "checkItem": {
-        "en": "I know that noon/tanween before throat letters is pronounced clearly.",
-        "bn": "আমি জানি যে গলার অক্ষরের আগে নুন/তানবীন স্পষ্টভাবে উচ্চারণ করা হয়।",
-        "ar": "تعلَّمتَ أن النون والتنوين قبل حروف الحلق تُنطق بإظهار واضح."
+        "en": "I know that noon sakinah/tanween before the six throat letters is pronounced clearly with no nasal sound.",
+        "bn": "আমি জানি যে ছয়টি হলকি অক্ষরের আগে নুন সাকিন/তানবীন কোনো নাসিক শব্দ ছাড়াই স্পষ্টভাবে উচ্চারণ করা হয়।",
+        "ar": "تعلَّمتَ أن النون الساكنة والتنوين قبل حروف الحلق الستة تُنطق ظاهرةً واضحةً بلا غنة."
       }
     },
     {
@@ -99,9 +99,9 @@
         "ar": "الإدغام"
       },
       "definition": {
-        "en": "When noon or tanween is followed by one of six letters (ya, ra, meem, lam, waw, noon), merge the noon into the following letter with a ghunna.",
-        "bn": "যখন নুন বা তানবীন ছয়টি অক্ষর (ইয়া, রা, মীম, লাম, ওয়াও, নুন) দ্বারা অনুসরণ করা হয়, তখন নুনকে গুন্নাহ সহ নিম্নলিখিত অক্ষরে মিশ্রিত করুন।",
-        "ar": "عندما تتبع النون أو التنوين أحد ستة حروف (الياء والراء والميم واللام والواو والنون)، أدغم النون في الحرف التالي مع الغنة."
+        "en": "When noon sakinah or tanween is followed by one of six letters (ي ن م و ل ر), the noon merges fully into the following letter. Idgham has two types: with ghunnah for (ي ن م و), and without ghunnah for (ل ر).",
+        "bn": "নুন সাকিন বা তানবীনের পরে ছয়টি অক্ষর (ي ن م و ل ر) এর যেকোনো একটি আসলে নুন পরবর্তী অক্ষরে সম্পূর্ণ মিশে যায়। ইদগাম দুই ধরনের: গুন্নাহসহ (ي ن م و) এবং গুন্নাহ ছাড়া (ل ر)।",
+        "ar": "عندما تتبع النون الساكنة أو التنوين أحد الحروف الستة (ي ن م و ل ر)، تُدغم النون في الحرف التالي. وينقسم الإدغام إلى إدغام بغنة في (ي ن م و)، وإدغام بلا غنة في (ل ر)."
       },
       "letterExamples": [
         {
@@ -164,9 +164,9 @@
         }
       ],
       "checkItem": {
-        "en": "I understand that noon/tanween merges into ya, ra, meem, lam, waw, or noon.",
-        "bn": "আমি বুঝি যে নুন/তানবীন ইয়া, রা, মীম, লাম, ওয়াও বা নুনে মিশে যায়।",
-        "ar": "أتقنتَ أن النون والتنوين تُدغم في الياء والراء والميم واللام والواو والنون."
+        "en": "I understand that noon sakinah/tanween merges into (ي ن م و) with ghunnah, and into (ل ر) without ghunnah.",
+        "bn": "আমি বুঝি যে নুন সাকিন/তানবীন (ي ن م و) তে গুন্নাহসহ এবং (ل ر) তে গুন্নাহ ছাড়া মিশে যায়।",
+        "ar": "أتقنتَ أن النون الساكنة والتنوين تُدغم في (ي ن م و) بغنة، وفي (ل ر) بلا غنة."
       }
     },
     {
@@ -177,9 +177,9 @@
         "ar": "الإخفاء"
       },
       "definition": {
-        "en": "When noon or tanween is followed by 15 letters (not throat or idgham letters), hide the noon in the letter that follows with a subtle ghunna.",
-        "bn": "যখন নুন বা তানবীন ১৫টি অক্ষর (গলা বা ইদগাম অক্ষর নয়) দ্বারা অনুসরণ করা হয়, তখন নুনকে সূক্ষ্ম গুন্নাহ সহ নিম্নলিখিত অক্ষরে লুকিয়ে রাখুন।",
-        "ar": "عندما تتبع النون أو التنوين 15 حرفًا (ليست حروف حلق أو إدغام)، أخفِ النون في الحرف التالي بغنة لطيفة."
+        "en": "When noon sakinah or tanween is followed by one of fifteen specific letters (ت ث ج د ذ ز س ش ص ض ط ظ ف ق ك), the noon is partially concealed with a nasal sound (ghunnah). This pronunciation is between the full clarity of izhar and the complete merging of idgham.",
+        "bn": "নুন সাকিন বা তানবীনের পরে ১৫টি নির্দিষ্ট অক্ষর (ت ث ج د ذ ز س ش ص ض ط ظ ف ق ك) এর যেকোনো একটি এলে, নুন গুন্নাহসহ আংশিকভাবে গোপন হয়ে উচ্চারিত হয়। এটি ইযহারের পূর্ণ স্পষ্টতা এবং ইদগামের সম্পূর্ণ মিলনের মধ্যবর্তী অবস্থা।",
+        "ar": "عند مجيء النون الساكنة أو التنوين قبل أحد خمسة عشر حرفًا (ت ث ج د ذ ز س ش ص ض ط ظ ف ق ك)، تُخفى النون إخفاءً جزئيًا مع الغنة. وهي حالة بين الإظهار الكامل والإدغام التام."
       },
       "wordExamples": [
         {
@@ -215,18 +215,18 @@
           }
         },
         {
-          "arabic": "عَذَابٌ أَلِيم",
-          "translit": "'adhab alim",
+          "arabic": "عَذَابٌ شَدِيدٌ",
+          "translit": "'adhab shadid",
           "meaning": {
-            "en": "Painful punishment",
-            "bn": "যন্ত্রণাদায়ক শাস্তি"
+            "en": "Severe punishment",
+            "bn": "কঠিন শাস্তি"
           }
         }
       ],
       "checkItem": {
-        "en": "I know that ikhfa hides the noon with a subtle nasal sound.",
-        "bn": "আমি জানি যে ইখফা নুনকে সূক্ষ্ম নাসিক শব্দ দিয়ে লুকায়।",
-        "ar": "تعلَّمتَ أن الإخفاء يُخفي النون بصوت أنفي لطيف."
+        "en": "I know that ikhfa partially conceals noon sakinah/tanween with a nasal ghunnah before fifteen specific letters.",
+        "bn": "আমি জানি যে ইখফায় নুন সাকিন/তানবীন ১৫টি নির্দিষ্ট অক্ষরের আগে গুন্নাহসহ আংশিকভাবে গোপন হয়।",
+        "ar": "تعلَّمتَ أن الإخفاء يُخفي النون الساكنة والتنوين إخفاءً جزئيًا بغنة قبل خمسة عشر حرفًا."
       }
     },
     {
@@ -237,9 +237,9 @@
         "ar": "الإقلاب"
       },
       "definition": {
-        "en": "When noon or tanween is followed by ba (ب), change the noon into meem with a ghunna.",
-        "bn": "যখন নুন বা তানবীন বা (ب) দ্বারা অনুসরণ করা হয়, তখন নুনকে গুন্নাহ সহ মীমে পরিবর্তন করুন।",
-        "ar": "عندما تتبع النون أو التنوين الباء، حول النون إلى ميم مع الغنة."
+        "en": "When noon sakinah or tanween is followed by ba (ب), the noon converts to meem (م) and is pronounced with a ghunnah. This conversion occurs because ba and meem share the same articulation point (the lips).",
+        "bn": "নুন সাকিন বা তানবীনের পরে বা (ب) আসলে নুন মীমে (م) রূপান্তরিত হয় এবং গুন্নাহসহ উচ্চারিত হয়। এই পরিবর্তন ঘটে কারণ বা এবং মীমের উচ্চারণস্থান একই (দুই ঠোঁট)।",
+        "ar": "عندما تتبع النون الساكنة أو التنوين حرف الباء، تُقلب النون ميمًا وتُنطق بغنة. ويُعلَّل ذلك بأن الباء والميم يشتركان في المخرج (الشفتين)."
       },
       "wordExamples": [
         {
@@ -268,9 +268,9 @@
         }
       ],
       "checkItem": {
-        "en": "I understand that noon/tanween before ba converts to meem.",
-        "bn": "আমি বুঝি যে বার আগে নুন/তানবীন মীমে রূপান্তরিত হয়।",
-        "ar": "تعلَّمتَ أن النون والتنوين قبل الباء تُقلب إلى ميم."
+        "en": "I understand that noon sakinah/tanween before ba (ب) converts to meem with ghunnah.",
+        "bn": "আমি বুঝি যে বা (ب) এর আগে নুন সাকিন/তানবীন গুন্নাহসহ মীমে রূপান্তরিত হয়।",
+        "ar": "تعلَّمتَ أن النون الساكنة والتنوين قبل الباء تُقلب ميمًا بغنة."
       }
     }
   ]

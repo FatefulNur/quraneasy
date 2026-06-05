@@ -21,55 +21,154 @@
         "ar": "المد الطبيعي"
       },
       "definition": {
-        "en": "The three letters alif, waw, and ya are naturally long — they extend naturally without any additional condition.",
-        "bn": "তিনটি অক্ষর আলিফ, ওয়াও এবং ইয়া স্বাভাবিকভাবে দীর্ঘ — তারা কোনো অতিরিক্ত শর্ত ছাড়াই স্বাভাবিকভাবে প্রসারিত হয়।",
-        "ar": "الحروف الثلاثة الألف والواو والياء طويلة بطبيعتها — تمتد بشكل طبيعي دون أي شرط إضافي."
+        "en": "A madd letter (alif, waw, or ya) preceded by its matching short vowel, with no hamza or sukoon following it — these extend naturally for two counts (harakat).",
+        "bn": "একটি মাদ্দ অক্ষর (আলিফ, ওয়াও বা ইয়া) যার আগে একটি মিলসম্পন্ন হ্রস্ব স্বর (যেমন: যবর ـَ, যের ـِ, পেশ ـُ) থাকে এবং পরে কোনো হামজা বা সুকুন না থাকে — এগুলি স্বাভাবিকভাবে দুটি হরকত পরিমাণ প্রসারিত হয়।",
+        "ar": "حرف مد (الألف أو الواو أو الياء) مسبوق بحركة قصيرة مطابقة، دون همزة أو سكون بعده — يمتد طبيعيًا بمقدار حركتين."
       },
       "letterExamples": [
-        {
-          "arabic": "ا",
-          "translit": "a"
-        },
-        {
-          "arabic": "و",
-          "translit": "w"
-        },
-        {
-          "arabic": "ي",
-          "translit": "y"
-        }
+        { "arabic": "ا", "translit": "a" },
+        { "arabic": "و", "translit": "w" },
+        { "arabic": "ي", "translit": "y" }
       ],
       "wordExamples": [
         {
           "arabic": "قَالَ",
           "translit": "qal",
-          "meaning": {
-            "en": "He said",
-            "bn": "তিনি বলেছেন"
+          "meaning": { "en": "He said", "bn": "তিনি বলেছেন" },
+          "breakdown": {
+            "original": "قَالَ",
+            "stepByStep": [
+              {
+                "en": "The letter قَ carries a fatha (short 'a' sound)",
+                "bn": "قَ অক্ষরে ফাতহা রয়েছে (সংক্ষিপ্ত 'আ' ধ্বনি)",
+                "ar": "حرف القاف يحمل الفتحة (صوت 'آ' القصير)"
+              },
+              {
+                "en": "It is followed by ا (alif) — a natural madd letter matching the fatha",
+                "bn": "এর পরে ا (আলিফ) আসে — ফাতহার সাথে মিলসম্পন্ন একটি স্বাভাবিক মাদ্দ অক্ষর",
+                "ar": "يتبعه ا (الألف) — حرف مد طبيعي يطابق الفتحة"
+              },
+              {
+                "en": "No hamza or sukoon follows, so Madd Asli applies",
+                "bn": "পরে কোনো হামজা বা সুকুন নেই, তাই মাদ্দ আসলী প্রযোজ্য হয়",
+                "ar": "لا تتبعه همزة ولا سكون، فيُطبَّق المد الطبيعي"
+              },
+              {
+                "en": "The alif stretches the 'aa' sound for 2 counts naturally",
+                "bn": "আলিফ স্বাভাবিকভাবে 'আ' ধ্বনিকে ২ হরকত পরিমাণ দীর্ঘায়িত করে",
+                "ar": "يمد الألف صوت 'آ' طبيعيًا بمقدار حركتين"
+              }
+            ],
+            "phoneticHint": {
+              "en": "qāla (q-AA-la, hold the AA for 2 beats)",
+              "bn": "ক্বা-লা (ক্ব-আআ-লা, 'আ' ধ্বনি ২ হরকত ধরে রাখুন)",
+              "ar": "قَالَ (ق-آ-لَ، أطِل 'آ' لحركتين)"
+            }
           }
         },
         {
           "arabic": "قِيلَ",
           "translit": "qil",
-          "meaning": {
-            "en": "It was said",
-            "bn": "এটি বলা হয়েছিল"
+          "meaning": { "en": "It was said", "bn": "এটি বলা হয়েছিল" },
+          "breakdown": {
+            "original": "قِيلَ",
+            "stepByStep": [
+              {
+                "en": "The letter قِ carries a kasra (short 'i' sound)",
+                "bn": "قِ অক্ষরে কাসরাহ রয়েছে (সংক্ষিপ্ত 'ই' ধ্বনি)",
+                "ar": "حرف القاف يحمل الكسرة (صوت 'إي' القصير)"
+              },
+              {
+                "en": "It is followed by ي (ya) — a natural madd letter matching the kasra",
+                "bn": "এর পরে ي (ইয়া) আসে — কাসরাহর সাথে মিলসম্পন্ন একটি স্বাভাবিক মাদ্দ অক্ষর",
+                "ar": "يتبعه ي (الياء) — حرف مد طبيعي يطابق الكسرة"
+              },
+              {
+                "en": "No hamza or sukoon follows, so Madd Asli applies",
+                "bn": "পরে কোনো হামজা বা সুকুন নেই, তাই মাদ্দ আসলী প্রযোজ্য হয়",
+                "ar": "لا تتبعه همزة ولا سكون، فيُطبَّق المد الطبيعي"
+              },
+              {
+                "en": "The ya stretches the 'ee' sound for 2 counts naturally",
+                "bn": "ইয়া স্বাভাবিকভাবে 'ই' ধ্বনিকে ২ হরকত পরিমাণ দীর্ঘায়িত করে",
+                "ar": "تمد الياء صوت 'إي' طبيعيًا بمقدار حركتين"
+              }
+            ],
+            "phoneticHint": {
+              "en": "qīla (q-EE-la, hold the EE for 2 beats)",
+              "bn": "ক্বী-লা (ক্ব-ঈঈ-লা, 'ই' ধ্বনি ২ হরকত ধরে রাখুন)",
+              "ar": "قِيلَ (ق-إي-لَ، أطِل 'إي' لحركتين)"
+            }
           }
         },
         {
           "arabic": "يَقُولُ",
           "translit": "yaqul",
-          "meaning": {
-            "en": "He says",
-            "bn": "সে বলে"
+          "meaning": { "en": "He says", "bn": "সে বলে" },
+          "breakdown": {
+            "original": "يَقُولُ",
+            "stepByStep": [
+              {
+                "en": "The letter قُ carries a damma (short 'u' sound)",
+                "bn": "قُ অক্ষরে দাম্মাহ রয়েছে (সংক্ষিপ্ত 'উ' ধ্বনি)",
+                "ar": "حرف القاف يحمل الضمة (صوت 'أو' القصير)"
+              },
+              {
+                "en": "It is followed by و (waw) — a natural madd letter matching the damma",
+                "bn": "এর পরে و (ওয়াও) আসে — দাম্মাহর সাথে মিলসম্পন্ন একটি স্বাভাবিক মাদ্দ অক্ষর",
+                "ar": "يتبعه و (الواو) — حرف مد طبيعي يطابق الضمة"
+              },
+              {
+                "en": "No hamza or sukoon follows, so Madd Asli applies",
+                "bn": "পরে কোনো হামজা বা সুকুন নেই, তাই মাদ্দ আসলী প্রযোজ্য হয়",
+                "ar": "لا تتبعه همزة ولا سكون، فيُطبَّق المد الطبيعي"
+              },
+              {
+                "en": "The waw stretches the 'oo' sound for 2 counts naturally",
+                "bn": "ওয়াও স্বাভাবিকভাবে 'উ' ধ্বনিকে ২ হরকত পরিমাণ দীর্ঘায়িত করে",
+                "ar": "تمد الواو صوت 'أو' طبيعيًا بمقدار حركتين"
+              }
+            ],
+            "phoneticHint": {
+              "en": "yaqūlu (ya-q-OO-lu, hold the OO for 2 beats)",
+              "bn": "ইয়া-ক্বু-লু (ইয়া-ক্ব-উউ-লু, 'উ' ধ্বনি ২ হরকত ধরে রাখুন)",
+              "ar": "يَقُولُ (يَ-قُ-وُ-لُ، أطِل 'أو' لحركتين)"
+            }
           }
         },
         {
           "arabic": "فِيهِ",
           "translit": "fihi",
-          "meaning": {
-            "en": "In it",
-            "bn": "এর মধ্যে"
+          "meaning": { "en": "In it", "bn": "এর মধ্যে" },
+          "breakdown": {
+            "original": "فِيهِ",
+            "stepByStep": [
+              {
+                "en": "The letter فِ carries a kasra (short 'i' sound)",
+                "bn": "فِ অক্ষরে কাসরাহ রয়েছে (সংক্ষিপ্ত 'ই' ধ্বনি)",
+                "ar": "حرف الفاء يحمل الكسرة (صوت 'إي' القصير)"
+              },
+              {
+                "en": "It is followed by ي (ya) — a natural madd letter matching the kasra",
+                "bn": "এর পরে ي (ইয়া) আসে — কাসরাহর সাথে মিলসম্পন্ন একটি স্বাভাবিক মাদ্দ অক্ষর",
+                "ar": "يتبعه ي (الياء) — حرف مد طبيعي يطابق الكسرة"
+              },
+              {
+                "en": "No hamza or sukoon follows, so Madd Asli applies",
+                "bn": "পরে কোনো হামজা বা সুকুন নেই, তাই মাদ্দ আসলী প্রযোজ্য হয়",
+                "ar": "لا تتبعه همزة ولا سكون، فيُطبَّق المد الطبيعي"
+              },
+              {
+                "en": "The ya stretches the 'ee' sound for 2 counts naturally",
+                "bn": "ইয়া স্বাভাবিকভাবে 'ই' ধ্বনিকে ২ হরকত পরিমাণ দীর্ঘায়িত করে",
+                "ar": "تمد الياء صوت 'إي' طبيعيًا بمقدار حركتين"
+              }
+            ],
+            "phoneticHint": {
+              "en": "fīhi (f-EE-hi, hold the EE for 2 beats)",
+              "bn": "ফী-হি (ফ-ঈঈ-হি, 'ই' ধ্বনি ২ হরকত ধরে রাখুন)",
+              "ar": "فِيهِ (فِ-إي-هِ، أطِل 'إي' لحركتين)"
+            }
           }
         }
       ],
@@ -88,32 +187,128 @@
       },
       "definition": {
         "en": "When a hamza is followed by a long vowel letter, the hamza is replaced by a lengthening of that vowel.",
-        "bn": "যখন একটি হামজা একটি দীর্ঘ স্বর অক্ষর দ্বারা অনুসরণ করা হয়, হামজা সেই স্বরের দীর্ঘায়ন দ্বারা প্রতিস্থাপিত হয়।",
+        "bn": "যখন একটি হামজা একটি দীর্ঘ স্বর অক্ষর (আলিফ ا, ওয়াও و বা ইয়া ي) দ্বারা অনুসরণ করা হয়, হামজা সেই স্বরের দীর্ঘায়ন দ্বারা প্রতিস্থাপিত হয়।",
         "ar": "عندما يتبع الهمزة حرف علة طويل، تُستبدل الهمزة بإطالة تلك الحركة."
       },
       "wordExamples": [
         {
           "arabic": "آمَنُوا",
           "translit": "amanu",
-          "meaning": {
-            "en": "They believed",
-            "bn": "তারা বিশ্বাস করেছিল"
+          "meaning": { "en": "They believed", "bn": "তারা বিশ্বাস করেছিল" },
+          "breakdown": {
+            "original": "أَأْمَنُوا",
+            "stepByStep": [
+              {
+                "en": "Original form has two hamzas at the start: أ + أ",
+                "bn": "মূল রূপে শুরুতে দুটি হামজা রয়েছে: أ + أ",
+                "ar": "الأصل همزتان في البداية: أ + أ"
+              },
+              {
+                "en": "Two consecutive hamzas are difficult to pronounce in Arabic",
+                "bn": "আরবিতে পরপর দুটি হামজা উচ্চারণ করা কঠিন",
+                "ar": "الهمزتان المتتاليتان صعبتا النطق في العربية"
+              },
+              {
+                "en": "Madd Badal rule: the second hamza (أ with sukoon) is replaced by a long alif (ا)",
+                "bn": "মাদ্দ বাদল নিয়ম: দ্বিতীয় হামজা (সুকুনযুক্ত أ) একটি দীর্ঘ আলিফ (ا) দ্বারা প্রতিস্থাপিত হয়",
+                "ar": "قاعدة مد البدل: تُستبدل الهمزة الثانية (أ ساكنة) بألف مد (ا)"
+              },
+              {
+                "en": "The first hamza carries a fatha and the alif creates a smooth 'aa' extension",
+                "bn": "প্রথম হামজা ফাতহা বহন করে এবং আলিফ একটি মসৃণ 'আ' দীর্ঘায়ন তৈরি করে",
+                "ar": "تحمل الهمزة الأولى الفتحة والألف يُنشئ مدًّا سلسًا لصوت 'آ'"
+              },
+              {
+                "en": "Result: آمَنُوا — pronounced with a natural 2-count lengthening at the start",
+                "bn": "ফলাফল: آمَنُوا — শুরুতে স্বাভাবিক ২ হরকত দীর্ঘায়নসহ উচ্চারিত হয়",
+                "ar": "النتيجة: آمَنُوا — تُنطق مع مد طبيعي بمقدار حركتين في البداية"
+              }
+            ],
+            "phoneticHint": {
+              "en": "āmanū (AA-ma-noo, hold the AA for 2 beats)",
+              "bn": "আ-মা-নূ (আআ-মা-নূ, 'আ' ধ্বনি ২ হরকত ধরে রাখুন)",
+              "ar": "آمَنُوا (آ-مَ-نُوا، أطِل 'آ' لحركتين)"
+            }
           }
         },
         {
           "arabic": "إِيمَان",
           "translit": "iman",
-          "meaning": {
-            "en": "Faith",
-            "bn": "বিশ্বাস"
+          "meaning": { "en": "Faith", "bn": "বিশ্বাস" },
+          "breakdown": {
+            "original": "إِئْمَان",
+            "stepByStep": [
+              {
+                "en": "Original form: hamza with kasra (إِ) followed by another hamza with sukoon (أْ)",
+                "bn": "মূল রূপ: কাসরাহযুক্ত হামজা (إِ) এর পরে সুকুনযুক্ত আরেকটি হামজা (أْ)",
+                "ar": "الأصل: همزة مكسورة (إِ) تتبعها همزة ساكنة (أْ)"
+              },
+              {
+                "en": "Two consecutive hamzas cause pronunciation difficulty",
+                "bn": "পরপর দুটি হামজা উচ্চারণে অসুবিধা সৃষ্টি করে",
+                "ar": "الهمزتان المتتاليتان تُصعِّبان النطق"
+              },
+              {
+                "en": "Madd Badal rule: the second hamza is replaced by a long ya (ي) matching the kasra",
+                "bn": "মাদ্দ বাদল নিয়ম: দ্বিতীয় হামজা কাসরাহর সাথে মিলসম্পন্ন একটি দীর্ঘ ইয়া (ي) দ্বারা প্রতিস্থাপিত হয়",
+                "ar": "قاعدة مد البدل: تُستبدل الهمزة الثانية بياء مد (ي) مطابقة للكسرة"
+              },
+              {
+                "en": "The ي creates a smooth 'ee' extension for 2 counts",
+                "bn": "ي ২ হরকত পরিমাণ একটি মসৃণ 'ই' দীর্ঘায়ন তৈরি করে",
+                "ar": "تُنشئ الياء مدًّا سلسًا لصوت 'إي' بمقدار حركتين"
+              },
+              {
+                "en": "Result: إِيمَان — begins with a stretched 'ee' sound",
+                "bn": "ফলাফল: إِيمَان — একটি দীর্ঘায়িত 'ই' ধ্বনি দিয়ে শুরু হয়",
+                "ar": "النتيجة: إِيمَان — تبدأ بصوت 'إي' ممتد"
+              }
+            ],
+            "phoneticHint": {
+              "en": "īmān (EE-maan, hold the EE for 2 beats)",
+              "bn": "ঈ-মান (ঈঈ-মান, 'ই' ধ্বনি ২ হরকত ধরে রাখুন)",
+              "ar": "إِيمَان (إي-مَان، أطِل 'إي' لحركتين)"
+            }
           }
         },
         {
           "arabic": "أُوتُوا",
-          "translit": "uta",
-          "meaning": {
-            "en": "They were given",
-            "bn": "তাদের দেওয়া হয়েছিল"
+          "translit": "utu",
+          "meaning": { "en": "They were given", "bn": "তাদের দেওয়া হয়েছিল" },
+          "breakdown": {
+            "original": "أُؤْتُوا",
+            "stepByStep": [
+              {
+                "en": "Original form: hamza with damma (أُ) followed by hamza with sukoon (أْ)",
+                "bn": "মূল রূপ: দাম্মাহযুক্ত হামজা (أُ) এর পরে সুকুনযুক্ত হামজা (أْ)",
+                "ar": "الأصل: همزة مضمومة (أُ) تتبعها همزة ساكنة (أْ)"
+              },
+              {
+                "en": "Two consecutive hamzas are hard to pronounce smoothly",
+                "bn": "পরপর দুটি হামজা মসৃণভাবে উচ্চারণ করা কঠিন",
+                "ar": "الهمزتان المتتاليتان يصعب نطقهما بسلاسة"
+              },
+              {
+                "en": "Madd Badal rule: the second hamza is replaced by a long waw (و) matching the damma",
+                "bn": "মাদ্দ বাদল নিয়ম: দ্বিতীয় হামজা দাম্মাহর সাথে মিলসম্পন্ন একটি দীর্ঘ ওয়াও (و) দ্বারা প্রতিস্থাপিত হয়",
+                "ar": "قاعدة مد البدل: تُستبدل الهمزة الثانية بواو مد (و) مطابقة للضمة"
+              },
+              {
+                "en": "The و creates a smooth 'oo' extension for 2 counts",
+                "bn": "و ২ হরকত পরিমাণ একটি মসৃণ 'উ' দীর্ঘায়ন তৈরি করে",
+                "ar": "تُنشئ الواو مدًّا سلسًا لصوت 'أو' بمقدار حركتين"
+              },
+              {
+                "en": "Result: أُوتُوا — begins with a stretched 'oo' sound",
+                "bn": "ফলাফল: أُوتُوا — একটি দীর্ঘায়িত 'উ' ধ্বনি দিয়ে শুরু হয়",
+                "ar": "النتيجة: أُوتُوا — تبدأ بصوت 'أو' ممتد"
+              }
+            ],
+            "phoneticHint": {
+              "en": "ūtū (OO-too, hold the initial OO for 2 beats)",
+              "bn": "উ-তূ (উউ-তূ, শুরুর 'উ' ধ্বনি ২ হরকত ধরে রাখুন)",
+              "ar": "أُوتُوا (أو-تُوا، أطِل 'أو' الأولى لحركتين)"
+            }
           }
         }
       ],
@@ -131,33 +326,129 @@
         "ar": "المد المتصل"
       },
       "definition": {
-        "en": "When a long vowel is immediately followed by a hamza in the same word, extend the vowel longer than normal.",
-        "bn": "যখন একটি দীর্ঘ স্বরের অবিলম্বে একই শব্দে হামজা অনুসরণ করে, স্বরটি সাধারণের চেয়ে বেশি প্রসারিত করুন।",
-        "ar": "عندما يتبع علة طويلة همزة مباشرة في نفس الكلمة، أطل الحركة أطول من المعتاد."
+        "en": "When a long vowel is immediately followed by a hamza in the same word, the vowel must be extended for 4–5 counts (harakat). This lengthening is obligatory (wajib).",
+        "bn": "যখন একটি দীর্ঘ স্বরের (আলিফ ا, ওয়াও و বা ইয়া ي) অবিলম্বে একই শব্দে হামজা অনুসরণ করে, স্বরটি অবশ্যই ৪–৫ হরকত পরিমাণ প্রসারিত করতে হবে। এই দীর্ঘায়ন বাধ্যতামূলক (ওয়াজিব)।",
+        "ar": "عندما تتبع علة طويلة همزة مباشرة في نفس الكلمة، تُمد الحركة ٤–٥ حركات وجوبًا."
       },
       "wordExamples": [
         {
           "arabic": "جَاءَ",
           "translit": "ja",
-          "meaning": {
-            "en": "He came",
-            "bn": "তিনি এসেছেন"
+          "meaning": { "en": "He came", "bn": "তিনি এসেছেন" },
+          "breakdown": {
+            "original": "جَاءَ",
+            "stepByStep": [
+              {
+                "en": "The letter جَ carries a fatha (short 'a' sound)",
+                "bn": "جَ অক্ষরে ফাতহা রয়েছে (সংক্ষিপ্ত 'আ' ধ্বনি)",
+                "ar": "حرف الجيم يحمل الفتحة (صوت 'آ' القصير)"
+              },
+              {
+                "en": "It is followed by ا (alif) — a long vowel creating an 'aa' sound",
+                "bn": "এর পরে ا (আলিফ) আসে — 'আ' ধ্বনি তৈরিকারী একটি দীর্ঘ স্বর",
+                "ar": "يتبعه ا (الألف) — حرف علة طويل يُنتج صوت 'آ'"
+              },
+              {
+                "en": "Immediately after the alif comes ء (hamza) in the SAME word",
+                "bn": "আলিফের ঠিক পরেই একই শব্দে ء (হামজা) আসে",
+                "ar": "يعقب الألف مباشرةً ء (الهمزة) في نفس الكلمة"
+              },
+              {
+                "en": "Madd Muttasil rule: long vowel + hamza in same word = obligatory extension",
+                "bn": "মাদ্দ মুত্তাসিল নিয়ম: একই শব্দে দীর্ঘ স্বর + হামজা = বাধ্যতামূলক দীর্ঘায়ন",
+                "ar": "قاعدة المد المتصل: علة طويلة + همزة في نفس الكلمة = مد واجب"
+              },
+              {
+                "en": "The 'aa' sound must be held for 4–5 counts before pronouncing the hamza",
+                "bn": "হামজা উচ্চারণের আগে 'আ' ধ্বনি অবশ্যই ৪–৫ হরকত ধরে রাখতে হবে",
+                "ar": "يجب مد صوت 'آ' ٤–٥ حركات قبل نطق الهمزة"
+              }
+            ],
+            "phoneticHint": {
+              "en": "jā'a (j-AAAA-a, hold the AAAA for 4–5 beats)",
+              "bn": "জা-আ (জ-আআআআ-আ, 'আ' ধ্বনি ৪–৫ হরকত ধরে রাখুন)",
+              "ar": "جَاءَ (جَ-آآآآ-أَ، أطِل 'آ' ٤–٥ حركات)"
+            }
           }
         },
         {
           "arabic": "السَّمَاءِ",
           "translit": "as-sama",
-          "meaning": {
-            "en": "The sky",
-            "bn": "আকাশ"
+          "meaning": { "en": "The sky", "bn": "আকাশ" },
+          "breakdown": {
+            "original": "السَّمَاءِ",
+            "stepByStep": [
+              {
+                "en": "The word contains مَا — a fatha followed by alif (long 'aa' sound)",
+                "bn": "শব্দটিতে مَا রয়েছে — ফাতহার পরে আলিফ (দীর্ঘ 'আ' ধ্বনি)",
+                "ar": "تحتوي الكلمة على مَا — فتحة تتبعها ألف (صوت 'آ' الطويل)"
+              },
+              {
+                "en": "Immediately after the alif comes ء (hamza with kasra) in the SAME word",
+                "bn": "আলিফের ঠিক পরেই একই শব্দে ء (কাসরাহযুক্ত হামজা) আসে",
+                "ar": "يعقب الألف مباشرةً ء (الهمزة المكسورة) في نفس الكلمة"
+              },
+              {
+                "en": "Madd Muttasil rule: long vowel + hamza in same word = obligatory extension",
+                "bn": "মাদ্দ মুত্তাসিল নিয়ম: একই শব্দে দীর্ঘ স্বর + হামজা = বাধ্যতামূলক দীর্ঘায়ন",
+                "ar": "قاعدة المد المتصل: علة طويلة + همزة في نفس الكلمة = مد واجب"
+              },
+              {
+                "en": "The 'aa' in سَمَاء must be stretched for 4–5 counts",
+                "bn": "سَمَاء-এর 'আ' অবশ্যই ৪–৫ হরকত পরিমাণ দীর্ঘায়িত করতে হবে",
+                "ar": "يجب مد 'آ' في سَمَاء ٤–٥ حركات"
+              },
+              {
+                "en": "Then the hamza (ء) with kasra is pronounced after the extension",
+                "bn": "তারপর দীর্ঘায়নের পরে কাসরাহযুক্ত হামজা (ء) উচ্চারিত হয়",
+                "ar": "ثم تُنطق الهمزة (ء) المكسورة بعد المد"
+              }
+            ],
+            "phoneticHint": {
+              "en": "as-samā'i (as-sa-m-AAAA-ee, hold the AAAA for 4–5 beats)",
+              "bn": "আস-সামা-ই (আস-সা-ম-আআআআ-ই, 'আ' ধ্বনি ৪–৫ হরকত ধরে রাখুন)",
+              "ar": "السَّمَاءِ (السَّ-مَ-آآآآ-ءِ، أطِل 'آ' ٤–٥ حركات)"
+            }
           }
         },
         {
           "arabic": "سُوءٌ",
           "translit": "su'",
-          "meaning": {
-            "en": "Evil",
-            "bn": "মন্দ"
+          "meaning": { "en": "Evil", "bn": "মন্দ" },
+          "breakdown": {
+            "original": "سُوءٌ",
+            "stepByStep": [
+              {
+                "en": "The letter سُ carries a damma (short 'u' sound)",
+                "bn": "سُ অক্ষরে দাম্মাহ রয়েছে (সংক্ষিপ্ত 'উ' ধ্বনি)",
+                "ar": "حرف السين يحمل الضمة (صوت 'أو' القصير)"
+              },
+              {
+                "en": "It is followed by و (waw) — a long vowel creating an 'oo' sound",
+                "bn": "এর পরে و (ওয়াও) আসে — 'উ' ধ্বনি তৈরিকারী একটি দীর্ঘ স্বর",
+                "ar": "يتبعه و (الواو) — حرف علة طويل يُنتج صوت 'أو'"
+              },
+              {
+                "en": "Immediately after the waw comes ء (hamza with tanween) in the SAME word",
+                "bn": "ওয়াওর ঠিক পরেই একই শব্দে ء (তানবীনযুক্ত হামজা) আসে",
+                "ar": "يعقب الواو مباشرةً ء (الهمزة المنونة) في نفس الكلمة"
+              },
+              {
+                "en": "Madd Muttasil rule: long vowel + hamza in same word = obligatory extension",
+                "bn": "মাদ্দ মুত্তাসিল নিয়ম: একই শব্দে দীর্ঘ স্বর + হামজা = বাধ্যতামূলক দীর্ঘায়ন",
+                "ar": "قاعدة المد المتصل: علة طويلة + همزة في نفس الكلمة = مد واجب"
+              },
+              {
+                "en": "The 'oo' sound must be held for 4–5 counts before the hamza",
+                "bn": "হামজার আগে 'উ' ধ্বনি অবশ্যই ৪–৫ হরকত ধরে রাখতে হবে",
+                "ar": "يجب مد صوت 'أو' ٤–٥ حركات قبل الهمزة"
+              }
+            ],
+            "phoneticHint": {
+              "en": "sū'un (s-OOOO-un, hold the OOOO for 4–5 beats)",
+              "bn": "সূ-উন (স-উউউউ-উন, 'উ' ধ্বনি ৪–৫ হরকত ধরে রাখুন)",
+              "ar": "سُوءٌ (سُ-أوووو-ءٌ، أطِل 'أو' ٤–٥ حركات)"
+            }
           }
         }
       ],
@@ -175,25 +466,89 @@
         "ar": "المد المنفصل"
       },
       "definition": {
-        "en": "When a long vowel at the end of a word is followed by a hamza at the start of the next word, slightly extend the first vowel.",
-        "bn": "যখন একটি শব্দের শেষে একটি দীর্ঘ স্বর পরবর্তী শব্দের শুরুতে হামজা দ্বারা অনুসরণ করা হয়, প্রথম স্বরটি সামান্য প্রসারিত করুন।",
-        "ar": "عندما تتبع علة طويلة في نهاية كلمة همزة في بدء الكلمة التالية، أطل الحركة الأولى قليلًا."
+        "en": "When a long vowel at the end of a word is followed by a hamza at the start of the next word, the vowel may be extended for 2–5 counts (harakat). This lengthening is permissible (jaiz).",
+        "bn": "যখন একটি শব্দের শেষে একটি দীর্ঘ স্বর (আলিফ ا, ওয়াও و বা ইয়া ي) পরবর্তী শব্দের শুরুতে হামজা দ্বারা অনুসরণ করা হয়, স্বরটি ২–৫ হরকত পরিমাণ প্রসারিত করা যেতে পারে। এই দীর্ঘায়ন অনুমোদিত (জায়িয)।",
+        "ar": "عندما تتبع علة طويلة في نهاية كلمة همزة في بدء الكلمة التالية، يجوز مد الحركة ٢–٥ حركات."
       },
       "wordExamples": [
         {
           "arabic": "فِي أَنْفُسِكُمْ",
           "translit": "fi anfusikum",
-          "meaning": {
-            "en": "In yourselves",
-            "bn": "তোমাদের নিজেদের মধ্যে"
+          "meaning": { "en": "In yourselves", "bn": "তোমাদের নিজেদের মধ্যে" },
+          "breakdown": {
+            "original": "فِي أَنْفُسِكُمْ",
+            "stepByStep": [
+              {
+                "en": "First word فِي ends with ي (ya) — a long 'ee' vowel",
+                "bn": "প্রথম শব্দ فِي ي (ইয়া) দিয়ে শেষ হয় — একটি দীর্ঘ 'ই' স্বর",
+                "ar": "الكلمة الأولى فِي تنتهي بالياء — حرف علة طويل بصوت 'إي'"
+              },
+              {
+                "en": "Second word أَنْفُسِكُمْ starts with أ (hamza) — a different word",
+                "bn": "দ্বিতীয় শব্দ أَنْفُسِكُمْ শুরু হয় أ (হামজা) দিয়ে — এটি একটি ভিন্ন শব্দ",
+                "ar": "الكلمة الثانية أَنْفُسِكُمْ تبدأ بهمزة — في كلمة مستقلة"
+              },
+              {
+                "en": "Long vowel at end of word + hamza at start of next word = Madd Munfasil",
+                "bn": "শব্দ শেষে দীর্ঘ স্বর + পরবর্তী শব্দের শুরুতে হামজা = মাদ্দ মুনফাসিল",
+                "ar": "علة طويلة في آخر كلمة + همزة في أول الكلمة التالية = مد منفصل"
+              },
+              {
+                "en": "Unlike Muttasil, this is permissible (jaiz), not obligatory",
+                "bn": "মুত্তাসিলের মতো নয়, এটি অনুমোদিত (জায়িয), বাধ্যতামূলক নয়",
+                "ar": "خلافًا للمتصل، هذا جائز وليس واجبًا"
+              },
+              {
+                "en": "The 'ee' in فِي may be extended for 2 to 5 counts depending on the reciter's style",
+                "bn": "فِي-এর 'ই' তিলাওয়াতকারীর ধরন অনুযায়ী ২ থেকে ৫ হরকত পর্যন্ত দীর্ঘায়িত করা যেতে পারে",
+                "ar": "يجوز مد 'إي' في فِي من حركتين إلى خمس حركات حسب رواية القارئ"
+              }
+            ],
+            "phoneticHint": {
+              "en": "fī anfusikum (f-EE(2–5 beats) an-fu-si-kum)",
+              "bn": "ফী আনফুসিকুম (ফ-ঈ(২–৫ হরকত) আন-ফু-সি-কুম)",
+              "ar": "فِي أَنْفُسِكُمْ (فِي(إي ٢–٥ حركات) أَنْفُسِكُمْ)"
+            }
           }
         },
         {
           "arabic": "إِنَّا أَعْطَيْنَاكَ",
           "translit": "inna a'tainaka",
-          "meaning": {
-            "en": "Indeed We have given you",
-            "bn": "নিশ্চয় আমরা আপনাকে দিয়েছি"
+          "meaning": { "en": "Indeed We have given you", "bn": "নিশ্চয় আমরা আপনাকে দিয়েছি" },
+          "breakdown": {
+            "original": "إِنَّا أَعْطَيْنَاكَ",
+            "stepByStep": [
+              {
+                "en": "First word إِنَّا ends with ا (alif) — a long 'aa' vowel",
+                "bn": "প্রথম শব্দ إِنَّا ا (আলিফ) দিয়ে শেষ হয় — একটি দীর্ঘ 'আ' স্বর",
+                "ar": "الكلمة الأولى إِنَّا تنتهي بالألف — حرف علة طويل بصوت 'آ'"
+              },
+              {
+                "en": "Second word أَعْطَيْنَاكَ starts with أ (hamza) — a different word",
+                "bn": "দ্বিতীয় শব্দ أَعْطَيْنَاكَ শুরু হয় أ (হামজা) দিয়ে — এটি একটি ভিন্ন শব্দ",
+                "ar": "الكلمة الثانية أَعْطَيْنَاكَ تبدأ بهمزة — في كلمة مستقلة"
+              },
+              {
+                "en": "Long vowel at end of one word + hamza at start of next = Madd Munfasil",
+                "bn": "একটি শব্দের শেষে দীর্ঘ স্বর + পরবর্তীটির শুরুতে হামজা = মাদ্দ মুনফাসিল",
+                "ar": "علة طويلة في آخر كلمة + همزة في أول التالية = مد منفصل"
+              },
+              {
+                "en": "This lengthening is permissible (jaiz), not obligatory",
+                "bn": "এই দীর্ঘায়ন অনুমোদিত (জায়িয), বাধ্যতামূলক নয়",
+                "ar": "هذا المد جائز وليس واجبًا"
+              },
+              {
+                "en": "The 'aa' in إِنَّا may be extended for 2 to 5 counts",
+                "bn": "إِنَّا-এর 'আ' ২ থেকে ৫ হরকত পর্যন্ত দীর্ঘায়িত করা যেতে পারে",
+                "ar": "يجوز مد 'آ' في إِنَّا من حركتين إلى خمس حركات"
+              }
+            ],
+            "phoneticHint": {
+              "en": "innā a'tainaka (in-n-AA(2–5 beats) a'-tay-naa-ka)",
+              "bn": "ইন্না আ'তাইনাকা (ইন-ন-আ(২–৫ হরকত) আ'-তায়-না-কা)",
+              "ar": "إِنَّا أَعْطَيْنَاكَ (إِنَّ-آ(٢–٥ حركات) أَعْطَيْنَاكَ)"
+            }
           }
         }
       ],
@@ -212,32 +567,128 @@
       },
       "definition": {
         "en": "When a long vowel is followed by a doubled letter in the same word, the lengthening is obligatory and extended.",
-        "bn": "যখন একটি দীর্ঘ স্বর একই শব্দে একটি দ্বিগুণ অক্ষর দ্বারা অনুসরণ করা হয়, দীর্ঘায়ন বাধ্যতামূলক এবং প্রসারিত।",
+        "bn": "যখন একটি দীর্ঘ স্বর (আলিফ ا, ওয়াও و বা ইয়া ي) একই শব্দে একটি দ্বিগুণ অক্ষর দ্বারা অনুসরণ করা হয়, দীর্ঘায়ন বাধ্যতামূলক এবং প্রসারিত।",
         "ar": "عندما تتبع علة طويلة حرف مضاعف في نفس الكلمة، تكون الإطالة إلزامية وممتدة."
       },
       "wordExamples": [
         {
           "arabic": "الضَّالِّينَ",
           "translit": "ad-dallin",
-          "meaning": {
-            "en": "Those who are astray",
-            "bn": "যারা বিপথগামী"
+          "meaning": { "en": "Those who are astray", "bn": "যারা বিপথগামী" },
+          "breakdown": {
+            "original": "الضَّالِّينَ",
+            "stepByStep": [
+              {
+                "en": "The word contains ا (alif) — a long 'aa' vowel",
+                "bn": "শব্দটিতে ا (আলিফ) রয়েছে — একটি দীর্ঘ 'আ' স্বর",
+                "ar": "تحتوي الكلمة على ا (الألف) — حرف علة طويل بصوت 'آ'"
+              },
+              {
+                "en": "Immediately after the alif comes لّ (lam with shaddah = doubled letter)",
+                "bn": "আলিফের ঠিক পরেই لّ (শাদ্দাহযুক্ত লাম = দ্বিগুণ অক্ষর) আসে",
+                "ar": "يعقب الألف مباشرةً لّ (اللام مشددة = حرف مضاعف)"
+              },
+              {
+                "en": "A shaddah (ّ) means the letter is doubled — it has a sukoon hidden underneath",
+                "bn": "শাদ্দাহ (ّ) মানে অক্ষরটি দ্বিগুণ — এর নিচে একটি সুকুন লুকিয়ে আছে",
+                "ar": "الشدة تعني تضعيف الحرف — يحمل سكونًا مخفيًّا في أوله"
+              },
+              {
+                "en": "Madd Lazim rule: long vowel + sukoon (even hidden in shaddah) = obligatory 6-count extension",
+                "bn": "মাদ্দ লাজিম নিয়ম: দীর্ঘ স্বর + সুকুন (শাদ্দাহয় লুকানো হলেও) = বাধ্যতামূলক ৬ হরকত দীর্ঘায়ন",
+                "ar": "قاعدة المد اللازم: علة طويلة + سكون (حتى لو مخفي في الشدة) = مد لازم ٦ حركات"
+              },
+              {
+                "en": "The 'aa' sound must be held for 6 counts before the doubled lam",
+                "bn": "দ্বিগুণ লামের আগে 'আ' ধ্বনি অবশ্যই ৬ হরকত ধরে রাখতে হবে",
+                "ar": "يجب مد صوت 'آ' ٦ حركات قبل اللام المشددة"
+              }
+            ],
+            "phoneticHint": {
+              "en": "ad-dāllīna (ad-d-AAAAAA-l-l-ee-na, hold AA for 6 beats)",
+              "bn": "আদ-দাল্লীনা (আদ-দ-আআআআআআ-ল-ল-ঈ-না, 'আ' ধ্বনি ৬ হরকত ধরে রাখুন)",
+              "ar": "الضَّالِّينَ (الضَّ-آآآآآآ-لِّي-نَ، أطِل 'آ' ٦ حركات)"
+            }
           }
         },
         {
           "arabic": "الْحَاقَّةُ",
           "translit": "al-haqqa",
-          "meaning": {
-            "en": "The Inevitable",
-            "bn": "অবশ্যম্ভাবী"
+          "meaning": { "en": "The Inevitable", "bn": "অবশ্যম্ভাবী" },
+          "breakdown": {
+            "original": "الْحَاقَّةُ",
+            "stepByStep": [
+              {
+                "en": "The word contains ا (alif) — a long 'aa' vowel after حَ",
+                "bn": "শব্দটিতে حَ-এর পরে ا (আলিফ) রয়েছে — একটি দীর্ঘ 'আ' স্বর",
+                "ar": "تحتوي الكلمة على ا (الألف) بعد الحاء — حرف علة طويل بصوت 'آ'"
+              },
+              {
+                "en": "Immediately after the alif comes قّ (qaf with shaddah = doubled letter)",
+                "bn": "আলিফের ঠিক পরেই قّ (শাদ্দাহযুক্ত কাফ = দ্বিগুণ অক্ষর) আসে",
+                "ar": "يعقب الألف مباشرةً قّ (القاف مشددة = حرف مضاعف)"
+              },
+              {
+                "en": "The shaddah contains a hidden sukoon, triggering Madd Lazim",
+                "bn": "শাদ্দাহয় একটি লুকানো সুকুন রয়েছে, যা মাদ্দ লাজিম সক্রিয় করে",
+                "ar": "تحتوي الشدة على سكون مخفي يُوجب المد اللازم"
+              },
+              {
+                "en": "Madd Lazim rule: long vowel + sukoon (hidden in shaddah) = obligatory 6-count extension",
+                "bn": "মাদ্দ লাজিম নিয়ম: দীর্ঘ স্বর + সুকুন (শাদ্দাহয় লুকানো) = বাধ্যতামূলক ৬ হরকত দীর্ঘায়ন",
+                "ar": "قاعدة المد اللازم: علة طويلة + سكون مخفي في الشدة = مد لازم ٦ حركات"
+              },
+              {
+                "en": "The 'aa' must be held for 6 counts before the doubled qaf",
+                "bn": "দ্বিগুণ কাফের আগে 'আ' অবশ্যই ৬ হরকত ধরে রাখতে হবে",
+                "ar": "يجب مد 'آ' ٦ حركات قبل القاف المشددة"
+              }
+            ],
+            "phoneticHint": {
+              "en": "al-hāqqah (al-h-AAAAAA-q-qa, hold AA for 6 beats)",
+              "bn": "আল-হাক্ক্বাহ (আল-হ-আআআআআআ-ক্ব-ক্বা, 'আ' ধ্বনি ৬ হরকত ধরে রাখুন)",
+              "ar": "الْحَاقَّةُ (الْحَ-آآآآآآ-قَّةُ، أطِل 'آ' ٦ حركات)"
+            }
           }
         },
         {
           "arabic": "الصَّاخَّةُ",
           "translit": "as-sakha",
-          "meaning": {
-            "en": "The Deafening Blast",
-            "bn": "বধিরকারী বিস্ফোরণ"
+          "meaning": { "en": "The Deafening Blast", "bn": "বধিরকারী বিস্ফোরণ" },
+          "breakdown": {
+            "original": "الصَّاخَّةُ",
+            "stepByStep": [
+              {
+                "en": "The word contains ا (alif) — a long 'aa' vowel after صَ",
+                "bn": "শব্দটিতে صَ-এর পরে ا (আলিফ) রয়েছে — একটি দীর্ঘ 'আ' স্বর",
+                "ar": "تحتوي الكلمة على ا (الألف) بعد الصاد — حرف علة طويل بصوت 'آ'"
+              },
+              {
+                "en": "Immediately after the alif comes خّ (kha with shaddah = doubled letter)",
+                "bn": "আলিফের ঠিক পরেই خّ (শাদ্দাহযুক্ত খা = দ্বিগুণ অক্ষর) আসে",
+                "ar": "يعقب الألف مباشرةً خّ (الخاء مشددة = حرف مضاعف)"
+              },
+              {
+                "en": "The shaddah contains a hidden sukoon, triggering Madd Lazim",
+                "bn": "শাদ্দাহয় একটি লুকানো সুকুন রয়েছে, যা মাদ্দ লাজিম সক্রিয় করে",
+                "ar": "تحتوي الشدة على سكون مخفي يُوجب المد اللازم"
+              },
+              {
+                "en": "Madd Lazim rule: long vowel + sukoon (hidden in shaddah) = obligatory 6-count extension",
+                "bn": "মাদ্দ লাজিম নিয়ম: দীর্ঘ স্বর + সুকুন (শাদ্দাহয় লুকানো) = বাধ্যতামূলক ৬ হরকত দীর্ঘায়ন",
+                "ar": "قاعدة المد اللازم: علة طويلة + سكون مخفي في الشدة = مد لازم ٦ حركات"
+              },
+              {
+                "en": "The 'aa' must be held for 6 counts before the doubled kha",
+                "bn": "দ্বিগুণ খার আগে 'আ' অবশ্যই ৬ হরকত ধরে রাখতে হবে",
+                "ar": "يجب مد 'آ' ٦ حركات قبل الخاء المشددة"
+              }
+            ],
+            "phoneticHint": {
+              "en": "as-sākhkhah (as-s-AAAAAA-kh-kha, hold AA for 6 beats)",
+              "bn": "আস-সাখ্খাহ (আস-স-আআআআআআ-খ-খা, 'আ' ধ্বনি ৬ হরকত ধরে রাখুন)",
+              "ar": "الصَّاخَّةُ (الصَّ-آآآآآآ-خَّةُ، أطِل 'آ' ٦ حركات)"
+            }
           }
         }
       ],
@@ -256,24 +707,88 @@
       },
       "definition": {
         "en": "When a long vowel is followed by a sukoon (silent letter) due to a pause or stop in recitation, the lengthening is extended.",
-        "bn": "যখন একটি দীর্ঘ স্বর তিলাওয়াতে বিরতি বা থামার কারণে একটি সুকুন (নিরব অক্ষর) দ্বারা অনুসরণ করা হয়, দীর্ঘায়ন প্রসারিত হয়।",
+        "bn": "যখন একটি দীর্ঘ স্বর (আলিফ ا, ওয়াও و বা ইয়া ي) তিলাওয়াতে বিরতি বা থামার কারণে একটি সুকুন (নিরব অক্ষর) দ্বারা অনুসরণ করা হয়, দীর্ঘায়ন প্রসারিত হয়।",
         "ar": "عندما تتبع علة طويلة سكون بسبب وقف أو توقف في التلاوة، تمتد الإطالة."
       },
       "wordExamples": [
         {
           "arabic": "الْعَالَمِينْ",
           "translit": "al-'alamin",
-          "meaning": {
-            "en": "The worlds",
-            "bn": "বিশ্বসমূহ"
+          "meaning": { "en": "The worlds", "bn": "বিশ্বসমূহ" },
+          "breakdown": {
+            "original": "الْعَالَمِينَ",
+            "stepByStep": [
+              {
+                "en": "During continuous recitation, the word ends in مِينَ (with a fatha — 'na' sound)",
+                "bn": "ধারাবাহিক তিলাওয়াতের সময় শব্দটি مِينَ (ফাতহাসহ — 'না' ধ্বনি) দিয়ে শেষ হয়",
+                "ar": "في التلاوة المتصلة، تنتهي الكلمة بـ مِينَ (بفتحة — صوت 'نَ')"
+              },
+              {
+                "en": "When you pause (waqf) at this word, the final vowel is dropped — نْ becomes silent (sukoon)",
+                "bn": "যখন আপনি এই শব্দে থামেন (ওয়াকফ), শেষ স্বরটি বাদ পড়ে — نْ নিরব (সুকুন) হয়ে যায়",
+                "ar": "عند الوقف، تُحذف الحركة الأخيرة — فتصير النون ساكنة (نْ)"
+              },
+              {
+                "en": "Now ي (ya) — a long vowel — is immediately before a letter with sukoon",
+                "bn": "এখন ي (ইয়া) — একটি দীর্ঘ স্বর — সুকুনযুক্ত অক্ষরের ঠিক আগে থাকে",
+                "ar": "يصبح ي (الياء) — حرف علة طويل — مباشرةً قبل حرف ساكن"
+              },
+              {
+                "en": "Madd Arid Lis-Sukoon rule: long vowel before incidental sukoon = 2, 4, or 6 counts",
+                "bn": "মাদ্দ আরিদ লিস সুকুন নিয়ম: আকস্মিক সুকুনের আগে দীর্ঘ স্বর = ২, ৪ বা ৬ হরকত",
+                "ar": "قاعدة مد العارض للسكون: علة طويلة قبل سكون عارض = ٢ أو ٤ أو ٦ حركات"
+              },
+              {
+                "en": "The 'ee' sound before the final nun is stretched at the pause",
+                "bn": "শেষ নুনের আগে 'ই' ধ্বনি থামার সময় দীর্ঘায়িত হয়",
+                "ar": "يُمد صوت 'إي' قبل النون الأخيرة عند الوقف"
+              }
+            ],
+            "phoneticHint": {
+              "en": "al-'ālamīn (al-aa-la-m-EEE...n, stretch EE for 2/4/6 beats at pause)",
+              "bn": "আল-আলামীন (আল-আ-লা-ম-ঈঈঈ...ন, থামার সময় 'ই' ধ্বনি ২/৪/৬ হরকত দীর্ঘায়িত করুন)",
+              "ar": "الْعَالَمِينَ (الْعَا-لَ-مِ-إيي...نْ، أطِل 'إي' ٢ أو ٤ أو ٦ حركات عند الوقف)"
+            }
           }
         },
         {
           "arabic": "الرَّحِيمْ",
           "translit": "ar-rahim",
-          "meaning": {
-            "en": "The Merciful",
-            "bn": "দয়ালু"
+          "meaning": { "en": "The Merciful", "bn": "দয়ালু" },
+          "breakdown": {
+            "original": "الرَّحِيمَ",
+            "stepByStep": [
+              {
+                "en": "During continuous recitation, the word ends in مَ (with a fatha — 'ma' sound)",
+                "bn": "ধারাবাহিক তিলাওয়াতের সময় শব্দটি مَ (ফাতহাসহ — 'মা' ধ্বনি) দিয়ে শেষ হয়",
+                "ar": "في التلاوة المتصلة، تنتهي الكلمة بـ مَ (بفتحة — صوت 'مَ')"
+              },
+              {
+                "en": "When you pause (waqf), the final vowel is dropped — مْ becomes silent (sukoon)",
+                "bn": "যখন আপনি থামেন (ওয়াকফ), শেষ স্বরটি বাদ পড়ে — مْ নিরব (সুকুন) হয়ে যায়",
+                "ar": "عند الوقف، تُحذف الحركة — فيصير الميم ساكنًا (مْ)"
+              },
+              {
+                "en": "Now ي (ya) — a long 'ee' vowel — is immediately before the now-silent meem",
+                "bn": "এখন ي (ইয়া) — একটি দীর্ঘ 'ই' স্বর — এখন নিরব মীমের ঠিক আগে থাকে",
+                "ar": "يصبح ي (الياء) — حرف علة طويل بصوت 'إي' — مباشرةً قبل الميم الساكنة"
+              },
+              {
+                "en": "Madd Arid Lis-Sukoon rule: long vowel before incidental sukoon = 2, 4, or 6 counts",
+                "bn": "মাদ্দ আরিদ লিস সুকুন নিয়ম: আকস্মিক সুকুনের আগে দীর্ঘ স্বর = ২, ৪ বা ৬ হরকত",
+                "ar": "قاعدة مد العارض للسكون: علة طويلة قبل سكون عارض = ٢ أو ٤ أو ٦ حركات"
+              },
+              {
+                "en": "The 'ee' sound before the meem is stretched at the pause",
+                "bn": "মীমের আগে 'ই' ধ্বনি থামার সময় দীর্ঘায়িত হয়",
+                "ar": "يُمد صوت 'إي' قبل الميم عند الوقف"
+              }
+            ],
+            "phoneticHint": {
+              "en": "ar-rahīm (ar-ra-h-EEE...m, stretch EE for 2/4/6 beats at pause)",
+              "bn": "আর-রাহীম (আর-রা-হ-ঈঈঈ...ম, থামার সময় 'ই' ধ্বনি ২/৪/৬ হরকত দীর্ঘায়িত করুন)",
+              "ar": "الرَّحِيمِ (الرَّ-حِ-إيي...مْ، أطِل 'إي' ٢ أو ٤ أو ٦ حركات عند الوقف)"
+            }
           }
         }
       ],
@@ -291,33 +806,129 @@
         "ar": "المد اللين"
       },
       "definition": {
-        "en": "When ya or waw with a fatha comes before a hamza or sukoon, these soft vowels extend naturally.",
-        "bn": "যখন ফাতা সহ ইয়া বা ওয়াও হামজা বা সুকুনের আগে আসে, এই নরম স্বরগুলি স্বাভাবিকভাবে প্রসারিত হয়।",
-        "ar": "عندما تأتي الياء أو الواو بفتحة قبل همزة أو سكون، تمتد هذه الحركات الرقيقة بشكل طبيعي."
+        "en": "When waw or ya is sakin (carries sukoon) and preceded by a fatha, and recitation stops on that word, these soft letters are lengthened. This occurs only at a stop (waqf).",
+        "bn": "যখন ওয়াও বা ইয়া সাকিন (সুকুনযুক্ত) হয় এবং তার আগে ফাতহা থাকে, এবং তিলাওয়াতে সেই শব্দে থামা হয়, তখন এই নরম অক্ষরগুলি দীর্ঘায়িত হয়। এটি কেবল থামার সময় (ওয়াকফ) ঘটে।",
+        "ar": "عندما تكون الواو أو الياء ساكنةً مسبوقةً بفتحة، ويقف القارئ على الكلمة، تُمد هذه الحروف اللينة. يحدث ذلك عند الوقف فقط."
       },
       "wordExamples": [
         {
           "arabic": "خَوْفْ",
           "translit": "khawf",
-          "meaning": {
-            "en": "Fear",
-            "bn": "ভয়"
+          "meaning": { "en": "Fear", "bn": "ভয়" },
+          "breakdown": {
+            "original": "خَوْفٌ",
+            "stepByStep": [
+              {
+                "en": "The letter خَ carries a fatha (short 'a' sound)",
+                "bn": "خَ অক্ষরে ফাতহা রয়েছে (সংক্ষিপ্ত 'আ' ধ্বনি)",
+                "ar": "حرف الخاء يحمل الفتحة (صوت 'آ' القصير)"
+              },
+              {
+                "en": "It is followed by وْ (waw with sukoon) — this is a soft 'leen' letter",
+                "bn": "এর পরে وْ (সুকুনযুক্ত ওয়াও) আসে — এটি একটি নরম 'লিন' অক্ষর",
+                "ar": "يتبعه وْ (الواو الساكنة) — وهو حرف لين"
+              },
+              {
+                "en": "Fatha before waw-sukoon = Leen letter combination (خَوْ)",
+                "bn": "ওয়াও-সুকুনের আগে ফাতহা = লিন অক্ষরের সমন্বয় (خَوْ)",
+                "ar": "الفتحة قبل الواو الساكنة = تركيب حرف اللين (خَوْ)"
+              },
+              {
+                "en": "When you pause (waqf) at this word, the final ف becomes silent",
+                "bn": "যখন আপনি এই শব্দে থামেন (ওয়াকফ), শেষ ف নিরব হয়ে যায়",
+                "ar": "عند الوقف على هذه الكلمة، يصير الفاء الأخير ساكنًا"
+              },
+              {
+                "en": "Madd Leen rule: the وْ is gently stretched for 2–6 counts at the pause only",
+                "bn": "মাদ্দ লিন নিয়ম: وْ কেবল থামার সময় ২–৬ হরকত পরিমাণ আস্তে দীর্ঘায়িত হয়",
+                "ar": "قاعدة مد اللين: يُمد الواو الساكن برفق ٢–٦ حركات عند الوقف فقط"
+              }
+            ],
+            "phoneticHint": {
+              "en": "khawf (kh-AW...f, gently stretch the AW at pause for 2–6 beats)",
+              "bn": "খাওফ (খ-আও...ফ, থামার সময় 'আও' ধ্বনি আস্তে ২–৬ হরকত দীর্ঘায়িত করুন)",
+              "ar": "خَوْفٌ (خَ-أووو...فْ، أطِل 'أو' برفق ٢–٦ حركات عند الوقف)"
+            }
           }
         },
         {
           "arabic": "بَيْتْ",
           "translit": "bayt",
-          "meaning": {
-            "en": "House",
-            "bn": "ঘর"
+          "meaning": { "en": "House", "bn": "ঘর" },
+          "breakdown": {
+            "original": "بَيْتٌ",
+            "stepByStep": [
+              {
+                "en": "The letter بَ carries a fatha (short 'a' sound)",
+                "bn": "بَ অক্ষরে ফাতহা রয়েছে (সংক্ষিপ্ত 'আ' ধ্বনি)",
+                "ar": "حرف الباء يحمل الفتحة (صوت 'آ' القصير)"
+              },
+              {
+                "en": "It is followed by يْ (ya with sukoon) — this is a soft 'leen' letter",
+                "bn": "এর পরে يْ (সুকুনযুক্ত ইয়া) আসে — এটি একটি নরম 'লিন' অক্ষর",
+                "ar": "يتبعه يْ (الياء الساكنة) — وهو حرف لين"
+              },
+              {
+                "en": "Fatha before ya-sukoon = Leen letter combination (بَيْ)",
+                "bn": "ইয়া-সুকুনের আগে ফাতহা = লিন অক্ষরের সমন্বয় (بَيْ)",
+                "ar": "الفتحة قبل الياء الساكنة = تركيب حرف اللين (بَيْ)"
+              },
+              {
+                "en": "When you pause (waqf) at this word, the final ت becomes silent",
+                "bn": "যখন আপনি এই শব্দে থামেন (ওয়াকফ), শেষ ت নিরব হয়ে যায়",
+                "ar": "عند الوقف، يصير التاء الأخير ساكنًا"
+              },
+              {
+                "en": "Madd Leen rule: the يْ is gently stretched for 2–6 counts at the pause only",
+                "bn": "মাদ্দ লিন নিয়ম: يْ কেবল থামার সময় ২–৬ হরকত পরিমাণ আস্তে দীর্ঘায়িত হয়",
+                "ar": "قاعدة مد اللين: تُمد الياء الساكنة برفق ٢–٦ حركات عند الوقف فقط"
+              }
+            ],
+            "phoneticHint": {
+              "en": "bayt (b-AY...t, gently stretch the AY at pause for 2–6 beats)",
+              "bn": "বাইত (ব-আই...ত, থামার সময় 'আই' ধ্বনি আস্তে ২–৬ হরকত দীর্ঘায়িত করুন)",
+              "ar": "بَيْتٌ (بَ-أيي...تْ، أطِل 'أي' برفق ٢–٦ حركات عند الوقف)"
+            }
           }
         },
         {
           "arabic": "شَيْءْ",
           "translit": "shay'",
-          "meaning": {
-            "en": "Thing",
-            "bn": "জিনিস"
+          "meaning": { "en": "Thing", "bn": "জিনিস" },
+          "breakdown": {
+            "original": "شَيْءٌ",
+            "stepByStep": [
+              {
+                "en": "The letter شَ carries a fatha (short 'a' sound)",
+                "bn": "شَ অক্ষরে ফাতহা রয়েছে (সংক্ষিপ্ত 'আ' ধ্বনি)",
+                "ar": "حرف الشين يحمل الفتحة (صوت 'آ' القصير)"
+              },
+              {
+                "en": "It is followed by يْ (ya with sukoon) — this is a soft 'leen' letter",
+                "bn": "এর পরে يْ (সুকুনযুক্ত ইয়া) আসে — এটি একটি নরম 'লিন' অক্ষর",
+                "ar": "يتبعه يْ (الياء الساكنة) — وهو حرف لين"
+              },
+              {
+                "en": "Fatha before ya-sukoon = Leen letter combination (شَيْ)",
+                "bn": "ইয়া-সুকুনের আগে ফাতহা = লিন অক্ষরের সমন্বয় (شَيْ)",
+                "ar": "الفتحة قبل الياء الساكنة = تركيب حرف اللين (شَيْ)"
+              },
+              {
+                "en": "When you pause (waqf) at this word, the final ء (hamza) becomes silent",
+                "bn": "যখন আপনি এই শব্দে থামেন (ওয়াকফ), শেষ ء (হামজা) নিরব হয়ে যায়",
+                "ar": "عند الوقف، تصير الهمزة الأخيرة ساكنة"
+              },
+              {
+                "en": "Madd Leen rule: the يْ is gently stretched for 2–6 counts at the pause only",
+                "bn": "মাদ্দ লিন নিয়ম: يْ কেবল থামার সময় ২–৬ হরকত পরিমাণ আস্তে দীর্ঘায়িত হয়",
+                "ar": "قاعدة مد اللين: تُمد الياء الساكنة برفق ٢–٦ حركات عند الوقف فقط"
+              }
+            ],
+            "phoneticHint": {
+              "en": "shay' (sh-AY..., gently stretch the AY at pause for 2–6 beats)",
+              "bn": "শায়' (শ-আই..., থামার সময় 'আই' ধ্বনি আস্তে ২–৬ হরকত দীর্ঘায়িত করুন)",
+              "ar": "شَيْءٌ (شَ-أيي...ءْ، أطِل 'أي' برفق ٢–٦ حركات عند الوقف)"
+            }
           }
         }
       ],

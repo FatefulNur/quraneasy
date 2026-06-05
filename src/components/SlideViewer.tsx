@@ -71,7 +71,7 @@ function SubmoduleBody({ moduleId, sm, isCurrent, progress, onToggle }: {
                 </div>
               )}
               {st.wordExamples && st.wordExamples.length > 0 && (
-                <div className="mt-3 flex flex-wrap gap-3">
+                <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3 [&>*:last-child:nth-child(odd)]:sm:col-span-2 [&>*:last-child:nth-child(odd)]:sm:mx-auto [&>*:last-child:nth-child(odd)]:sm:w-1/2">
                   {st.wordExamples.map((we, i) => (
                     <WordCard key={i} example={we} />
                   ))}
@@ -98,7 +98,7 @@ function SubmoduleBody({ moduleId, sm, isCurrent, progress, onToggle }: {
 
       {/* Top-level word examples */}
       {sm.wordExamples && sm.wordExamples.length > 0 && (
-        <div className="mt-6 flex flex-wrap gap-3">
+        <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3 [&>*:last-child:nth-child(odd)]:sm:col-span-2 [&>*:last-child:nth-child(odd)]:sm:mx-auto [&>*:last-child:nth-child(odd)]:sm:w-1/2">
           {sm.wordExamples.map((we, i) => (
             <WordCard key={i} example={we} />
           ))}

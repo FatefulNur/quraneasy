@@ -9,10 +9,17 @@ export interface LetterExample {
   translit?: string;
 }
 
+export interface WordBreakdown {
+  original?: string;
+  stepByStep: LocaleMap[];
+  phoneticHint: LocaleMap;
+}
+
 export interface WordExample {
   arabic: string;
   translit?: string;
   meaning?: TranslationMap;
+  breakdown?: WordBreakdown;
 }
 
 export interface AyahExample {
