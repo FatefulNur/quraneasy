@@ -75,19 +75,19 @@ export default function ModuleCard({ module, doneSubs }: Props) {
       className={[
         "group relative flex flex-col gap-5 rounded-2xl border bg-card/70 p-7 backdrop-blur transition-all duration-500 ease-out",
         "shadow-[0_1px_0_oklch(1_0_0_/_0.6)_inset,0_20px_50px_-30px_oklch(0.18_0.08_160_/_0.45)]",
-        "hover:-translate-y-1 hover:shadow-[0_1px_0_oklch(1_0_0_/_0.6)_inset,0_40px_90px_-40px_oklch(0.18_0.08_160_/_0.7)]",
+        "hover:-translate-y-1 active:-translate-y-1 hover:shadow-[0_1px_0_oklch(1_0_0_/_0.6)_inset,0_40px_90px_-40px_oklch(0.18_0.08_160_/_0.7)] active:shadow-[0_1px_0_oklch(1_0_0_/_0.6)_inset,0_40px_90px_-40px_oklch(0.18_0.08_160_/_0.7)]",
         "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-4 focus-visible:ring-offset-background",
         "sm:p-8",
         isComplete
-          ? "border-primary/40 hover:border-primary/60"
-          : "border-border/70 hover:border-primary/30",
+          ? "border-primary/40 hover:border-primary/60 active:border-primary/60"
+          : "border-border/70 hover:border-primary/30 active:border-primary/30",
       ].join(" ")}
       dir={dir}
     >
       {/* Hover shimmer */}
       <span
         aria-hidden="true"
-        className="pointer-events-none absolute inset-0 rounded-2xl opacity-0 transition-opacity duration-500 group-hover:opacity-100 bg-gradient-to-br group-hover:from-primary/[0.04] group-hover:via-transparent group-hover:to-[var(--gold)]/[0.05]"
+        className="pointer-events-none absolute inset-0 rounded-2xl opacity-0 transition-opacity duration-500 group-hover:opacity-100 group-active:opacity-100 bg-gradient-to-br group-hover:from-primary/[0.04] group-hover:via-transparent group-hover:to-[var(--gold)]/[0.05] group-active:from-primary/[0.04] group-active:via-transparent group-active:to-[var(--gold)]/[0.05]"
       />
 
       {/* Completed: subtle top wash */}
@@ -113,7 +113,7 @@ export default function ModuleCard({ module, doneSubs }: Props) {
           <CompleteSeal />
         ) : (
           <span
-            className={`flex size-10 shrink-0 items-center justify-center rounded-full border border-border bg-background/80 text-primary transition-all duration-500 group-hover:border-primary/40 group-hover:bg-primary group-hover:text-primary-foreground ${dir === "rtl" ? "group-hover:-rotate-45" : "group-hover:rotate-45"}`}
+            className={`flex size-10 shrink-0 items-center justify-center rounded-full border border-border bg-background/80 text-primary transition-all duration-500 group-hover:border-primary/40 group-hover:bg-primary group-hover:text-primary-foreground group-active:border-primary/40 group-active:bg-primary group-active:text-primary-foreground ${dir === "rtl" ? "group-hover:-rotate-45 group-active:-rotate-45" : "group-hover:rotate-45 group-active:rotate-45"}`}
           >
             {dir === "rtl"
               ? <ArrowUpLeft className="size-4" aria-hidden="true" />

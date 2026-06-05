@@ -55,7 +55,7 @@ export default function SiteNavBar() {
         {/* Desktop nav links */}
         <nav className="hidden items-center gap-8 text-sm text-muted-foreground sm:flex">
           {navLinks.map((link) => (
-            <a key={link.href} href={link.href} className="transition-colors hover:text-foreground">
+            <a key={link.href} href={link.href} className="transition-colors hover:text-foreground active:text-foreground">
               {link.label}
             </a>
           ))}
@@ -66,7 +66,7 @@ export default function SiteNavBar() {
           <LanguageMenu />
           {/* Mobile hamburger */}
           <button
-            className="flex h-10 w-10 items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-accent hover:text-foreground sm:hidden"
+            className="flex h-10 w-10 items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-accent hover:text-foreground active:bg-accent active:text-foreground sm:hidden"
             onClick={() => setMenuOpen((o) => !o)}
             aria-label={menuOpen ? "Close menu" : "Open menu"}
             aria-expanded={menuOpen}
