@@ -56,6 +56,18 @@ Read the existing module files in `src/content/modules/` for style and structure
 
 Arabic text MUST include full harakat (تشكيل) where the curriculum shows them.
 
+### Audio annotations (`audio` field on letter/word examples)
+
+Optional `audio` field selects real-recitation playback (TTS is the fallback and must never be relied on for tajweed accuracy):
+
+- `"s:a:w"` — word-by-word clip from Quran.com's CDN (`https://audio.qurancdn.com/wbw/SSS_AAA_WWW.mp3`). Use for single words whose rule lives **inside** the word, when the displayed harakat match the Quranic occurrence.
+- `{ "url": ..., "start": ms, "end": ms }` — continuous slice of an ayah recitation (AbdulBaset Murattal, `audio.qurancdn.com/AbdulBaset/Murattal/mp3/SSSAAA.mp3`). **Required** when the rule spans a word junction (idgham/ikhfa/iqlab between words, lam of الله after a vowel, madd munfasil) — isolated word clips destroy the junction.
+- `{ "url": ..., "start": ms }` (no `end`) — play to end of file. Use for pausal forms (madd arid, madd leen, qalqalah kubra) at an **ayah-final** occurrence so the qari's actual stop is heard.
+- `false` — disable audio (waqf signs and other non-pronounceable symbols).
+- Omit the field for non-Quranic words (dictionary terms) — speech-synthesis fallback applies.
+
+Use `scripts/find-word-locations.py` to locate candidate occurrences and `scripts/apply-word-audio.py` as the reference for resolving locations to verified annotations.
+
 ## Authoring flow
 
 When invoked, ask the user:

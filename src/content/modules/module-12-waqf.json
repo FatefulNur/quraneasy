@@ -28,16 +28,22 @@
       "letterExamples": [
         {
           "arabic": "م",
-          "translit": "m"
+          "translit": "m",
+          "audio": false
         }
       ],
       "ayahExamples": [
         {
-          "reference": "Al-Baqarah 2:6",
-          "arabic": "إِنَّ الَّذِينَ كَفَرُوا سَوَآءٌ عَلَيْهِمْ (م) أَأَنذَرْتَهُمْ",
+          "reference": "Al-An'am 6:36",
+          "arabic": "إِنَّمَا يَسْتَجِيبُ الَّذِينَ يَسْمَعُونَ (م) وَالْمَوْتَىٰ يَبْعَثُهُمُ اللَّهُ",
           "translation": {
-            "en": "Indeed, those who disbelieve — it is all the same [م] whether you warn them",
-            "bn": "নিশ্চয়ই যারা কুফর করেছে তাদের জন্য সমান [م] তুমি তাদের সতর্ক করো বা না করো"
+            "en": "Only those who listen will respond. [م] As for the dead, Allah will resurrect them.",
+            "bn": "কেবল তারাই সাড়া দেয় যারা শোনে। [م] আর মৃতদের, আল্লাহ তাদের পুনরুত্থিত করবেন।"
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/006036.mp3",
+            "start": 550,
+            "end": 12710
           }
         }
       ],
@@ -62,7 +68,8 @@
       "letterExamples": [
         {
           "arabic": "لا",
-          "translit": "la"
+          "translit": "la",
+          "audio": false
         }
       ],
       "ayahExamples": [
@@ -72,6 +79,11 @@
           "translation": {
             "en": "Praise to Allah who revealed the Book to His servant [لا] and did not make it crooked",
             "bn": "সকল প্রশংসা আল্লাহর যিনি তাঁর বান্দার উপর কিতাব নাযিল করেছেন [لا] এবং তাতে কোনো বক্রতা রাখেননি"
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/018001.mp3",
+            "start": 1300,
+            "end": 13500
           }
         }
       ],
@@ -96,7 +108,8 @@
       "letterExamples": [
         {
           "arabic": "ج",
-          "translit": "j"
+          "translit": "j",
+          "audio": false
         }
       ],
       "ayahExamples": [
@@ -130,7 +143,8 @@
       "letterExamples": [
         {
           "arabic": "ط",
-          "translit": "t"
+          "translit": "t",
+          "audio": false
         }
       ],
       "ayahExamples": [
@@ -140,6 +154,11 @@
           "translation": {
             "en": "In their hearts is a disease [ط] and Allah has increased their disease",
             "bn": "তাদের অন্তরে রোগ আছে [ط] এবং আল্লাহ তাদের রোগ আরও বাড়িয়ে দিয়েছেন"
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/002010.mp3",
+            "start": 1200,
+            "end": 7400
           }
         }
       ],
@@ -164,7 +183,8 @@
       "letterExamples": [
         {
           "arabic": "ص",
-          "translit": "s"
+          "translit": "s",
+          "audio": false
         }
       ],
       "ayahExamples": [
@@ -198,7 +218,8 @@
       "letterExamples": [
         {
           "arabic": "قلى",
-          "translit": "qalā"
+          "translit": "qalā",
+          "audio": false
         }
       ],
       "ayahExamples": [
@@ -232,7 +253,8 @@
       "letterExamples": [
         {
           "arabic": "صلى",
-          "translit": "ṣilā"
+          "translit": "ṣilā",
+          "audio": false
         }
       ],
       "ayahExamples": [
@@ -242,6 +264,11 @@
           "translation": {
             "en": "And if Allah touches you with adversity [صلى] there is no remover of it except Him",
             "bn": "আর আল্লাহ যদি তোমাকে কোনো কষ্ট দেন [صلى] তবে তিনি ছাড়া তা দূর করার কেউ নেই"
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/006017.mp3",
+            "start": 1050,
+            "end": 10530
           }
         }
       ],

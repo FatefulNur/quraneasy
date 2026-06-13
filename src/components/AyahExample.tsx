@@ -1,11 +1,40 @@
+import { Loader2, Square, Volume2 } from "lucide-react";
 import { useLocale } from "@/components/i18n/LocaleProvider";
+import { useAudio } from "@/lib/useAudio";
 import type { AyahExample as Ayah } from "@/lib/content/types";
+
+// Renders the ayah text with any `(waqf-sign)` tokens — e.g. (م), (لا),
+// (قلى) — lifted out of the line as small, raised, gold pause marks, the way
+// a mushaf prints them, instead of inline parentheses.
+function renderAyahArabic(text: string) {
+  return text.split(/(\([^)]+\))/g).map((part, i) => {
+    const m = /^\(([^)]+)\)$/.exec(part);
+    if (m) {
+      return (
+        <span
+          key={i}
+          aria-label={`waqf ${m[1]}`}
+          className="mx-[0.15em] inline-block select-none align-super text-[0.55em] font-bold leading-none text-primary"
+        >
+          {m[1]}
+        </span>
+      );
+    }
+    return part ? <span key={i}>{part}</span> : null;
+  });
+}
 
 export default function AyahExample({ ayah }: { ayah: Ayah }) {
   const { locale, t } = useLocale();
   const transLocale = locale === "ar" ? "en" : locale;
   const translation =
     ayah.translation[transLocale as "en" | "bn"] ?? ayah.translation.en ?? "";
+  const audio = useAudio({
+    type: "ayah",
+    reference: ayah.reference,
+    audio: ayah.audio,
+  });
+  const active = audio.state !== "idle";
 
   return (
     <article className="relative overflow-hidden rounded-2xl border border-border bg-[var(--parchment)] p-7 sm:p-9">
@@ -36,8 +65,30 @@ export default function AyahExample({ ayah }: { ayah: Ayah }) {
         lang="ar"
         className="font-arabic text-[1.8rem] leading-[2.2] tracking-wide text-foreground sm:text-[2rem]"
       >
-        {ayah.arabic}
+        {renderAyahArabic(ayah.arabic)}
       </p>
+
+      {audio.supported && (
+        <button
+          type="button"
+          onClick={audio.toggle}
+          aria-pressed={active}
+          className={`mt-5 inline-flex min-h-11 items-center gap-2 rounded-full border px-5 py-2.5 text-sm transition-all ${
+            active
+              ? "border-primary/60 bg-primary/10 text-primary"
+              : "border-border bg-background text-foreground/80 hover:border-primary/40 hover:bg-primary/5 hover:text-foreground"
+          }`}
+        >
+          {audio.state === "loading" ? (
+            <Loader2 className="size-4 animate-spin" aria-hidden="true" />
+          ) : active ? (
+            <Square className="size-4" aria-hidden="true" />
+          ) : (
+            <Volume2 className="size-4" aria-hidden="true" />
+          )}
+          {active ? t("stopAudio") : t("listen")}
+        </button>
+      )}
 
       {translation && (
         <>

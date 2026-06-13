@@ -4,6 +4,7 @@ import {
   useCallback,
   useContext,
   useEffect,
+  useLayoutEffect,
   useMemo,
   useState,
   type ReactNode,
@@ -22,7 +23,11 @@ interface Ctx {
 
 const LocaleContext = createContext<Ctx | null>(null);
 
-function readInitialLocale(fallback: Locale): Locale {
+// useLayoutEffect warns during SSR; the server branch never runs anyway.
+const useIsomorphicLayoutEffect =
+  typeof window === "undefined" ? useEffect : useLayoutEffect;
+
+function readStoredLocale(fallback: Locale): Locale {
   if (typeof window === "undefined") return fallback;
   try {
     const attr = document.documentElement.dataset.locale;
@@ -38,14 +43,17 @@ export function LocaleProvider({
   children: ReactNode;
   initialLocale?: Locale;
 }) {
-  const [locale, setLocaleState] = useState<Locale>(() =>
-    readInitialLocale(initialLocale)
-  );
+  // Must start at `initialLocale` so the first client render matches the
+  // SSR HTML (which is always rendered with it) — anything else fails
+  // hydration. The stored locale is applied below before first paint; the
+  // inline `qe-locale-hide` style keeps the island invisible until then,
+  // so no wrong-language flash is visible.
+  const [locale, setLocaleState] = useState<Locale>(initialLocale);
 
-  // Remove the hide style injected by the inline blocking script
-  useEffect(() => {
-    const el = document.getElementById("qe-locale-hide");
-    if (el) el.remove();
+  useIsomorphicLayoutEffect(() => {
+    const stored = readStoredLocale(initialLocale);
+    if (stored !== initialLocale) setLocaleState(stored);
+    document.getElementById("qe-locale-hide")?.remove();
   }, []);
 
   useEffect(() => {
