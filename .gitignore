@@ -22,3 +22,5 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+scripts/word-locations-report.json
+PR_BODY.md

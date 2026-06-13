@@ -62,7 +62,8 @@
           "meaning": {
             "en": "He spoke truth",
             "bn": "তিনি সত্য কথা বলেছেন"
-          }
+          },
+          "audio": "3:95:2"
         },
         {
           "arabic": "قَالَ",
@@ -70,7 +71,8 @@
           "meaning": {
             "en": "He said",
             "bn": "তিনি বলেছেন"
-          }
+          },
+          "audio": "2:124:7"
         },
         {
           "arabic": "طَائِر",
@@ -78,7 +80,8 @@
           "meaning": {
             "en": "Bird",
             "bn": "পাখি"
-          }
+          },
+          "audio": "6:38:7"
         },
         {
           "arabic": "غَفُور",
@@ -86,7 +89,8 @@
           "meaning": {
             "en": "Forgiving",
             "bn": "ক্ষমাশীল"
-          }
+          },
+          "audio": "3:155:20"
         },
         {
           "arabic": "خَلَقَ",
@@ -94,7 +98,8 @@
           "meaning": {
             "en": "He created",
             "bn": "তিনি সৃষ্টি করেছেন"
-          }
+          },
+          "audio": "55:14:1"
         }
       ],
       "checkItem": {
@@ -122,7 +127,8 @@
           "meaning": {
             "en": "Door",
             "bn": "দরজা"
-          }
+          },
+          "audio": "15:44:5"
         },
         {
           "arabic": "نُور",
@@ -130,7 +136,8 @@
           "meaning": {
             "en": "Light",
             "bn": "আলো"
-          }
+          },
+          "audio": "24:35:2"
         },
         {
           "arabic": "مَال",
@@ -138,7 +145,8 @@
           "meaning": {
             "en": "Wealth",
             "bn": "সম্পদ"
-          }
+          },
+          "audio": "68:14:4"
         },
         {
           "arabic": "رَحِيم",
@@ -146,7 +154,8 @@
           "meaning": {
             "en": "Merciful",
             "bn": "দয়ালু"
-          }
+          },
+          "audio": "4:29:23"
         }
       ],
       "checkItem": {

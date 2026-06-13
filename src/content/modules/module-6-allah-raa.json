@@ -40,6 +40,11 @@
               "meaning": {
                 "en": "Allah said",
                 "bn": "আল্লাহ বলেছেন"
+              },
+              "audio": {
+                "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/012066.mp3",
+                "start": 21880,
+                "end": 23210
               }
             },
             {
@@ -48,6 +53,11 @@
               "meaning": {
                 "en": "Allah's help",
                 "bn": "আল্লাহর সাহায্য"
+              },
+              "audio": {
+                "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/110001.mp3",
+                "start": 2910,
+                "end": 4340
               }
             }
           ]
@@ -66,6 +76,11 @@
               "meaning": {
                 "en": "In the name of Allah",
                 "bn": "আল্লাহর নামে"
+              },
+              "audio": {
+                "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/001001.mp3",
+                "start": 600,
+                "end": 1560
               }
             },
             {
@@ -74,6 +89,11 @@
               "meaning": {
                 "en": "In Allah",
                 "bn": "আল্লাহতে"
+              },
+              "audio": {
+                "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/031020.mp3",
+                "start": 20400,
+                "end": 21400
               }
             }
           ]
@@ -112,7 +132,8 @@
               "meaning": {
                 "en": "Mercy",
                 "bn": "দয়া"
-              }
+              },
+              "audio": "18:98:3"
             },
             {
               "arabic": "رُسُل",
@@ -120,7 +141,8 @@
               "meaning": {
                 "en": "Messengers",
                 "bn": "দূত"
-              }
+              },
+              "audio": "6:124:12"
             }
           ]
         },
@@ -138,7 +160,8 @@
               "meaning": {
                 "en": "Pharaoh",
                 "bn": "ফিরাউন"
-              }
+              },
+              "audio": "28:8:3"
             },
             {
               "arabic": "مِرْيَة",
@@ -146,7 +169,8 @@
               "meaning": {
                 "en": "Doubt",
                 "bn": "সন্দেহ"
-              }
+              },
+              "audio": "32:23:8"
             }
           ]
         }

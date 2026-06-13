@@ -138,23 +138,28 @@
       "letterExamples": [
         {
           "arabic": "بْ",
-          "translit": "b"
+          "translit": "b",
+          "audio": false
         },
         {
           "arabic": "مْ",
-          "translit": "m"
+          "translit": "m",
+          "audio": false
         },
         {
           "arabic": "قْ",
-          "translit": "q"
+          "translit": "q",
+          "audio": false
         },
         {
           "arabic": "لْ",
-          "translit": "l"
+          "translit": "l",
+          "audio": false
         },
         {
           "arabic": "نْ",
-          "translit": "n"
+          "translit": "n",
+          "audio": false
         }
       ],
       "checkItem": {
@@ -182,7 +187,8 @@
           "meaning": {
             "en": "Indeed",
             "bn": "নিশ্চয়"
-          }
+          },
+          "audio": "4:58:16"
         },
         {
           "arabic": "ثُمَّ",
@@ -190,7 +196,8 @@
           "meaning": {
             "en": "Then",
             "bn": "তারপর"
-          }
+          },
+          "audio": "40:67:6"
         },
         {
           "arabic": "رَبَّ",
@@ -198,7 +205,8 @@
           "meaning": {
             "en": "Lord",
             "bn": "প্রভু"
-          }
+          },
+          "audio": "106:3:2"
         },
         {
           "arabic": "أَمَّا",
@@ -206,7 +214,8 @@
           "meaning": {
             "en": "As for",
             "bn": "তবে"
-          }
+          },
+          "audio": "18:87:2"
         },
         {
           "arabic": "النَّاس",
@@ -214,7 +223,8 @@
           "meaning": {
             "en": "The people",
             "bn": "মানুষ"
-          }
+          },
+          "audio": "114:1:4"
         }
       ],
       "checkItem": {
@@ -250,7 +260,8 @@
               "meaning": {
                 "en": "A book",
                 "bn": "একটি বই"
-              }
+              },
+              "audio": "43:21:3"
             },
             {
               "arabic": "عَلِيمًا",
@@ -258,7 +269,8 @@
               "meaning": {
                 "en": "Most Knowing",
                 "bn": "সর্বজ্ঞানী"
-              }
+              },
+              "audio": "33:1:12"
             }
           ]
         },
@@ -276,7 +288,8 @@
               "meaning": {
                 "en": "Knowing",
                 "bn": "জ্ঞানী"
-              }
+              },
+              "audio": "27:6:7"
             },
             {
               "arabic": "غَفُورٍ",
@@ -284,7 +297,8 @@
               "meaning": {
                 "en": "Forgiving",
                 "bn": "ক্ষমাশীল"
-              }
+              },
+              "audio": "41:32:3"
             }
           ]
         },
@@ -302,7 +316,8 @@
               "meaning": {
                 "en": "Knowing",
                 "bn": "জ্ঞানী"
-              }
+              },
+              "audio": "24:18:6"
             },
             {
               "arabic": "حَكِيمٌ",
@@ -310,7 +325,8 @@
               "meaning": {
                 "en": "Wise",
                 "bn": "প্রজ্ঞাবান"
-              }
+              },
+              "audio": "6:139:21"
             }
           ]
         }

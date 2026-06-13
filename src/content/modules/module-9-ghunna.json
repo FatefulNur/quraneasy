@@ -51,7 +51,8 @@
               "meaning": {
                 "en": "Indeed",
                 "bn": "নিশ্চয়"
-              }
+              },
+              "audio": "4:58:16"
             },
             {
               "arabic": "ثُمَّ",
@@ -59,7 +60,8 @@
               "meaning": {
                 "en": "Then",
                 "bn": "তারপর"
-              }
+              },
+              "audio": "40:67:6"
             },
             {
               "arabic": "النَّاسِ",
@@ -67,7 +69,8 @@
               "meaning": {
                 "en": "The people",
                 "bn": "মানুষ"
-              }
+              },
+              "audio": "40:57:7"
             }
           ]
         },
@@ -90,6 +93,11 @@
               "meaning": {
                 "en": "Whoever says",
                 "bn": "যে বলে"
+              },
+              "audio": {
+                "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/002008.mp3",
+                "start": 2590,
+                "end": 4290
               }
             },
             {
@@ -98,6 +106,11 @@
               "meaning": {
                 "en": "From wealth",
                 "bn": "সম্পদ থেকে"
+              },
+              "audio": {
+                "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/023055.mp3",
+                "start": 6890,
+                "end": 8750
               }
             }
           ]
@@ -116,11 +129,16 @@
           },
           "wordExamples": [
             {
-              "arabic": "مِنْ خَوْفٍ",
-              "translit": "min khawfin",
+              "arabic": "مِنْ شَرِّ",
+              "translit": "min sharri",
               "meaning": {
-                "en": "From fear",
-                "bn": "ভয় থেকে"
+                "en": "From the evil of",
+                "bn": "অনিষ্ট থেকে"
+              },
+              "audio": {
+                "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/113002.mp3",
+                "start": 450,
+                "end": 2030
               }
             },
             {
@@ -129,6 +147,11 @@
               "meaning": {
                 "en": "Helpers",
                 "bn": "সাহায্যকারী"
+              },
+              "audio": {
+                "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/071025.mp3",
+                "start": 16720,
+                "end": 18940
               }
             }
           ]
@@ -152,6 +175,11 @@
               "meaning": {
                 "en": "After",
                 "bn": "পরে"
+              },
+              "audio": {
+                "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/033052.mp3",
+                "start": 4970,
+                "end": 6650
               }
             },
             {
@@ -160,6 +188,11 @@
               "meaning": {
                 "en": "All-Hearing, All-Seeing",
                 "bn": "সর্বশ্রোতা, সর্বদ্রষ্টা"
+              },
+              "audio": {
+                "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/058001.mp3",
+                "start": 18270,
+                "end": 20990
               }
             }
           ]

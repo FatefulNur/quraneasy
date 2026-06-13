@@ -26,15 +26,27 @@
         "ar": "حرف مد (الألف أو الواو أو الياء) مسبوق بحركة قصيرة مطابقة، دون همزة أو سكون بعده — يمتد طبيعيًا بمقدار حركتين."
       },
       "letterExamples": [
-        { "arabic": "ا", "translit": "a" },
-        { "arabic": "و", "translit": "w" },
-        { "arabic": "ي", "translit": "y" }
+        {
+          "arabic": "ا",
+          "translit": "a"
+        },
+        {
+          "arabic": "و",
+          "translit": "w"
+        },
+        {
+          "arabic": "ي",
+          "translit": "y"
+        }
       ],
       "wordExamples": [
         {
           "arabic": "قَالَ",
           "translit": "qal",
-          "meaning": { "en": "He said", "bn": "তিনি বলেছেন" },
+          "meaning": {
+            "en": "He said",
+            "bn": "তিনি বলেছেন"
+          },
           "breakdown": {
             "original": "قَالَ",
             "stepByStep": [
@@ -64,12 +76,16 @@
               "bn": "ক্বা-লা (ক্ব-আআ-লা, 'আ' ধ্বনি ২ হরকত ধরে রাখুন)",
               "ar": "قَالَ (ق-آ-لَ، أطِل 'آ' لحركتين)"
             }
-          }
+          },
+          "audio": "2:124:7"
         },
         {
           "arabic": "قِيلَ",
           "translit": "qil",
-          "meaning": { "en": "It was said", "bn": "এটি বলা হয়েছিল" },
+          "meaning": {
+            "en": "It was said",
+            "bn": "এটি বলা হয়েছিল"
+          },
           "breakdown": {
             "original": "قِيلَ",
             "stepByStep": [
@@ -99,12 +115,16 @@
               "bn": "ক্বী-লা (ক্ব-ঈঈ-লা, 'ই' ধ্বনি ২ হরকত ধরে রাখুন)",
               "ar": "قِيلَ (ق-إي-لَ، أطِل 'إي' لحركتين)"
             }
-          }
+          },
+          "audio": "58:11:5"
         },
         {
           "arabic": "يَقُولُ",
           "translit": "yaqul",
-          "meaning": { "en": "He says", "bn": "সে বলে" },
+          "meaning": {
+            "en": "He says",
+            "bn": "সে বলে"
+          },
           "breakdown": {
             "original": "يَقُولُ",
             "stepByStep": [
@@ -134,12 +154,16 @@
               "bn": "ইয়া-ক্বু-লু (ইয়া-ক্ব-উউ-লু, 'উ' ধ্বনি ২ হরকত ধরে রাখুন)",
               "ar": "يَقُولُ (يَ-قُ-وُ-لُ، أطِل 'أو' لحركتين)"
             }
-          }
+          },
+          "audio": "90:6:1"
         },
         {
           "arabic": "فِيهِ",
           "translit": "fihi",
-          "meaning": { "en": "In it", "bn": "এর মধ্যে" },
+          "meaning": {
+            "en": "In it",
+            "bn": "এর মধ্যে"
+          },
           "breakdown": {
             "original": "فِيهِ",
             "stepByStep": [
@@ -169,7 +193,8 @@
               "bn": "ফী-হি (ফ-ঈঈ-হি, 'ই' ধ্বনি ২ হরকত ধরে রাখুন)",
               "ar": "فِيهِ (فِ-إي-هِ، أطِل 'إي' لحركتين)"
             }
-          }
+          },
+          "audio": "9:108:3"
         }
       ],
       "checkItem": {
@@ -194,7 +219,10 @@
         {
           "arabic": "آمَنُوا",
           "translit": "amanu",
-          "meaning": { "en": "They believed", "bn": "তারা বিশ্বাস করেছিল" },
+          "meaning": {
+            "en": "They believed",
+            "bn": "তারা বিশ্বাস করেছিল"
+          },
           "breakdown": {
             "original": "أَأْمَنُوا",
             "stepByStep": [
@@ -229,12 +257,16 @@
               "bn": "আ-মা-নূ (আআ-মা-নূ, 'আ' ধ্বনি ২ হরকত ধরে রাখুন)",
               "ar": "آمَنُوا (آ-مَ-نُوا، أطِل 'آ' لحركتين)"
             }
-          }
+          },
+          "audio": "4:137:3"
         },
         {
           "arabic": "إِيمَان",
           "translit": "iman",
-          "meaning": { "en": "Faith", "bn": "বিশ্বাস" },
+          "meaning": {
+            "en": "Faith",
+            "bn": "বিশ্বাস"
+          },
           "breakdown": {
             "original": "إِئْمَان",
             "stepByStep": [
@@ -269,12 +301,16 @@
               "bn": "ঈ-মান (ঈঈ-মান, 'ই' ধ্বনি ২ হরকত ধরে রাখুন)",
               "ar": "إِيمَان (إي-مَان، أطِل 'إي' لحركتين)"
             }
-          }
+          },
+          "audio": "74:31:21"
         },
         {
           "arabic": "أُوتُوا",
           "translit": "utu",
-          "meaning": { "en": "They were given", "bn": "তাদের দেওয়া হয়েছিল" },
+          "meaning": {
+            "en": "They were given",
+            "bn": "তাদের দেওয়া হয়েছিল"
+          },
           "breakdown": {
             "original": "أُؤْتُوا",
             "stepByStep": [
@@ -309,7 +345,8 @@
               "bn": "উ-তূ (উউ-তূ, শুরুর 'উ' ধ্বনি ২ হরকত ধরে রাখুন)",
               "ar": "أُوتُوا (أو-تُوا، أطِل 'أو' الأولى لحركتين)"
             }
-          }
+          },
+          "audio": "5:5:7"
         }
       ],
       "checkItem": {
@@ -334,7 +371,10 @@
         {
           "arabic": "جَاءَ",
           "translit": "ja",
-          "meaning": { "en": "He came", "bn": "তিনি এসেছেন" },
+          "meaning": {
+            "en": "He came",
+            "bn": "তিনি এসেছেন"
+          },
           "breakdown": {
             "original": "جَاءَ",
             "stepByStep": [
@@ -369,12 +409,16 @@
               "bn": "জা-আ (জ-আআআআ-আ, 'আ' ধ্বনি ৪–৫ হরকত ধরে রাখুন)",
               "ar": "جَاءَ (جَ-آآآآ-أَ، أطِل 'آ' ٤–٥ حركات)"
             }
-          }
+          },
+          "audio": "28:84:2"
         },
         {
           "arabic": "السَّمَاءِ",
           "translit": "as-sama",
-          "meaning": { "en": "The sky", "bn": "আকাশ" },
+          "meaning": {
+            "en": "The sky",
+            "bn": "আকাশ"
+          },
           "breakdown": {
             "original": "السَّمَاءِ",
             "stepByStep": [
@@ -409,12 +453,16 @@
               "bn": "আস-সামা-ই (আস-সা-ম-আআআআ-ই, 'আ' ধ্বনি ৪–৫ হরকত ধরে রাখুন)",
               "ar": "السَّمَاءِ (السَّ-مَ-آآآآ-ءِ، أطِل 'آ' ٤–٥ حركات)"
             }
-          }
+          },
+          "audio": "2:164:21"
         },
         {
           "arabic": "سُوءٌ",
           "translit": "su'",
-          "meaning": { "en": "Evil", "bn": "মন্দ" },
+          "meaning": {
+            "en": "Evil",
+            "bn": "মন্দ"
+          },
           "breakdown": {
             "original": "سُوءٌ",
             "stepByStep": [
@@ -449,7 +497,8 @@
               "bn": "সূ-উন (স-উউউউ-উন, 'উ' ধ্বনি ৪–৫ হরকত ধরে রাখুন)",
               "ar": "سُوءٌ (سُ-أوووو-ءٌ، أطِل 'أو' ٤–٥ حركات)"
             }
-          }
+          },
+          "audio": "3:174:8"
         }
       ],
       "checkItem": {
@@ -474,7 +523,10 @@
         {
           "arabic": "فِي أَنْفُسِكُمْ",
           "translit": "fi anfusikum",
-          "meaning": { "en": "In yourselves", "bn": "তোমাদের নিজেদের মধ্যে" },
+          "meaning": {
+            "en": "In yourselves",
+            "bn": "তোমাদের নিজেদের মধ্যে"
+          },
           "breakdown": {
             "original": "فِي أَنْفُسِكُمْ",
             "stepByStep": [
@@ -509,12 +561,20 @@
               "bn": "ফী আনফুসিকুম (ফ-ঈ(২–৫ হরকত) আন-ফু-সি-কুম)",
               "ar": "فِي أَنْفُسِكُمْ (فِي(إي ٢–٥ حركات) أَنْفُسِكُمْ)"
             }
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/057022.mp3",
+            "start": 8410,
+            "end": 11900
           }
         },
         {
           "arabic": "إِنَّا أَعْطَيْنَاكَ",
           "translit": "inna a'tainaka",
-          "meaning": { "en": "Indeed We have given you", "bn": "নিশ্চয় আমরা আপনাকে দিয়েছি" },
+          "meaning": {
+            "en": "Indeed We have given you",
+            "bn": "নিশ্চয় আমরা আপনাকে দিয়েছি"
+          },
           "breakdown": {
             "original": "إِنَّا أَعْطَيْنَاكَ",
             "stepByStep": [
@@ -549,6 +609,11 @@
               "bn": "ইন্না আ'তাইনাকা (ইন-ন-আ(২–৫ হরকত) আ'-তায়-না-কা)",
               "ar": "إِنَّا أَعْطَيْنَاكَ (إِنَّ-آ(٢–٥ حركات) أَعْطَيْنَاكَ)"
             }
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/108001.mp3",
+            "start": 550,
+            "end": 4380
           }
         }
       ],
@@ -574,7 +639,10 @@
         {
           "arabic": "الضَّالِّينَ",
           "translit": "ad-dallin",
-          "meaning": { "en": "Those who are astray", "bn": "যারা বিপথগামী" },
+          "meaning": {
+            "en": "Those who are astray",
+            "bn": "যারা বিপথগামী"
+          },
           "breakdown": {
             "original": "الضَّالِّينَ",
             "stepByStep": [
@@ -609,12 +677,16 @@
               "bn": "আদ-দাল্লীনা (আদ-দ-আআআআআআ-ল-ল-ঈ-না, 'আ' ধ্বনি ৬ হরকত ধরে রাখুন)",
               "ar": "الضَّالِّينَ (الضَّ-آآآآآآ-لِّي-نَ، أطِل 'آ' ٦ حركات)"
             }
-          }
+          },
+          "audio": "26:20:6"
         },
         {
           "arabic": "الْحَاقَّةُ",
           "translit": "al-haqqa",
-          "meaning": { "en": "The Inevitable", "bn": "অবশ্যম্ভাবী" },
+          "meaning": {
+            "en": "The Inevitable",
+            "bn": "অবশ্যম্ভাবী"
+          },
           "breakdown": {
             "original": "الْحَاقَّةُ",
             "stepByStep": [
@@ -649,12 +721,16 @@
               "bn": "আল-হাক্ক্বাহ (আল-হ-আআআআআআ-ক্ব-ক্বা, 'আ' ধ্বনি ৬ হরকত ধরে রাখুন)",
               "ar": "الْحَاقَّةُ (الْحَ-آآآآآآ-قَّةُ، أطِل 'آ' ٦ حركات)"
             }
-          }
+          },
+          "audio": "69:1:1"
         },
         {
           "arabic": "الصَّاخَّةُ",
           "translit": "as-sakha",
-          "meaning": { "en": "The Deafening Blast", "bn": "বধিরকারী বিস্ফোরণ" },
+          "meaning": {
+            "en": "The Deafening Blast",
+            "bn": "বধিরকারী বিস্ফোরণ"
+          },
           "breakdown": {
             "original": "الصَّاخَّةُ",
             "stepByStep": [
@@ -689,7 +765,8 @@
               "bn": "আস-সাখ্খাহ (আস-স-আআআআআআ-খ-খা, 'আ' ধ্বনি ৬ হরকত ধরে রাখুন)",
               "ar": "الصَّاخَّةُ (الصَّ-آآآآآآ-خَّةُ، أطِل 'آ' ٦ حركات)"
             }
-          }
+          },
+          "audio": "80:33:3"
         }
       ],
       "checkItem": {
@@ -714,7 +791,10 @@
         {
           "arabic": "الْعَالَمِينْ",
           "translit": "al-'alamin",
-          "meaning": { "en": "The worlds", "bn": "বিশ্বসমূহ" },
+          "meaning": {
+            "en": "The worlds",
+            "bn": "বিশ্বসমূহ"
+          },
           "breakdown": {
             "original": "الْعَالَمِينَ",
             "stepByStep": [
@@ -749,12 +829,19 @@
               "bn": "আল-আলামীন (আল-আ-লা-ম-ঈঈঈ...ন, থামার সময় 'ই' ধ্বনি ২/৪/৬ হরকত দীর্ঘায়িত করুন)",
               "ar": "الْعَالَمِينَ (الْعَا-لَ-مِ-إيي...نْ، أطِل 'إي' ٢ أو ٤ أو ٦ حركات عند الوقف)"
             }
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/001002.mp3",
+            "start": 2980
           }
         },
         {
           "arabic": "الرَّحِيمْ",
           "translit": "ar-rahim",
-          "meaning": { "en": "The Merciful", "bn": "দয়ালু" },
+          "meaning": {
+            "en": "The Merciful",
+            "bn": "দয়ালু"
+          },
           "breakdown": {
             "original": "الرَّحِيمَ",
             "stepByStep": [
@@ -789,6 +876,10 @@
               "bn": "আর-রাহীম (আর-রা-হ-ঈঈঈ...ম, থামার সময় 'ই' ধ্বনি ২/৪/৬ হরকত দীর্ঘায়িত করুন)",
               "ar": "الرَّحِيمِ (الرَّ-حِ-إيي...مْ، أطِل 'إي' ٢ أو ٤ أو ٦ حركات عند الوقف)"
             }
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/001001.mp3",
+            "start": 2530
           }
         }
       ],
@@ -814,7 +905,10 @@
         {
           "arabic": "خَوْفْ",
           "translit": "khawf",
-          "meaning": { "en": "Fear", "bn": "ভয়" },
+          "meaning": {
+            "en": "Fear",
+            "bn": "ভয়"
+          },
           "breakdown": {
             "original": "خَوْفٌ",
             "stepByStep": [
@@ -849,14 +943,21 @@
               "bn": "খাওফ (খ-আও...ফ, থামার সময় 'আও' ধ্বনি আস্তে ২–৬ হরকত দীর্ঘায়িত করুন)",
               "ar": "خَوْفٌ (خَ-أووو...فْ، أطِل 'أو' برفق ٢–٦ حركات عند الوقف)"
             }
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/106004.mp3",
+            "start": 9130
           }
         },
         {
-          "arabic": "بَيْتْ",
-          "translit": "bayt",
-          "meaning": { "en": "House", "bn": "ঘর" },
+          "arabic": "الْبَيْتْ",
+          "translit": "al-bayt",
+          "meaning": {
+            "en": "The House (the Ka'bah)",
+            "bn": "ঘর (কাবা)"
+          },
           "breakdown": {
-            "original": "بَيْتٌ",
+            "original": "الْبَيْتِ",
             "stepByStep": [
               {
                 "en": "The letter بَ carries a fatha (short 'a' sound)",
@@ -885,23 +986,30 @@
               }
             ],
             "phoneticHint": {
-              "en": "bayt (b-AY...t, gently stretch the AY at pause for 2–6 beats)",
-              "bn": "বাইত (ব-আই...ত, থামার সময় 'আই' ধ্বনি আস্তে ২–৬ হরকত দীর্ঘায়িত করুন)",
-              "ar": "بَيْتٌ (بَ-أيي...تْ، أطِل 'أي' برفق ٢–٦ حركات عند الوقف)"
+              "en": "al-bayt (al-b-AY...t, gently stretch the AY at pause for 2–6 beats)",
+              "bn": "আল-বাইত (আল-ব-আই...ত, থামার সময় 'আই' ধ্বনি আস্তে ২–৬ হরকত দীর্ঘায়িত করুন)",
+              "ar": "الْبَيْتِ (الْبَ-أيي...تْ، أطِل 'أي' برفق ٢–٦ حركات عند الوقف)"
             }
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/106003.mp3",
+            "start": 3460
           }
         },
         {
-          "arabic": "شَيْءْ",
-          "translit": "shay'",
-          "meaning": { "en": "Thing", "bn": "জিনিস" },
+          "arabic": "قُرَيْشْ",
+          "translit": "quraysh",
+          "meaning": {
+            "en": "Quraysh (the tribe)",
+            "bn": "কুরাইশ (গোত্র)"
+          },
           "breakdown": {
-            "original": "شَيْءٌ",
+            "original": "قُرَيْشٍ",
             "stepByStep": [
               {
-                "en": "The letter شَ carries a fatha (short 'a' sound)",
-                "bn": "شَ অক্ষরে ফাতহা রয়েছে (সংক্ষিপ্ত 'আ' ধ্বনি)",
-                "ar": "حرف الشين يحمل الفتحة (صوت 'آ' القصير)"
+                "en": "The letter رَ carries a fatha (short 'a' sound)",
+                "bn": "رَ অক্ষরে ফাতহা রয়েছে (সংক্ষিপ্ত 'আ' ধ্বনি)",
+                "ar": "حرف الراء يحمل الفتحة (صوت 'آ' القصير)"
               },
               {
                 "en": "It is followed by يْ (ya with sukoon) — this is a soft 'leen' letter",
@@ -909,14 +1017,14 @@
                 "ar": "يتبعه يْ (الياء الساكنة) — وهو حرف لين"
               },
               {
-                "en": "Fatha before ya-sukoon = Leen letter combination (شَيْ)",
-                "bn": "ইয়া-সুকুনের আগে ফাতহা = লিন অক্ষরের সমন্বয় (شَيْ)",
-                "ar": "الفتحة قبل الياء الساكنة = تركيب حرف اللين (شَيْ)"
+                "en": "Fatha before ya-sukoon = Leen letter combination (رَيْ)",
+                "bn": "ইয়া-সুকুনের আগে ফাতহা = লিন অক্ষরের সমন্বয় (رَيْ)",
+                "ar": "الفتحة قبل الياء الساكنة = تركيب حرف اللين (رَيْ)"
               },
               {
-                "en": "When you pause (waqf) at this word, the final ء (hamza) becomes silent",
-                "bn": "যখন আপনি এই শব্দে থামেন (ওয়াকফ), শেষ ء (হামজা) নিরব হয়ে যায়",
-                "ar": "عند الوقف، تصير الهمزة الأخيرة ساكنة"
+                "en": "When you pause (waqf) at this word, the final ش becomes silent",
+                "bn": "যখন আপনি এই শব্দে থামেন (ওয়াকফ), শেষ ش নিরব হয়ে যায়",
+                "ar": "عند الوقف على هذه الكلمة، يصير الشين الأخير ساكنًا"
               },
               {
                 "en": "Madd Leen rule: the يْ is gently stretched for 2–6 counts at the pause only",
@@ -925,10 +1033,14 @@
               }
             ],
             "phoneticHint": {
-              "en": "shay' (sh-AY..., gently stretch the AY at pause for 2–6 beats)",
-              "bn": "শায়' (শ-আই..., থামার সময় 'আই' ধ্বনি আস্তে ২–৬ হরকত দীর্ঘায়িত করুন)",
-              "ar": "شَيْءٌ (شَ-أيي...ءْ، أطِل 'أي' برفق ٢–٦ حركات عند الوقف)"
+              "en": "quraysh (qu-r-AY...sh, gently stretch the AY at pause for 2–6 beats)",
+              "bn": "কুরাইশ (কু-র-আই...শ, থামার সময় 'আই' ধ্বনি আস্তে ২–৬ হরকত দীর্ঘায়িত করুন)",
+              "ar": "قُرَيْشٍ (قُ-رَ-أيي...شْ، أطِل 'أي' برفق ٢–٦ حركات عند الوقف)"
             }
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/106001.mp3",
+            "start": 1700
           }
         }
       ],

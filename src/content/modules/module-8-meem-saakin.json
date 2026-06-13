@@ -32,6 +32,11 @@
           "meaning": {
             "en": "For them forgiveness",
             "bn": "তাদের জন্য ক্ষমা"
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/035007.mp3",
+            "start": 11050,
+            "end": 13390
           }
         },
         {
@@ -40,6 +45,11 @@
           "meaning": {
             "en": "Upon them from",
             "bn": "তাদের উপর থেকে"
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/019058.mp3",
+            "start": 5770,
+            "end": 8290
           }
         }
       ],
@@ -68,6 +78,11 @@
           "meaning": {
             "en": "Pelting them with stones",
             "bn": "তাদের উপর পাথর নিক্ষেপ করা"
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/105004.mp3",
+            "start": 600,
+            "end": 5020
           }
         },
         {
@@ -76,6 +91,11 @@
           "meaning": {
             "en": "They with it",
             "bn": "তারা এর সাথে"
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/028052.mp3",
+            "start": 8040,
+            "end": 10020
           }
         }
       ],
@@ -104,7 +124,8 @@
           "meaning": {
             "en": "You bestowed favour",
             "bn": "আপনি অনুগ্রহ করেছেন"
-          }
+          },
+          "audio": "1:7:3"
         },
         {
           "arabic": "عَلَيْهِمْ صِرَاطَ",

@@ -58,6 +58,11 @@
           "meaning": {
             "en": "From a guide",
             "bn": "একজন পথপ্রদর্শক থেকে"
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/039036.mp3",
+            "start": 18270,
+            "end": 19600
           }
         },
         {
@@ -66,6 +71,11 @@
           "meaning": {
             "en": "From knowledge",
             "bn": "জ্ঞান থেকে"
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/018005.mp3",
+            "start": 3390,
+            "end": 4730
           }
         },
         {
@@ -74,14 +84,24 @@
           "meaning": {
             "en": "From fear",
             "bn": "ভয় থেকে"
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/106004.mp3",
+            "start": 8740,
+            "end": 10130
           }
         },
         {
-          "arabic": "هُدًى عَظِيم",
-          "translit": "hudan 'azim",
+          "arabic": "سَمِيعٌ عَلِيمٌ",
+          "translit": "samee'un 'aleem",
           "meaning": {
-            "en": "Mighty guidance",
-            "bn": "মহান পথপ্রদর্শনা"
+            "en": "All-Hearing, All-Knowing",
+            "bn": "সর্বশ্রোতা, সর্বজ্ঞ"
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/003034.mp3",
+            "start": 8050,
+            "end": 10380
           }
         }
       ],
@@ -136,6 +156,11 @@
           "meaning": {
             "en": "Who says",
             "bn": "যে বলে"
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/002008.mp3",
+            "start": 2590,
+            "end": 4290
           }
         },
         {
@@ -144,6 +169,10 @@
           "meaning": {
             "en": "From a guardian",
             "bn": "একজন অভিভাবক থেকে"
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/013011.mp3",
+            "start": 37230
           }
         },
         {
@@ -152,6 +181,11 @@
           "meaning": {
             "en": "From their Lord",
             "bn": "তাদের প্রভু থেকে"
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/021002.mp3",
+            "start": 5420,
+            "end": 7470
           }
         },
         {
@@ -160,6 +194,11 @@
           "meaning": {
             "en": "Guidance for the righteous",
             "bn": "সৎকর্মপরায়ণদের জন্য পথপ্রদর্শনা"
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/002002.mp3",
+            "start": 5050,
+            "end": 7440
           }
         }
       ],
@@ -188,6 +227,11 @@
           "meaning": {
             "en": "From before",
             "bn": "আগে থেকে"
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/030043.mp3",
+            "start": 5270,
+            "end": 7100
           }
         },
         {
@@ -196,6 +240,11 @@
           "meaning": {
             "en": "From below",
             "bn": "নিচ থেকে"
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/006065.mp3",
+            "start": 13290,
+            "end": 15170
           }
         },
         {
@@ -204,6 +253,11 @@
           "meaning": {
             "en": "Helpers",
             "bn": "সহায়ক"
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/061014.mp3",
+            "start": 26700,
+            "end": 29060
           }
         },
         {
@@ -212,6 +266,11 @@
           "meaning": {
             "en": "Warn them",
             "bn": "তাদের সতর্ক করুন"
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/019039.mp3",
+            "start": 600,
+            "end": 2820
           }
         },
         {
@@ -220,6 +279,11 @@
           "meaning": {
             "en": "Severe punishment",
             "bn": "কঠিন শাস্তি"
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/042026.mp3",
+            "start": 16840,
+            "end": 19820
           }
         }
       ],
@@ -248,6 +312,11 @@
           "meaning": {
             "en": "From after",
             "bn": "পরে থেকে"
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/030054.mp3",
+            "start": 8630,
+            "end": 10170
           }
         },
         {
@@ -256,6 +325,11 @@
           "meaning": {
             "en": "All-Hearing, All-Seeing",
             "bn": "সর্বশ্রোতা, সর্বদ্রষ্টা"
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/058001.mp3",
+            "start": 18270,
+            "end": 20990
           }
         },
         {
@@ -264,6 +338,11 @@
           "meaning": {
             "en": "Inform them",
             "bn": "তাদের জানান"
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/002033.mp3",
+            "start": 4340,
+            "end": 7520
           }
         }
       ],

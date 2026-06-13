@@ -42,6 +42,7 @@ For each submodule:
 | `blogSlug` (if present) | A file `src/content/blog/<blogSlug>.md` or `.mdx` exists |
 | `letterExamples` shape | Each item has non-empty `arabic`; no `meaning` field |
 | `wordExamples` shape | Each item has non-empty `arabic`; `meaning` (if present) has at least one non-empty locale |
+| `audio` (if present, on letter/word/ayah examples) | One of: `false` (audio disabled, e.g. waqf signs); a string matching `/^\d+:\d+:\d+(-\d+)?$/` (surah:ayah:word location for a word-by-word clip); or an object `{ url, start?, end? }` with `url` an https URL and `start`/`end` integers (ms). On `ayahExamples`, use a segment to play only the shown span when `arabic` is a partial verse (e.g. waqf demos) |
 | `ayahExamples` shape | Each item has non-empty `reference` matching `/^\d+:\d+$/`, non-empty `arabic`, and `translation` with at least one non-empty locale; `translation.ar` MUST be absent |
 | Subtopics (if present) | Each subtopic has `id`, `title` locale map (en/bn/ar); no `definition`; no `checkItem` |
 
