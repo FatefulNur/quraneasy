@@ -4,14 +4,17 @@ export const LOCALES: Locale[] = ["en", "bn", "ar"];
 export type LocaleMap = Partial<Record<Locale, string>>;
 export type TranslationMap = Partial<Record<Exclude<Locale, "ar">, string>>;
 
-// Real-recitation audio for an example:
+// Audio source for a letter or word example:
 // - "s:a:w" / "s:a:w1-w2" — word-by-word clip(s) from audio.qurancdn.com
 // - { url, start?, end? } — continuous segment of an ayah recitation (ms);
-//   required when a tajweed rule spans a word boundary, since isolated
-//   word clips would drop the junction (idgham/ikhfa/iqlab).
+//   required when a tajweed rule spans a word boundary (idgham/ikhfa/iqlab).
+// - "speech" — explicit opt-in for Web Speech TTS; valid only for non-tajweed
+//   reading drills and vocabulary. Never use for tajweed articulations.
 // - false — explicitly no audio (e.g. waqf signs, which are symbols).
-// When absent, playback falls back to speech synthesis.
+// When absent on a word/letter example, no audio plays (silent by default).
+// Ayah examples with absent audio play the full AbdulBaset recitation.
 export type ExampleAudio =
+  | "speech"
   | string
   | { url: string; start?: number; end?: number }
   | false;

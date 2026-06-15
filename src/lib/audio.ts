@@ -1,16 +1,17 @@
 // Audio playback for Tajweed examples.
 //
-// Two sources, deliberately different:
-// - Ayah examples play real recitation MP3s (AbdulBaset Murattal via the
-//   audio.qurancdn.com CDN — slow, clear, well suited to beginners). TTS must
-//   never be used for Quranic text — synthetic speech models the wrong
-//   tajweed, which defeats the purpose of the app.
-// - Words/letters use the browser's Web Speech API (Arabic voice). Free,
-//   fully client-side, no network calls, so nothing to cache or rate-limit.
+// Three sources, deliberately ordered:
+// 1. AbdulBaset Murattal MP3s (audio.qurancdn.com CDN) — full-verse or timed
+//    segments. Used for ayah examples and word examples with a "s:a:w" or
+//    {url, start?, end?} annotation. TTS must never be used for Qur'anic text.
+// 2. Word-by-word clips (audio.qurancdn.com/wbw/) — per-word reciter for
+//    isolated Qur'anic words annotated as "s:a:w".
+// 3. Web Speech API (ar-SA) — explicit opt-in only via audio: "speech".
+//    Valid solely for non-tajweed reading drills and vocabulary terms.
+//    Absent audio on a word/letter example is SILENT, not TTS.
 //
-// Recitation MP3s are cached client-side via the Cache Storage API with a
-// TTL stamp, on top of the CDN's own edge cache. Works on static Cloudflare
-// Pages — no Worker or backend required.
+// Recitation MP3s are cached client-side via Cache Storage with a TTL stamp.
+// Works on static Cloudflare Pages — no Worker or backend required.
 
 import type { ExampleAudio } from "@/lib/content/types";
 
