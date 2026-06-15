@@ -36,9 +36,10 @@ openspec/
 | `npm run dev` | dev server `localhost:4321` |
 | `npm run build` | static build → `dist/` |
 | `npm run preview` | preview built site |
-| `npm run notify -- "<Module Name>"` | broadcast new-module announcement to Telegram |
+| `npm run notify -- module "<Module Name>" <module-id>` | broadcast new-module announcement to Telegram |
+| `npm run notify -- feature "<Title>" "<Description>" [/path]` | broadcast new-feature announcement to Telegram |
 
-## Broadcasting new modules
+## Broadcasting new modules and features
 
 ### First-time setup
 
@@ -53,26 +54,41 @@ openspec/
 
 ### Sending a notification
 
-When a new module ships, pass the display name and the module ID (filename slug from `src/content/modules/`):
+**New module** — pass the display name and the module ID (filename slug from `src/content/modules/`):
 
 ```bash
-npm run notify -- "Tajweed Basics" module-1-tajweed-basics
+npm run notify -- module "Tajweed Basics" module-1-tajweed-basics
 ```
 
 This sends:
 ```
-🕌 New module added on QuranEasy!
-📖 Module: Tajweed Basics
+🕌 New module on QuranEasy
+📖 Tajweed Basics
+Begin learning at your own pace — open any topic in any order.
 👉 Start learning: https://quraneasy.com/learn/module-1-tajweed-basics
 ```
 
-Expected output:
-```
-Announced "Tajweed Basics" to @quraneasyguide.
+**New feature** — pass a title, a short description, and an optional site path:
+
+```bash
+npm run notify -- feature "Audio Playback" "Every word and letter now has a real recitation button." /learn
 ```
 
-Or directly without npm:
+This sends:
+```
+✨ New on QuranEasy
+🎉 Audio Playback
+Every word and letter now has a real recitation button.
+👉 Check it out: https://quraneasy.com/learn
+```
 
+Expected output for both:
+```
+Announced module "Tajweed Basics" to @quraneasyguide.
+Announced feature "Audio Playback" to @quraneasyguide.
+```
+
+**Legacy form** (backward-compatible, module only):
 ```bash
 npx tsx --env-file=.env scripts/notify.ts "Tajweed Basics" module-1-tajweed-basics
 ```
@@ -88,7 +104,7 @@ Module IDs match the JSON filenames in `src/content/modules/` (without `.json`),
 | `TELEGRAM_CHANNEL is not set` | Missing channel in `.env` | Add `TELEGRAM_CHANNEL=@yourchannel` to `.env` |
 | `Telegram error 403` | Bot not admin in channel | Add bot as administrator in channel settings |
 | `Telegram error 404` | Invalid token | Regenerate token via `@BotFather → /revoke` |
-| `Usage: tsx scripts/notify.ts` | Missing name or module ID | Pass both: `-- "Name" module-id` |
+| `Usage:` | Missing args | Run with `--help` output for the correct form |
 
 ## OpenSpec workflow
 
