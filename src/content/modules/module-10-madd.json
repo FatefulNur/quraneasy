@@ -28,15 +28,18 @@
       "letterExamples": [
         {
           "arabic": "ا",
-          "translit": "a"
+          "translit": "a",
+          "audio": "speech"
         },
         {
           "arabic": "و",
-          "translit": "w"
+          "translit": "w",
+          "audio": "speech"
         },
         {
           "arabic": "ي",
-          "translit": "y"
+          "translit": "y",
+          "audio": "speech"
         }
       ],
       "wordExamples": [
@@ -564,7 +567,7 @@
           },
           "audio": {
             "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/057022.mp3",
-            "start": 8410,
+            "start": 8500,
             "end": 11900
           }
         },
@@ -613,7 +616,7 @@
           "audio": {
             "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/108001.mp3",
             "start": 550,
-            "end": 4380
+            "end": 4300
           }
         }
       ],
@@ -830,10 +833,7 @@
               "ar": "الْعَالَمِينَ (الْعَا-لَ-مِ-إيي...نْ، أطِل 'إي' ٢ أو ٤ أو ٦ حركات عند الوقف)"
             }
           },
-          "audio": {
-            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/001002.mp3",
-            "start": 2980
-          }
+          "audio": "1:2:4"
         },
         {
           "arabic": "الرَّحِيمْ",
@@ -877,10 +877,7 @@
               "ar": "الرَّحِيمِ (الرَّ-حِ-إيي...مْ، أطِل 'إي' ٢ أو ٤ أو ٦ حركات عند الوقف)"
             }
           },
-          "audio": {
-            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/001001.mp3",
-            "start": 2530
-          }
+          "audio": "1:1:4"
         }
       ],
       "checkItem": {
@@ -944,10 +941,7 @@
               "ar": "خَوْفٌ (خَ-أووو...فْ، أطِل 'أو' برفق ٢–٦ حركات عند الوقف)"
             }
           },
-          "audio": {
-            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/106004.mp3",
-            "start": 9130
-          }
+          "audio": "106:4:7"
         },
         {
           "arabic": "الْبَيْتْ",
@@ -991,10 +985,7 @@
               "ar": "الْبَيْتِ (الْبَ-أيي...تْ، أطِل 'أي' برفق ٢–٦ حركات عند الوقف)"
             }
           },
-          "audio": {
-            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/106003.mp3",
-            "start": 3460
-          }
+          "audio": "106:3:4"
         },
         {
           "arabic": "قُرَيْشْ",
@@ -1038,10 +1029,7 @@
               "ar": "قُرَيْشٍ (قُ-رَ-أيي...شْ، أطِل 'أي' برفق ٢–٦ حركات عند الوقف)"
             }
           },
-          "audio": {
-            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/106001.mp3",
-            "start": 1700
-          }
+          "audio": "106:1:2"
         }
       ],
       "checkItem": {
