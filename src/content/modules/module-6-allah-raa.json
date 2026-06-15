@@ -35,29 +35,31 @@
           },
           "wordExamples": [
             {
-              "arabic": "قَالَ اللَّهُ",
-              "translit": "qala Allah",
+              "arabic": "هُوَ اللَّهُ",
+              "translit": "huwa Allah",
               "meaning": {
-                "en": "Allah said",
-                "bn": "আল্লাহ বলেছেন"
+                "en": "He is Allah",
+                "bn": "তিনিই আল্লাহ",
+                "ar": "هو الله"
               },
               "audio": {
-                "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/012066.mp3",
-                "start": 21880,
-                "end": 23210
+                "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/059022.mp3",
+                "start": 200,
+                "end": 2200
               }
             },
             {
-              "arabic": "نَصْرُ اللَّهِ",
-              "translit": "nasr Allah",
+              "arabic": "مُحَمَّدٌ رَّسُولُ اللَّهِ",
+              "translit": "muhammadur rasool Allah",
               "meaning": {
-                "en": "Allah's help",
-                "bn": "আল্লাহর সাহায্য"
+                "en": "Muhammad is the Messenger of Allah",
+                "bn": "মুহাম্মাদ আল্লাহর রাসূল",
+                "ar": "محمد رسول الله"
               },
               "audio": {
-                "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/110001.mp3",
-                "start": 2910,
-                "end": 4340
+                "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/048029.mp3",
+                "start": 200,
+                "end": 4500
               }
             }
           ]
@@ -75,25 +77,27 @@
               "translit": "bismillah",
               "meaning": {
                 "en": "In the name of Allah",
-                "bn": "আল্লাহর নামে"
+                "bn": "আল্লাহর নামে",
+                "ar": "بسم الله"
               },
               "audio": {
                 "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/001001.mp3",
                 "start": 600,
-                "end": 1560
+                "end": 1490
               }
             },
             {
-              "arabic": "فِي اللَّهِ",
-              "translit": "fi Allah",
+              "arabic": "الْحَمْدُ لِلَّهِ",
+              "translit": "alhamdu lillah",
               "meaning": {
-                "en": "In Allah",
-                "bn": "আল্লাহতে"
+                "en": "All praise to Allah",
+                "bn": "সমস্ত প্রশংসা আল্লাহর",
+                "ar": "الحمد لله"
               },
               "audio": {
-                "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/031020.mp3",
-                "start": 20400,
-                "end": 21400
+                "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/001002.mp3",
+                "start": 200,
+                "end": 2450
               }
             }
           ]

@@ -28,15 +28,18 @@
       "letterExamples": [
         {
           "arabic": "ا",
-          "translit": "a"
+          "translit": "a",
+          "audio": "speech"
         },
         {
           "arabic": "و",
-          "translit": "w"
+          "translit": "w",
+          "audio": "speech"
         },
         {
           "arabic": "ي",
-          "translit": "y"
+          "translit": "y",
+          "audio": "speech"
         }
       ],
       "wordExamples": [
@@ -115,11 +118,13 @@
           "letterExamples": [
             {
               "arabic": "ء",
-              "translit": "ʾ"
+              "translit": "ʾ",
+              "audio": "speech"
             },
             {
               "arabic": "ه",
-              "translit": "h"
+              "translit": "h",
+              "audio": "speech"
             }
           ],
           "wordExamples": [
@@ -153,29 +158,35 @@
           "letterExamples": [
             {
               "arabic": "ع",
-              "translit": "ʿ"
+              "translit": "ʿ",
+              "audio": "speech"
             },
             {
               "arabic": "ح",
-              "translit": "h"
+              "translit": "h",
+              "audio": "speech"
             }
           ],
           "wordExamples": [
             {
-              "arabic": "عِلْم",
-              "translit": "'ilm",
+              "arabic": "عَيْنٌ",
+              "translit": "'ayn",
               "meaning": {
-                "en": "Knowledge",
-                "bn": "জ্ঞান"
-              }
+                "en": "A flowing spring",
+                "bn": "প্রবাহমান ঝরনা",
+                "ar": "عَيْن جارية"
+              },
+              "audio": "88:12:2"
             },
             {
-              "arabic": "حَمْد",
-              "translit": "hamd",
+              "arabic": "حَيَاةٌ",
+              "translit": "hayāh",
               "meaning": {
-                "en": "Praise",
-                "bn": "প্রশংসা"
-              }
+                "en": "Life",
+                "bn": "জীবন",
+                "ar": "الحياة"
+              },
+              "audio": "2:179:4"
             }
           ]
         },
@@ -189,11 +200,13 @@
           "letterExamples": [
             {
               "arabic": "غ",
-              "translit": "gh"
+              "translit": "gh",
+              "audio": "speech"
             },
             {
               "arabic": "خ",
-              "translit": "kh"
+              "translit": "kh",
+              "audio": "speech"
             }
           ],
           "wordExamples": [
@@ -239,63 +252,78 @@
       "letterExamples": [
         {
           "arabic": "ق",
-          "translit": "q"
+          "translit": "q",
+          "audio": "speech"
         },
         {
           "arabic": "ك",
-          "translit": "k"
+          "translit": "k",
+          "audio": "speech"
         },
         {
           "arabic": "ل",
-          "translit": "l"
+          "translit": "l",
+          "audio": "speech"
         },
         {
           "arabic": "ن",
-          "translit": "n"
+          "translit": "n",
+          "audio": "speech"
         },
         {
           "arabic": "ر",
-          "translit": "r"
+          "translit": "r",
+          "audio": "speech"
         },
         {
           "arabic": "ش",
-          "translit": "sh"
+          "translit": "sh",
+          "audio": "speech"
         },
         {
           "arabic": "ض",
-          "translit": "d"
+          "translit": "d",
+          "audio": "speech"
         },
         {
           "arabic": "ت",
-          "translit": "t"
+          "translit": "t",
+          "audio": "speech"
         },
         {
           "arabic": "ث",
-          "translit": "th"
+          "translit": "th",
+          "audio": "speech"
         },
         {
           "arabic": "د",
-          "translit": "d"
+          "translit": "d",
+          "audio": "speech"
         },
         {
           "arabic": "ط",
-          "translit": "t"
+          "translit": "t",
+          "audio": "speech"
         },
         {
           "arabic": "ظ",
-          "translit": "dh"
+          "translit": "dh",
+          "audio": "speech"
         },
         {
           "arabic": "ص",
-          "translit": "s"
+          "translit": "s",
+          "audio": "speech"
         },
         {
           "arabic": "س",
-          "translit": "s"
+          "translit": "s",
+          "audio": "speech"
         },
         {
           "arabic": "ز",
-          "translit": "z"
+          "translit": "z",
+          "audio": "speech"
         }
       ],
       "wordExamples": [
@@ -309,12 +337,14 @@
           "audio": "6:19:1"
         },
         {
-          "arabic": "كَلْب",
-          "translit": "kalb",
+          "arabic": "كَرِيمٌ",
+          "translit": "karim",
           "meaning": {
-            "en": "Dog",
-            "bn": "কুকুর"
-          }
+            "en": "Noble",
+            "bn": "সম্মানিত",
+            "ar": "كريم شريف"
+          },
+          "audio": "56:77:3"
         },
         {
           "arabic": "نُور",
@@ -340,7 +370,8 @@
           "meaning": {
             "en": "Sun",
             "bn": "সূর্য"
-          }
+          },
+          "audio": "91:1:1"
         }
       ],
       "checkItem": {
@@ -364,19 +395,23 @@
       "letterExamples": [
         {
           "arabic": "ب",
-          "translit": "b"
+          "translit": "b",
+          "audio": "speech"
         },
         {
           "arabic": "م",
-          "translit": "m"
+          "translit": "m",
+          "audio": "speech"
         },
         {
           "arabic": "و",
-          "translit": "w"
+          "translit": "w",
+          "audio": "speech"
         },
         {
           "arabic": "ف",
-          "translit": "f"
+          "translit": "f",
+          "audio": "speech"
         }
       ],
       "wordExamples": [
@@ -408,12 +443,14 @@
           "audio": "5:9:1"
         },
         {
-          "arabic": "فَم",
-          "translit": "fam",
+          "arabic": "فَتْحًا",
+          "translit": "fathan",
           "meaning": {
-            "en": "Mouth",
-            "bn": "মুখ"
-          }
+            "en": "An opening / victory",
+            "bn": "বিজয়",
+            "ar": "فَتْح ونصر"
+          },
+          "audio": "48:1:4"
         }
       ],
       "checkItem": {
