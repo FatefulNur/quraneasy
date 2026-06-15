@@ -54,13 +54,20 @@ export function useAudio(source: AudioSource) {
       setSupported(false);
       return;
     }
+    // Branch on "speech" BEFORE exampleAudioPlayable so the literal can't be
+    // parsed as a word-location string.
+    if (src.audio === "speech") {
+      const ok = speechSupported();
+      setSupported(ok);
+      if (ok) primeVoices();
+      return;
+    }
     if (exampleAudioPlayable(src.audio)) {
       setSupported(true);
       return;
     }
-    const ok = speechSupported();
-    setSupported(ok);
-    if (ok) primeVoices();
+    // Absent audio on a word/letter example: silent (no speaker button).
+    setSupported(false);
   }, [sourceKey]);
 
   const toggle = useCallback(() => {
@@ -78,11 +85,12 @@ export function useAudio(source: AudioSource) {
       } else if (src.audio !== false) {
         void playAyahSequence(src.reference, onState);
       }
+    } else if (src.audio === "speech") {
+      speakArabic(src.text, onState);
     } else if (src.audio !== false && exampleAudioPlayable(src.audio)) {
       playExampleAudio(src.audio, onState);
-    } else if (src.audio !== false) {
-      speakArabic(src.text, onState);
     }
+    // Absent audio: no playback; supported is already false.
   }, [state]);
 
   return { state, supported, toggle };

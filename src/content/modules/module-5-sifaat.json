@@ -28,31 +28,38 @@
       "letterExamples": [
         {
           "arabic": "خ",
-          "translit": "kh"
+          "translit": "kh",
+          "audio": "speech"
         },
         {
           "arabic": "ص",
-          "translit": "s"
+          "translit": "s",
+          "audio": "speech"
         },
         {
           "arabic": "ض",
-          "translit": "d"
+          "translit": "d",
+          "audio": "speech"
         },
         {
           "arabic": "ط",
-          "translit": "t"
+          "translit": "t",
+          "audio": "speech"
         },
         {
           "arabic": "ظ",
-          "translit": "z"
+          "translit": "z",
+          "audio": "speech"
         },
         {
           "arabic": "غ",
-          "translit": "gh"
+          "translit": "gh",
+          "audio": "speech"
         },
         {
           "arabic": "ق",
-          "translit": "q"
+          "translit": "q",
+          "audio": "speech"
         }
       ],
       "wordExamples": [

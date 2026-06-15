@@ -27,35 +27,42 @@
       },
       "wordExamples": [
         {
-          "arabic": "قَلْبُ",
-          "translit": "qalb",
+          "arabic": "قُلْ",
+          "translit": "qul",
           "meaning": {
-            "en": "Heart",
-            "bn": "হৃদয়"
-          }
+            "en": "Say",
+            "bn": "বলো",
+            "ar": "أمرٌ بالقول"
+          },
+          "audio": "112:1:1"
         },
         {
-          "arabic": "كَلْبُ",
-          "translit": "kalb",
+          "arabic": "رَبِّ",
+          "translit": "rabbi",
           "meaning": {
-            "en": "Dog",
-            "bn": "কুকুর"
-          }
+            "en": "Lord",
+            "bn": "প্রতিপালক",
+            "ar": "الرَّبُّ المدبِّر"
+          },
+          "audio": "1:2:3"
         },
         {
-          "arabic": "عِلْمٌ",
-          "translit": "'ilm",
+          "arabic": "أَحَدٌ",
+          "translit": "aḥad",
           "meaning": {
-            "en": "Knowledge",
-            "bn": "জ্ঞান"
-          }
+            "en": "The One",
+            "bn": "একক",
+            "ar": "الواحد الأحد"
+          },
+          "audio": "112:1:4"
         },
         {
           "arabic": "نُورٌ",
           "translit": "noor",
           "meaning": {
             "en": "Light",
-            "bn": "আলো"
+            "bn": "আলো",
+            "ar": "الضياء والنور"
           },
           "audio": "24:35:33"
         },
@@ -64,7 +71,8 @@
           "translit": "rahmah",
           "meaning": {
             "en": "Mercy",
-            "bn": "দয়া"
+            "bn": "দয়া",
+            "ar": "العطف والرحمة"
           },
           "audio": "18:98:3"
         }

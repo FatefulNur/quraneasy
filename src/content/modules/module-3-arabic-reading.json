@@ -36,23 +36,28 @@
           "letterExamples": [
             {
               "arabic": "بَ",
-              "translit": "ba"
+              "translit": "ba",
+              "audio": "speech"
             },
             {
               "arabic": "تَ",
-              "translit": "ta"
+              "translit": "ta",
+              "audio": "speech"
             },
             {
               "arabic": "كَ",
-              "translit": "ka"
+              "translit": "ka",
+              "audio": "speech"
             },
             {
               "arabic": "قَ",
-              "translit": "qa"
+              "translit": "qa",
+              "audio": "speech"
             },
             {
               "arabic": "عَ",
-              "translit": "'a"
+              "translit": "'a",
+              "audio": "speech"
             }
           ]
         },
@@ -66,23 +71,28 @@
           "letterExamples": [
             {
               "arabic": "بِ",
-              "translit": "bi"
+              "translit": "bi",
+              "audio": "speech"
             },
             {
               "arabic": "تِ",
-              "translit": "ti"
+              "translit": "ti",
+              "audio": "speech"
             },
             {
               "arabic": "نِ",
-              "translit": "ni"
+              "translit": "ni",
+              "audio": "speech"
             },
             {
               "arabic": "فِ",
-              "translit": "fi"
+              "translit": "fi",
+              "audio": "speech"
             },
             {
               "arabic": "مِ",
-              "translit": "mi"
+              "translit": "mi",
+              "audio": "speech"
             }
           ]
         },
@@ -96,23 +106,28 @@
           "letterExamples": [
             {
               "arabic": "بُ",
-              "translit": "bu"
+              "translit": "bu",
+              "audio": "speech"
             },
             {
               "arabic": "تُ",
-              "translit": "tu"
+              "translit": "tu",
+              "audio": "speech"
             },
             {
               "arabic": "قُ",
-              "translit": "qu"
+              "translit": "qu",
+              "audio": "speech"
             },
             {
               "arabic": "مُ",
-              "translit": "mu"
+              "translit": "mu",
+              "audio": "speech"
             },
             {
               "arabic": "رُ",
-              "translit": "ru"
+              "translit": "ru",
+              "audio": "speech"
             }
           ]
         }

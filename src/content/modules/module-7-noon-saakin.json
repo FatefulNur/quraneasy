@@ -28,27 +28,33 @@
       "letterExamples": [
         {
           "arabic": "ء",
-          "translit": "'"
+          "translit": "'",
+          "audio": "speech"
         },
         {
           "arabic": "ه",
-          "translit": "h"
+          "translit": "h",
+          "audio": "speech"
         },
         {
           "arabic": "ع",
-          "translit": "'"
+          "translit": "'",
+          "audio": "speech"
         },
         {
           "arabic": "ح",
-          "translit": "h"
+          "translit": "h",
+          "audio": "speech"
         },
         {
           "arabic": "غ",
-          "translit": "gh"
+          "translit": "gh",
+          "audio": "speech"
         },
         {
           "arabic": "خ",
-          "translit": "kh"
+          "translit": "kh",
+          "audio": "speech"
         }
       ],
       "wordExamples": [
@@ -126,27 +132,33 @@
       "letterExamples": [
         {
           "arabic": "ي",
-          "translit": "y"
+          "translit": "y",
+          "audio": "speech"
         },
         {
           "arabic": "ر",
-          "translit": "r"
+          "translit": "r",
+          "audio": "speech"
         },
         {
           "arabic": "م",
-          "translit": "m"
+          "translit": "m",
+          "audio": "speech"
         },
         {
           "arabic": "ل",
-          "translit": "l"
+          "translit": "l",
+          "audio": "speech"
         },
         {
           "arabic": "و",
-          "translit": "w"
+          "translit": "w",
+          "audio": "speech"
         },
         {
           "arabic": "ن",
-          "translit": "n"
+          "translit": "n",
+          "audio": "speech"
         }
       ],
       "wordExamples": [
@@ -257,7 +269,7 @@
           "audio": {
             "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/061014.mp3",
             "start": 26700,
-            "end": 29060
+            "end": 28580
           }
         },
         {
@@ -269,8 +281,8 @@
           },
           "audio": {
             "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/019039.mp3",
-            "start": 600,
-            "end": 2820
+            "start": 720,
+            "end": 2760
           }
         },
         {
@@ -282,7 +294,7 @@
           },
           "audio": {
             "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/042026.mp3",
-            "start": 16840,
+            "start": 16850,
             "end": 19820
           }
         }
@@ -306,19 +318,6 @@
         "ar": "عندما تتبع النون الساكنة أو التنوين حرف الباء، تُقلب النون ميمًا وتُنطق بغنة. ويُعلَّل ذلك بأن الباء والميم يشتركان في المخرج (الشفتين)."
       },
       "wordExamples": [
-        {
-          "arabic": "مِنْ بَعْدِ",
-          "translit": "min ba'di",
-          "meaning": {
-            "en": "From after",
-            "bn": "পরে থেকে"
-          },
-          "audio": {
-            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/030054.mp3",
-            "start": 8630,
-            "end": 10170
-          }
-        },
         {
           "arabic": "سَمِيعٌ بَصِيرٌ",
           "translit": "sami' basir",

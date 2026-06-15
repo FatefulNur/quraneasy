@@ -32,7 +32,8 @@
           "meaning": {
             "en": "Ritual purification",
             "bn": "ওযু"
-          }
+          },
+          "audio": "speech"
         },
         {
           "arabic": "مُصْحَف",
@@ -40,7 +41,8 @@
           "meaning": {
             "en": "Quranic text",
             "bn": "কুরআনের লিখিত কপি"
-          }
+          },
+          "audio": "speech"
         },
         {
           "arabic": "طَاهِر",
@@ -48,7 +50,8 @@
           "meaning": {
             "en": "Pure",
             "bn": "পবিত্র"
-          }
+          },
+          "audio": "speech"
         }
       ],
       "checkItem": {
@@ -141,7 +144,8 @@
           "meaning": {
             "en": "Point of articulation",
             "bn": "উচ্চারণ স্থল"
-          }
+          },
+          "audio": "speech"
         },
         {
           "arabic": "صِفَة",
@@ -149,7 +153,8 @@
           "meaning": {
             "en": "Characteristic",
             "bn": "বৈশিষ্ট্য"
-          }
+          },
+          "audio": "speech"
         }
       ],
       "checkItem": {

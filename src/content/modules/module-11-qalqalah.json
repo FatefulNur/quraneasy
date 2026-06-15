@@ -28,23 +28,28 @@
       "letterExamples": [
         {
           "arabic": "ق",
-          "translit": "q"
+          "translit": "q",
+          "audio": "speech"
         },
         {
           "arabic": "ط",
-          "translit": "t"
+          "translit": "t",
+          "audio": "speech"
         },
         {
           "arabic": "ب",
-          "translit": "b"
+          "translit": "b",
+          "audio": "speech"
         },
         {
           "arabic": "ج",
-          "translit": "j"
+          "translit": "j",
+          "audio": "speech"
         },
         {
           "arabic": "د",
-          "translit": "d"
+          "translit": "d",
+          "audio": "speech"
         }
       ],
       "checkItem": {
@@ -111,10 +116,7 @@
             "en": "One",
             "bn": "এক"
           },
-          "audio": {
-            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/112001.mp3",
-            "start": 2050
-          }
+          "audio": "112:1:4"
         },
         {
           "arabic": "الْفَلَقْ",
@@ -123,10 +125,7 @@
             "en": "The Daybreak",
             "bn": "ভোর"
           },
-          "audio": {
-            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/113001.mp3",
-            "start": 2820
-          }
+          "audio": "113:1:4"
         },
         {
           "arabic": "الصَّمَدْ",
@@ -135,10 +134,7 @@
             "en": "The Eternal Refuge",
             "bn": "চিরস্থায়ী আশ্রয়"
           },
-          "audio": {
-            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/112002.mp3",
-            "start": 1440
-          }
+          "audio": "112:2:2"
         }
       ],
       "checkItem": {

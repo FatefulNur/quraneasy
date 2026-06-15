@@ -35,7 +35,7 @@
           },
           "audio": {
             "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/035007.mp3",
-            "start": 11050,
+            "start": 11100,
             "end": 13390
           }
         },
@@ -48,8 +48,8 @@
           },
           "audio": {
             "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/019058.mp3",
-            "start": 5770,
-            "end": 8290
+            "start": 5900,
+            "end": 8050
           }
         }
       ],
@@ -125,14 +125,23 @@
             "en": "You bestowed favour",
             "bn": "আপনি অনুগ্রহ করেছেন"
           },
-          "audio": "1:7:3"
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/001007.mp3",
+            "start": 3200,
+            "end": 4010
+          }
         },
         {
-          "arabic": "عَلَيْهِمْ صِرَاطَ",
-          "translit": "'alayhim sirat",
+          "arabic": "عَلَيْهِمْ غَيْرِ",
+          "translit": "'alayhim ghayri",
           "meaning": {
-            "en": "Upon them the path",
-            "bn": "তাদের উপর পথ"
+            "en": "Upon them other than",
+            "bn": "তাদের উপর ছাড়া"
+          },
+          "audio": {
+            "url": "https://audio.qurancdn.com/AbdulBaset/Murattal/mp3/001007.mp3",
+            "start": 4100,
+            "end": 5470
           }
         }
       ],
